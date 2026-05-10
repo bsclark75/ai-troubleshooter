@@ -1,0 +1,52 @@
+[1746835200] Nagios 4.4.14 starting... (PID=2841)
+[1746835201] Finished daemonizing... (new PID=2842)
+[1746835215] Event broker module '/usr/lib64/nagios/brokers/ndomod.so' initialized successfully.
+[1746836102] HOST ALERT: switch-core-01;UNREACHABLE;SOFT;1;ICMP: check_icmp: No answer from host
+[1746836222] HOST ALERT: switch-core-01;UNREACHABLE;SOFT;2;ICMP: check_icmp: No answer from host
+[1746836342] HOST ALERT: switch-core-01;DOWN;HARD;3;ICMP: check_icmp: No answer from host
+[1746836342] HOST NOTIFICATION: nagiosadmin;switch-core-01;DOWN;notify-host-by-email;Host is DOWN
+[1746836342] HOST ALERT: srv-web-02;UNREACHABLE;HARD;3;(Host unreachable - parent switch-core-01 is DOWN)
+[1746836342] HOST ALERT: srv-db-01;UNREACHABLE;HARD;3;(Host unreachable - parent switch-core-01 is DOWN)
+[1746836342] HOST ALERT: nas-01;UNREACHABLE;HARD;3;(Host unreachable - parent switch-core-01 is DOWN)
+[1746836342] HOST ALERT: workstation-acct-03;UNREACHABLE;HARD;3;(Host unreachable - parent switch-core-01 is DOWN)
+[1746836980] HOST ALERT: switch-core-01;UP;HARD;1;ICMP: rta 1.456ms, lost 0%
+[1746836981] HOST NOTIFICATION: nagiosadmin;switch-core-01;RECOVERY;notify-host-by-email;Host is UP
+[1746836985] HOST ALERT: srv-web-02;UP;HARD;1;ICMP: rta 0.812ms, lost 0%
+[1746836986] HOST ALERT: srv-db-01;UP;HARD;1;ICMP: rta 0.744ms, lost 0%
+[1746836987] HOST ALERT: nas-01;UP;HARD;1;ICMP: rta 0.901ms, lost 0%
+[1746838500] SERVICE ALERT: srv-db-01;MySQL;WARNING;SOFT;1;check_mysql: Access denied for user 'nagios'@'localhost'
+[1746838620] SERVICE ALERT: srv-db-01;MySQL;WARNING;SOFT;2;check_mysql: Access denied for user 'nagios'@'localhost'
+[1746838740] SERVICE ALERT: srv-db-01;MySQL;CRITICAL;HARD;3;check_mysql: Access denied for user 'nagios'@'localhost'
+[1746838740] SERVICE NOTIFICATION: nagiosadmin;srv-db-01;MySQL;CRITICAL;notify-service-by-email;check_mysql: Access denied
+[1746839100] SERVICE ALERT: srv-web-02;HTTP;WARNING;SOFT;1;HTTP WARNING: HTTP/1.1 503 Service Unavailable - 1.243s
+[1746839220] SERVICE ALERT: srv-web-02;HTTP;CRITICAL;HARD;3;HTTP CRITICAL: HTTP/1.1 503 Service Unavailable - 1.551s
+[1746839220] SERVICE NOTIFICATION: nagiosadmin;srv-web-02;HTTP;CRITICAL;notify-service-by-email;HTTP CRITICAL: 503
+[1746839580] SERVICE ALERT: srv-web-02;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 0.342s - 14228 bytes
+[1746839580] SERVICE NOTIFICATION: nagiosadmin;srv-web-02;HTTP;RECOVERY;notify-service-by-email;HTTP OK: 200
+[1746840300] SERVICE ALERT: srv-web-02;Disk Usage /var;WARNING;HARD;3;DISK WARNING: free space: / 8237 MB (12% inode=85%)
+[1746840300] SERVICE NOTIFICATION: nagiosadmin;srv-web-02;Disk Usage /var;WARNING;notify-service-by-email;Disk at 88%
+[1746841200] SERVICE ALERT: nas-01;SMART Status /dev/sdb;WARNING;SOFT;1;SMART WARNING: Reallocated Sector Count=14 (threshold=0)
+[1746841320] SERVICE ALERT: nas-01;SMART Status /dev/sdb;CRITICAL;HARD;3;SMART CRITICAL: Reallocated Sector Count=14, Uncorrectable Errors=3
+[1746841320] SERVICE NOTIFICATION: nagiosadmin;nas-01;SMART Status /dev/sdb;CRITICAL;notify-service-by-email;Disk failure imminent
+[1746842400] SERVICE ALERT: ups-01;UPS Load;WARNING;HARD;3;UPS load at 78% (warn=75% crit=90%)
+[1746842400] SERVICE ALERT: ups-01;UPS Battery;WARNING;HARD;3;Battery runtime 18 min (warn=20min crit=10min)
+[1746842400] SERVICE NOTIFICATION: nagiosadmin;ups-01;UPS Battery;WARNING;notify-service-by-email;Low battery runtime
+[1746843600] SERVICE ALERT: srv-mail-01;SMTP;WARNING;SOFT;1;Connection refused - check_smtp: port 25
+[1746843720] SERVICE ALERT: srv-mail-01;SMTP;CRITICAL;HARD;3;Connection refused - check_smtp: port 25
+[1746843720] SERVICE NOTIFICATION: nagiosadmin;srv-mail-01;SMTP;CRITICAL;notify-service-by-email;SMTP service down
+[1746844200] SERVICE ALERT: srv-mail-01;SMTP;OK;HARD;1;SMTP OK - 0.142s response time
+[1746844200] SERVICE NOTIFICATION: nagiosadmin;srv-mail-01;SMTP;RECOVERY;notify-service-by-email;SMTP service recovered
+[1746845000] SERVICE ALERT: srv-db-01;CPU Load;WARNING;SOFT;1;CPU WARNING: load average: 4.21, 3.88, 3.14 (warn=3.00 crit=5.00)
+[1746845120] SERVICE ALERT: srv-db-01;CPU Load;WARNING;HARD;3;CPU WARNING: load average: 4.67, 4.22, 3.90
+[1746845600] SERVICE ALERT: srv-db-01;CPU Load;OK;HARD;1;CPU OK: load average: 1.22, 1.88, 2.10
+[1746846000] SERVICE ALERT: srv-web-02;Memory Usage;WARNING;HARD;3;Memory WARNING: used 7421 MB / 8192 MB (90.6%) - warn=85% crit=95%
+[1746847200] SERVICE ALERT: firewall-01;Bandwidth In eth0;CRITICAL;HARD;3;Traffic in: 948 Mbps of 1000 Mbps - possible flood or misconfiguration
+[1746847200] SERVICE NOTIFICATION: nagiosadmin;firewall-01;Bandwidth In eth0;CRITICAL;notify-service-by-email;Near-saturation on WAN interface
+[1746848100] Warning: Check result queue contained 312 unprocessed items (threshold=300). Check workers may be overloaded.
+[1746848100] Warning: Max concurrent checks (128) reached - scheduling delays possible.
+[1746848400] SERVICE ALERT: backup-srv-01;Backup Job Status;WARNING;HARD;3;Passive check stale - last result 26h 14m ago (freshness threshold=24h)
+[1746848400] SERVICE NOTIFICATION: nagiosadmin;backup-srv-01;Backup Job Status;WARNING;notify-service-by-email;Backup may not have run
+[1746849600] SERVICE ALERT: srv-web-02;SSL Certificate;CRITICAL;HARD;3;Certificate expires in 4 days (2026-05-14) - check_ssl_cert
+[1746849600] SERVICE NOTIFICATION: nagiosadmin;srv-web-02;SSL Certificate;CRITICAL;notify-service-by-email;SSL cert expiry in 4 days
+[1746850800] Caught SIGHUP. Reloading config and restarting...
+[1746850801] Nagios 4.4.14 restarted successfully. (PID=2981)
