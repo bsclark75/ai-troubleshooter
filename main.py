@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from app.services.log_service import load_logs
 from app.services.parser_service import parse_log, summarize_logs
+from app.services.ai_service import analyze_logs
 
 app = FastAPI()
 
@@ -28,3 +29,14 @@ def get_summary():
     summary = summarize_logs(parsed)
 
     return summary
+
+@app.get("/analyze")
+def analyze():
+
+    logs = load_logs()
+
+    result = analyze_logs(logs)
+
+    return {
+        "analysis": result
+    }
