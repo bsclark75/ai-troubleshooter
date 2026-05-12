@@ -1,8 +1,8 @@
 import requests
 
-OLLAMA_URL = "http://localhost:11434/api/generate"
+OLLAMA_URL = "http://localhost:11434/api/chat"
 
-MODEL_NAME = "mistral"
+MODEL_NAME = "tinyllama"
 
 
 def analyze_logs(logs):
@@ -10,31 +10,41 @@ def analyze_logs(logs):
     joined_logs = "\n".join(logs)
 
     prompt = f"""
-You are a senior data center engineer.
+        Analyze these logs briefly.
 
-Analyze the following infrastructure logs.
+        Logs:
+        {joined_logs}
 
-Provide:
-- Root cause
-- Severity
-- Recommended actions
-- Short explanation
+        Give:
+        - issue
+        - fix
+    """
 
-Logs:
-{joined_logs}
-"""
+    print("Sending request to Ollama...")
 
     response = requests.post(
-        OLLAMA_URL,
-        json={
-            "model": MODEL_NAME,
-            "prompt": prompt,
-            "stream": False
+    OLLAMA_URL,
+    json={
+        "model": MODEL_NAME,
+        "messages": [
+            {
+                "role": "user",
+                "content": prompt
+            }
+        ],
+        "stream": False,
+        "options": {
+            "num_predict": 100
         }
-    )
+    },
+    timeout=120
+)
+    print("Response received from Ollama")
 
     response.raise_for_status()
 
-    data = response.json()
+    print(response.text)
 
-    return data["response"]
+    data = response.json()
+    return data["message"]["content"]
+
