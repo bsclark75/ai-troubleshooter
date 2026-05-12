@@ -19,24 +19,21 @@ Suggested Fix: {known_issue['fix']}
 """
 
     prompt = f"""
-Analyze these infrastructure logs.
+    Analyze these logs.
 
-{context}
+    Logs:
+        {joined_logs}
 
-Logs:
-{joined_logs}
+    Known issue:
+        {context}
 
-Return ONLY valid JSON.
+    Return short JSON only.
 
-Format:
-{{
-  "root_cause": "",
-  "severity": "",
-  "recommended_fix": "",
-  "summary": ""
-}}
+    {{
+        "root_cause": "",
+        "recommended_fix": ""
+    }}
 """
-
     response = requests.post(
         OLLAMA_URL,
         json={
@@ -49,7 +46,7 @@ Format:
             ],
             "stream": False,
             "options": {
-                "num_predict": 150
+                "num_predict": 60
             }
         },
         timeout=120
