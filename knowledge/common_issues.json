@@ -1,0 +1,17 @@
+[
+  {
+    "issue": "switch unreachable",
+    "cause": "Network switch offline or ICMP blocked",
+    "fix": "Verify power, uplink connectivity, and switch management VLAN"
+  },
+  {
+    "issue": "disk full",
+    "cause": "Filesystem capacity exhausted",
+    "fix": "Clean logs or extend storage volume"
+  },
+  {
+    "issue": "high cpu",
+    "cause": "Resource exhaustion or runaway process",
+    "fix": "Inspect running processes and restart affected service"
+  }
+]
