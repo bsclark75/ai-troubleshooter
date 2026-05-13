@@ -50,31 +50,40 @@ def save_incident(logs, severity, analysis, incident_id):
 def find_similar_incident(logs):
 
     joined_logs = " ".join(logs).lower()
+    score = 0
 
-    conn = sqlite3.connect(DB_PATH)
+    if "unreachable" in joined_logs and "unreachable" in stored_logs:
+        score += 1
 
-    cursor = conn.cursor()
+    if "icmp" in joined_logs and "icmp" in stored_logs:
+        score += 1
 
-    cursor.execute("""
-    SELECT id, logs, severity, analysis
-    FROM incidents
-    """)
+    if score >= 2:
 
-    rows = cursor.fetchall()
+        conn = sqlite3.connect(DB_PATH)
 
-    conn.close()
+        cursor = conn.cursor()
 
-    for row in rows:
+        cursor.execute("""
+        SELECT id, logs, severity, analysis
+        FROM incidents
+        """)
 
-        stored_logs = row[1].lower()
+        rows = cursor.fetchall()
 
-        if "unreachable" in joined_logs and "unreachable" in stored_logs:
+        conn.close()
 
-            return {
-                "incident_id": row[0],
-                "severity": row[2],
-                "analysis": json.loads(row[3])
-            }
+        for row in rows:
+
+            stored_logs = row[1].lower()
+
+            if "unreachable" in joined_logs and "unreachable" in stored_logs:
+
+                return {
+                    "incident_id": row[0],
+                    "severity": row[2],
+                    "analysis": json.loads(row[3])
+                }
 
     return None
 

@@ -5,6 +5,8 @@ from app.services.knowledge_service import find_known_issue
 from app.services.severity_service import classify_severity
 from app.services.db_service import init_db, save_incident, find_similar_incident, get_incidents
 from app.models.incident_models import IncidentResponse
+from app.services.log_parser_service import parse_logs, group_incidents
+from app.services.metrics_service import generate_metrics
 import time
 
 app = FastAPI()
@@ -65,4 +67,44 @@ def health():
 
     return {
         "status": "healthy"
+    }
+
+@app.get("/analyze/batch")
+async def analyze_batch():
+
+    logs = load_logs()
+
+    parsed_logs = parse_logs(logs)
+
+    grouped = group_incidents(parsed_logs)
+
+    results = []
+
+    for host, incidents in grouped.items():
+
+        incident_logs = [
+            incident["raw"]
+            for incident in incidents
+        ]
+
+        severity = classify_severity(incident_logs)
+
+        known_issue = find_known_issue(incident_logs)
+
+        analysis = await analyze_logs(
+            incident_logs,
+            known_issue
+        )
+
+        results.append({
+            "host": host,
+            "incident_count": len(incidents),
+            "severity": severity,
+            "analysis": analysis
+        })
+    metrics = generate_metrics(results)
+    return {
+        "total_hosts": len(results),
+        "metrics": metrics,
+        "results": results
     }
