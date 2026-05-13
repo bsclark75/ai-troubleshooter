@@ -26,13 +26,10 @@ def init_db():
     conn.close()
 
 
-def save_incident(logs, severity, analysis):
-
+def save_incident(logs, severity, analysis, incident_id):
     conn = sqlite3.connect(DB_PATH)
 
     cursor = conn.cursor()
-
-    incident_id = str(uuid.uuid4())
 
     cursor.execute("""
     INSERT INTO incidents (id, logs, severity, analysis)
