@@ -1,7 +1,7 @@
 import sqlite3
 import json
 import uuid
-
+from app.services.retrieval_service import calculate_similarity
 
 DB_PATH = "database/incidents.db"
 
@@ -50,42 +50,49 @@ def save_incident(logs, severity, analysis, incident_id):
 def find_similar_incident(logs):
 
     joined_logs = " ".join(logs).lower()
-    score = 0
 
-    if "unreachable" in joined_logs and "unreachable" in stored_logs:
-        score += 1
+    conn = sqlite3.connect(DB_PATH)
 
-    if "icmp" in joined_logs and "icmp" in stored_logs:
-        score += 1
+    cursor = conn.cursor()
 
-    if score >= 2:
+    cursor.execute("""
+    SELECT id, logs, severity, analysis
+    FROM incidents
+    """)
 
-        conn = sqlite3.connect(DB_PATH)
+    rows = cursor.fetchall()
 
-        cursor = conn.cursor()
+    conn.close()
 
-        cursor.execute("""
-        SELECT id, logs, severity, analysis
-        FROM incidents
-        """)
+    best_match = None
+    best_score = 0
 
-        rows = cursor.fetchall()
+    for row in rows:
 
-        conn.close()
+        stored_logs = row[1].lower()
 
-        for row in rows:
+        score = calculate_similarity(
+            joined_logs,
+            stored_logs
+        )
 
-            stored_logs = row[1].lower()
+        if score > best_score:
 
-            if "unreachable" in joined_logs and "unreachable" in stored_logs:
+            best_score = score
 
-                return {
-                    "incident_id": row[0],
-                    "severity": row[2],
-                    "analysis": json.loads(row[3])
-                }
+            try:
+                analysis = json.loads(row[3])
+            except:
+                analysis = row[3]
 
-    return None
+            best_match = {
+                "incident_id": row[0],
+                "severity": row[2],
+                "analysis": analysis,
+                "similarity_score": score
+            }
+
+    return best_match
 
 def get_incidents():
 

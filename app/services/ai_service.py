@@ -7,20 +7,36 @@ OLLAMA_URL = "http://localhost:11434/api/chat"
 MODEL_NAME = "tinyllama"
 
 
-async def analyze_logs(logs, known_issue=None):
+async def analyze_logs(
+    logs,
+    known_issue=None,
+    similar_incident=None
+):
 
     joined_logs = "\n".join(logs)
 
     context = ""
 
     if known_issue:
-        context = known_issue["fix"]
+
+        context += f"""
+Known Issue:
+Cause: {known_issue['cause']}
+Fix: {known_issue['fix']}
+"""
+
+    if similar_incident:
+
+        context += f"""
+Previous Similar Incident:
+Severity: {similar_incident['severity']}
+"""
 
     prompt = f"""
 Logs:
 {joined_logs}
 
-Issue:
+Context:
 {context}
 
 Return JSON only:
