@@ -1,4 +1,5 @@
 import requests
+from app.services.parser_service import parse_ai_response
 
 OLLAMA_URL = "http://localhost:11434/api/chat"
 
@@ -19,21 +20,19 @@ Suggested Fix: {known_issue['fix']}
 """
 
     prompt = f"""
-    Analyze these logs.
-
     Logs:
-        {joined_logs}
+    {joined_logs}
 
-    Known issue:
-        {context}
+    Issue:
+    {context}
 
-    Return short JSON only.
+    Return JSON only:
 
     {{
         "root_cause": "",
         "recommended_fix": ""
     }}
-"""
+    """
     response = requests.post(
         OLLAMA_URL,
         json={
@@ -46,7 +45,7 @@ Suggested Fix: {known_issue['fix']}
             ],
             "stream": False,
             "options": {
-                "num_predict": 60
+                "num_predict": 40
             }
         },
         timeout=120
@@ -55,5 +54,8 @@ Suggested Fix: {known_issue['fix']}
     response.raise_for_status()
 
     data = response.json()
+    parsed = parse_ai_response(
+    data["message"]["content"]
+    )
 
-    return data["message"]["content"]
+    return parsed

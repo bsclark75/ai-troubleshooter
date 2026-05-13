@@ -41,7 +41,7 @@ def save_incident(logs, severity, analysis):
         incident_id,
         json.dumps(logs),
         severity,
-        analysis
+        json.dumps(analysis)
     ))
 
     conn.commit()
@@ -76,7 +76,7 @@ def find_similar_incident(logs):
             return {
                 "incident_id": row[0],
                 "severity": row[2],
-                "analysis": row[3]
+                "analysis": json.loads(row[3])
             }
 
     return None
