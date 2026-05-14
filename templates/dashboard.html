@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>AI Troubleshooter Dashboard</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <meta http-equiv="refresh" content="30">
+    <style>
+
+        body {
+            font-family: Arial;
+            margin: 40px;
+            background-color: #f4f4f4;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>AI Operations Dashboard</h1>
+
+    <div class="card">
+
+        <h2>Metrics</h2>
+
+        <ul>
+            <li>Critical: {{ metrics.critical }}</li>
+            <li>High: {{ metrics.high }}</li>
+            <li>Medium: {{ metrics.medium }}</li>
+            <li>Low: {{ metrics.low }}</li>
+        </ul>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Incident Frequency</h2>
+
+        <canvas id="incidentChart"></canvas>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Hosts</h2>
+
+        <table>
+
+            <tr>
+                <th>Host</th>
+                <th>Incidents</th>
+                <th>Severity</th>
+            </tr>
+
+            {% for host in hosts %}
+
+            <tr>
+                <td>
+                    <a href="/host/{{ host.host }}"> {{ host.host }} </a></td>
+                <td>{{ host.incident_count }}</td>
+                <td style="
+                    color: {% if host.severity == 'critical' %} red
+                            {% elif host.severity == 'high' %} orange
+                            {% elif host.severity == 'medium' %} gold
+                            {% else %} green
+                            {% endif %} "> {{ host.severity }} </td>
+            </tr>
+
+            {% endfor %}
+
+        </table>
+
+    </div>
+
+<script>
+
+const ctx = document.getElementById('incidentChart');
+
+new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: {{ chart_labels | safe }},
+        datasets: [{
+            label: 'Incident Count',
+            data: {{ chart_values | safe }}
+        }]
+    }
+});
+
+</script>
+
+</body>
+</html>

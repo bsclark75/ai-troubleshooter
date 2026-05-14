@@ -1,4 +1,4 @@
-from fastapi import FastAPI, BackgroundTasks
+from fastapi import FastAPI, BackgroundTasks, Request
 from app.services.log_service import load_logs
 from app.services.ai_service import analyze_logs
 from app.services.knowledge_service import find_known_issue
@@ -8,15 +8,55 @@ from app.models.incident_models import IncidentResponse
 from app.services.log_parser_service import parse_logs, group_incidents
 from app.services.metrics_service import generate_metrics
 from app.services.trend_service import analyze_trends
+from fastapi.templating import Jinja2Templates
 import time
 
 app = FastAPI()
 init_db()
-
+templates = Jinja2Templates(directory="templates")
 
 @app.get("/")
-def home():
-    return {"status": "AI Troubleshooter Online"}
+async def dashboard_ui(request: Request):
+    logs = load_logs()
+
+    parsed_logs = parse_logs(logs)
+
+    grouped = group_incidents(parsed_logs)
+
+    results = []
+
+    host_frequency = {}
+
+    for host, incidents in grouped.items():
+
+        severity = classify_severity(
+            [incident["raw"] for incident in incidents]
+        )
+
+        results.append({
+            "host": host,
+            "incident_count": len(incidents),
+            "severity": severity
+        })
+
+        host_frequency[host] = len(incidents)
+
+    metrics = generate_metrics(results)
+
+    chart_labels = list(host_frequency.keys())
+
+    chart_values = list(host_frequency.values())
+
+    return templates.TemplateResponse(
+        request=request,
+        name="dashboard.html",
+        context={
+            "metrics": metrics,
+            "hosts": results,
+            "chart_labels": chart_labels,
+            "chart_values": chart_values
+        }
+    )
 
 
 @app.get("/analyze", response_model=IncidentResponse)
@@ -150,4 +190,22 @@ async def dashboard():
         "metrics": metrics,
         "trends": trends,
         "hosts": results
+    }
+
+@app.get("/host/{host}")
+async def host_details(host: str):
+    logs = load_logs()
+
+    parsed_logs = parse_logs(logs)
+
+    host_logs = []
+
+    for incident in parsed_logs:
+
+        if incident["host"] == host:
+            host_logs.append(incident)
+
+    return {
+        "host": host,
+        "incidents": host_logs
     }
