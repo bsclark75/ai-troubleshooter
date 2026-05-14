@@ -8,6 +8,7 @@ from app.services.metrics_service import generate_metrics
 from app.services.trend_service import analyze_trends
 from app.services.incident_processor import process_incident
 from fastapi.templating import Jinja2Templates
+from app.services.queue_service import add_to_queue, get_queue
 import time
 from dotenv import load_dotenv
 
@@ -66,11 +67,12 @@ async def analyze(background_tasks: BackgroundTasks):
     start = time.time()
     logs = load_logs()
     logs = logs[:2]
-    result = await process_incident(logs)
+    
     import uuid
 
     incident_id = str(uuid.uuid4())
-
+    add_to_queue({"incident_id": incident_id, "status": "queued"})
+    result = await process_incident(logs)
     background_tasks.add_task(
         save_incident,
         logs,
@@ -191,4 +193,29 @@ async def host_details(host: str):
     return {
         "host": host,
         "incidents": host_logs
+    }
+
+@app.get("/queue")
+def queue_status():
+
+    return {
+        "queue": get_queue()
+    }
+
+@app.get("/incident/{incident_id}")
+def incident_status(incident_id: str):
+
+    incidents = get_incidents()["incidents"]
+
+    for incident in incidents:
+
+        if incident[0] == incident_id:
+
+            return {
+                "id": incident[0],
+                "severity": incident[1]
+            }
+
+    return {
+        "error": "Incident not found"
     }

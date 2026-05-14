@@ -5,19 +5,20 @@ from app.services.ai_service import analyze_logs
 from app.core.logging_config import logger
 
 async def process_incident(logs):
-
+    
     severity = classify_severity(logs)
 
     known_issue = find_known_issue(logs)
 
     similar_incident = find_similar_incident(logs)
 
+    logger.info("Incident processing started")
     analysis = await analyze_logs(
         logs,
         known_issue,
         similar_incident
     )
-    logger.info("Processing incident")
+    logger.info("Incident processing completed")
     return {
         "severity": severity,
         "known_issue": known_issue,

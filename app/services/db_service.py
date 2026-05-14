@@ -19,7 +19,8 @@ def init_db():
         id TEXT PRIMARY KEY,
         logs TEXT,
         severity TEXT,
-        analysis TEXT
+        analysis TEXT,
+        status TEXT
     )
     """)
 
@@ -28,19 +29,20 @@ def init_db():
     conn.close()
 
 
-def save_incident(logs, severity, analysis, incident_id):
+def save_incident(logs, severity, analysis, incident_id, status="completed"):
     conn = sqlite3.connect(DB_PATH)
 
     cursor = conn.cursor()
 
     cursor.execute("""
-    INSERT INTO incidents (id, logs, severity, analysis)
-    VALUES (?, ?, ?, ?)
+    INSERT INTO incidents (id, logs, severity, analysis, status)
+    VALUES (?, ?, ?, ?, ?)
     """, (
         incident_id,
         json.dumps(logs),
         severity,
-        json.dumps(analysis)
+        json.dumps(analysis),
+        status
     ))
 
     conn.commit()

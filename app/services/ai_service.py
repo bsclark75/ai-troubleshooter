@@ -46,30 +46,42 @@ Return JSON only:
 """
 
     async with httpx.AsyncClient(timeout=120) as client:
+        for attempt in range(3):
 
-        response = await client.post(
-            OLLAMA_URL,
-            json={
-                "model": MODEL_NAME,
-                "messages": [
-                    {
-                        "role": "user",
-                        "content": prompt
+            try:
+
+                response = await client.post(
+                    OLLAMA_URL,
+                    json={
+                    "model": MODEL_NAME,
+                    "messages": [
+                        {
+                            "role": "user",
+                            "content": prompt
+                        }
+                    ],
+                    "stream": False,
+                    "options": {
+                        "num_predict": 40
+                        }
                     }
-                ],
-                "stream": False,
-                "options": {
-                    "num_predict": 40
-                }
-            }
-        )
+                )
 
-    response.raise_for_status()
+                response.raise_for_status()
 
-    data = response.json()
+                data = response.json()
 
-    parsed = parse_ai_response(
-        data["message"]["content"]
-    )
+                parsed = parse_ai_response(
+                    data["message"]["content"]
+                )
 
-    return parsed
+                return parsed
+
+            except Exception as e:
+
+                logger.warning(
+                    f"AI request failed attempt {attempt + 1}: {e}"
+                )
+
+                if attempt == 2:
+                    raise
