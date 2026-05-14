@@ -1,10 +1,7 @@
 import httpx
 from app.services.parser_service import parse_ai_response
-
-
-OLLAMA_URL = "http://localhost:11434/api/chat"
-
-MODEL_NAME = "tinyllama"
+from app.core.config import OLLAMA_URL, MODEL_NAME
+from app.core.logging_config import logger
 
 
 async def analyze_logs(
@@ -13,6 +10,7 @@ async def analyze_logs(
     similar_incident=None
 ):
 
+    logger.info("Start to analyze logs with AI")
     joined_logs = "\n".join(logs)
 
     context = ""

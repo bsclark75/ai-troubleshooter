@@ -1,16 +1,17 @@
 from fastapi import FastAPI, BackgroundTasks, Request
 from app.services.log_service import load_logs
-from app.services.ai_service import analyze_logs
-from app.services.knowledge_service import find_known_issue
 from app.services.severity_service import classify_severity
-from app.services.db_service import init_db, save_incident, find_similar_incident, get_incidents
+from app.services.db_service import init_db, save_incident, get_incidents
 from app.models.incident_models import IncidentResponse
 from app.services.log_parser_service import parse_logs, group_incidents
 from app.services.metrics_service import generate_metrics
 from app.services.trend_service import analyze_trends
+from app.services.incident_processor import process_incident
 from fastapi.templating import Jinja2Templates
 import time
+from dotenv import load_dotenv
 
+load_dotenv()
 app = FastAPI()
 init_db()
 templates = Jinja2Templates(directory="templates")
@@ -64,14 +65,8 @@ async def analyze(background_tasks: BackgroundTasks):
 
     start = time.time()
     logs = load_logs()
-
     logs = logs[:2]
-
-    known_issue = find_known_issue(logs)
-    severity = classify_severity(logs)
-    similar_incident = find_similar_incident(logs)
-
-    result = await analyze_logs(logs, known_issue, similar_incident )
+    result = await process_incident(logs)
     import uuid
 
     incident_id = str(uuid.uuid4())
@@ -79,19 +74,16 @@ async def analyze(background_tasks: BackgroundTasks):
     background_tasks.add_task(
         save_incident,
         logs,
-        severity,
-        result,
+        result["severity"],
+        result["analysis"],
         incident_id
     )
 
     duration = time.time() - start
     return {
         "incident_id": incident_id,
-        "severity": severity,
-        "known_issue": known_issue,
-        "similar_incident": similar_incident,
-        "analysis": result,
-        "response_time": duration
+        "response_time": duration,
+        **result
     }
 
 @app.get("/incidents")
@@ -128,20 +120,11 @@ async def analyze_batch():
             for incident in incidents
         ]
 
-        severity = classify_severity(incident_logs)
-
-        known_issue = find_known_issue(incident_logs)
-        similar_incident = find_similar_incident(incident_logs)
-        analysis = await analyze_logs(
-    incident_logs,
-    known_issue,
-    similar_incident
-)
+        result = await process_incident(incident_logs)
         results.append({
             "host": host,
             "incident_count": len(incidents),
-            "severity": severity,
-            "analysis": analysis
+            **result
         })
     metrics = generate_metrics(results)
     return {

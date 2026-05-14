@@ -2,12 +2,14 @@ import sqlite3
 import json
 import uuid
 from app.services.retrieval_service import calculate_similarity
+from app.core.logging_config import logger
 
 DB_PATH = "database/incidents.db"
 
 
 def init_db():
 
+    logger.info("Initialize database")
     conn = sqlite3.connect(DB_PATH)
 
     cursor = conn.cursor()
@@ -44,7 +46,7 @@ def save_incident(logs, severity, analysis, incident_id):
     conn.commit()
 
     conn.close()
-
+    logger.info("save new incident")
     return incident_id
 
 def find_similar_incident(logs):
