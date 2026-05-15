@@ -1,21 +1,31 @@
 from fastapi import FastAPI, BackgroundTasks, Request
 from app.services.log_service import load_logs
 from app.services.severity_service import classify_severity
-from app.services.db_service import init_db, save_incident, get_incidents
-from app.models.incident_models import IncidentResponse
+from app.services.db_service import init_db,get_incidents,save_incident
 from app.services.log_parser_service import parse_logs, group_incidents
 from app.services.metrics_service import generate_metrics
 from app.services.trend_service import analyze_trends
 from app.services.incident_processor import process_incident
 from fastapi.templating import Jinja2Templates
-from app.services.queue_service import add_to_queue, get_queue
+from app.services.queue_service import add_to_queue, get_queue, get_active_incident
 from app.core.logging_config import logger
-import time
+import uuid
 from dotenv import load_dotenv
 import asyncio
+from contextlib import asynccontextmanager
+from app.services.worker_service import queue_worker
 
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+
+    asyncio.create_task(
+        queue_worker()
+    )
+
+    yield
+    
 load_dotenv()
-app = FastAPI()
+app = FastAPI(lifespan=lifespan)
 init_db()
 templates = Jinja2Templates(directory="templates")
 semaphore = asyncio.Semaphore(1)
@@ -64,31 +74,27 @@ async def dashboard_ui(request: Request):
     )
 
 
-@app.get("/analyze", response_model=IncidentResponse)
-async def analyze(background_tasks: BackgroundTasks):
+@app.get("/analyze")
+async def analyze():
 
-    start = time.time()
     logs = load_logs()
+
     logs = logs[:2]
-    
+
     import uuid
-
     incident_id = str(uuid.uuid4())
-    add_to_queue({"incident_id": incident_id, "status": "queued"})
-    result = await process_incident(logs)
-    background_tasks.add_task(
-        save_incident,
-        logs,
-        result["severity"],
-        result["analysis"],
-        incident_id
-    )
 
-    duration = time.time() - start
+    incident = {
+        "incident_id": incident_id,
+        "logs": logs,
+        "status": "queued"
+    }
+
+    add_to_queue(incident)
+
     return {
         "incident_id": incident_id,
-        "response_time": duration,
-        **result
+        "status": "queued"
     }
 
 @app.get("/incidents")
@@ -200,21 +206,17 @@ def queue_status():
 @app.get("/incident/{incident_id}")
 def incident_status(incident_id: str):
 
-    incidents = get_incidents()["incidents"]
+    incident = get_active_incident(
+        incident_id
+    )
 
-    for incident in incidents:
+    if incident:
 
-        if incident[0] == incident_id:
-
-            return {
-                "id": incident[0],
-                "severity": incident[1]
-            }
+        return incident
 
     return {
         "error": "Incident not found"
     }
-
 async def process_host(host, incidents):
 
     async with semaphore:
@@ -232,6 +234,13 @@ async def process_host(host, incidents):
             incident_logs
         )
 
+        incident_id = str(uuid.uuid4())
+        save_incident(
+            incident_logs,
+            result["severity"],
+            result["analysis"],
+            incident_id
+        )
         logger.info(
             f"Worker completed for {host}"
         )
@@ -241,3 +250,4 @@ async def process_host(host, incidents):
             "incident_count": len(incidents),
             **result
         }
+    
