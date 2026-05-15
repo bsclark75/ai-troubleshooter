@@ -9,13 +9,16 @@ from app.services.trend_service import analyze_trends
 from app.services.incident_processor import process_incident
 from fastapi.templating import Jinja2Templates
 from app.services.queue_service import add_to_queue, get_queue
+from app.core.logging_config import logger
 import time
 from dotenv import load_dotenv
+import asyncio
 
 load_dotenv()
 app = FastAPI()
 init_db()
 templates = Jinja2Templates(directory="templates")
+semaphore = asyncio.Semaphore(1)
 
 @app.get("/")
 async def dashboard_ui(request: Request):
@@ -113,21 +116,13 @@ async def analyze_batch():
 
     grouped = group_incidents(parsed_logs)
 
-    results = []
-
-    for host, incidents in grouped.items():
-
-        incident_logs = [
-            incident["raw"]
-            for incident in incidents
+    tasks = [
+        process_host(host, incidents)
+        for host, incidents in grouped.items()
         ]
 
-        result = await process_incident(incident_logs)
-        results.append({
-            "host": host,
-            "incident_count": len(incidents),
-            **result
-        })
+    results = await asyncio.gather(*tasks)
+
     metrics = generate_metrics(results)
     return {
         "total_hosts": len(results),
@@ -219,3 +214,30 @@ def incident_status(incident_id: str):
     return {
         "error": "Incident not found"
     }
+
+async def process_host(host, incidents):
+
+    async with semaphore:
+
+        logger.info(
+            f"Worker started for {host}"
+        )
+
+        incident_logs = [
+            incident["raw"]
+            for incident in incidents
+        ]
+
+        result = await process_incident(
+            incident_logs
+        )
+
+        logger.info(
+            f"Worker completed for {host}"
+        )
+
+        return {
+            "host": host,
+            "incident_count": len(incidents),
+            **result
+        }
