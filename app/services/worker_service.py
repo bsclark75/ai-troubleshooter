@@ -1,8 +1,8 @@
 import asyncio
 import logging
-from app.services.queue_service import pop_queue
 from app.services.incident_processor import process_incident
-from app.services.db_service import save_incident
+from app.services.db_service import *
+from app.core.config import MAX_RETRIES
 
 logger = logging.getLogger(__name__)
 
@@ -12,7 +12,7 @@ async def queue_worker():
 
     while True:
 
-        incident = pop_queue()
+        incident = get_next_queued_incident()
 
         if incident:
 
@@ -23,21 +23,20 @@ async def queue_worker():
 
             try:
 
-                incident["status"] = "processing"
+                update_incident_status(incident['incident_id'], "processing")
+                
 
                 result = await process_incident(
                     incident["logs"]
                 )
 
-                incident["result"] = result
-                save_incident(
-                   incident["logs"],
+                update_incident(
+                    incident["incident_id"],
                     result["severity"],
                     result["analysis"],
-                    incident["incident_id"]
+                    "completed"
                 )
 
-                incident["status"] = "completed"
 
                 logger.info(
                     f"Completed incident "
@@ -46,10 +45,34 @@ async def queue_worker():
 
             except Exception as e:
 
-                incident["status"] = "failed"
+                increment_retry_count(incident["incident_id"])
+                retry_count = get_retry_count(incident["incident_id"])
 
-                incident["error"] = str(e)
+                if retry_count < MAX_RETRIES:
 
-                logger.error(str(e))
+                    delay = 10 * retry_count
+
+                    update_incident_status(
+                        incident["incident_id"],
+                        "queued", delay
+                        )
+
+                    logger.warning(
+                        f"Retrying incident "
+                        f"{incident['incident_id']}"
+                        )
+
+                else:
+
+                    update_incident_status(
+                    incident["incident_id"],
+                        "failed"
+                        )
+
+                    logger.error(
+                        f"Incident permanently failed "
+                        f"{incident['incident_id']}"
+                        )
 
         await asyncio.sleep(1)
+

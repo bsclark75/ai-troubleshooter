@@ -1,7 +1,7 @@
 from fastapi import FastAPI, BackgroundTasks, Request
 from app.services.log_service import load_logs
 from app.services.severity_service import classify_severity
-from app.services.db_service import init_db,get_incidents,save_incident
+from app.services.db_service import *
 from app.services.log_parser_service import parse_logs, group_incidents
 from app.services.metrics_service import generate_metrics
 from app.services.trend_service import analyze_trends
@@ -27,6 +27,11 @@ async def lifespan(app: FastAPI):
 load_dotenv()
 app = FastAPI(lifespan=lifespan)
 init_db()
+recovered = recover_processing_incidents()
+
+logger.info(
+    f"Recovered {recovered} interrupted incidents"
+)
 templates = Jinja2Templates(directory="templates")
 semaphore = asyncio.Semaphore(1)
 
@@ -81,7 +86,6 @@ async def analyze():
 
     logs = logs[:2]
 
-    import uuid
     incident_id = str(uuid.uuid4())
 
     incident = {
@@ -90,13 +94,20 @@ async def analyze():
         "status": "queued"
     }
 
-    add_to_queue(incident)
+    save_incident(
+        logs,
+        "pending",
+        {},
+        incident_id,
+        status="queued"
+    )
+
+#    add_to_queue(incident)
 
     return {
         "incident_id": incident_id,
         "status": "queued"
     }
-
 @app.get("/incidents")
 def incidents():
 
@@ -199,8 +210,11 @@ async def host_details(host: str):
 @app.get("/queue")
 def queue_status():
 
+    queued = get_queued_incidents()
+
     return {
-        "queue": get_queue()
+        "queued_count": len(queued),
+        "incidents": queued
     }
 
 @app.get("/incident/{incident_id}")
@@ -250,4 +264,33 @@ async def process_host(host, incidents):
             "incident_count": len(incidents),
             **result
         }
+
+@app.get("/processing")
+def processing():
     
+    processes = get_processing_incidents()
+
+    return {
+        "processes_count": len(processes),
+        "incidents": processes
+    }   
+
+@app.get("/failures")
+def failures():
+    
+    failures = get_failure_incidents()
+
+    return {
+        "failures_count": len(failures),
+        "incidents": failures
+    }  
+
+@app.get("/stats")
+def stats(): 
+    groups = get_incident_counts()
+    return{
+    "queued": groups["queued"],
+    "processing": groups["processing"],
+    "completed": groups["completed"],
+    "failed": groups["failed"]
+}

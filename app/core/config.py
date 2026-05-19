@@ -14,3 +14,5 @@ LOG_LEVEL = os.getenv(
     "LOG_LEVEL",
     "INFO"
 )
+
+MAX_RETRIES = 3
