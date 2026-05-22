@@ -1,15 +1,11 @@
 from fastapi import FastAPI, BackgroundTasks, Request
-from app.services.log_service import load_logs
+from app.services.log_service import get_parsed_log_context, create_incident
 from app.services.severity_service import classify_severity
 from app.services.db_service import *
-from app.services.log_parser_service import parse_logs, group_incidents
 from app.services.metrics_service import generate_metrics
 from app.services.trend_service import analyze_trends
-from app.services.incident_processor import process_incident
 from fastapi.templating import Jinja2Templates
-from app.services.queue_service import add_to_queue, get_queue, get_active_incident
 from app.core.logging_config import logger
-import uuid
 from dotenv import load_dotenv
 import asyncio
 from contextlib import asynccontextmanager
@@ -37,17 +33,13 @@ semaphore = asyncio.Semaphore(1)
 
 @app.get("/")
 async def dashboard_ui(request: Request):
-    logs = load_logs()
-
-    parsed_logs = parse_logs(logs)
-
-    grouped = group_incidents(parsed_logs)
+    context = get_parsed_log_context()
 
     results = []
 
     host_frequency = {}
 
-    for host, incidents in grouped.items():
+    for host, incidents in context["grouped"].items():
 
         severity = classify_severity(
             [incident["raw"] for incident in incidents]
@@ -82,32 +74,16 @@ async def dashboard_ui(request: Request):
 @app.get("/analyze")
 async def analyze():
 
-    logs = load_logs()
+    context = get_parsed_log_context()
 
-    logs = logs[:2]
+    logs = context["logs"][:2]
 
-    incident_id = str(uuid.uuid4())
-
-    incident = {
-        "incident_id": incident_id,
-        "logs": logs,
-        "status": "queued"
-    }
-
-    save_incident(
-        logs,
-        "pending",
-        {},
-        incident_id,
-        status="queued"
-    )
-
-#    add_to_queue(incident)
-
+    incident_id = create_incident(logs)
     return {
         "incident_id": incident_id,
         "status": "queued"
     }
+
 @app.get("/incidents")
 def incidents():
 
@@ -127,15 +103,11 @@ def health():
 @app.get("/analyze/batch")
 async def analyze_batch():
 
-    logs = load_logs()
-
-    parsed_logs = parse_logs(logs)
-
-    grouped = group_incidents(parsed_logs)
+    context = get_parsed_log_context()
 
     tasks = [
         process_host(host, incidents)
-        for host, incidents in grouped.items()
+        for host, incidents in context["grouped"].items()
         ]
 
     results = await asyncio.gather(*tasks)
@@ -150,16 +122,12 @@ async def analyze_batch():
 @app.get("/dashboard")
 async def dashboard():
 
-    logs = load_logs()
-
-    parsed_logs = parse_logs(logs)
-
-    grouped = group_incidents(parsed_logs)
+    context = get_parsed_log_context()
 
     results = []
     host_frequency = {}
 
-    for host, incidents in grouped.items():
+    for host, incidents in context["grouped"].items():
 
         incident_logs = [
             incident["raw"]
@@ -191,13 +159,11 @@ async def dashboard():
 
 @app.get("/host/{host}")
 async def host_details(host: str):
-    logs = load_logs()
-
-    parsed_logs = parse_logs(logs)
+    context = get_parsed_log_context()
 
     host_logs = []
 
-    for incident in parsed_logs:
+    for incident in context["parsed_logs"]:
 
         if incident["host"] == host:
             host_logs.append(incident)
@@ -220,7 +186,7 @@ def queue_status():
 @app.get("/incident/{incident_id}")
 def incident_status(incident_id: str):
 
-    incident = get_active_incident(
+    incident = get_incident(
         incident_id
     )
 
@@ -231,6 +197,7 @@ def incident_status(incident_id: str):
     return {
         "error": "Incident not found"
     }
+
 async def process_host(host, incidents):
 
     async with semaphore:
@@ -239,22 +206,11 @@ async def process_host(host, incidents):
             f"Worker started for {host}"
         )
 
-        incident_logs = [
-            incident["raw"]
-            for incident in incidents
-        ]
+        incident_ids = []
 
-        result = await process_incident(
-            incident_logs
-        )
-
-        incident_id = str(uuid.uuid4())
-        save_incident(
-            incident_logs,
-            result["severity"],
-            result["analysis"],
-            incident_id
-        )
+        for incident in incidents:
+            new_id = create_incident(incident)
+            incident_ids.append(new_id)
         logger.info(
             f"Worker completed for {host}"
         )
@@ -262,7 +218,7 @@ async def process_host(host, incidents):
         return {
             "host": host,
             "incident_count": len(incidents),
-            **result
+            "incident_ids": incident_ids
         }
 
 @app.get("/processing")

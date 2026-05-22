@@ -1,7 +1,7 @@
 import asyncio
 import logging
 from app.services.incident_processor import process_incident
-from app.services.db_service import *
+from app.services.db_service import get_next_queued_incident,update_incident_status, update_incident, increment_retry_count, get_retry_count
 from app.core.config import MAX_RETRIES
 
 logger = logging.getLogger(__name__)

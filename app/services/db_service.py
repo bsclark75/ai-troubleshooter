@@ -442,3 +442,35 @@ def get_incident_counts():
         status[row[0]] = row[1]
 
     return status
+
+def get_incident(incident_id):
+
+    conn = sqlite3.connect(DB_PATH)
+
+    cursor = conn.cursor()
+
+    cursor.execute("""
+        SELECT
+            id,
+            logs,
+            severity,
+            analysis,
+            status
+        FROM incidents
+        WHERE id = ?
+    """, (incident_id,))
+
+    row = cursor.fetchone()
+
+    conn.close()
+
+    if not row:
+        return None
+
+    return {
+        "incident_id": row[0],
+        "logs": row[1],
+        "severity": row[2],
+        "analysis": row[3],
+        "status": row[4]
+    }
