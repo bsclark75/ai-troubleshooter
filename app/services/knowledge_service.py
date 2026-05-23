@@ -34,7 +34,8 @@ def find_known_issue(logs):
         ],
         "high cpu": [
             "high cpu",
-            "cpu usage"
+            "cpu usage",
+            "cpu load"
         ]
     }
 

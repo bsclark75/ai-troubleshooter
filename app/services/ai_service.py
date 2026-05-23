@@ -18,33 +18,33 @@ async def analyze_logs(
     if known_issue:
 
         context += f"""
-Known Issue:
+        Possible Related Known Issue:
 Cause: {known_issue['cause']}
 Fix: {known_issue['fix']}
 """
 
-    if similar_incident:
+#    if similar_incident:
 
-        context += f"""
-Previous Similar Incident:
-Severity: {similar_incident['severity']}
-"""
+#        context += f"""
+#Previous Similar Incident:
+#Severity: {similar_incident['severity']}
+#"""
 
     prompt = f"""
-Logs:
-{joined_logs}
+Analyze the infrastructure logs.
 
-Context:
-{context}
+Use the known issue and logs to determine the likely cause and fix.
 
-Return JSON only:
+Return ONLY valid JSON.
 
 {{
-  "root_cause": "",
-  "recommended_fix": ""
+  "root_cause": "<cause>",
+  "recommended_fix": "<fix>"
 }}
+{context}
+Logs:
+{joined_logs}
 """
-
     async with httpx.AsyncClient(timeout=120) as client:
         for attempt in range(3):
 
@@ -62,7 +62,8 @@ Return JSON only:
                     ],
                     "stream": False,
                     "options": {
-                        "num_predict": 40
+                        "num_predict": 200,
+                        "temperature": 0.2
                         }
                     }
                 )

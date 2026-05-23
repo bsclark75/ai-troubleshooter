@@ -7,7 +7,7 @@ OLLAMA_URL = os.getenv(
 
 MODEL_NAME = os.getenv(
     "MODEL_NAME",
-    "tinyllama"
+    "qwen2.5:1.5b"
 )
 
 LOG_LEVEL = os.getenv(
@@ -16,3 +16,7 @@ LOG_LEVEL = os.getenv(
 )
 
 MAX_RETRIES = 3
+STATUS_QUEUED = "queued"
+STATUS_PROCESSING = "processing"
+STATUS_COMPLETED = "completed"
+STATUS_FAILED = "failed"

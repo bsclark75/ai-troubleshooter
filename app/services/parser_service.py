@@ -1,23 +1,43 @@
 import json
+import logging
+import re
+
+logger = logging.getLogger(__name__)
 
 def parse_ai_response(response_text):
 
     try:
 
-        start = response_text.find("{")
-        end = response_text.rfind("}") + 1
+        cleaned = response_text.strip()
 
-        json_text = response_text[start:end]
+        cleaned = cleaned.replace("```json", "")
+        cleaned = cleaned.replace("```", "")
+
+        start = cleaned.find("{")
+        end = cleaned.rfind("}") + 1
+
+        if start == -1 or end == 0:
+            raise ValueError("No valid JSON found")
+
+        json_text = cleaned[start:end]
 
         return json.loads(json_text)
 
-    except Exception:
+    except Exception as e:
+
+        logger.error(
+            f"Failed to parse AI response: {e}"
+        )
+
+        logger.error(
+            f"Raw response: {response_text}"
+        )
 
         return {
             "root_cause": "Unable to determine",
             "recommended_fix": "Manual investigation required"
         }
-
+    
 def parse_log(log_line):
     parts = log_line.split(" ", 3)
 

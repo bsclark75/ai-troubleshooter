@@ -455,7 +455,9 @@ def get_incident(incident_id):
             logs,
             severity,
             analysis,
-            status
+            status,
+            created_at TEXT,
+            updated_at TEXT
         FROM incidents
         WHERE id = ?
     """, (incident_id,))
@@ -472,5 +474,7 @@ def get_incident(incident_id):
         "logs": row[1],
         "severity": row[2],
         "analysis": row[3],
-        "status": row[4]
+        "status": row[4],
+        "created_at": row[5],
+        "updated_at": row[6]
     }

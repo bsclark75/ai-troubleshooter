@@ -19,12 +19,6 @@ def load_logs():
 def create_incident(logs):
     incident_id = str(uuid.uuid4())
 
-    incident = {
-        "incident_id": incident_id,
-        "logs": logs,
-        "status": "queued"
-    }
-
     save_incident(
         logs,
         "pending",
