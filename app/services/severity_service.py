@@ -1,14 +1,15 @@
 def classify_severity(logs):
 
-    joined_logs = " ".join(logs).lower()
+    joined_logs = logs.lower()
+    #print(joined_logs)  
 
     if "critical" in joined_logs:
         return "critical"
 
-    if "unreachable" in joined_logs:
+    if "warning" in joined_logs:
         return "high"
 
-    if "warning" in joined_logs:
-        return "medium"
+    if "ok" in joined_logs:
+        return "low"
 
-    return "low"
+    return "medium"

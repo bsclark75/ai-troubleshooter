@@ -18,12 +18,15 @@ def load_logs():
 
 def create_incident(logs):
     incident_id = str(uuid.uuid4())
+    #print(logs)
+    host = logs["host"]
 
     save_incident(
-        logs,
-        "pending",
+        logs["raw"],
+        "low",
         {},
         incident_id,
+        host,
         status="queued"
     )
     

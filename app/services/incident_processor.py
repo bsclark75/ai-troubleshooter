@@ -7,6 +7,7 @@ from app.core.logging_config import logger
 async def process_incident(logs):
     
     severity = classify_severity(logs)
+    print(f"Severity: {severity}")
 
     known_issue = find_known_issue(logs)
 

@@ -1,3 +1,13 @@
+[1746835200] Nagios 4.4.14 starting... (PID=3102)
+[1746835201] Finished daemonizing... (new PID=3103)
+[1746835215] Event broker module '/usr/lib64/nagios/brokers/ndomod.so' initialized successfully.
+[1746837000] SERVICE ALERT: srv-app-01;CPU Load;WARNING;SOFT;1;CPU WARNING: load average: 3.84, 3.12, 2.90 (warn=3.00 crit=6.00)
+[1746837120] SERVICE ALERT: srv-app-01;CPU Load;WARNING;SOFT;2;CPU WARNING: load average: 4.67, 4.01, 3.44
+[1746837240] SERVICE ALERT: srv-app-01;CPU Load;WARNING;HARD;3;CPU WARNING: load average: 5.21, 4.88, 4.11
+[1746837240] SERVICE NOTIFICATION: nagiosadmin;srv-app-01;CPU Load;WARNING;notify-service-by-email;CPU load sustained above warning threshold
+[1746838200] SERVICE ALERT: srv-app-01;CPU Load;CRITICAL;HARD;3;CPU CRITICAL: load average: 7.94, 7.21, 6.58 (warn=3.00 crit=6.00)
+[1746838200] SERVICE NOTIFICATION: nagiosadmin;srv-app-01;CPU Load;CRITICAL;notify-service-by-email;CPU CRITICAL - possible runaway process
+[1746838200] SERVICE ALERT: srv-app-01;Memory Usage;WARNING;SOFT;1;Memory WARNING: used 6820 MB / 8192 MB (83.3%) - warn=80% crit=95%
 [1746838320] SERVICE ALERT: srv-app-01;Memory Usage;WARNING;HARD;3;Memory WARNING: used 7102 MB / 8192 MB (86.7%)
 [1746838320] SERVICE NOTIFICATION: nagiosadmin;srv-app-01;Memory Usage;WARNING;notify-service-by-email;Memory pressure building on srv-app-01
 [1746839400] SERVICE ALERT: srv-app-01;Memory Usage;CRITICAL;HARD;3;Memory CRITICAL: used 7981 MB / 8192 MB (97.4%) - warn=80% crit=95%

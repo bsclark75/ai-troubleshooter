@@ -17,6 +17,7 @@ def init_db():
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS incidents (
             id TEXT PRIMARY KEY,
+            host TEXT,
             logs TEXT,
             severity TEXT,
             analysis TEXT,
@@ -32,7 +33,7 @@ def init_db():
 
     conn.close()
 
-def save_incident(logs, severity, analysis, incident_id, status="queued", retry_count=0):
+def save_incident(logs, severity, analysis, incident_id, host, status="queued", retry_count=0):
     conn = sqlite3.connect(DB_PATH)
 
     cursor = conn.cursor()
@@ -40,6 +41,7 @@ def save_incident(logs, severity, analysis, incident_id, status="queued", retry_
     cursor.execute("""
         INSERT INTO incidents (
         id,
+        host,
         logs,
         severity,
         analysis,
@@ -48,9 +50,10 @@ def save_incident(logs, severity, analysis, incident_id, status="queued", retry_
         created_at,
         updated_at
     )
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
     """, (
         incident_id,
+        host,
         json.dumps(logs),
         severity,
         json.dumps(analysis),
@@ -115,40 +118,34 @@ def find_similar_incident(logs):
     return best_match
 
 def get_incidents():
-
     conn = sqlite3.connect(DB_PATH)
-
     cursor = conn.cursor()
-
     cursor.execute("""
-    SELECT
-        id,
-        severity,
-        status,
-        retry_count,
-        created_at,
-        updated_at
-    FROM incidents
-    ORDER BY created_at DESC
+        SELECT
+            id,
+            severity,
+            status,
+            retry_count,
+            created_at,
+            updated_at,
+            host
+        FROM incidents
+        ORDER BY host ASC
     """)
-
     rows = cursor.fetchall()
-
     conn.close()
 
     incidents = []
-
     for row in rows:
-
         incidents.append({
             "incident_id": row[0],
             "severity": row[1],
             "status": row[2],
             "retry_count": row[3],
             "created_at": row[4],
-            "updated_at": row[5]
+            "updated_at": row[5],
+            "host": row[6]
         })
-
     return incidents
 
 def update_incident_status(incident_id, status, delay=0):
@@ -457,7 +454,8 @@ def get_incident(incident_id):
             analysis,
             status,
             created_at TEXT,
-            updated_at TEXT
+            updated_at TEXT,
+            host
         FROM incidents
         WHERE id = ?
     """, (incident_id,))
@@ -476,5 +474,38 @@ def get_incident(incident_id):
         "analysis": row[3],
         "status": row[4],
         "created_at": row[5],
-        "updated_at": row[6]
+        "updated_at": row[6],
+        "host": row[7]
     }
+
+def get_incidents_by_host(host: str):
+    conn = sqlite3.connect(DB_PATH)
+    cursor = conn.cursor()
+    cursor.execute("""
+        SELECT
+            id,
+            severity,
+            status,
+            retry_count,
+            created_at,
+            updated_at,
+            host
+        FROM incidents
+        WHERE host = ?
+        ORDER BY created_at DESC
+    """, (host,))
+    rows = cursor.fetchall()
+    conn.close()
+
+    incidents = []
+    for row in rows:
+        incidents.append({
+            "incident_id": row[0],
+            "severity": row[1],
+            "status": row[2],
+            "retry_count": row[3],
+            "created_at": row[4],
+            "updated_at": row[5],
+            "host": row[6]
+        })
+    return incidents

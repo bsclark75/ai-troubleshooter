@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Host Detail - {{ host }}</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <meta http-equiv="refresh" content="30">
+    <style>
+        body {
+            font-family: Arial;
+            margin: 40px;
+            background-color: #f4f4f4;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #333;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <a class="back-link" href="/">← Back to Dashboard</a>
+    <h1>Host: {{ host }}</h1>
+
+    <div class="card">
+        <h2>Metrics</h2>
+        <ul>
+            <li>Critical: {{ metrics.critical }}</li>
+            <li>High: {{ metrics.high }}</li>
+            <li>Medium: {{ metrics.medium }}</li>
+            <li>Low: {{ metrics.low }}</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Severity Breakdown</h2>
+        <canvas id="severityChart"></canvas>
+    </div>
+
+    <div class="card">
+        <h2>Incidents ({{ incident_count }})</h2>
+        <table>
+            <tr>
+                <th>Incident ID</th>
+                <th>Severity</th>
+                <th>Status</th>
+                <th>Retry Count</th>
+                <th>Created</th>
+                <th>Updated</th>
+            </tr>
+            {% for incident in incidents %}
+            <tr>
+                <td><a href="/incident/{{ incident.incident_id }}/ui">{{ incident.incident_id }}</a></td>
+                <td style="color:
+                    {% if incident.severity == 'critical' %} red
+                    {% elif incident.severity == 'high' %} orange
+                    {% elif incident.severity == 'medium' %} gold
+                    {% else %} green
+                    {% endif %}">
+                    {{ incident.severity }}
+                </td>
+                <td>{{ incident.status }}</td>
+                <td>{{ incident.retry_count }}</td>
+                <td>{{ incident.created_at }}</td>
+                <td>{{ incident.updated_at }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+
+    <script>
+        const ctx = document.getElementById('severityChart');
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Critical', 'High', 'Medium', 'Low'],
+                datasets: [{
+                    label: 'Incident Count',
+                    data: [
+                        {{ metrics.critical }},
+                        {{ metrics.high }},
+                        {{ metrics.medium }},
+                        {{ metrics.low }}
+                    ],
+                    backgroundColor: ['red', 'orange', 'gold', 'green']
+                }]
+            }
+        });
+    </script>
+
+</body>
+</html>

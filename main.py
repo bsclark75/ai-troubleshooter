@@ -1,7 +1,6 @@
 from fastapi import FastAPI, BackgroundTasks, Request
 from fastapi.responses import JSONResponse
 from app.services.log_service import get_parsed_log_context, create_incident
-from app.services.severity_service import classify_severity
 from app.services.db_service import *
 from app.services.metrics_service import generate_metrics
 from app.services.trend_service import analyze_trends
@@ -39,19 +38,22 @@ semaphore = asyncio.Semaphore(3)
 
 @app.get("/")
 async def dashboard_ui(request: Request):
-    context = get_parsed_log_context()
-
+    incidents = get_incidents()
     results = []
     host_frequency = {}
 
-    for host, incidents in context["grouped"].items():
-        severity = classify_severity([incident["raw"] for incident in incidents])
+    for incident in incidents:
+        host = incident["host"]
+        host_frequency[host] = host_frequency.get(host, 0) + 1
+
+    for host, count in host_frequency.items():
+        host_incidents = [i for i in incidents if i["host"] == host]
+        worst_severity = max(host_incidents, key=lambda i: i["severity"])["severity"]
         results.append({
             "host": host,
-            "incident_count": len(incidents),
-            "severity": severity
+            "incident_count": count,
+            "severity": worst_severity
         })
-        host_frequency[host] = len(incidents)
 
     metrics = generate_metrics(results)
     chart_labels = list(host_frequency.keys())
@@ -68,12 +70,12 @@ async def dashboard_ui(request: Request):
         }
     )
 
-
 @app.get("/analyze")
 async def analyze():
     context = get_parsed_log_context()
-    logs = context["logs"][:2]
-    incident_id = create_incident(logs)
+    logs = context["parsed_logs"]
+    #print(logs)
+    incident_id = create_incident(logs[0])
 
     return success_response({
         "incident_id": incident_id,
@@ -114,19 +116,21 @@ async def analyze_batch():
 
 @app.get("/dashboard")
 async def dashboard():
-    context = get_parsed_log_context()
-
+    incidents = get_incidents()
     results = []
     host_frequency = {}
 
-    for host, incidents in context["grouped"].items():
-        incident_logs = [incident["raw"] for incident in incidents]
-        host_frequency[host] = len(incidents)
-        severity = classify_severity(incident_logs)
+    for incident in incidents:
+        host = incident["host"]
+        host_frequency[host] = host_frequency.get(host, 0) + 1
+
+    for host, count in host_frequency.items():
+        host_incidents = [i for i in incidents if i["host"] == host]
+        worst_severity = max(host_incidents, key=lambda i: i["severity"])["severity"]
         results.append({
             "host": host,
-            "incident_count": len(incidents),
-            "severity": severity
+            "incident_count": count,
+            "severity": worst_severity
         })
 
     metrics = generate_metrics(results)
@@ -140,21 +144,20 @@ async def dashboard():
         "hosts": results
     })
 
-
 @app.get("/host/{host}")
 async def host_details(host: str):
-    context = get_parsed_log_context()
+    incidents = get_incidents_by_host(host)
 
-    host_logs = [
-        incident for incident in context["parsed_logs"]
-        if incident["host"] == host
-    ]
+    if not incidents:
+        return JSONResponse(
+            status_code=404,
+            content=error_response("NOT_FOUND", f"Host '{host}' not found")
+        )
 
     return success_response({
         "host": host,
-        "incidents": host_logs
+        "incidents": incidents
     })
-
 
 @app.get("/queue")
 def queue_status():
@@ -227,3 +230,46 @@ def stats():
         "completed": groups["completed"],
         "failed": groups["failed"]
     })
+
+@app.get("/host/{host}/ui")
+async def host_ui(host: str, request: Request):
+    incidents = get_incidents_by_host(host)
+
+    if not incidents:
+        return JSONResponse(
+            status_code=404,
+            content=error_response("NOT_FOUND", f"Host '{host}' not found")
+        )
+
+    metrics = generate_metrics(incidents)
+    trends = analyze_trends(incidents)
+
+    return templates.TemplateResponse(
+        request=request,
+        name="host.html",
+        context={
+            "host": host,
+            "incidents": incidents,
+            "metrics": metrics,
+            "trends": trends,
+            "incident_count": len(incidents)
+        }
+    )
+
+@app.get("/incident/{incident_id}/ui")
+async def incident_ui(incident_id: str, request: Request):
+    incident = get_incident(incident_id)
+
+    if not incident:
+        return JSONResponse(
+            status_code=404,
+            content=error_response("NOT_FOUND", f"Incident '{incident_id}' not found")
+        )
+
+    return templates.TemplateResponse(
+        request=request,
+        name="incident.html",
+        context={
+            "incident": incident
+        }
+    )
