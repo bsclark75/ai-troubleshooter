@@ -1,9 +1,10 @@
 from fastapi import FastAPI, BackgroundTasks, Request
 from fastapi.responses import JSONResponse
-from app.services.log_service import get_parsed_log_context, create_incident
+from app.services.log_service import get_parsed_log_context, create_incident, is_repeat_notification
 from app.services.db_service import *
 from app.services.metrics_service import generate_metrics
 from app.services.trend_service import analyze_trends
+from app.services.severity_service import get_worst_severity
 from fastapi.templating import Jinja2Templates
 from app.core.logging_config import logger
 from dotenv import load_dotenv
@@ -48,7 +49,7 @@ async def dashboard_ui(request: Request):
 
     for host, count in host_frequency.items():
         host_incidents = [i for i in incidents if i["host"] == host]
-        worst_severity = max(host_incidents, key=lambda i: i["severity"])["severity"]
+        worst_severity = get_worst_severity(host_incidents)
         results.append({
             "host": host,
             "incident_count": count,
@@ -74,8 +75,8 @@ async def dashboard_ui(request: Request):
 async def analyze():
     context = get_parsed_log_context()
     logs = context["parsed_logs"]
-    #print(logs)
-    incident_id = create_incident(logs[0])
+    if not is_repeat_notification(logs[0]):
+        incident_id = create_incident(logs[0])
 
     return success_response({
         "incident_id": incident_id,
@@ -126,7 +127,7 @@ async def dashboard():
 
     for host, count in host_frequency.items():
         host_incidents = [i for i in incidents if i["host"] == host]
-        worst_severity = max(host_incidents, key=lambda i: i["severity"])["severity"]
+        worst_severity = get_worst_severity(host_incidents)
         results.append({
             "host": host,
             "incident_count": count,
@@ -188,6 +189,8 @@ async def process_host(host, incidents):
 
         incident_ids = []
         for incident in incidents:
+            if is_repeat_notification(incident):
+                continue
             new_id = create_incident(incident)
             incident_ids.append(new_id)
 
