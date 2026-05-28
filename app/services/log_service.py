@@ -45,14 +45,25 @@ def get_parsed_log_context():
 
 def is_repeat_notification(log: dict) -> bool:
     """
-    Returns True if this log entry is a service notification for an
-    already-active alert (CRITICAL/WARNING), meaning we should NOT
-    create a new incident for it.
+    Skip repeated active notifications.
+    Allow recoveries to continue through processing.
     """
-    notification_types = {"SERVICE NOTIFICATION"}
-    skip_statuses = {"CRITICAL", "WARNING"}
-    print(log)
+
+    notification_type = log.get("notification_type")
+    state = log.get("state")
+
+    repeated_notification_types = {
+        "SERVICE NOTIFICATION",
+        "HOST NOTIFICATION"
+    }
+
+    active_problem_states = {
+        "CRITICAL",
+        "WARNING",
+        "DOWN"
+    }
 
     return (
-        log.get("notification_type") in notification_types
+        notification_type in repeated_notification_types
+        and state in active_problem_states
     )

@@ -3,6 +3,7 @@ from app.services.knowledge_service import find_known_issue
 from app.services.db_service import find_similar_incident
 from app.services.ai_service import analyze_logs
 from app.core.logging_config import logger
+from app.core.config import RECOVERED
 
 async def process_incident(logs):
     
@@ -12,6 +13,13 @@ async def process_incident(logs):
     known_issue = find_known_issue(logs)
 
     similar_incident = find_similar_incident(logs)
+    if severity == "low":
+        return {
+            "severity": severity,
+            "known_issue": known_issue,
+            "similar_incident": similar_incident,
+            "analysis": RECOVERED
+        }
 
     logger.info("Incident processing started")
     analysis = await analyze_logs(

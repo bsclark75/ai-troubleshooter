@@ -1,0 +1,620 @@
+2026-05-27 11:22:06,448 INFO ai_troubleshooter Initialize database
+2026-05-27 11:22:06,468 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-05-27 11:22:06,529 INFO app.services.worker_service Queue worker started
+2026-05-27 11:22:36,251 INFO ai_troubleshooter Worker started for srv-app-01
+2026-05-27 11:22:36,268 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,284 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,297 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,306 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,321 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,333 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,340 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,351 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,365 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,375 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,384 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,392 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,400 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,412 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,422 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,432 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,451 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,460 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,469 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,478 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,485 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,485 INFO ai_troubleshooter Worker completed for srv-app-01
+2026-05-27 11:22:36,485 INFO ai_troubleshooter Worker started for srv-web-01
+2026-05-27 11:22:36,498 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,507 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,515 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,523 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,533 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,546 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,556 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,568 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,568 INFO ai_troubleshooter Worker completed for srv-web-01
+2026-05-27 11:22:36,568 INFO ai_troubleshooter Worker started for srv-files-01
+2026-05-27 11:22:36,574 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,582 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,589 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,599 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,608 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,617 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,624 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,635 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,643 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,651 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,651 INFO ai_troubleshooter Worker completed for srv-files-01
+2026-05-27 11:22:36,652 INFO ai_troubleshooter Worker started for srv-build-01
+2026-05-27 11:22:36,659 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,666 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,673 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,679 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,686 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,692 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,699 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,712 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,720 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,721 INFO ai_troubleshooter Worker completed for srv-build-01
+2026-05-27 11:22:36,721 INFO ai_troubleshooter Worker started for srv-db-02
+2026-05-27 11:22:36,735 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,747 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,755 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,770 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,779 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,787 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,793 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,806 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,815 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,815 INFO ai_troubleshooter Worker completed for srv-db-02
+2026-05-27 11:22:36,815 INFO ai_troubleshooter Worker started for srv-monitor-01
+2026-05-27 11:22:36,821 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,828 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,841 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,850 INFO ai_troubleshooter save new incident
+2026-05-27 11:22:36,851 INFO ai_troubleshooter Worker completed for srv-monitor-01
+2026-05-27 11:22:36,853 INFO app.services.worker_service Processing queued incident 12df6a63-aae9-4cbf-a50b-31cb25d63608
+2026-05-27 11:22:36,868 INFO ai_troubleshooter Incident processing started
+2026-05-27 11:22:36,869 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 11:24:37,150 WARNING ai_troubleshooter AI request failed attempt 1: 
+2026-05-27 11:25:00,142 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 11:25:00,146 INFO ai_troubleshooter Incident processing completed
+2026-05-27 11:25:00,172 INFO app.services.worker_service Completed incident 12df6a63-aae9-4cbf-a50b-31cb25d63608
+2026-05-27 11:25:01,177 INFO app.services.worker_service Processing queued incident b4816449-2b03-43e0-8cdf-1d6d9456e9ae
+2026-05-27 11:25:01,193 INFO ai_troubleshooter Incident processing started
+2026-05-27 11:25:01,194 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 11:26:02,867 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 11:26:02,869 INFO ai_troubleshooter Incident processing completed
+2026-05-27 11:26:02,879 INFO app.services.worker_service Completed incident b4816449-2b03-43e0-8cdf-1d6d9456e9ae
+2026-05-27 11:26:04,043 INFO app.services.worker_service Processing queued incident 2de36747-ac7e-47f3-9bac-979e09d83392
+2026-05-27 11:26:04,056 INFO ai_troubleshooter Incident processing started
+2026-05-27 11:26:04,057 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 11:27:31,405 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 11:27:31,407 INFO ai_troubleshooter Incident processing completed
+2026-05-27 11:27:31,421 INFO app.services.worker_service Completed incident 2de36747-ac7e-47f3-9bac-979e09d83392
+2026-05-27 11:27:32,699 INFO app.services.worker_service Processing queued incident 024cf5f8-12b4-4fe6-87e6-c9a1b3aaf136
+2026-05-27 11:27:32,710 INFO ai_troubleshooter Incident processing started
+2026-05-27 11:27:32,710 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 11:28:45,585 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 11:28:45,588 INFO ai_troubleshooter Incident processing completed
+2026-05-27 11:28:45,600 INFO app.services.worker_service Completed incident 024cf5f8-12b4-4fe6-87e6-c9a1b3aaf136
+2026-05-27 11:28:46,616 INFO app.services.worker_service Processing queued incident ef2a4dae-80ba-41c1-ad48-2c3397a8a00d
+2026-05-27 11:28:46,625 INFO ai_troubleshooter Incident processing started
+2026-05-27 11:28:46,626 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 11:30:07,444 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 11:30:07,446 INFO ai_troubleshooter Incident processing completed
+2026-05-27 11:30:07,460 INFO app.services.worker_service Completed incident ef2a4dae-80ba-41c1-ad48-2c3397a8a00d
+2026-05-27 11:30:08,462 INFO app.services.worker_service Processing queued incident 396df07e-c346-4b0f-a675-0d0a0552299a
+2026-05-27 11:30:08,472 INFO ai_troubleshooter Incident processing started
+2026-05-27 11:30:08,472 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 11:31:32,502 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 11:31:32,504 INFO ai_troubleshooter Incident processing completed
+2026-05-27 11:31:32,513 INFO app.services.worker_service Completed incident 396df07e-c346-4b0f-a675-0d0a0552299a
+2026-05-27 11:31:33,549 INFO app.services.worker_service Processing queued incident 912bc5ef-c174-421e-a3fa-106eebcddb1a
+2026-05-27 11:31:33,558 INFO ai_troubleshooter Incident processing started
+2026-05-27 11:31:33,558 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 11:32:36,759 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 11:32:36,760 INFO ai_troubleshooter Incident processing completed
+2026-05-27 11:32:36,777 INFO app.services.worker_service Completed incident 912bc5ef-c174-421e-a3fa-106eebcddb1a
+2026-05-27 11:32:37,782 INFO app.services.worker_service Processing queued incident a7791d06-966b-48f6-bf68-e49ac1f9350a
+2026-05-27 11:32:37,792 INFO ai_troubleshooter Incident processing started
+2026-05-27 11:32:37,792 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 11:33:42,132 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 11:33:42,134 INFO ai_troubleshooter Incident processing completed
+2026-05-27 11:33:42,145 INFO app.services.worker_service Completed incident a7791d06-966b-48f6-bf68-e49ac1f9350a
+2026-05-27 11:33:43,150 INFO app.services.worker_service Processing queued incident 63c332fb-318e-41c0-97ab-0c12ac1fde6b
+2026-05-27 11:33:43,159 INFO ai_troubleshooter Incident processing started
+2026-05-27 11:33:43,159 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 11:34:33,736 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 11:34:33,738 INFO ai_troubleshooter Incident processing completed
+2026-05-27 11:34:33,746 INFO app.services.worker_service Completed incident 63c332fb-318e-41c0-97ab-0c12ac1fde6b
+2026-05-27 11:34:34,748 INFO app.services.worker_service Processing queued incident 5aeecf7b-782c-40d2-b993-40b27a53ce59
+2026-05-27 11:34:34,758 INFO ai_troubleshooter Incident processing started
+2026-05-27 11:34:34,758 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 11:36:30,428 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 11:36:30,430 INFO ai_troubleshooter Incident processing completed
+2026-05-27 11:36:30,438 INFO app.services.worker_service Completed incident 5aeecf7b-782c-40d2-b993-40b27a53ce59
+2026-05-27 11:36:31,441 INFO app.services.worker_service Processing queued incident ff503cbb-f906-4422-a2cc-4b0cd8b71716
+2026-05-27 11:36:31,450 INFO ai_troubleshooter Incident processing started
+2026-05-27 11:36:31,451 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 11:37:17,507 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 11:37:17,510 INFO ai_troubleshooter Incident processing completed
+2026-05-27 11:37:17,521 INFO app.services.worker_service Completed incident ff503cbb-f906-4422-a2cc-4b0cd8b71716
+2026-05-27 11:37:18,784 INFO app.services.worker_service Processing queued incident 025394ed-53a2-47ef-a530-057897078de7
+2026-05-27 11:37:18,792 INFO ai_troubleshooter Incident processing started
+2026-05-27 11:37:18,792 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 11:38:06,360 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 11:38:06,362 INFO ai_troubleshooter Incident processing completed
+2026-05-27 11:38:06,370 INFO app.services.worker_service Completed incident 025394ed-53a2-47ef-a530-057897078de7
+2026-05-27 11:38:07,832 INFO app.services.worker_service Processing queued incident 767698bc-df7d-4e8f-95b1-e616c3f50232
+2026-05-27 11:38:07,842 INFO ai_troubleshooter Incident processing started
+2026-05-27 11:38:07,842 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 11:39:42,571 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 11:39:42,575 INFO ai_troubleshooter Incident processing completed
+2026-05-27 11:39:42,587 INFO app.services.worker_service Completed incident 767698bc-df7d-4e8f-95b1-e616c3f50232
+2026-05-27 11:39:43,595 INFO app.services.worker_service Processing queued incident f32ee287-2550-4f52-9fea-de1749b28df3
+2026-05-27 11:39:43,604 INFO ai_troubleshooter Incident processing started
+2026-05-27 11:39:43,604 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 11:41:24,967 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 11:41:24,970 INFO ai_troubleshooter Incident processing completed
+2026-05-27 11:41:24,981 INFO app.services.worker_service Completed incident f32ee287-2550-4f52-9fea-de1749b28df3
+2026-05-27 11:41:26,030 INFO app.services.worker_service Processing queued incident 4266fbc5-b0d3-433e-b4fc-2fb4d362381a
+2026-05-27 11:41:26,039 INFO ai_troubleshooter Incident processing started
+2026-05-27 11:41:26,039 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 11:42:37,498 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 11:42:37,500 INFO ai_troubleshooter Incident processing completed
+2026-05-27 11:42:37,509 INFO app.services.worker_service Completed incident 4266fbc5-b0d3-433e-b4fc-2fb4d362381a
+2026-05-27 11:42:38,584 INFO app.services.worker_service Processing queued incident fe02f566-440d-4640-8473-b0aa3c1b619a
+2026-05-27 11:42:38,593 INFO ai_troubleshooter Incident processing started
+2026-05-27 11:42:38,593 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 11:43:30,926 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 11:43:30,928 INFO ai_troubleshooter Incident processing completed
+2026-05-27 11:43:30,939 INFO app.services.worker_service Completed incident fe02f566-440d-4640-8473-b0aa3c1b619a
+2026-05-27 11:43:32,177 INFO app.services.worker_service Processing queued incident 39100b3f-fddb-4043-8373-5fa8e354de48
+2026-05-27 11:43:32,194 INFO app.services.worker_service Completed incident 39100b3f-fddb-4043-8373-5fa8e354de48
+2026-05-27 11:43:33,214 INFO app.services.worker_service Processing queued incident d3a8cd27-7df7-4e27-95fc-1223dfbf58dd
+2026-05-27 11:43:33,232 INFO app.services.worker_service Completed incident d3a8cd27-7df7-4e27-95fc-1223dfbf58dd
+2026-05-27 11:43:34,244 INFO app.services.worker_service Processing queued incident e4d12d73-afd2-4dd0-8195-57a439c0b737
+2026-05-27 11:43:34,260 INFO app.services.worker_service Completed incident e4d12d73-afd2-4dd0-8195-57a439c0b737
+2026-05-27 11:43:35,440 INFO app.services.worker_service Processing queued incident 60f2eb1a-a81e-4164-a5b4-bb51b74e9e18
+2026-05-27 11:43:35,455 INFO app.services.worker_service Completed incident 60f2eb1a-a81e-4164-a5b4-bb51b74e9e18
+2026-05-27 11:43:36,463 INFO app.services.worker_service Processing queued incident b083ee96-b091-491a-b5d2-a6b7c71a6bf1
+2026-05-27 11:43:36,480 INFO app.services.worker_service Completed incident b083ee96-b091-491a-b5d2-a6b7c71a6bf1
+2026-05-27 11:43:37,704 INFO app.services.worker_service Processing queued incident a812798f-f22a-4881-9c84-175ed0dbd3e6
+2026-05-27 11:43:37,713 INFO ai_troubleshooter Incident processing started
+2026-05-27 11:43:37,713 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 11:45:10,943 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 11:45:10,948 ERROR app.services.parser_service Failed to parse AI response: Invalid control character at: line 3 column 112 (char 434)
+2026-05-27 11:45:10,950 ERROR app.services.parser_service Raw response: ```json
+{
+  "root_cause": "The logs indicate a HTTP 502 Bad Gateway error, which suggests that the web server is unable to process the incoming request due to an internal problem. This could be caused by several issues such as misconfigured load balancer settings, network connectivity problems, or issues with upstream servers.",
+  "recommended_fix": "To fix this issue, you should check and verify the following configurations and settings:
+- Ensure that your load balancer is correctly configured to route requests to the appropriate backend servers.
+- Verify that all the backend servers are reachable and running properly. Check their health status using tools like `curl` or `ping`.
+- Confirm that there are no network issues between the load balancer and the backend servers."
+}
+```
+2026-05-27 11:45:10,951 INFO ai_troubleshooter Incident processing completed
+2026-05-27 11:45:10,960 INFO app.services.worker_service Completed incident a812798f-f22a-4881-9c84-175ed0dbd3e6
+2026-05-27 11:45:11,962 INFO app.services.worker_service Processing queued incident 537607f0-f738-4e4d-81ea-fc4108ea6323
+2026-05-27 11:45:11,973 INFO ai_troubleshooter Incident processing started
+2026-05-27 11:45:11,973 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 11:46:26,009 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 11:46:26,012 INFO ai_troubleshooter Incident processing completed
+2026-05-27 11:46:26,033 INFO app.services.worker_service Completed incident 537607f0-f738-4e4d-81ea-fc4108ea6323
+2026-05-27 11:46:27,300 INFO app.services.worker_service Processing queued incident e1f66167-0a2c-4b54-9e80-c953f5703fca
+2026-05-27 11:46:27,314 INFO ai_troubleshooter Incident processing started
+2026-05-27 11:46:27,314 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 11:47:26,309 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 11:47:26,312 INFO ai_troubleshooter Incident processing completed
+2026-05-27 11:47:26,323 INFO app.services.worker_service Completed incident e1f66167-0a2c-4b54-9e80-c953f5703fca
+2026-05-27 11:47:27,340 INFO app.services.worker_service Processing queued incident 1fe178d5-4df6-4a21-a6da-1f5303453b08
+2026-05-27 11:47:27,348 INFO ai_troubleshooter Incident processing started
+2026-05-27 11:47:27,349 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 11:48:50,539 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 11:48:50,542 INFO ai_troubleshooter Incident processing completed
+2026-05-27 11:48:50,557 INFO app.services.worker_service Completed incident 1fe178d5-4df6-4a21-a6da-1f5303453b08
+2026-05-27 11:48:51,582 INFO app.services.worker_service Processing queued incident 6f30341d-f217-42ab-8119-2108aa98625a
+2026-05-27 11:48:51,604 INFO app.services.worker_service Completed incident 6f30341d-f217-42ab-8119-2108aa98625a
+2026-05-27 11:48:52,607 INFO app.services.worker_service Processing queued incident 8ac0cbf2-cf85-430b-87cc-1cfe847bf059
+2026-05-27 11:48:52,626 INFO app.services.worker_service Completed incident 8ac0cbf2-cf85-430b-87cc-1cfe847bf059
+2026-05-27 11:48:53,631 INFO app.services.worker_service Processing queued incident e691a6c6-8ca0-4b26-af43-6d49bce3b483
+2026-05-27 11:48:53,656 INFO app.services.worker_service Completed incident e691a6c6-8ca0-4b26-af43-6d49bce3b483
+2026-05-27 11:48:54,725 INFO app.services.worker_service Processing queued incident 29764702-3f03-4120-ad09-84fec09872a8
+2026-05-27 11:48:54,742 INFO app.services.worker_service Completed incident 29764702-3f03-4120-ad09-84fec09872a8
+2026-05-27 11:48:55,902 INFO app.services.worker_service Processing queued incident 651100ff-0218-4d19-a4d1-c5e0897842dd
+2026-05-27 11:48:55,914 INFO ai_troubleshooter Incident processing started
+2026-05-27 11:48:55,914 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 11:50:23,537 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 11:50:23,538 INFO ai_troubleshooter Incident processing completed
+2026-05-27 11:50:23,547 INFO app.services.worker_service Completed incident 651100ff-0218-4d19-a4d1-c5e0897842dd
+2026-05-27 11:50:24,552 INFO app.services.worker_service Processing queued incident 7c515549-f372-4ea6-bcf3-87049a93cdc4
+2026-05-27 11:50:24,567 INFO ai_troubleshooter Incident processing started
+2026-05-27 11:50:24,568 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 11:51:35,276 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 11:51:35,278 INFO ai_troubleshooter Incident processing completed
+2026-05-27 11:51:35,287 INFO app.services.worker_service Completed incident 7c515549-f372-4ea6-bcf3-87049a93cdc4
+2026-05-27 11:51:36,487 INFO app.services.worker_service Processing queued incident 06bd3e05-7179-449b-9e61-fa8021a98bf8
+2026-05-27 11:51:36,496 INFO ai_troubleshooter Incident processing started
+2026-05-27 11:51:36,496 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 11:52:48,722 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 11:52:48,723 INFO ai_troubleshooter Incident processing completed
+2026-05-27 11:52:48,761 INFO app.services.worker_service Completed incident 06bd3e05-7179-449b-9e61-fa8021a98bf8
+2026-05-27 11:52:49,764 INFO app.services.worker_service Processing queued incident 11b8de42-762e-49a6-b322-9e8895fbce71
+2026-05-27 11:52:49,780 INFO ai_troubleshooter Incident processing started
+2026-05-27 11:52:49,780 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 11:53:42,808 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 11:53:42,810 INFO ai_troubleshooter Incident processing completed
+2026-05-27 11:53:42,818 INFO app.services.worker_service Completed incident 11b8de42-762e-49a6-b322-9e8895fbce71
+2026-05-27 11:53:43,820 INFO app.services.worker_service Processing queued incident 2f236b00-8eff-4313-bab8-d4055a2229d5
+2026-05-27 11:53:43,830 INFO ai_troubleshooter Incident processing started
+2026-05-27 11:53:43,830 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 11:54:54,071 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 11:54:54,076 INFO ai_troubleshooter Incident processing completed
+2026-05-27 11:54:54,087 INFO app.services.worker_service Completed incident 2f236b00-8eff-4313-bab8-d4055a2229d5
+2026-05-27 12:47:07,931 INFO ai_troubleshooter Initialize database
+2026-05-27 12:47:07,943 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-05-27 12:47:07,996 INFO app.services.worker_service Queue worker started
+2026-05-27 12:47:19,096 INFO ai_troubleshooter Worker started for srv-app-01
+2026-05-27 12:47:19,104 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,119 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,128 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,137 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,145 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,159 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,166 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,177 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,190 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,200 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,209 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,218 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,227 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,237 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,250 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,258 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,274 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,284 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,296 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,307 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,308 INFO ai_troubleshooter Worker completed for srv-app-01
+2026-05-27 12:47:19,309 INFO ai_troubleshooter Worker started for srv-web-01
+2026-05-27 12:47:19,318 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,325 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,333 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,341 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,349 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,355 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,363 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,370 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,371 INFO ai_troubleshooter Worker completed for srv-web-01
+2026-05-27 12:47:19,371 INFO ai_troubleshooter Worker started for srv-files-01
+2026-05-27 12:47:19,377 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,383 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,388 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,396 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,402 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,409 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,416 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,428 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,435 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,443 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,444 INFO ai_troubleshooter Worker completed for srv-files-01
+2026-05-27 12:47:19,444 INFO ai_troubleshooter Worker started for srv-build-01
+2026-05-27 12:47:19,450 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,457 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,465 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,472 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,478 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,484 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,491 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,498 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,505 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,505 INFO ai_troubleshooter Worker completed for srv-build-01
+2026-05-27 12:47:19,505 INFO ai_troubleshooter Worker started for srv-db-02
+2026-05-27 12:47:19,512 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,518 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,525 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,532 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,540 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,545 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,551 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,558 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,566 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,566 INFO ai_troubleshooter Worker completed for srv-db-02
+2026-05-27 12:47:19,566 INFO ai_troubleshooter Worker started for srv-monitor-01
+2026-05-27 12:47:19,573 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,580 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,588 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,595 INFO ai_troubleshooter save new incident
+2026-05-27 12:47:19,596 INFO ai_troubleshooter Worker completed for srv-monitor-01
+2026-05-27 12:47:19,597 INFO app.services.worker_service Processing queued incident 28a0ecff-85e9-49d9-9ca1-8d0e9f612bb6
+2026-05-27 12:47:19,607 INFO ai_troubleshooter Incident processing started
+2026-05-27 12:47:19,607 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 12:49:20,137 WARNING ai_troubleshooter AI request failed attempt 1: 
+2026-05-27 12:50:26,622 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 12:50:26,624 INFO ai_troubleshooter Incident processing completed
+2026-05-27 12:50:26,638 INFO app.services.worker_service Completed incident 28a0ecff-85e9-49d9-9ca1-8d0e9f612bb6
+2026-05-27 12:50:27,642 INFO app.services.worker_service Processing queued incident 6203d185-e333-49ef-bdae-d64b6e87965f
+2026-05-27 12:50:27,652 INFO ai_troubleshooter Incident processing started
+2026-05-27 12:50:27,652 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 12:51:24,805 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 12:51:24,807 INFO ai_troubleshooter Incident processing completed
+2026-05-27 12:51:24,819 INFO app.services.worker_service Completed incident 6203d185-e333-49ef-bdae-d64b6e87965f
+2026-05-27 12:51:25,825 INFO app.services.worker_service Processing queued incident 03ea3ac5-fb84-4538-9e18-56131c929cf7
+2026-05-27 12:51:25,836 INFO ai_troubleshooter Incident processing started
+2026-05-27 12:51:25,837 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 12:52:33,626 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 12:52:33,627 INFO ai_troubleshooter Incident processing completed
+2026-05-27 12:52:33,638 INFO app.services.worker_service Completed incident 03ea3ac5-fb84-4538-9e18-56131c929cf7
+2026-05-27 12:52:34,716 INFO app.services.worker_service Processing queued incident df840fd1-35a9-4a1f-9a37-169d3d7cefe4
+2026-05-27 12:52:34,725 INFO ai_troubleshooter Incident processing started
+2026-05-27 12:52:34,726 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 12:54:07,086 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 12:54:07,088 INFO ai_troubleshooter Incident processing completed
+2026-05-27 12:54:07,100 INFO app.services.worker_service Completed incident df840fd1-35a9-4a1f-9a37-169d3d7cefe4
+2026-05-27 12:54:08,105 INFO app.services.worker_service Processing queued incident 6cb353e9-d772-4509-a95a-951c6ca02b8b
+2026-05-27 12:54:08,114 INFO ai_troubleshooter Incident processing started
+2026-05-27 12:54:08,115 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 13:05:26,970 INFO ai_troubleshooter Initialize database
+2026-05-27 13:05:26,981 INFO ai_troubleshooter Recovered 1 interrupted incidents
+2026-05-27 13:05:27,010 INFO app.services.worker_service Queue worker started
+2026-05-27 13:05:27,028 INFO app.services.worker_service Processing queued incident 6cb353e9-d772-4509-a95a-951c6ca02b8b
+2026-05-27 13:05:27,037 INFO ai_troubleshooter Incident processing started
+2026-05-27 13:05:27,038 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 13:59:02,560 INFO ai_troubleshooter Initialize database
+2026-05-27 13:59:02,574 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-05-27 13:59:02,613 INFO app.services.worker_service Queue worker started
+2026-05-27 13:59:14,899 INFO ai_troubleshooter Worker started for srv-app-01
+2026-05-27 13:59:14,909 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:14,919 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:14,928 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:14,943 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:14,953 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:14,970 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:14,980 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:14,991 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:15,000 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:15,009 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:15,017 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:15,025 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:15,026 INFO ai_troubleshooter Worker completed for srv-app-01
+2026-05-27 13:59:15,026 INFO ai_troubleshooter Worker started for srv-web-01
+2026-05-27 13:59:15,036 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:15,043 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:15,053 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:15,061 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:15,061 INFO ai_troubleshooter Worker completed for srv-web-01
+2026-05-27 13:59:15,062 INFO ai_troubleshooter Worker started for srv-files-01
+2026-05-27 13:59:15,076 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:15,084 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:15,095 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:15,103 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:15,112 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:15,122 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:15,122 INFO ai_troubleshooter Worker completed for srv-files-01
+2026-05-27 13:59:15,122 INFO ai_troubleshooter Worker started for srv-build-01
+2026-05-27 13:59:15,130 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:15,138 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:15,145 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:15,153 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:15,160 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:15,167 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:15,167 INFO ai_troubleshooter Worker completed for srv-build-01
+2026-05-27 13:59:15,168 INFO ai_troubleshooter Worker started for srv-db-02
+2026-05-27 13:59:15,176 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:15,184 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:15,192 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:15,205 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:15,214 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:15,224 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:15,225 INFO ai_troubleshooter Worker completed for srv-db-02
+2026-05-27 13:59:15,226 INFO ai_troubleshooter Worker started for srv-monitor-01
+2026-05-27 13:59:15,234 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:15,244 INFO ai_troubleshooter save new incident
+2026-05-27 13:59:15,245 INFO ai_troubleshooter Worker completed for srv-monitor-01
+2026-05-27 13:59:15,683 INFO app.services.worker_service Processing queued incident 207fb040-9068-442f-b11e-50cfdcad7da8
+2026-05-27 13:59:15,698 INFO ai_troubleshooter Incident processing started
+2026-05-27 13:59:15,699 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 14:00:45,742 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 14:00:45,749 INFO ai_troubleshooter Incident processing completed
+2026-05-27 14:00:45,759 INFO app.services.worker_service Completed incident 207fb040-9068-442f-b11e-50cfdcad7da8
+2026-05-27 14:00:46,837 INFO app.services.worker_service Processing queued incident b30f5e4b-3c5c-4301-922e-8d895597fca4
+2026-05-27 14:00:46,847 INFO ai_troubleshooter Incident processing started
+2026-05-27 14:00:46,847 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 14:01:56,700 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 14:01:56,701 INFO ai_troubleshooter Incident processing completed
+2026-05-27 14:01:56,720 INFO app.services.worker_service Completed incident b30f5e4b-3c5c-4301-922e-8d895597fca4
+2026-05-27 14:01:57,724 INFO app.services.worker_service Processing queued incident 07adee08-0f8a-45bc-9a85-7f5272a4eaed
+2026-05-27 14:01:57,737 INFO ai_troubleshooter Incident processing started
+2026-05-27 14:01:57,737 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 14:03:03,522 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 14:03:03,530 INFO ai_troubleshooter Incident processing completed
+2026-05-27 14:03:03,540 INFO app.services.worker_service Completed incident 07adee08-0f8a-45bc-9a85-7f5272a4eaed
+2026-05-27 14:03:04,544 INFO app.services.worker_service Processing queued incident 5c3363c6-b157-43b7-8fbb-39f38f8dcea8
+2026-05-27 14:03:04,553 INFO ai_troubleshooter Incident processing started
+2026-05-27 14:03:04,553 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 14:03:50,951 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 14:03:50,952 INFO ai_troubleshooter Incident processing completed
+2026-05-27 14:03:50,963 INFO app.services.worker_service Completed incident 5c3363c6-b157-43b7-8fbb-39f38f8dcea8
+2026-05-27 14:03:51,967 INFO app.services.worker_service Processing queued incident 0d4e0e6b-3456-4f73-96c8-c3f99c492945
+2026-05-27 14:03:51,975 INFO ai_troubleshooter Incident processing started
+2026-05-27 14:03:51,976 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 14:04:51,464 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 14:04:51,465 INFO ai_troubleshooter Incident processing completed
+2026-05-27 14:04:51,474 INFO app.services.worker_service Completed incident 0d4e0e6b-3456-4f73-96c8-c3f99c492945
+2026-05-27 14:04:52,506 INFO app.services.worker_service Processing queued incident cb5eacbb-c41e-4298-b5b6-5a2d938e3560
+2026-05-27 14:04:52,517 INFO ai_troubleshooter Incident processing started
+2026-05-27 14:04:52,518 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 14:05:50,416 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 14:05:50,419 INFO ai_troubleshooter Incident processing completed
+2026-05-27 14:05:50,433 INFO app.services.worker_service Completed incident cb5eacbb-c41e-4298-b5b6-5a2d938e3560
+2026-05-27 14:05:51,485 INFO app.services.worker_service Processing queued incident f78b8fff-d05a-4de8-91f8-2093d1055327
+2026-05-27 14:05:51,492 INFO ai_troubleshooter Incident processing started
+2026-05-27 14:05:51,492 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 14:06:56,801 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 14:06:56,803 INFO ai_troubleshooter Incident processing completed
+2026-05-27 14:06:56,815 INFO app.services.worker_service Completed incident f78b8fff-d05a-4de8-91f8-2093d1055327
+2026-05-27 14:06:57,902 INFO app.services.worker_service Processing queued incident 540610ad-8939-41b8-8818-af52e3cfc123
+2026-05-27 14:06:57,916 INFO ai_troubleshooter Incident processing started
+2026-05-27 14:06:57,916 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 14:07:52,984 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 14:07:52,986 INFO ai_troubleshooter Incident processing completed
+2026-05-27 14:07:52,994 INFO app.services.worker_service Completed incident 540610ad-8939-41b8-8818-af52e3cfc123
+2026-05-27 14:07:54,004 INFO app.services.worker_service Processing queued incident 1a20a0c0-4268-4647-8217-94c9f5be7ca8
+2026-05-27 14:07:54,013 INFO ai_troubleshooter Incident processing started
+2026-05-27 14:07:54,013 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 14:08:48,926 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 14:08:48,927 INFO ai_troubleshooter Incident processing completed
+2026-05-27 14:08:48,937 INFO app.services.worker_service Completed incident 1a20a0c0-4268-4647-8217-94c9f5be7ca8
+2026-05-27 14:08:49,941 INFO app.services.worker_service Processing queued incident c0b5a688-e010-4927-8268-a6224cd5de6f
+2026-05-27 14:08:49,952 INFO ai_troubleshooter Incident processing started
+2026-05-27 14:08:49,953 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 14:09:49,519 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 14:09:49,521 INFO ai_troubleshooter Incident processing completed
+2026-05-27 14:09:49,530 INFO app.services.worker_service Completed incident c0b5a688-e010-4927-8268-a6224cd5de6f
+2026-05-27 14:09:50,534 INFO app.services.worker_service Processing queued incident 05cd766e-9259-4003-93c6-3f0b3bdbe879
+2026-05-27 14:09:50,548 INFO app.services.worker_service Completed incident 05cd766e-9259-4003-93c6-3f0b3bdbe879
+2026-05-27 14:09:51,559 INFO app.services.worker_service Processing queued incident 59941147-fa31-42bc-9f68-5e665e100115
+2026-05-27 14:09:51,579 INFO app.services.worker_service Completed incident 59941147-fa31-42bc-9f68-5e665e100115
+2026-05-27 14:09:52,589 INFO app.services.worker_service Processing queued incident b82e9379-860d-4ae9-932b-46073ba23564
+2026-05-27 14:09:52,597 INFO ai_troubleshooter Incident processing started
+2026-05-27 14:09:52,597 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 14:11:30,491 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 14:11:30,493 INFO ai_troubleshooter Incident processing completed
+2026-05-27 14:11:30,511 INFO app.services.worker_service Completed incident b82e9379-860d-4ae9-932b-46073ba23564
+2026-05-27 14:11:31,554 INFO app.services.worker_service Processing queued incident 1affd280-8407-4d35-abf9-a44e8d08703b
+2026-05-27 14:11:31,562 INFO ai_troubleshooter Incident processing started
+2026-05-27 14:11:31,562 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 14:13:12,070 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 14:13:12,072 INFO ai_troubleshooter Incident processing completed
+2026-05-27 14:13:12,083 INFO app.services.worker_service Completed incident 1affd280-8407-4d35-abf9-a44e8d08703b
+2026-05-27 14:13:13,084 INFO app.services.worker_service Processing queued incident 470156f6-1c61-4551-a234-630e83ef3775
+2026-05-27 14:13:13,103 INFO app.services.worker_service Completed incident 470156f6-1c61-4551-a234-630e83ef3775
+2026-05-27 14:13:14,223 INFO app.services.worker_service Processing queued incident ff8d9d8d-131d-4c86-b51b-dbd65162063a
+2026-05-27 14:13:14,242 INFO app.services.worker_service Completed incident ff8d9d8d-131d-4c86-b51b-dbd65162063a
+2026-05-27 14:13:15,248 INFO app.services.worker_service Processing queued incident 2227391e-e523-4736-8c33-7b118d839224
+2026-05-27 14:13:15,260 INFO ai_troubleshooter Incident processing started
+2026-05-27 14:13:15,260 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 14:14:18,182 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 14:14:18,184 INFO ai_troubleshooter Incident processing completed
+2026-05-27 14:14:18,192 INFO app.services.worker_service Completed incident 2227391e-e523-4736-8c33-7b118d839224
+2026-05-27 14:14:19,294 INFO app.services.worker_service Processing queued incident eacd3832-438a-427b-bd4e-02e557a9a686
+2026-05-27 14:14:19,306 INFO ai_troubleshooter Incident processing started
+2026-05-27 14:14:19,306 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 14:16:18,511 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 14:16:18,513 INFO ai_troubleshooter Incident processing completed
+2026-05-27 14:16:18,530 INFO app.services.worker_service Completed incident eacd3832-438a-427b-bd4e-02e557a9a686
+2026-05-27 14:16:19,635 INFO app.services.worker_service Processing queued incident 2ae5bcf4-4530-4d8e-b4f9-82610291556c
+2026-05-27 14:16:19,645 INFO ai_troubleshooter Incident processing started
+2026-05-27 14:16:19,645 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 14:17:45,913 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 14:17:45,917 INFO ai_troubleshooter Incident processing completed
+2026-05-27 14:17:45,926 INFO app.services.worker_service Completed incident 2ae5bcf4-4530-4d8e-b4f9-82610291556c
+2026-05-27 14:17:47,003 INFO app.services.worker_service Processing queued incident 6a811238-e217-4611-95e4-57d19ad92dfc
+2026-05-27 14:17:47,018 INFO ai_troubleshooter Incident processing started
+2026-05-27 14:17:47,023 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 14:18:49,510 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 14:18:49,511 INFO ai_troubleshooter Incident processing completed
+2026-05-27 14:18:49,532 INFO app.services.worker_service Completed incident 6a811238-e217-4611-95e4-57d19ad92dfc
+2026-05-27 14:18:50,629 INFO app.services.worker_service Processing queued incident 89fd95f3-0eae-4bad-832a-a10c8e069421
+2026-05-27 14:18:50,639 INFO ai_troubleshooter Incident processing started
+2026-05-27 14:18:50,639 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 14:19:37,025 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 14:19:37,028 INFO ai_troubleshooter Incident processing completed
+2026-05-27 14:19:37,042 INFO app.services.worker_service Completed incident 89fd95f3-0eae-4bad-832a-a10c8e069421
+2026-05-27 14:19:38,142 INFO app.services.worker_service Processing queued incident 0ab242aa-f999-45f1-ba08-84c34382a286
+2026-05-27 14:19:38,151 INFO ai_troubleshooter Incident processing started
+2026-05-27 14:19:38,151 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 14:20:49,444 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 14:20:49,446 INFO ai_troubleshooter Incident processing completed
+2026-05-27 14:20:49,461 INFO app.services.worker_service Completed incident 0ab242aa-f999-45f1-ba08-84c34382a286
+2026-05-27 14:20:50,642 INFO app.services.worker_service Processing queued incident 3068d158-08a5-41e4-bf23-bd222de1f82b
+2026-05-27 14:20:50,651 INFO ai_troubleshooter Incident processing started
+2026-05-27 14:20:50,651 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 14:21:58,408 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 14:21:58,410 INFO ai_troubleshooter Incident processing completed
+2026-05-27 14:21:58,419 INFO app.services.worker_service Completed incident 3068d158-08a5-41e4-bf23-bd222de1f82b
+2026-05-27 14:21:59,421 INFO app.services.worker_service Processing queued incident c372bc35-bdb0-4abe-9039-36873f692c79
+2026-05-27 14:21:59,430 INFO ai_troubleshooter Incident processing started
+2026-05-27 14:21:59,430 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 14:23:22,540 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 14:23:22,541 INFO ai_troubleshooter Incident processing completed
+2026-05-27 14:23:22,554 INFO app.services.worker_service Completed incident c372bc35-bdb0-4abe-9039-36873f692c79
+2026-05-27 14:23:23,556 INFO app.services.worker_service Processing queued incident fd3a0f95-0461-4c16-9376-ec5778ba183a
+2026-05-27 14:23:23,568 INFO ai_troubleshooter Incident processing started
+2026-05-27 14:23:23,568 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 14:24:50,390 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 14:24:50,392 INFO ai_troubleshooter Incident processing completed
+2026-05-27 14:24:50,400 INFO app.services.worker_service Completed incident fd3a0f95-0461-4c16-9376-ec5778ba183a
+2026-05-27 14:24:51,505 INFO app.services.worker_service Processing queued incident cc9c9da0-c43b-4239-b7b2-7d1627552696
+2026-05-27 14:24:51,518 INFO ai_troubleshooter Incident processing started
+2026-05-27 14:24:51,518 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 14:26:06,644 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 14:26:06,645 INFO ai_troubleshooter Incident processing completed
+2026-05-27 14:26:06,658 INFO app.services.worker_service Completed incident cc9c9da0-c43b-4239-b7b2-7d1627552696
+2026-05-27 14:26:07,723 INFO app.services.worker_service Processing queued incident 8ee1b3b8-8029-4dd8-92b0-0f6ba9328729
+2026-05-27 14:26:07,733 INFO ai_troubleshooter Incident processing started
+2026-05-27 14:26:07,734 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 14:27:19,645 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 14:27:19,647 INFO ai_troubleshooter Incident processing completed
+2026-05-27 14:27:19,657 INFO app.services.worker_service Completed incident 8ee1b3b8-8029-4dd8-92b0-0f6ba9328729
+2026-05-27 14:27:20,659 INFO app.services.worker_service Processing queued incident fc5ea140-80b6-4b0e-8a96-a5d870b91d74
+2026-05-27 14:27:20,671 INFO ai_troubleshooter Incident processing started
+2026-05-27 14:27:20,671 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 14:28:50,269 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 14:28:50,274 INFO ai_troubleshooter Incident processing completed
+2026-05-27 14:28:50,281 INFO app.services.worker_service Completed incident fc5ea140-80b6-4b0e-8a96-a5d870b91d74
+2026-05-27 14:28:51,284 INFO app.services.worker_service Processing queued incident 446d620e-c8b4-4bdc-aa28-7a22c50834b1
+2026-05-27 14:28:51,294 INFO ai_troubleshooter Incident processing started
+2026-05-27 14:28:51,294 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 14:30:00,410 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 14:30:00,412 INFO ai_troubleshooter Incident processing completed
+2026-05-27 14:30:00,422 INFO app.services.worker_service Completed incident 446d620e-c8b4-4bdc-aa28-7a22c50834b1
+2026-05-27 14:30:01,527 INFO app.services.worker_service Processing queued incident dc429bf4-8dbc-4f09-afee-94ff767a522c
+2026-05-27 14:30:01,536 INFO ai_troubleshooter Incident processing started
+2026-05-27 14:30:01,536 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 14:30:47,070 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 14:30:47,073 INFO ai_troubleshooter Incident processing completed
+2026-05-27 14:30:47,082 INFO app.services.worker_service Completed incident dc429bf4-8dbc-4f09-afee-94ff767a522c
+2026-05-27 14:30:48,524 INFO app.services.worker_service Processing queued incident 2341143c-2f07-4931-a444-5727f55b81ff
+2026-05-27 14:30:48,537 INFO ai_troubleshooter Incident processing started
+2026-05-27 14:30:48,538 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 14:31:32,761 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 14:31:32,764 INFO ai_troubleshooter Incident processing completed
+2026-05-27 14:31:32,771 INFO app.services.worker_service Completed incident 2341143c-2f07-4931-a444-5727f55b81ff
+2026-05-27 14:31:34,895 INFO app.services.worker_service Processing queued incident 7250d6ce-d7ab-47c2-a1db-2ae32ff3c6e5
+2026-05-27 14:31:34,902 INFO ai_troubleshooter Incident processing started
+2026-05-27 14:31:34,902 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 14:32:27,983 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 14:32:27,986 INFO ai_troubleshooter Incident processing completed
+2026-05-27 14:32:27,995 INFO app.services.worker_service Completed incident 7250d6ce-d7ab-47c2-a1db-2ae32ff3c6e5
+2026-05-27 14:32:29,198 INFO app.services.worker_service Processing queued incident 80aef45e-1928-4923-a914-2ca7d50a7e71
+2026-05-27 14:32:29,208 INFO ai_troubleshooter Incident processing started
+2026-05-27 14:32:29,209 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 14:33:29,840 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 14:33:29,846 INFO ai_troubleshooter Incident processing completed
+2026-05-27 14:33:29,860 INFO app.services.worker_service Completed incident 80aef45e-1928-4923-a914-2ca7d50a7e71
+2026-05-27 14:33:30,933 INFO app.services.worker_service Processing queued incident e13a9d2c-27a0-47e6-aa85-f3f5a7338779
+2026-05-27 14:33:30,945 INFO ai_troubleshooter Incident processing started
+2026-05-27 14:33:30,945 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 14:34:08,874 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 14:34:08,875 INFO ai_troubleshooter Incident processing completed
+2026-05-27 14:34:08,886 INFO app.services.worker_service Completed incident e13a9d2c-27a0-47e6-aa85-f3f5a7338779
+2026-05-27 14:34:09,926 INFO app.services.worker_service Processing queued incident 1f30e2e8-3377-4860-8afa-e263a1f94b8c
+2026-05-27 14:34:09,935 INFO ai_troubleshooter Incident processing started
+2026-05-27 14:34:09,935 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-27 14:35:21,837 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 14:35:21,840 INFO ai_troubleshooter Incident processing completed
+2026-05-27 14:35:21,862 INFO app.services.worker_service Completed incident 1f30e2e8-3377-4860-8afa-e263a1f94b8c
+2026-05-27 14:35:23,019 INFO app.services.worker_service Processing queued incident 108815e5-df6b-4507-b137-963d3b97b059
+2026-05-27 14:35:23,067 INFO app.services.worker_service Completed incident 108815e5-df6b-4507-b137-963d3b97b059
+2026-05-27 14:55:02,565 INFO ai_troubleshooter Initialize database
+2026-05-27 14:55:02,567 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-05-27 14:55:02,619 INFO app.services.worker_service Queue worker started
+2026-05-27 15:04:48,732 INFO ai_troubleshooter Initialize database
+2026-05-27 15:04:48,734 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-05-27 15:04:48,755 INFO app.services.worker_service Queue worker started
+2026-05-28 09:04:04,910 INFO ai_troubleshooter Initialize database
+2026-05-28 09:04:04,913 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-05-28 09:04:04,943 INFO app.services.worker_service Queue worker started

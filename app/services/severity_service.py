@@ -5,16 +5,18 @@ def get_worst_severity(incidents):
 
 def classify_severity(logs):
 
-    joined_logs = logs.lower()
+    state = logs.get("state", "").upper()
+
+    #joined_logs = logs.lower()
     #print(joined_logs)  
 
-    if "critical" in joined_logs:
+    if state in ("CRITICAL", "DOWN"): 
         return "critical"
 
-    if "warning" in joined_logs:
+    if state == "WARNING":
         return "high"
 
-    if "ok" in joined_logs or "recovery" in joined_logs:
+    if state in ("OK", "RECOVERY", "UP"):
         return "low"
 
     return "medium"

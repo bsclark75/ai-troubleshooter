@@ -11,7 +11,20 @@ def parse_logs(logs):
             timestamp, notification_type, alert_data = match.groups()
             parts = alert_data.split(";")
 
-            if notification_type in ("SERVICE NOTIFICATION", "HOST NOTIFICATION"):
+            if notification_type == "SERVICE NOTIFICATION":
+                incident = {
+                "raw": log,
+                "timestamp": timestamp,
+                "notification_type": notification_type,
+                "contact": parts[0],
+                "host": parts[1],
+                "service": parts[2],
+                "state": parts[3],
+                "command": parts[4],
+                "message": parts[5] if len(parts) > 5 else ""
+                }
+
+            elif notification_type == "HOST NOTIFICATION":
                 incident = {
                     "raw": log,
                     "timestamp": timestamp,
@@ -19,11 +32,9 @@ def parse_logs(logs):
                     "contact": parts[0],
                     "host": parts[1],
                     "state": parts[2],
-                    "attempt": parts[3],
-                    "details": parts[4] if len(parts) > 4 else "",
-                    "message": parts[5] if len(parts) > 5 else ""
-                }
-                incidents.append(incident)
+                    "command": parts[3],
+                    "message": parts[4] if len(parts) > 4 else ""
+                    }
 
             elif notification_type in ("SERVICE ALERT", "HOST ALERT"):
                 incident = {
