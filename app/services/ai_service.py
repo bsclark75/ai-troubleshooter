@@ -9,10 +9,11 @@ async def analyze_logs(
     known_issue=None,
     similar_incident=None
 ):
-
+    #print(logs)
     logger.info("Start to analyze logs with AI")
-    joined_logs = "\n".join(logs)
-
+    joined_logs = ""
+    for k,v in logs.items():
+        joined_logs += f"{k}: {v}\n"
     context = ""
 
     if known_issue:
@@ -45,6 +46,7 @@ Return ONLY valid JSON.
 Logs:
 {joined_logs}
 """
+    print(f"{prompt}")
     async with httpx.AsyncClient(timeout=120) as client:
         for attempt in range(3):
 

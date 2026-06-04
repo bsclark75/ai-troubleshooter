@@ -22,14 +22,13 @@ def create_incident(logs):
     host = logs["host"]
 
     save_incident(
-        logs["raw"],
+        logs,
         "low",
         {},
         incident_id,
         host,
         status="queued"
     )
-    
     return incident_id
 
 

@@ -6,19 +6,11 @@ def load_knowledge():
     with open("knowledge/common_issues.json") as f:
         return json.load(f)
 
-
-import json
-
-
-def load_knowledge():
-
-    with open("knowledge/common_issues.json") as f:
-        return json.load(f)
-
-
 def find_known_issue(logs):
 
-    joined_logs = " ".join(logs).lower()
+    joined_logs = " ".join(
+        str(value) for value in logs.values()
+    ).lower()
 
     issues = load_knowledge()
 
@@ -28,14 +20,21 @@ def find_known_issue(logs):
             "icmp",
             "no answer from host"
         ],
-        "disk full": [
+
+        "disk space": [
             "disk full",
-            "no space left"
+            "no space left",
+            "disk warning",
+            "disk critical",
+            "free space",
+            "root partition"
         ],
+
         "high cpu": [
             "high cpu",
             "cpu usage",
-            "cpu load"
+            "cpu load",
+            "load average"
         ]
     }
 

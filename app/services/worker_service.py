@@ -25,7 +25,7 @@ async def queue_worker():
 
                 update_incident_status(incident['incident_id'], "processing")
                 
-
+                #print(f"I am going to try to process this: {incident['logs']}")
                 result = await process_incident(
                     incident["logs"]
                 )
@@ -57,7 +57,7 @@ async def queue_worker():
                         "queued", delay
                         )
 
-                    logger.warning(
+                    logger.exception(
                         f"Retrying incident "
                         f"{incident['incident_id']}"
                         )

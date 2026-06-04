@@ -618,3 +618,1100 @@
 2026-05-28 09:04:04,910 INFO ai_troubleshooter Initialize database
 2026-05-28 09:04:04,913 INFO ai_troubleshooter Recovered 0 interrupted incidents
 2026-05-28 09:04:04,943 INFO app.services.worker_service Queue worker started
+2026-05-28 10:13:45,614 INFO ai_troubleshooter Initialize database
+2026-05-28 10:13:45,615 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-05-28 10:13:45,675 INFO app.services.worker_service Queue worker started
+2026-05-28 10:16:10,170 INFO ai_troubleshooter Initialize database
+2026-05-28 10:16:10,172 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-05-28 10:16:10,219 INFO app.services.worker_service Queue worker started
+2026-05-28 10:18:31,127 INFO ai_troubleshooter Initialize database
+2026-05-28 10:18:31,128 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-05-28 10:18:31,156 INFO app.services.worker_service Queue worker started
+2026-05-28 10:20:19,679 INFO ai_troubleshooter Initialize database
+2026-05-28 10:20:19,680 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-05-28 10:20:19,703 INFO app.services.worker_service Queue worker started
+2026-05-28 10:23:49,236 INFO ai_troubleshooter Initialize database
+2026-05-28 10:23:49,237 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-05-28 10:23:49,262 INFO app.services.worker_service Queue worker started
+2026-05-28 10:36:55,090 INFO ai_troubleshooter Initialize database
+2026-05-28 10:36:55,091 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-05-28 10:36:55,122 INFO app.services.worker_service Queue worker started
+2026-05-28 10:37:01,460 INFO ai_troubleshooter Worker started for localhost
+2026-05-28 10:37:01,473 INFO ai_troubleshooter save new incident
+2026-05-28 10:37:01,486 INFO ai_troubleshooter save new incident
+2026-05-28 10:37:01,499 INFO ai_troubleshooter save new incident
+2026-05-28 10:37:01,513 INFO ai_troubleshooter save new incident
+2026-05-28 10:37:01,528 INFO ai_troubleshooter save new incident
+2026-05-28 10:37:01,537 INFO ai_troubleshooter save new incident
+2026-05-28 10:37:01,549 INFO ai_troubleshooter save new incident
+2026-05-28 10:37:01,562 INFO ai_troubleshooter save new incident
+2026-05-28 10:37:01,577 INFO ai_troubleshooter save new incident
+2026-05-28 10:37:01,577 INFO ai_troubleshooter Worker completed for localhost
+2026-05-28 10:37:02,237 INFO app.services.worker_service Processing queued incident b5cbe18f-56b8-4056-8b26-c9f57c9462c7
+2026-05-28 10:37:02,260 WARNING app.services.worker_service Retrying incident b5cbe18f-56b8-4056-8b26-c9f57c9462c7
+2026-05-28 10:37:03,375 INFO app.services.worker_service Processing queued incident b5cbe18f-56b8-4056-8b26-c9f57c9462c7
+2026-05-28 10:37:03,399 WARNING app.services.worker_service Retrying incident b5cbe18f-56b8-4056-8b26-c9f57c9462c7
+2026-05-28 10:37:04,429 INFO app.services.worker_service Processing queued incident b5cbe18f-56b8-4056-8b26-c9f57c9462c7
+2026-05-28 10:37:04,448 ERROR app.services.worker_service Incident permanently failed b5cbe18f-56b8-4056-8b26-c9f57c9462c7
+2026-05-28 10:37:05,555 INFO app.services.worker_service Processing queued incident 4db1aeb5-f137-4ff8-b0b6-b078383bb2f8
+2026-05-28 10:37:05,577 WARNING app.services.worker_service Retrying incident 4db1aeb5-f137-4ff8-b0b6-b078383bb2f8
+2026-05-28 10:37:06,579 INFO app.services.worker_service Processing queued incident 4db1aeb5-f137-4ff8-b0b6-b078383bb2f8
+2026-05-28 10:37:06,602 WARNING app.services.worker_service Retrying incident 4db1aeb5-f137-4ff8-b0b6-b078383bb2f8
+2026-05-28 10:37:07,605 INFO app.services.worker_service Processing queued incident 4db1aeb5-f137-4ff8-b0b6-b078383bb2f8
+2026-05-28 10:37:07,624 ERROR app.services.worker_service Incident permanently failed 4db1aeb5-f137-4ff8-b0b6-b078383bb2f8
+2026-05-28 10:37:08,629 INFO app.services.worker_service Processing queued incident c73bb039-f57c-4cfd-b6f9-18be848c5f47
+2026-05-28 10:37:08,647 WARNING app.services.worker_service Retrying incident c73bb039-f57c-4cfd-b6f9-18be848c5f47
+2026-05-28 10:37:09,792 INFO app.services.worker_service Processing queued incident c73bb039-f57c-4cfd-b6f9-18be848c5f47
+2026-05-28 10:37:09,816 WARNING app.services.worker_service Retrying incident c73bb039-f57c-4cfd-b6f9-18be848c5f47
+2026-05-28 10:37:10,832 INFO app.services.worker_service Processing queued incident c73bb039-f57c-4cfd-b6f9-18be848c5f47
+2026-05-28 10:37:10,855 ERROR app.services.worker_service Incident permanently failed c73bb039-f57c-4cfd-b6f9-18be848c5f47
+2026-05-28 10:37:11,867 INFO app.services.worker_service Processing queued incident dcf7b925-d1c3-4f4f-8d1a-4d5059b49ec3
+2026-05-28 10:37:11,890 WARNING app.services.worker_service Retrying incident dcf7b925-d1c3-4f4f-8d1a-4d5059b49ec3
+2026-05-28 10:37:12,935 INFO app.services.worker_service Processing queued incident dcf7b925-d1c3-4f4f-8d1a-4d5059b49ec3
+2026-05-28 10:37:12,954 WARNING app.services.worker_service Retrying incident dcf7b925-d1c3-4f4f-8d1a-4d5059b49ec3
+2026-05-28 10:37:13,975 INFO app.services.worker_service Processing queued incident dcf7b925-d1c3-4f4f-8d1a-4d5059b49ec3
+2026-05-28 10:37:13,994 ERROR app.services.worker_service Incident permanently failed dcf7b925-d1c3-4f4f-8d1a-4d5059b49ec3
+2026-05-28 10:37:15,305 INFO app.services.worker_service Processing queued incident ee895364-ced8-4aca-b84d-ee05932814d1
+2026-05-28 10:37:15,328 WARNING app.services.worker_service Retrying incident ee895364-ced8-4aca-b84d-ee05932814d1
+2026-05-28 10:37:16,425 INFO app.services.worker_service Processing queued incident ee895364-ced8-4aca-b84d-ee05932814d1
+2026-05-28 10:37:16,448 WARNING app.services.worker_service Retrying incident ee895364-ced8-4aca-b84d-ee05932814d1
+2026-05-28 10:37:17,796 INFO app.services.worker_service Processing queued incident ee895364-ced8-4aca-b84d-ee05932814d1
+2026-05-28 10:37:17,819 ERROR app.services.worker_service Incident permanently failed ee895364-ced8-4aca-b84d-ee05932814d1
+2026-05-28 10:37:18,938 INFO app.services.worker_service Processing queued incident fd27fef2-cfce-4d2c-a161-588bc7a3541d
+2026-05-28 10:37:18,958 WARNING app.services.worker_service Retrying incident fd27fef2-cfce-4d2c-a161-588bc7a3541d
+2026-05-28 10:37:20,079 INFO app.services.worker_service Processing queued incident fd27fef2-cfce-4d2c-a161-588bc7a3541d
+2026-05-28 10:37:20,100 WARNING app.services.worker_service Retrying incident fd27fef2-cfce-4d2c-a161-588bc7a3541d
+2026-05-28 10:37:21,232 INFO app.services.worker_service Processing queued incident fd27fef2-cfce-4d2c-a161-588bc7a3541d
+2026-05-28 10:37:21,262 ERROR app.services.worker_service Incident permanently failed fd27fef2-cfce-4d2c-a161-588bc7a3541d
+2026-05-28 10:37:22,264 INFO app.services.worker_service Processing queued incident 29ae149b-bb95-49ee-9923-2594d0027758
+2026-05-28 10:37:22,299 WARNING app.services.worker_service Retrying incident 29ae149b-bb95-49ee-9923-2594d0027758
+2026-05-28 10:37:23,302 INFO app.services.worker_service Processing queued incident 29ae149b-bb95-49ee-9923-2594d0027758
+2026-05-28 10:37:23,326 WARNING app.services.worker_service Retrying incident 29ae149b-bb95-49ee-9923-2594d0027758
+2026-05-28 10:37:24,330 INFO app.services.worker_service Processing queued incident 29ae149b-bb95-49ee-9923-2594d0027758
+2026-05-28 10:37:24,351 ERROR app.services.worker_service Incident permanently failed 29ae149b-bb95-49ee-9923-2594d0027758
+2026-05-28 10:37:25,390 INFO app.services.worker_service Processing queued incident 7fe54b48-28e7-4012-b89c-db04c9ceb756
+2026-05-28 10:37:25,420 WARNING app.services.worker_service Retrying incident 7fe54b48-28e7-4012-b89c-db04c9ceb756
+2026-05-28 10:37:26,422 INFO app.services.worker_service Processing queued incident 7fe54b48-28e7-4012-b89c-db04c9ceb756
+2026-05-28 10:37:26,448 WARNING app.services.worker_service Retrying incident 7fe54b48-28e7-4012-b89c-db04c9ceb756
+2026-05-28 10:37:27,575 INFO app.services.worker_service Processing queued incident 7fe54b48-28e7-4012-b89c-db04c9ceb756
+2026-05-28 10:37:27,605 ERROR app.services.worker_service Incident permanently failed 7fe54b48-28e7-4012-b89c-db04c9ceb756
+2026-05-28 10:37:28,789 INFO app.services.worker_service Processing queued incident 8ccd315f-522b-44c4-8e9b-aef88817ba7d
+2026-05-28 10:37:28,815 WARNING app.services.worker_service Retrying incident 8ccd315f-522b-44c4-8e9b-aef88817ba7d
+2026-05-28 10:37:29,817 INFO app.services.worker_service Processing queued incident 8ccd315f-522b-44c4-8e9b-aef88817ba7d
+2026-05-28 10:37:29,841 WARNING app.services.worker_service Retrying incident 8ccd315f-522b-44c4-8e9b-aef88817ba7d
+2026-05-28 10:37:30,848 INFO app.services.worker_service Processing queued incident 8ccd315f-522b-44c4-8e9b-aef88817ba7d
+2026-05-28 10:37:30,877 ERROR app.services.worker_service Incident permanently failed 8ccd315f-522b-44c4-8e9b-aef88817ba7d
+2026-05-28 10:46:55,323 INFO ai_troubleshooter Initialize database
+2026-05-28 10:46:55,324 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-05-28 10:46:55,346 INFO app.services.worker_service Queue worker started
+2026-05-28 10:47:11,526 INFO ai_troubleshooter Worker started for localhost
+2026-05-28 10:47:11,535 INFO ai_troubleshooter save new incident
+2026-05-28 10:47:11,546 INFO ai_troubleshooter save new incident
+2026-05-28 10:47:11,558 INFO ai_troubleshooter save new incident
+2026-05-28 10:47:11,568 INFO ai_troubleshooter save new incident
+2026-05-28 10:47:11,575 INFO ai_troubleshooter save new incident
+2026-05-28 10:47:11,582 INFO ai_troubleshooter save new incident
+2026-05-28 10:47:11,590 INFO ai_troubleshooter save new incident
+2026-05-28 10:47:11,598 INFO ai_troubleshooter save new incident
+2026-05-28 10:47:11,610 INFO ai_troubleshooter save new incident
+2026-05-28 10:47:11,611 INFO ai_troubleshooter Worker completed for localhost
+2026-05-28 10:47:12,529 INFO app.services.worker_service Processing queued incident 94d55cd7-cd16-470d-853e-83c5732e20cf
+2026-05-28 10:47:12,548 ERROR app.services.worker_service Retrying incident 94d55cd7-cd16-470d-853e-83c5732e20cf
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 10, in process_incident
+    severity = classify_severity(logs)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/severity_service.py", line 8, in classify_severity
+    state = logs.get("state", "").upper()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2026-05-28 10:47:13,552 INFO app.services.worker_service Processing queued incident 94d55cd7-cd16-470d-853e-83c5732e20cf
+2026-05-28 10:47:13,581 ERROR app.services.worker_service Retrying incident 94d55cd7-cd16-470d-853e-83c5732e20cf
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 10, in process_incident
+    severity = classify_severity(logs)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/severity_service.py", line 8, in classify_severity
+    state = logs.get("state", "").upper()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2026-05-28 10:47:14,583 INFO app.services.worker_service Processing queued incident 94d55cd7-cd16-470d-853e-83c5732e20cf
+2026-05-28 10:47:14,600 ERROR app.services.worker_service Incident permanently failed 94d55cd7-cd16-470d-853e-83c5732e20cf
+2026-05-28 10:47:15,610 INFO app.services.worker_service Processing queued incident 0342d536-fc9c-4fa6-a5db-c0f7a05b4abd
+2026-05-28 10:47:15,632 ERROR app.services.worker_service Retrying incident 0342d536-fc9c-4fa6-a5db-c0f7a05b4abd
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 10, in process_incident
+    severity = classify_severity(logs)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/severity_service.py", line 8, in classify_severity
+    state = logs.get("state", "").upper()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2026-05-28 10:47:16,639 INFO app.services.worker_service Processing queued incident 0342d536-fc9c-4fa6-a5db-c0f7a05b4abd
+2026-05-28 10:47:16,662 ERROR app.services.worker_service Retrying incident 0342d536-fc9c-4fa6-a5db-c0f7a05b4abd
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 10, in process_incident
+    severity = classify_severity(logs)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/severity_service.py", line 8, in classify_severity
+    state = logs.get("state", "").upper()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2026-05-28 10:47:17,849 INFO app.services.worker_service Processing queued incident 0342d536-fc9c-4fa6-a5db-c0f7a05b4abd
+2026-05-28 10:47:17,874 ERROR app.services.worker_service Incident permanently failed 0342d536-fc9c-4fa6-a5db-c0f7a05b4abd
+2026-05-28 10:52:13,346 INFO ai_troubleshooter Initialize database
+2026-05-28 10:52:13,348 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-05-28 10:52:13,396 INFO app.services.worker_service Queue worker started
+2026-05-28 10:52:13,421 INFO app.services.worker_service Processing queued incident 908b6144-942d-4c66-beaf-e8c99c3e7928
+2026-05-28 10:52:13,455 ERROR app.services.worker_service Retrying incident 908b6144-942d-4c66-beaf-e8c99c3e7928
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 10, in process_incident
+    severity = classify_severity(logs)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/severity_service.py", line 8, in classify_severity
+    state = logs.get("state", "").upper()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2026-05-28 10:52:14,499 INFO app.services.worker_service Processing queued incident 908b6144-942d-4c66-beaf-e8c99c3e7928
+2026-05-28 10:52:14,539 ERROR app.services.worker_service Retrying incident 908b6144-942d-4c66-beaf-e8c99c3e7928
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 10, in process_incident
+    severity = classify_severity(logs)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/severity_service.py", line 8, in classify_severity
+    state = logs.get("state", "").upper()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2026-05-28 10:55:51,422 INFO ai_troubleshooter Initialize database
+2026-05-28 10:55:51,422 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-05-28 10:55:51,451 INFO app.services.worker_service Queue worker started
+2026-05-28 10:55:51,466 INFO app.services.worker_service Processing queued incident 908b6144-942d-4c66-beaf-e8c99c3e7928
+2026-05-28 10:55:51,492 ERROR app.services.worker_service Incident permanently failed 908b6144-942d-4c66-beaf-e8c99c3e7928
+2026-05-28 10:55:52,495 INFO app.services.worker_service Processing queued incident 7cb14191-39e9-48d4-adba-f58c921b45f8
+2026-05-28 10:55:52,534 ERROR app.services.worker_service Retrying incident 7cb14191-39e9-48d4-adba-f58c921b45f8
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 10, in process_incident
+    severity = classify_severity(logs)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/severity_service.py", line 8, in classify_severity
+    state = logs.get("state", "").upper()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2026-05-28 11:22:15,768 INFO ai_troubleshooter Initialize database
+2026-05-28 11:22:15,774 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-05-28 11:22:15,798 INFO app.services.worker_service Queue worker started
+2026-05-28 11:22:15,825 INFO app.services.worker_service Processing queued incident 7cb14191-39e9-48d4-adba-f58c921b45f8
+2026-05-28 11:22:15,853 ERROR app.services.worker_service Retrying incident 7cb14191-39e9-48d4-adba-f58c921b45f8
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 10, in process_incident
+    severity = classify_severity(logs)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/severity_service.py", line 8, in classify_severity
+    state = logs.get("state", "").upper()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2026-05-28 11:22:16,859 INFO app.services.worker_service Processing queued incident 7cb14191-39e9-48d4-adba-f58c921b45f8
+2026-05-28 11:22:16,886 ERROR app.services.worker_service Incident permanently failed 7cb14191-39e9-48d4-adba-f58c921b45f8
+2026-05-28 11:22:17,895 INFO app.services.worker_service Processing queued incident 7cdc9cf5-eeb0-4995-b169-599054356729
+2026-05-28 11:22:17,925 ERROR app.services.worker_service Retrying incident 7cdc9cf5-eeb0-4995-b169-599054356729
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 10, in process_incident
+    severity = classify_severity(logs)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/severity_service.py", line 8, in classify_severity
+    state = logs.get("state", "").upper()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2026-05-28 11:22:39,767 INFO ai_troubleshooter Initialize database
+2026-05-28 11:22:39,768 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-05-28 11:22:39,806 INFO app.services.worker_service Queue worker started
+2026-05-28 11:22:39,826 INFO app.services.worker_service Processing queued incident 7cdc9cf5-eeb0-4995-b169-599054356729
+2026-05-28 11:22:39,854 ERROR app.services.worker_service Retrying incident 7cdc9cf5-eeb0-4995-b169-599054356729
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 10, in process_incident
+    severity = classify_severity(logs)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/severity_service.py", line 8, in classify_severity
+    state = logs.get("state", "").upper()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2026-05-28 11:22:40,960 INFO app.services.worker_service Processing queued incident 7cdc9cf5-eeb0-4995-b169-599054356729
+2026-05-28 11:22:40,992 ERROR app.services.worker_service Incident permanently failed 7cdc9cf5-eeb0-4995-b169-599054356729
+2026-05-28 11:22:42,010 INFO app.services.worker_service Processing queued incident 6f7469ff-2992-4650-84e3-3ea405f49fa2
+2026-05-28 11:22:42,033 ERROR app.services.worker_service Retrying incident 6f7469ff-2992-4650-84e3-3ea405f49fa2
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 10, in process_incident
+    severity = classify_severity(logs)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/severity_service.py", line 8, in classify_severity
+    state = logs.get("state", "").upper()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2026-05-28 11:22:43,253 INFO app.services.worker_service Processing queued incident 6f7469ff-2992-4650-84e3-3ea405f49fa2
+2026-05-28 11:22:43,280 ERROR app.services.worker_service Retrying incident 6f7469ff-2992-4650-84e3-3ea405f49fa2
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 10, in process_incident
+    severity = classify_severity(logs)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/severity_service.py", line 8, in classify_severity
+    state = logs.get("state", "").upper()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2026-05-28 11:22:44,573 INFO app.services.worker_service Processing queued incident 6f7469ff-2992-4650-84e3-3ea405f49fa2
+2026-05-28 11:22:44,596 ERROR app.services.worker_service Incident permanently failed 6f7469ff-2992-4650-84e3-3ea405f49fa2
+2026-05-28 11:22:45,599 INFO app.services.worker_service Processing queued incident 6d9137b6-217f-4866-a001-a2a58c91d2dd
+2026-05-28 11:22:45,624 ERROR app.services.worker_service Retrying incident 6d9137b6-217f-4866-a001-a2a58c91d2dd
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 10, in process_incident
+    severity = classify_severity(logs)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/severity_service.py", line 8, in classify_severity
+    state = logs.get("state", "").upper()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2026-05-28 11:22:46,885 INFO app.services.worker_service Processing queued incident 6d9137b6-217f-4866-a001-a2a58c91d2dd
+2026-05-28 11:22:46,915 ERROR app.services.worker_service Retrying incident 6d9137b6-217f-4866-a001-a2a58c91d2dd
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 10, in process_incident
+    severity = classify_severity(logs)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/severity_service.py", line 8, in classify_severity
+    state = logs.get("state", "").upper()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2026-05-28 11:22:47,920 INFO app.services.worker_service Processing queued incident 6d9137b6-217f-4866-a001-a2a58c91d2dd
+2026-05-28 11:22:47,942 ERROR app.services.worker_service Incident permanently failed 6d9137b6-217f-4866-a001-a2a58c91d2dd
+2026-05-28 11:22:48,946 INFO app.services.worker_service Processing queued incident a4028d60-d1b2-4dcb-85b1-0f967c213c1d
+2026-05-28 11:22:48,973 ERROR app.services.worker_service Retrying incident a4028d60-d1b2-4dcb-85b1-0f967c213c1d
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 10, in process_incident
+    severity = classify_severity(logs)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/severity_service.py", line 8, in classify_severity
+    state = logs.get("state", "").upper()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2026-05-28 11:22:49,993 INFO app.services.worker_service Processing queued incident a4028d60-d1b2-4dcb-85b1-0f967c213c1d
+2026-05-28 11:22:50,020 ERROR app.services.worker_service Retrying incident a4028d60-d1b2-4dcb-85b1-0f967c213c1d
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 10, in process_incident
+    severity = classify_severity(logs)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/severity_service.py", line 8, in classify_severity
+    state = logs.get("state", "").upper()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2026-05-28 11:22:51,048 INFO app.services.worker_service Processing queued incident a4028d60-d1b2-4dcb-85b1-0f967c213c1d
+2026-05-28 11:22:51,078 ERROR app.services.worker_service Incident permanently failed a4028d60-d1b2-4dcb-85b1-0f967c213c1d
+2026-05-28 11:22:52,086 INFO app.services.worker_service Processing queued incident 4b698306-cfe3-4b7a-bd94-fbac47e6c004
+2026-05-28 11:22:52,113 ERROR app.services.worker_service Retrying incident 4b698306-cfe3-4b7a-bd94-fbac47e6c004
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 10, in process_incident
+    severity = classify_severity(logs)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/severity_service.py", line 8, in classify_severity
+    state = logs.get("state", "").upper()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2026-05-28 11:22:53,116 INFO app.services.worker_service Processing queued incident 4b698306-cfe3-4b7a-bd94-fbac47e6c004
+2026-05-28 11:22:53,144 ERROR app.services.worker_service Retrying incident 4b698306-cfe3-4b7a-bd94-fbac47e6c004
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 10, in process_incident
+    severity = classify_severity(logs)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/severity_service.py", line 8, in classify_severity
+    state = logs.get("state", "").upper()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2026-05-28 11:22:54,245 INFO app.services.worker_service Processing queued incident 4b698306-cfe3-4b7a-bd94-fbac47e6c004
+2026-05-28 11:22:54,268 ERROR app.services.worker_service Incident permanently failed 4b698306-cfe3-4b7a-bd94-fbac47e6c004
+2026-05-28 11:23:44,127 INFO ai_troubleshooter Worker started for localhost
+2026-05-28 11:23:44,141 INFO ai_troubleshooter save new incident
+2026-05-28 11:23:44,149 INFO ai_troubleshooter save new incident
+2026-05-28 11:23:44,160 INFO ai_troubleshooter save new incident
+2026-05-28 11:23:44,171 INFO ai_troubleshooter save new incident
+2026-05-28 11:23:44,181 INFO ai_troubleshooter save new incident
+2026-05-28 11:23:44,190 INFO ai_troubleshooter save new incident
+2026-05-28 11:23:44,200 INFO ai_troubleshooter save new incident
+2026-05-28 11:23:44,212 INFO ai_troubleshooter save new incident
+2026-05-28 11:23:44,221 INFO ai_troubleshooter save new incident
+2026-05-28 11:23:44,222 INFO ai_troubleshooter Worker completed for localhost
+2026-05-28 11:23:45,092 INFO app.services.worker_service Processing queued incident c88fb17f-192f-41ca-b1cc-bfb4ae43c0aa
+2026-05-28 11:23:45,115 ERROR app.services.worker_service Retrying incident c88fb17f-192f-41ca-b1cc-bfb4ae43c0aa
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 10, in process_incident
+    severity = classify_severity(logs)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/severity_service.py", line 8, in classify_severity
+    state = logs.get("state", "").upper()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2026-05-28 11:23:46,123 INFO app.services.worker_service Processing queued incident c88fb17f-192f-41ca-b1cc-bfb4ae43c0aa
+2026-05-28 11:23:46,142 ERROR app.services.worker_service Retrying incident c88fb17f-192f-41ca-b1cc-bfb4ae43c0aa
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 10, in process_incident
+    severity = classify_severity(logs)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/severity_service.py", line 8, in classify_severity
+    state = logs.get("state", "").upper()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2026-05-28 11:23:47,218 INFO app.services.worker_service Processing queued incident c88fb17f-192f-41ca-b1cc-bfb4ae43c0aa
+2026-05-28 11:23:47,247 ERROR app.services.worker_service Incident permanently failed c88fb17f-192f-41ca-b1cc-bfb4ae43c0aa
+2026-05-28 11:23:48,382 INFO app.services.worker_service Processing queued incident 7646af85-75ce-48b1-962b-ba58f6484e53
+2026-05-28 11:23:48,421 ERROR app.services.worker_service Retrying incident 7646af85-75ce-48b1-962b-ba58f6484e53
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 10, in process_incident
+    severity = classify_severity(logs)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/severity_service.py", line 8, in classify_severity
+    state = logs.get("state", "").upper()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2026-05-28 11:23:49,464 INFO app.services.worker_service Processing queued incident 7646af85-75ce-48b1-962b-ba58f6484e53
+2026-05-28 11:23:49,497 ERROR app.services.worker_service Retrying incident 7646af85-75ce-48b1-962b-ba58f6484e53
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 10, in process_incident
+    severity = classify_severity(logs)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/severity_service.py", line 8, in classify_severity
+    state = logs.get("state", "").upper()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2026-05-28 11:23:50,594 INFO app.services.worker_service Processing queued incident 7646af85-75ce-48b1-962b-ba58f6484e53
+2026-05-28 11:23:50,618 ERROR app.services.worker_service Incident permanently failed 7646af85-75ce-48b1-962b-ba58f6484e53
+2026-05-28 11:23:51,624 INFO app.services.worker_service Processing queued incident 6d96c439-7f80-4983-9602-006754b21566
+2026-05-28 11:23:51,657 ERROR app.services.worker_service Retrying incident 6d96c439-7f80-4983-9602-006754b21566
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 10, in process_incident
+    severity = classify_severity(logs)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/severity_service.py", line 8, in classify_severity
+    state = logs.get("state", "").upper()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2026-05-28 11:25:58,868 INFO ai_troubleshooter Initialize database
+2026-05-28 11:25:58,869 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-05-28 11:25:58,906 INFO app.services.worker_service Queue worker started
+2026-05-28 11:25:58,930 INFO app.services.worker_service Processing queued incident 6d96c439-7f80-4983-9602-006754b21566
+2026-05-28 11:25:58,951 ERROR app.services.worker_service Retrying incident 6d96c439-7f80-4983-9602-006754b21566
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 10, in process_incident
+    severity = classify_severity(logs)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/severity_service.py", line 8, in classify_severity
+    state = logs.get("state", "").upper()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2026-05-28 11:26:00,027 INFO app.services.worker_service Processing queued incident 6d96c439-7f80-4983-9602-006754b21566
+2026-05-28 11:26:00,058 ERROR app.services.worker_service Incident permanently failed 6d96c439-7f80-4983-9602-006754b21566
+2026-05-28 11:28:54,348 INFO ai_troubleshooter Initialize database
+2026-05-28 11:28:54,349 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-05-28 11:28:54,379 INFO app.services.worker_service Queue worker started
+2026-05-28 11:28:54,400 INFO app.services.worker_service Processing queued incident bf96998e-fdba-4646-91e1-3da8dbab484f
+2026-05-28 11:28:54,425 ERROR app.services.worker_service Retrying incident bf96998e-fdba-4646-91e1-3da8dbab484f
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 10, in process_incident
+    severity = classify_severity(logs)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/severity_service.py", line 9, in classify_severity
+    state = logs.get("state", "").upper()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2026-05-28 11:28:55,428 INFO app.services.worker_service Processing queued incident bf96998e-fdba-4646-91e1-3da8dbab484f
+2026-05-28 11:28:55,458 ERROR app.services.worker_service Retrying incident bf96998e-fdba-4646-91e1-3da8dbab484f
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 10, in process_incident
+    severity = classify_severity(logs)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/severity_service.py", line 9, in classify_severity
+    state = logs.get("state", "").upper()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2026-05-28 11:28:56,500 INFO app.services.worker_service Processing queued incident bf96998e-fdba-4646-91e1-3da8dbab484f
+2026-05-28 11:28:56,529 ERROR app.services.worker_service Incident permanently failed bf96998e-fdba-4646-91e1-3da8dbab484f
+2026-05-28 11:28:57,573 INFO app.services.worker_service Processing queued incident fe3a78b2-62ff-47ab-af17-9d9c5e44236b
+2026-05-28 11:28:57,602 ERROR app.services.worker_service Retrying incident fe3a78b2-62ff-47ab-af17-9d9c5e44236b
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 10, in process_incident
+    severity = classify_severity(logs)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/severity_service.py", line 9, in classify_severity
+    state = logs.get("state", "").upper()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2026-05-28 11:28:58,742 INFO app.services.worker_service Processing queued incident fe3a78b2-62ff-47ab-af17-9d9c5e44236b
+2026-05-28 11:28:58,770 ERROR app.services.worker_service Retrying incident fe3a78b2-62ff-47ab-af17-9d9c5e44236b
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 10, in process_incident
+    severity = classify_severity(logs)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/severity_service.py", line 9, in classify_severity
+    state = logs.get("state", "").upper()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2026-05-28 11:28:59,813 INFO app.services.worker_service Processing queued incident fe3a78b2-62ff-47ab-af17-9d9c5e44236b
+2026-05-28 11:28:59,841 ERROR app.services.worker_service Incident permanently failed fe3a78b2-62ff-47ab-af17-9d9c5e44236b
+2026-05-28 11:29:00,851 INFO app.services.worker_service Processing queued incident c5b4b6e8-bada-47ea-9ab9-db1aadd75fbf
+2026-05-28 11:29:00,878 ERROR app.services.worker_service Retrying incident c5b4b6e8-bada-47ea-9ab9-db1aadd75fbf
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 10, in process_incident
+    severity = classify_severity(logs)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/severity_service.py", line 9, in classify_severity
+    state = logs.get("state", "").upper()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2026-05-28 11:29:01,883 INFO app.services.worker_service Processing queued incident c5b4b6e8-bada-47ea-9ab9-db1aadd75fbf
+2026-05-28 11:29:01,906 ERROR app.services.worker_service Retrying incident c5b4b6e8-bada-47ea-9ab9-db1aadd75fbf
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 10, in process_incident
+    severity = classify_severity(logs)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/severity_service.py", line 9, in classify_severity
+    state = logs.get("state", "").upper()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2026-05-28 11:30:53,728 INFO ai_troubleshooter Initialize database
+2026-05-28 11:30:53,732 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-05-28 11:30:53,770 INFO app.services.worker_service Queue worker started
+2026-05-28 11:30:53,804 INFO app.services.worker_service Processing queued incident c5b4b6e8-bada-47ea-9ab9-db1aadd75fbf
+2026-05-28 11:30:53,826 ERROR app.services.worker_service Incident permanently failed c5b4b6e8-bada-47ea-9ab9-db1aadd75fbf
+2026-05-28 11:30:54,904 INFO app.services.worker_service Processing queued incident 2ae9fe03-2c8c-4335-bd9d-35d29724f5da
+2026-05-28 11:30:54,928 ERROR app.services.worker_service Retrying incident 2ae9fe03-2c8c-4335-bd9d-35d29724f5da
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 10, in process_incident
+    severity = classify_severity(logs)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/severity_service.py", line 9, in classify_severity
+    state = logs.get("state", "").upper()
+            ^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2026-05-28 11:42:11,002 INFO ai_troubleshooter Initialize database
+2026-05-28 11:42:11,018 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-05-28 11:42:11,042 INFO app.services.worker_service Queue worker started
+2026-05-28 11:42:16,992 INFO ai_troubleshooter Worker started for localhost
+2026-05-28 11:42:17,004 INFO ai_troubleshooter save new incident
+2026-05-28 11:42:17,013 INFO ai_troubleshooter save new incident
+2026-05-28 11:42:17,021 INFO ai_troubleshooter save new incident
+2026-05-28 11:42:17,030 INFO ai_troubleshooter save new incident
+2026-05-28 11:42:17,040 INFO ai_troubleshooter save new incident
+2026-05-28 11:42:17,049 INFO ai_troubleshooter save new incident
+2026-05-28 11:42:17,058 INFO ai_troubleshooter save new incident
+2026-05-28 11:42:17,066 INFO ai_troubleshooter save new incident
+2026-05-28 11:42:17,075 INFO ai_troubleshooter save new incident
+2026-05-28 11:42:17,076 INFO ai_troubleshooter Worker completed for localhost
+2026-05-28 11:42:17,129 INFO app.services.worker_service Processing queued incident f7fee659-77c2-4611-8868-722a8d3f4718
+2026-05-28 11:42:17,157 INFO app.services.worker_service Completed incident f7fee659-77c2-4611-8868-722a8d3f4718
+2026-05-28 11:42:18,159 INFO app.services.worker_service Processing queued incident a9b3eab9-cf14-4499-9279-964668a22e5e
+2026-05-28 11:42:18,174 INFO app.services.worker_service Completed incident a9b3eab9-cf14-4499-9279-964668a22e5e
+2026-05-28 11:42:19,176 INFO app.services.worker_service Processing queued incident 4f614ac1-3672-425d-b404-1cd49df26ec1
+2026-05-28 11:42:19,193 INFO app.services.worker_service Completed incident 4f614ac1-3672-425d-b404-1cd49df26ec1
+2026-05-28 11:42:20,266 INFO app.services.worker_service Processing queued incident 905f9462-74ba-4b1f-9b50-663cb7ac8b27
+2026-05-28 11:42:20,290 INFO app.services.worker_service Completed incident 905f9462-74ba-4b1f-9b50-663cb7ac8b27
+2026-05-28 11:42:36,113 INFO ai_troubleshooter Initialize database
+2026-05-28 11:42:36,114 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-05-28 11:42:36,148 INFO app.services.worker_service Queue worker started
+2026-05-28 11:42:36,165 INFO app.services.worker_service Processing queued incident eb71011e-c000-48c2-97ee-828992fa7395
+2026-05-28 11:42:36,188 INFO app.services.worker_service Completed incident eb71011e-c000-48c2-97ee-828992fa7395
+2026-05-28 11:42:37,610 INFO app.services.worker_service Processing queued incident 7c52145b-599c-46b5-9f1b-9c4b4f33ea4d
+2026-05-28 11:42:37,622 INFO ai_troubleshooter Incident processing started
+2026-05-28 11:42:37,623 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-28 11:43:46,161 INFO ai_troubleshooter Initialize database
+2026-05-28 11:43:46,178 INFO ai_troubleshooter Recovered 1 interrupted incidents
+2026-05-28 11:43:46,246 INFO app.services.worker_service Queue worker started
+2026-05-28 11:43:46,266 INFO app.services.worker_service Processing queued incident 7c52145b-599c-46b5-9f1b-9c4b4f33ea4d
+2026-05-28 11:43:46,277 INFO ai_troubleshooter Incident processing started
+2026-05-28 11:43:46,277 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-28 11:44:22,069 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-28 11:44:22,071 INFO ai_troubleshooter Incident processing completed
+2026-05-28 11:44:22,079 INFO app.services.worker_service Completed incident 7c52145b-599c-46b5-9f1b-9c4b4f33ea4d
+2026-05-28 11:44:23,116 INFO app.services.worker_service Processing queued incident 6cf04862-f0e0-47d2-ae71-18e0129c3acd
+2026-05-28 11:44:23,129 INFO ai_troubleshooter Incident processing started
+2026-05-28 11:44:23,129 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-28 11:44:54,484 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-28 11:44:54,486 INFO ai_troubleshooter Incident processing completed
+2026-05-28 11:44:54,494 INFO app.services.worker_service Completed incident 6cf04862-f0e0-47d2-ae71-18e0129c3acd
+2026-05-28 11:44:55,496 INFO app.services.worker_service Processing queued incident d4c9b52a-851f-4777-835b-9f82c612610b
+2026-05-28 11:44:55,512 INFO app.services.worker_service Completed incident d4c9b52a-851f-4777-835b-9f82c612610b
+2026-05-28 11:44:56,516 INFO app.services.worker_service Processing queued incident 3db71aeb-a894-4682-b841-2173ba2e24ca
+2026-05-28 11:44:57,078 INFO app.services.worker_service Completed incident 3db71aeb-a894-4682-b841-2173ba2e24ca
+2026-05-28 11:53:52,048 INFO ai_troubleshooter Initialize database
+2026-05-28 11:53:52,049 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-05-28 11:53:52,072 INFO app.services.worker_service Queue worker started
+2026-05-28 11:54:11,780 INFO ai_troubleshooter Worker started for localhost
+2026-05-28 11:54:11,790 INFO ai_troubleshooter save new incident
+2026-05-28 11:54:11,799 INFO ai_troubleshooter save new incident
+2026-05-28 11:54:11,810 INFO ai_troubleshooter save new incident
+2026-05-28 11:54:11,820 INFO ai_troubleshooter save new incident
+2026-05-28 11:54:11,831 INFO ai_troubleshooter save new incident
+2026-05-28 11:54:11,842 INFO ai_troubleshooter save new incident
+2026-05-28 11:54:11,849 INFO ai_troubleshooter save new incident
+2026-05-28 11:54:11,861 INFO ai_troubleshooter save new incident
+2026-05-28 11:54:11,870 INFO ai_troubleshooter save new incident
+2026-05-28 11:54:11,870 INFO ai_troubleshooter Worker completed for localhost
+2026-05-28 11:54:12,539 INFO app.services.worker_service Processing queued incident 1e4987db-2f92-44a0-b836-c854be6ca1d8
+2026-05-28 11:54:12,554 INFO app.services.worker_service Completed incident 1e4987db-2f92-44a0-b836-c854be6ca1d8
+2026-05-28 11:54:13,556 INFO app.services.worker_service Processing queued incident 02c927fb-0131-446d-8e4e-e512371bf5c2
+2026-05-28 11:54:13,578 INFO app.services.worker_service Completed incident 02c927fb-0131-446d-8e4e-e512371bf5c2
+2026-05-28 11:54:14,580 INFO app.services.worker_service Processing queued incident df4726b8-fe48-43a4-bbe3-ae892fca2823
+2026-05-28 11:54:14,603 INFO app.services.worker_service Completed incident df4726b8-fe48-43a4-bbe3-ae892fca2823
+2026-05-28 11:54:15,620 INFO app.services.worker_service Processing queued incident eb16cfca-56e3-449e-a586-e4b3d03d0575
+2026-05-28 11:54:15,642 INFO app.services.worker_service Completed incident eb16cfca-56e3-449e-a586-e4b3d03d0575
+2026-05-28 11:54:16,864 INFO app.services.worker_service Processing queued incident eaa2ba3b-cb67-458e-9076-75f97c552914
+2026-05-28 11:54:16,880 INFO app.services.worker_service Completed incident eaa2ba3b-cb67-458e-9076-75f97c552914
+2026-05-28 11:54:17,886 INFO app.services.worker_service Processing queued incident 22117020-fd17-4823-9157-4c3fe0b84c04
+2026-05-28 11:54:17,895 INFO ai_troubleshooter Incident processing started
+2026-05-28 11:54:17,895 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-28 11:55:09,931 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-28 11:55:09,936 INFO ai_troubleshooter Incident processing completed
+2026-05-28 11:55:09,951 INFO app.services.worker_service Completed incident 22117020-fd17-4823-9157-4c3fe0b84c04
+2026-05-28 11:55:10,955 INFO app.services.worker_service Processing queued incident b0e8e608-5cd6-4320-8656-f8b2dc78da11
+2026-05-28 11:55:10,970 INFO ai_troubleshooter Incident processing started
+2026-05-28 11:55:10,970 INFO ai_troubleshooter Start to analyze logs with AI
+2026-05-28 11:56:08,415 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-28 11:56:08,417 INFO ai_troubleshooter Incident processing completed
+2026-05-28 11:56:08,429 INFO app.services.worker_service Completed incident b0e8e608-5cd6-4320-8656-f8b2dc78da11
+2026-05-28 11:56:09,439 INFO app.services.worker_service Processing queued incident 7b3aae18-bf5a-4c97-a132-645136788ef0
+2026-05-28 11:56:09,460 INFO app.services.worker_service Completed incident 7b3aae18-bf5a-4c97-a132-645136788ef0
+2026-05-28 11:56:10,462 INFO app.services.worker_service Processing queued incident 81e3731f-68b2-4d4f-b0e3-775e31e68231
+2026-05-28 11:56:10,488 INFO app.services.worker_service Completed incident 81e3731f-68b2-4d4f-b0e3-775e31e68231
+2026-05-28 12:08:55,185 INFO ai_troubleshooter Initialize database
+2026-05-28 12:08:55,186 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-05-28 12:08:55,207 INFO app.services.worker_service Queue worker started
+2026-05-28 12:11:03,818 INFO ai_troubleshooter Initialize database
+2026-05-28 12:11:03,819 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-05-28 12:11:03,840 INFO app.services.worker_service Queue worker started
+2026-05-28 12:17:05,930 INFO ai_troubleshooter Initialize database
+2026-05-28 12:17:05,931 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-05-28 12:17:05,953 INFO app.services.worker_service Queue worker started
+2026-06-03 12:17:07,233 INFO ai_troubleshooter Initialize database
+2026-06-03 12:17:07,237 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-03 12:17:07,293 INFO app.services.worker_service Queue worker started
+2026-06-03 12:18:05,334 INFO ai_troubleshooter Initialize database
+2026-06-03 12:18:05,345 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-03 12:18:05,370 INFO app.services.worker_service Queue worker started
+2026-06-03 12:18:25,678 INFO ai_troubleshooter Worker started for localhost
+2026-06-03 12:18:25,694 INFO ai_troubleshooter save new incident
+2026-06-03 12:18:25,704 INFO ai_troubleshooter save new incident
+2026-06-03 12:18:25,712 INFO ai_troubleshooter save new incident
+2026-06-03 12:18:25,720 INFO ai_troubleshooter save new incident
+2026-06-03 12:18:25,728 INFO ai_troubleshooter save new incident
+2026-06-03 12:18:25,739 INFO ai_troubleshooter save new incident
+2026-06-03 12:18:25,749 INFO ai_troubleshooter save new incident
+2026-06-03 12:18:25,756 INFO ai_troubleshooter save new incident
+2026-06-03 12:18:25,768 INFO ai_troubleshooter save new incident
+2026-06-03 12:18:25,779 INFO ai_troubleshooter save new incident
+2026-06-03 12:18:25,786 INFO ai_troubleshooter save new incident
+2026-06-03 12:18:25,796 INFO ai_troubleshooter save new incident
+2026-06-03 12:18:25,807 INFO ai_troubleshooter save new incident
+2026-06-03 12:18:25,814 INFO ai_troubleshooter save new incident
+2026-06-03 12:18:25,822 INFO ai_troubleshooter save new incident
+2026-06-03 12:18:25,832 INFO ai_troubleshooter save new incident
+2026-06-03 12:18:25,840 INFO ai_troubleshooter save new incident
+2026-06-03 12:18:25,849 INFO ai_troubleshooter save new incident
+2026-06-03 12:18:25,856 INFO ai_troubleshooter save new incident
+2026-06-03 12:18:25,865 INFO ai_troubleshooter save new incident
+2026-06-03 12:18:25,876 INFO ai_troubleshooter save new incident
+2026-06-03 12:18:25,885 INFO ai_troubleshooter save new incident
+2026-06-03 12:18:25,894 INFO ai_troubleshooter save new incident
+2026-06-03 12:18:25,903 INFO ai_troubleshooter save new incident
+2026-06-03 12:18:25,912 INFO ai_troubleshooter save new incident
+2026-06-03 12:18:25,923 INFO ai_troubleshooter save new incident
+2026-06-03 12:18:25,923 INFO ai_troubleshooter Worker completed for localhost
+2026-06-03 12:18:25,923 INFO ai_troubleshooter Worker started for briansclark.net
+2026-06-03 12:18:25,931 INFO ai_troubleshooter save new incident
+2026-06-03 12:18:25,943 INFO ai_troubleshooter save new incident
+2026-06-03 12:18:25,950 INFO ai_troubleshooter save new incident
+2026-06-03 12:18:25,956 INFO ai_troubleshooter save new incident
+2026-06-03 12:18:25,968 INFO ai_troubleshooter save new incident
+2026-06-03 12:18:25,968 INFO ai_troubleshooter Worker completed for briansclark.net
+2026-06-03 12:18:25,970 INFO app.services.worker_service Processing queued incident 47f6dd4d-2c8c-4bb8-aba2-0a6d4062db0a
+2026-06-03 12:18:25,988 INFO ai_troubleshooter Incident processing started
+2026-06-03 12:18:25,989 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 12:20:00,722 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 12:20:00,725 INFO ai_troubleshooter Incident processing completed
+2026-06-03 12:20:00,732 INFO app.services.worker_service Completed incident 47f6dd4d-2c8c-4bb8-aba2-0a6d4062db0a
+2026-06-03 12:20:01,747 INFO app.services.worker_service Processing queued incident 368e7fd0-4e9f-4eba-ae0d-0ea1f488ba03
+2026-06-03 12:20:01,761 INFO ai_troubleshooter Incident processing started
+2026-06-03 12:20:01,761 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 12:20:50,138 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 12:20:50,143 INFO ai_troubleshooter Incident processing completed
+2026-06-03 12:20:50,159 INFO app.services.worker_service Completed incident 368e7fd0-4e9f-4eba-ae0d-0ea1f488ba03
+2026-06-03 12:20:51,160 INFO app.services.worker_service Processing queued incident 99a2b9e6-650d-4b0f-89f6-e58576ac2709
+2026-06-03 12:20:51,168 INFO ai_troubleshooter Incident processing started
+2026-06-03 12:20:51,169 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 12:21:45,937 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 12:21:45,939 INFO ai_troubleshooter Incident processing completed
+2026-06-03 12:21:45,959 INFO app.services.worker_service Completed incident 99a2b9e6-650d-4b0f-89f6-e58576ac2709
+2026-06-03 12:21:46,962 INFO app.services.worker_service Processing queued incident 8c715a4e-4d08-4dcc-8827-eaf6accde739
+2026-06-03 12:21:46,979 INFO ai_troubleshooter Incident processing started
+2026-06-03 12:21:46,979 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 12:22:28,128 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 12:22:28,129 INFO ai_troubleshooter Incident processing completed
+2026-06-03 12:22:28,139 INFO app.services.worker_service Completed incident 8c715a4e-4d08-4dcc-8827-eaf6accde739
+2026-06-03 12:22:29,143 INFO app.services.worker_service Processing queued incident 8c132eaf-eede-4dc3-9010-cde298abe4cd
+2026-06-03 12:22:29,155 INFO ai_troubleshooter Incident processing started
+2026-06-03 12:22:29,156 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 12:23:14,095 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 12:23:14,097 INFO ai_troubleshooter Incident processing completed
+2026-06-03 12:23:14,110 INFO app.services.worker_service Completed incident 8c132eaf-eede-4dc3-9010-cde298abe4cd
+2026-06-03 12:23:15,119 INFO app.services.worker_service Processing queued incident 3abe4994-24eb-4b39-af49-a6740894f4ea
+2026-06-03 12:23:15,127 INFO ai_troubleshooter Incident processing started
+2026-06-03 12:23:15,127 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 12:24:16,350 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 12:24:16,352 INFO ai_troubleshooter Incident processing completed
+2026-06-03 12:24:16,360 INFO app.services.worker_service Completed incident 3abe4994-24eb-4b39-af49-a6740894f4ea
+2026-06-03 12:24:17,475 INFO app.services.worker_service Processing queued incident 73ab5f36-aac4-4898-af5d-bf9c67d240fa
+2026-06-03 12:24:17,483 INFO ai_troubleshooter Incident processing started
+2026-06-03 12:24:17,483 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 12:26:17,754 WARNING ai_troubleshooter AI request failed attempt 1: 
+2026-06-03 12:27:01,611 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 12:27:01,617 INFO ai_troubleshooter Incident processing completed
+2026-06-03 12:27:01,633 INFO app.services.worker_service Completed incident 73ab5f36-aac4-4898-af5d-bf9c67d240fa
+2026-06-03 12:27:02,886 INFO app.services.worker_service Processing queued incident ad60dc0b-db33-43fd-8e22-0c31025b4141
+2026-06-03 12:27:02,898 INFO ai_troubleshooter Incident processing started
+2026-06-03 12:27:02,898 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 12:27:57,790 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 12:27:57,795 INFO ai_troubleshooter Incident processing completed
+2026-06-03 12:27:57,815 INFO app.services.worker_service Completed incident ad60dc0b-db33-43fd-8e22-0c31025b4141
+2026-06-03 12:27:58,909 INFO app.services.worker_service Processing queued incident 3d4fb758-502a-438c-af48-44d6a0c77d93
+2026-06-03 12:27:58,917 INFO ai_troubleshooter Incident processing started
+2026-06-03 12:27:58,918 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 12:28:59,311 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 12:28:59,313 INFO ai_troubleshooter Incident processing completed
+2026-06-03 12:28:59,323 INFO app.services.worker_service Completed incident 3d4fb758-502a-438c-af48-44d6a0c77d93
+2026-06-03 12:29:00,325 INFO app.services.worker_service Processing queued incident 914dcd02-664e-47e2-a955-e043d414a390
+2026-06-03 12:29:00,332 INFO ai_troubleshooter Incident processing started
+2026-06-03 12:29:00,333 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 12:30:19,801 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 12:30:19,803 INFO ai_troubleshooter Incident processing completed
+2026-06-03 12:30:19,811 INFO app.services.worker_service Completed incident 914dcd02-664e-47e2-a955-e043d414a390
+2026-06-03 12:30:20,817 INFO app.services.worker_service Processing queued incident 90e034cc-6eb9-4843-a20b-f2412b4f6609
+2026-06-03 12:30:20,827 INFO ai_troubleshooter Incident processing started
+2026-06-03 12:30:20,827 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 12:31:01,419 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 12:31:01,421 INFO ai_troubleshooter Incident processing completed
+2026-06-03 12:31:01,430 INFO app.services.worker_service Completed incident 90e034cc-6eb9-4843-a20b-f2412b4f6609
+2026-06-03 12:31:02,472 INFO app.services.worker_service Processing queued incident 83e40f28-5e0a-4df7-b6c4-dedb8f52455c
+2026-06-03 12:31:02,482 INFO ai_troubleshooter Incident processing started
+2026-06-03 12:31:02,483 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 12:31:58,366 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 12:31:58,367 INFO ai_troubleshooter Incident processing completed
+2026-06-03 12:31:58,375 INFO app.services.worker_service Completed incident 83e40f28-5e0a-4df7-b6c4-dedb8f52455c
+2026-06-03 12:31:59,426 INFO app.services.worker_service Processing queued incident 274e46f2-c7c4-4ac8-bf8b-f871b626227f
+2026-06-03 12:31:59,435 INFO ai_troubleshooter Incident processing started
+2026-06-03 12:31:59,435 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 12:32:52,130 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 12:32:52,132 INFO ai_troubleshooter Incident processing completed
+2026-06-03 12:32:52,140 INFO app.services.worker_service Completed incident 274e46f2-c7c4-4ac8-bf8b-f871b626227f
+2026-06-03 12:32:53,154 INFO app.services.worker_service Processing queued incident 0047d44d-9498-4cb2-a303-8a1996f60081
+2026-06-03 12:32:53,164 INFO ai_troubleshooter Incident processing started
+2026-06-03 12:32:53,164 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 12:33:55,021 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 12:33:55,022 INFO ai_troubleshooter Incident processing completed
+2026-06-03 12:33:55,036 INFO app.services.worker_service Completed incident 0047d44d-9498-4cb2-a303-8a1996f60081
+2026-06-03 12:33:56,045 INFO app.services.worker_service Processing queued incident fe3e3e89-da41-4c2f-9b20-54b94929ae05
+2026-06-03 12:33:56,062 INFO app.services.worker_service Completed incident fe3e3e89-da41-4c2f-9b20-54b94929ae05
+2026-06-03 12:33:57,077 INFO app.services.worker_service Processing queued incident 99f4bdd3-1379-4f07-974f-febf604aeb74
+2026-06-03 12:33:57,095 INFO app.services.worker_service Completed incident 99f4bdd3-1379-4f07-974f-febf604aeb74
+2026-06-03 12:33:58,104 INFO app.services.worker_service Processing queued incident de614bf2-0fbd-487a-8ea7-f0a3260fe002
+2026-06-03 12:33:58,123 INFO app.services.worker_service Completed incident de614bf2-0fbd-487a-8ea7-f0a3260fe002
+2026-06-03 12:33:59,169 INFO app.services.worker_service Processing queued incident 60e5cc1d-091e-4766-b1ef-07d8f2fddcff
+2026-06-03 12:33:59,186 INFO app.services.worker_service Completed incident 60e5cc1d-091e-4766-b1ef-07d8f2fddcff
+2026-06-03 12:34:00,188 INFO app.services.worker_service Processing queued incident 5fdb0321-53ce-4cad-9344-30c5e0b6e49b
+2026-06-03 12:34:00,197 INFO ai_troubleshooter Incident processing started
+2026-06-03 12:34:00,197 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 12:34:43,144 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 12:34:43,147 INFO ai_troubleshooter Incident processing completed
+2026-06-03 12:34:43,157 INFO app.services.worker_service Completed incident 5fdb0321-53ce-4cad-9344-30c5e0b6e49b
+2026-06-03 12:34:44,353 INFO app.services.worker_service Processing queued incident 41558ce1-5b49-4f27-bd23-ef6a18c85ebb
+2026-06-03 12:34:44,373 INFO app.services.worker_service Completed incident 41558ce1-5b49-4f27-bd23-ef6a18c85ebb
+2026-06-03 12:34:45,375 INFO app.services.worker_service Processing queued incident 8bfb4d4d-79f2-42b8-9b57-212b91e35ffa
+2026-06-03 12:34:45,394 INFO app.services.worker_service Completed incident 8bfb4d4d-79f2-42b8-9b57-212b91e35ffa
+2026-06-03 12:34:46,563 INFO app.services.worker_service Processing queued incident ebf4d763-d166-4e8e-a8a7-111090a7e5c5
+2026-06-03 12:34:46,581 INFO app.services.worker_service Completed incident ebf4d763-d166-4e8e-a8a7-111090a7e5c5
+2026-06-03 12:34:47,582 INFO app.services.worker_service Processing queued incident 39fa63ea-8b04-4778-a177-16a117079668
+2026-06-03 12:34:47,591 INFO ai_troubleshooter Incident processing started
+2026-06-03 12:34:47,591 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 12:35:30,136 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 12:35:30,137 INFO ai_troubleshooter Incident processing completed
+2026-06-03 12:35:30,150 INFO app.services.worker_service Completed incident 39fa63ea-8b04-4778-a177-16a117079668
+2026-06-03 12:35:31,151 INFO app.services.worker_service Processing queued incident 655cf7ec-0077-45dd-bf14-6b5774fcabf3
+2026-06-03 12:35:31,159 INFO ai_troubleshooter Incident processing started
+2026-06-03 12:35:31,161 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 12:36:22,579 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 12:36:22,582 INFO ai_troubleshooter Incident processing completed
+2026-06-03 12:36:22,597 INFO app.services.worker_service Completed incident 655cf7ec-0077-45dd-bf14-6b5774fcabf3
+2026-06-03 12:36:23,676 INFO app.services.worker_service Processing queued incident 634f7dd8-f992-47a7-9199-d7ff9f811d03
+2026-06-03 12:36:23,684 INFO ai_troubleshooter Incident processing started
+2026-06-03 12:36:23,684 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 12:36:57,417 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 12:36:57,419 INFO ai_troubleshooter Incident processing completed
+2026-06-03 12:36:57,431 INFO app.services.worker_service Completed incident 634f7dd8-f992-47a7-9199-d7ff9f811d03
+2026-06-03 12:36:58,518 INFO app.services.worker_service Processing queued incident daf33a08-b4cb-4b27-812b-16fac0f6ad7b
+2026-06-03 12:36:58,540 INFO app.services.worker_service Completed incident daf33a08-b4cb-4b27-812b-16fac0f6ad7b
+2026-06-03 12:36:59,578 INFO app.services.worker_service Processing queued incident c4f60634-46b5-4fd0-bc18-400e60acebd6
+2026-06-03 12:36:59,588 INFO ai_troubleshooter Incident processing started
+2026-06-03 12:36:59,588 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 12:37:58,803 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 12:37:58,804 INFO ai_troubleshooter Incident processing completed
+2026-06-03 12:37:58,815 INFO app.services.worker_service Completed incident c4f60634-46b5-4fd0-bc18-400e60acebd6
+2026-06-03 12:37:59,926 INFO app.services.worker_service Processing queued incident 76af291e-04ba-472d-b8c1-79d1a2111bba
+2026-06-03 12:37:59,939 INFO ai_troubleshooter Incident processing started
+2026-06-03 12:37:59,940 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 12:38:53,095 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 12:38:53,096 INFO ai_troubleshooter Incident processing completed
+2026-06-03 12:38:53,104 INFO app.services.worker_service Completed incident 76af291e-04ba-472d-b8c1-79d1a2111bba
+2026-06-03 12:38:54,205 INFO app.services.worker_service Processing queued incident fc9e2fb7-7850-4993-808c-d30a6ba6f3d3
+2026-06-03 12:38:54,212 INFO ai_troubleshooter Incident processing started
+2026-06-03 12:38:54,212 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 12:39:42,228 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 12:39:42,230 INFO ai_troubleshooter Incident processing completed
+2026-06-03 12:39:42,252 INFO app.services.worker_service Completed incident fc9e2fb7-7850-4993-808c-d30a6ba6f3d3
+2026-06-03 12:39:43,404 INFO app.services.worker_service Processing queued incident 077f9123-5f4e-409a-b2e1-edbf9d758bcc
+2026-06-03 12:39:43,425 INFO app.services.worker_service Completed incident 077f9123-5f4e-409a-b2e1-edbf9d758bcc
+2026-06-03 12:39:44,503 INFO app.services.worker_service Processing queued incident 10166ebd-cc41-4d67-b9a8-ef147deb6506
+2026-06-03 12:39:44,535 INFO app.services.worker_service Completed incident 10166ebd-cc41-4d67-b9a8-ef147deb6506
+2026-06-03 15:03:36,200 INFO ai_troubleshooter Initialize database
+2026-06-03 15:03:36,212 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-03 15:03:36,267 INFO app.services.worker_service Queue worker started
+2026-06-03 15:03:59,293 INFO ai_troubleshooter Worker started for localhost
+2026-06-03 15:03:59,320 INFO ai_troubleshooter save new incident
+2026-06-03 15:03:59,331 INFO ai_troubleshooter save new incident
+2026-06-03 15:03:59,342 INFO ai_troubleshooter save new incident
+2026-06-03 15:03:59,361 INFO ai_troubleshooter save new incident
+2026-06-03 15:03:59,373 INFO ai_troubleshooter save new incident
+2026-06-03 15:03:59,386 INFO ai_troubleshooter save new incident
+2026-06-03 15:03:59,406 INFO ai_troubleshooter save new incident
+2026-06-03 15:03:59,420 INFO ai_troubleshooter save new incident
+2026-06-03 15:03:59,430 INFO ai_troubleshooter save new incident
+2026-06-03 15:03:59,441 INFO ai_troubleshooter save new incident
+2026-06-03 15:03:59,458 INFO ai_troubleshooter save new incident
+2026-06-03 15:03:59,481 INFO ai_troubleshooter save new incident
+2026-06-03 15:03:59,508 INFO ai_troubleshooter save new incident
+2026-06-03 15:03:59,531 INFO ai_troubleshooter save new incident
+2026-06-03 15:03:59,553 INFO ai_troubleshooter save new incident
+2026-06-03 15:03:59,582 INFO ai_troubleshooter save new incident
+2026-06-03 15:03:59,632 INFO ai_troubleshooter save new incident
+2026-06-03 15:03:59,650 INFO ai_troubleshooter save new incident
+2026-06-03 15:03:59,670 INFO ai_troubleshooter save new incident
+2026-06-03 15:03:59,690 INFO ai_troubleshooter save new incident
+2026-06-03 15:03:59,708 INFO ai_troubleshooter save new incident
+2026-06-03 15:03:59,726 INFO ai_troubleshooter save new incident
+2026-06-03 15:03:59,740 INFO ai_troubleshooter save new incident
+2026-06-03 15:03:59,755 INFO ai_troubleshooter save new incident
+2026-06-03 15:03:59,767 INFO ai_troubleshooter save new incident
+2026-06-03 15:03:59,779 INFO ai_troubleshooter save new incident
+2026-06-03 15:03:59,779 INFO ai_troubleshooter Worker completed for localhost
+2026-06-03 15:03:59,779 INFO ai_troubleshooter Worker started for briansclark.net
+2026-06-03 15:03:59,791 INFO ai_troubleshooter save new incident
+2026-06-03 15:03:59,809 INFO ai_troubleshooter save new incident
+2026-06-03 15:03:59,823 INFO ai_troubleshooter save new incident
+2026-06-03 15:03:59,838 INFO ai_troubleshooter save new incident
+2026-06-03 15:03:59,859 INFO ai_troubleshooter save new incident
+2026-06-03 15:03:59,859 INFO ai_troubleshooter Worker completed for briansclark.net
+2026-06-03 15:03:59,864 INFO app.services.worker_service Processing queued incident b4de51ab-8f0c-4552-861d-9adbd15dac17
+2026-06-03 15:03:59,880 INFO ai_troubleshooter Incident processing started
+2026-06-03 15:03:59,881 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 15:06:11,846 INFO ai_troubleshooter Initialize database
+2026-06-03 15:06:11,858 INFO ai_troubleshooter Recovered 1 interrupted incidents
+2026-06-03 15:06:11,911 INFO app.services.worker_service Queue worker started
+2026-06-03 15:06:11,944 INFO app.services.worker_service Processing queued incident b4de51ab-8f0c-4552-861d-9adbd15dac17
+2026-06-03 15:06:11,953 INFO ai_troubleshooter Incident processing started
+2026-06-03 15:06:11,953 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 15:15:57,425 INFO ai_troubleshooter Initialize database
+2026-06-03 15:15:57,436 INFO ai_troubleshooter Recovered 1 interrupted incidents
+2026-06-03 15:15:57,491 INFO app.services.worker_service Queue worker started
+2026-06-03 15:15:57,517 INFO app.services.worker_service Processing queued incident b4de51ab-8f0c-4552-861d-9adbd15dac17
+2026-06-03 15:15:57,533 INFO ai_troubleshooter Incident processing started
+2026-06-03 15:15:57,534 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 15:15:57,554 ERROR app.services.worker_service Retrying incident b4de51ab-8f0c-4552-861d-9adbd15dac17
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 25, in process_incident
+    analysis = await analyze_logs(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/ai_service.py", line 15, in analyze_logs
+    for k,v in logs:
+        ^^^
+ValueError: too many values to unpack (expected 2)
+2026-06-03 15:15:58,562 INFO app.services.worker_service Processing queued incident b4de51ab-8f0c-4552-861d-9adbd15dac17
+2026-06-03 15:15:58,572 INFO ai_troubleshooter Incident processing started
+2026-06-03 15:15:58,574 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 15:15:58,596 ERROR app.services.worker_service Retrying incident b4de51ab-8f0c-4552-861d-9adbd15dac17
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 25, in process_incident
+    analysis = await analyze_logs(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/ai_service.py", line 15, in analyze_logs
+    for k,v in logs:
+        ^^^
+ValueError: too many values to unpack (expected 2)
+2026-06-03 15:15:59,600 INFO app.services.worker_service Processing queued incident b4de51ab-8f0c-4552-861d-9adbd15dac17
+2026-06-03 15:15:59,608 INFO ai_troubleshooter Incident processing started
+2026-06-03 15:15:59,608 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 15:15:59,629 ERROR app.services.worker_service Incident permanently failed b4de51ab-8f0c-4552-861d-9adbd15dac17
+2026-06-03 15:21:55,704 INFO ai_troubleshooter Initialize database
+2026-06-03 15:21:55,704 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-03 15:21:55,742 INFO app.services.worker_service Queue worker started
+2026-06-03 15:21:55,765 INFO app.services.worker_service Processing queued incident 53683afa-b094-478c-b94a-2fe39367315f
+2026-06-03 15:21:55,777 INFO ai_troubleshooter Incident processing started
+2026-06-03 15:21:55,777 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 15:22:36,348 INFO ai_troubleshooter Initialize database
+2026-06-03 15:22:36,377 INFO ai_troubleshooter Recovered 1 interrupted incidents
+2026-06-03 15:22:36,421 INFO app.services.worker_service Queue worker started
+2026-06-03 15:22:36,445 INFO app.services.worker_service Processing queued incident 53683afa-b094-478c-b94a-2fe39367315f
+2026-06-03 15:22:36,579 INFO ai_troubleshooter Incident processing started
+2026-06-03 15:22:36,579 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 15:24:00,900 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 15:24:00,902 INFO ai_troubleshooter Incident processing completed
+2026-06-03 15:24:00,920 INFO app.services.worker_service Completed incident 53683afa-b094-478c-b94a-2fe39367315f
+2026-06-03 15:24:01,922 INFO app.services.worker_service Processing queued incident 8455f756-4ab3-41bb-83b4-5843411d755d
+2026-06-03 15:24:01,975 INFO ai_troubleshooter Incident processing started
+2026-06-03 15:24:01,976 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 15:25:17,930 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 15:25:17,932 INFO ai_troubleshooter Incident processing completed
+2026-06-03 15:25:17,945 INFO app.services.worker_service Completed incident 8455f756-4ab3-41bb-83b4-5843411d755d
+2026-06-03 15:25:18,946 INFO app.services.worker_service Processing queued incident 7748a9bf-1607-4615-80c8-7d576a1462b2
+2026-06-03 15:25:18,955 INFO ai_troubleshooter Incident processing started
+2026-06-03 15:25:18,955 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 15:27:15,250 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 15:27:15,253 INFO ai_troubleshooter Incident processing completed
+2026-06-03 15:27:15,265 INFO app.services.worker_service Completed incident 7748a9bf-1607-4615-80c8-7d576a1462b2
+2026-06-03 15:27:16,268 INFO app.services.worker_service Processing queued incident 692c2b62-7f3d-4ab6-a148-7d20aa44be0e
+2026-06-03 15:27:16,276 INFO ai_troubleshooter Incident processing started
+2026-06-03 15:27:16,276 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 15:29:03,238 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 15:29:03,241 INFO ai_troubleshooter Incident processing completed
+2026-06-03 15:29:03,251 INFO app.services.worker_service Completed incident 692c2b62-7f3d-4ab6-a148-7d20aa44be0e
+2026-06-03 15:29:04,254 INFO app.services.worker_service Processing queued incident ce73826f-2356-497c-ba57-81c4696293d8
+2026-06-03 15:29:04,263 INFO ai_troubleshooter Incident processing started
+2026-06-03 15:29:04,266 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 15:30:20,495 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 15:30:20,497 INFO ai_troubleshooter Incident processing completed
+2026-06-03 15:30:20,505 INFO app.services.worker_service Completed incident ce73826f-2356-497c-ba57-81c4696293d8
+2026-06-03 15:30:21,509 INFO app.services.worker_service Processing queued incident 68c0b086-ca01-48fc-8f83-f1cb16b1f08f
+2026-06-03 15:30:21,527 INFO ai_troubleshooter Incident processing started
+2026-06-03 15:30:21,528 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 15:31:52,728 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 15:31:52,734 INFO ai_troubleshooter Incident processing completed
+2026-06-03 15:31:52,755 INFO app.services.worker_service Completed incident 68c0b086-ca01-48fc-8f83-f1cb16b1f08f
+2026-06-03 15:31:53,758 INFO app.services.worker_service Processing queued incident 3b37f7db-0785-4bdd-9cfc-4478240ea36c
+2026-06-03 15:31:53,769 INFO ai_troubleshooter Incident processing started
+2026-06-03 15:31:53,769 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 15:37:11,754 INFO ai_troubleshooter Initialize database
+2026-06-03 15:37:11,770 INFO ai_troubleshooter Recovered 1 interrupted incidents
+2026-06-03 15:37:11,834 INFO app.services.worker_service Queue worker started
+2026-06-03 15:37:11,860 INFO app.services.worker_service Processing queued incident 3b37f7db-0785-4bdd-9cfc-4478240ea36c
+2026-06-03 15:37:11,868 INFO ai_troubleshooter Incident processing started
+2026-06-03 15:37:11,868 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 15:39:12,268 WARNING ai_troubleshooter AI request failed attempt 1: 
+2026-06-03 15:40:33,524 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 15:40:33,542 INFO ai_troubleshooter Incident processing completed
+2026-06-03 15:40:33,572 INFO app.services.worker_service Completed incident 3b37f7db-0785-4bdd-9cfc-4478240ea36c
+2026-06-03 15:40:34,576 INFO app.services.worker_service Processing queued incident fd744252-f3f3-4e2c-9675-1d8bdd39e212
+2026-06-03 15:40:34,584 INFO ai_troubleshooter Incident processing started
+2026-06-03 15:40:34,585 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 15:41:55,566 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 15:41:55,572 INFO ai_troubleshooter Incident processing completed
+2026-06-03 15:41:55,583 INFO app.services.worker_service Completed incident fd744252-f3f3-4e2c-9675-1d8bdd39e212
+2026-06-03 15:41:56,585 INFO app.services.worker_service Processing queued incident c16c7561-2d98-43b7-b5c1-2c16dfd4107a
+2026-06-03 15:41:56,596 INFO ai_troubleshooter Incident processing started
+2026-06-03 15:41:56,598 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 15:43:57,261 WARNING ai_troubleshooter AI request failed attempt 1: 
+2026-06-03 15:45:58,209 WARNING ai_troubleshooter AI request failed attempt 2: 
+2026-06-03 15:47:29,388 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 15:47:29,390 INFO ai_troubleshooter Incident processing completed
+2026-06-03 15:47:29,404 INFO app.services.worker_service Completed incident c16c7561-2d98-43b7-b5c1-2c16dfd4107a
+2026-06-03 15:47:30,409 INFO app.services.worker_service Processing queued incident e69e0fc5-7e85-42bf-bf39-8e2bf7764e67
+2026-06-03 15:47:30,426 INFO ai_troubleshooter Incident processing started
+2026-06-03 15:47:30,426 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 15:49:31,400 WARNING ai_troubleshooter AI request failed attempt 1: 
+2026-06-03 15:50:46,011 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 15:50:46,013 INFO ai_troubleshooter Incident processing completed
+2026-06-03 15:50:46,022 INFO app.services.worker_service Completed incident e69e0fc5-7e85-42bf-bf39-8e2bf7764e67
+2026-06-03 15:50:47,028 INFO app.services.worker_service Processing queued incident d145e30b-157c-47ba-81b1-fc7833fa7952
+2026-06-03 15:50:47,039 INFO ai_troubleshooter Incident processing started
+2026-06-03 15:50:47,040 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 15:52:29,187 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 15:52:29,189 INFO ai_troubleshooter Incident processing completed
+2026-06-03 15:52:29,204 INFO app.services.worker_service Completed incident d145e30b-157c-47ba-81b1-fc7833fa7952
+2026-06-03 15:52:30,208 INFO app.services.worker_service Processing queued incident 497aa966-1a91-4298-900c-4e7a671e826c
+2026-06-03 15:52:30,220 INFO ai_troubleshooter Incident processing started
+2026-06-03 15:52:30,220 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 15:54:30,294 WARNING ai_troubleshooter AI request failed attempt 1: 
+2026-06-03 15:56:30,626 WARNING ai_troubleshooter AI request failed attempt 2: 
+2026-06-03 15:57:37,383 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 15:57:37,385 INFO ai_troubleshooter Incident processing completed
+2026-06-03 15:57:37,400 INFO app.services.worker_service Completed incident 497aa966-1a91-4298-900c-4e7a671e826c
+2026-06-03 15:57:38,403 INFO app.services.worker_service Processing queued incident 5544ef37-d4e1-4c5b-95e1-7bb76b91c689
+2026-06-03 15:57:38,413 INFO ai_troubleshooter Incident processing started
+2026-06-03 15:57:38,413 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 15:59:39,208 WARNING ai_troubleshooter AI request failed attempt 1: 
+2026-06-03 16:01:38,150 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 16:01:38,152 INFO ai_troubleshooter Incident processing completed
+2026-06-03 16:01:38,176 INFO app.services.worker_service Completed incident 5544ef37-d4e1-4c5b-95e1-7bb76b91c689
+2026-06-03 16:01:39,179 INFO app.services.worker_service Processing queued incident ad77cdfa-405f-41e2-9f3d-1371c779a4fa
+2026-06-03 16:01:39,198 INFO app.services.worker_service Completed incident ad77cdfa-405f-41e2-9f3d-1371c779a4fa
+2026-06-03 16:01:40,199 INFO app.services.worker_service Processing queued incident 4d505de3-1760-4db4-824e-fc52903c64b2
+2026-06-03 16:01:40,219 INFO app.services.worker_service Completed incident 4d505de3-1760-4db4-824e-fc52903c64b2
+2026-06-03 16:01:41,220 INFO app.services.worker_service Processing queued incident ec52d931-8e0a-4831-a0fd-fbc8bb85fb66
+2026-06-03 16:01:41,241 INFO app.services.worker_service Completed incident ec52d931-8e0a-4831-a0fd-fbc8bb85fb66
+2026-06-03 16:01:42,249 INFO app.services.worker_service Processing queued incident e5291ac4-1b89-4177-9403-d1b893a7d40c
+2026-06-03 16:01:42,267 INFO app.services.worker_service Completed incident e5291ac4-1b89-4177-9403-d1b893a7d40c
+2026-06-03 16:01:43,271 INFO app.services.worker_service Processing queued incident 326fd193-b869-4d2a-ba6b-7f88864955f1
+2026-06-03 16:01:43,279 INFO ai_troubleshooter Incident processing started
+2026-06-03 16:01:43,279 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 16:03:07,530 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 16:03:07,534 INFO ai_troubleshooter Incident processing completed
+2026-06-03 16:03:07,546 INFO app.services.worker_service Completed incident 326fd193-b869-4d2a-ba6b-7f88864955f1
+2026-06-03 16:03:08,549 INFO app.services.worker_service Processing queued incident 048b0208-1559-40c0-832a-a71303ecbdd0
+2026-06-03 16:03:08,568 INFO app.services.worker_service Completed incident 048b0208-1559-40c0-832a-a71303ecbdd0
+2026-06-03 16:03:09,570 INFO app.services.worker_service Processing queued incident 48b7d3d6-e045-4142-afc0-ae6a293f8d0b
+2026-06-03 16:03:09,591 INFO app.services.worker_service Completed incident 48b7d3d6-e045-4142-afc0-ae6a293f8d0b
+2026-06-03 16:03:10,595 INFO app.services.worker_service Processing queued incident fb1be422-1fcc-4474-bbea-2640aaccefc7
+2026-06-03 16:03:10,611 INFO app.services.worker_service Completed incident fb1be422-1fcc-4474-bbea-2640aaccefc7
+2026-06-03 16:03:11,615 INFO app.services.worker_service Processing queued incident b4f1e38f-4318-410a-acd7-d39f0396d0c4
+2026-06-03 16:03:11,622 INFO ai_troubleshooter Incident processing started
+2026-06-03 16:03:11,622 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 16:04:28,742 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 16:04:28,747 INFO ai_troubleshooter Incident processing completed
+2026-06-03 16:04:28,766 INFO app.services.worker_service Completed incident b4f1e38f-4318-410a-acd7-d39f0396d0c4
+2026-06-03 16:04:29,768 INFO app.services.worker_service Processing queued incident 8ef29646-bf28-4eb9-8a4f-7673769a3e32
+2026-06-03 16:04:29,776 INFO ai_troubleshooter Incident processing started
+2026-06-03 16:04:29,777 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 16:05:52,531 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 16:05:52,532 INFO ai_troubleshooter Incident processing completed
+2026-06-03 16:05:52,548 INFO app.services.worker_service Completed incident 8ef29646-bf28-4eb9-8a4f-7673769a3e32
+2026-06-03 16:05:53,549 INFO app.services.worker_service Processing queued incident 82d2c2ff-cea0-4c32-9146-28dbff4a642e
+2026-06-03 16:05:53,562 INFO ai_troubleshooter Incident processing started
+2026-06-03 16:05:53,562 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 16:06:50,655 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 16:06:50,659 INFO ai_troubleshooter Incident processing completed
+2026-06-03 16:06:50,668 INFO app.services.worker_service Completed incident 82d2c2ff-cea0-4c32-9146-28dbff4a642e
+2026-06-03 16:06:51,674 INFO app.services.worker_service Processing queued incident ea13443f-828d-4ec9-907e-a20604a865fe
+2026-06-03 16:06:51,699 INFO app.services.worker_service Completed incident ea13443f-828d-4ec9-907e-a20604a865fe
+2026-06-03 16:06:52,700 INFO app.services.worker_service Processing queued incident f842e273-0575-478c-b9bc-6eaf48c33c92
+2026-06-03 16:06:52,716 INFO ai_troubleshooter Incident processing started
+2026-06-03 16:06:52,717 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 16:08:38,388 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 16:08:38,391 INFO ai_troubleshooter Incident processing completed
+2026-06-03 16:08:38,421 INFO app.services.worker_service Completed incident f842e273-0575-478c-b9bc-6eaf48c33c92
+2026-06-03 16:08:39,425 INFO app.services.worker_service Processing queued incident 92f00f6e-86a5-46be-aebe-1bc2d09cc461
+2026-06-03 16:08:39,438 INFO ai_troubleshooter Incident processing started
+2026-06-03 16:08:39,439 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 16:09:57,442 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 16:09:57,444 INFO ai_troubleshooter Incident processing completed
+2026-06-03 16:09:57,463 INFO app.services.worker_service Completed incident 92f00f6e-86a5-46be-aebe-1bc2d09cc461
+2026-06-03 16:09:58,466 INFO app.services.worker_service Processing queued incident b14d9f8c-6639-4907-ac8c-4e99d12c50b2
+2026-06-03 16:09:58,479 INFO ai_troubleshooter Incident processing started
+2026-06-03 16:09:58,479 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-03 16:11:06,574 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-03 16:11:06,579 INFO ai_troubleshooter Incident processing completed
+2026-06-03 16:11:06,589 INFO app.services.worker_service Completed incident b14d9f8c-6639-4907-ac8c-4e99d12c50b2
+2026-06-03 16:11:07,600 INFO app.services.worker_service Processing queued incident 285ad305-48db-446a-8ca3-8b8d01ff4dbb
+2026-06-03 16:11:07,627 INFO app.services.worker_service Completed incident 285ad305-48db-446a-8ca3-8b8d01ff4dbb
+2026-06-03 16:11:08,629 INFO app.services.worker_service Processing queued incident b0c4caa7-fdce-49f4-8f4b-4ba06c61bf9d
+2026-06-03 16:11:08,655 INFO app.services.worker_service Completed incident b0c4caa7-fdce-49f4-8f4b-4ba06c61bf9d
+2026-06-04 08:15:01,684 INFO ai_troubleshooter Initialize database
+2026-06-04 08:15:01,696 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-04 08:15:01,745 INFO app.services.worker_service Queue worker started

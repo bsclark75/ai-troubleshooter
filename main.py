@@ -101,7 +101,7 @@ def health():
 @app.get("/analyze/batch")
 async def analyze_batch():
     context = get_parsed_log_context()
-
+    #print(f"Context contains: {context}")
     tasks = [
         process_host(host, incidents)
         for host, incidents in context["grouped"].items()

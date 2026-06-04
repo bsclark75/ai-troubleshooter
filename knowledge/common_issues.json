@@ -5,9 +5,9 @@
     "fix": "Verify power, uplink connectivity, and switch management VLAN"
   },
   {
-    "issue": "disk full",
-    "cause": "Filesystem capacity exhausted",
-    "fix": "Clean logs or extend storage volume"
+    "issue": "disk space",
+    "cause": "Filesystem is at or near capacity",
+    "fix": "Check disk usage with df -h and remove unnecessary files."
   },
   {
     "issue": "high cpu",

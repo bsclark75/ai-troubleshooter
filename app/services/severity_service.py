@@ -5,6 +5,7 @@ def get_worst_severity(incidents):
 
 def classify_severity(logs):
 
+    #print(f"dumping {logs}")
     state = logs.get("state", "").upper()
 
     #joined_logs = logs.lower()

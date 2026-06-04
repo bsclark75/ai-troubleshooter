@@ -8,7 +8,7 @@ from app.core.config import RECOVERED
 async def process_incident(logs):
     
     severity = classify_severity(logs)
-    print(f"Severity: {severity}")
+    #print(f"Severity: {severity}")
 
     known_issue = find_known_issue(logs)
 
