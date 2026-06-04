@@ -1,0 +1,146 @@
+import requests
+import os
+from time import sleep
+import json
+import os
+
+NAGIOSLOGFILE = "/usr/local/nagios/var/nagios.log"
+ENDPOINTURL = "http://localhost:8000/analyze/batch"
+STATEFILE = "data/nagios_state.json"
+
+def load_state():
+    """
+    Returns:
+        (inode, offset)
+    """
+
+    if not os.path.exists(STATEFILE):
+        return None, 0
+
+    try:
+        with open(STATEFILE, "r") as f:
+            state = json.load(f)
+
+        return (
+            state.get("inode"),
+            state.get("offset", 0)
+        )
+
+    except (json.JSONDecodeError, OSError) as e:
+        print(f"Failed to load state file: {e}")
+        return None, 0
+
+
+def save_state(inode, offset):
+    """
+    Persist current read position.
+    """
+
+    state = {
+        "inode": inode,
+        "offset": offset
+    }
+
+    try:
+        with open(STATEFILE, "w") as f:
+            json.dump(state, f)
+
+    except OSError as e:
+        print(f"Failed to save state file: {e}")
+
+def check_for_new_lines(saved_inode,saved_offset):
+    print(f"Checking for new lines {saved_inode} {saved_offset}")
+# 1. Get current file stats
+    try:
+        current_stat = os.stat(NAGIOSLOGFILE)
+        current_inode = current_stat.st_ino
+        current_size = current_stat.st_size
+    except FileNotFoundError:
+        print("Log file not found.")
+        current_inode, current_size = None, 0
+
+    if saved_inode is None:
+        print(f"Initial read of file")
+        #current_inode, current_size = load_state()
+        with open(NAGIOSLOGFILE, "r") as f:
+            f.seek(0, os.SEEK_END)
+        return [], current_size, current_inode
+
+# 2. Check for log rotation
+    if current_inode and current_inode != saved_inode:
+        print("Log rotated! Handling old file first...")
+    
+    # Try to open the rotated/archived file to finish reading it
+    # Nagios usually renames to nagios.log.1 or similar
+        rotated_path = NAGIOSLOGFILE + ".1" 
+    
+        if os.path.exists(rotated_path):
+            with open(rotated_path, "r") as old_file:
+                old_file.seek(saved_offset)
+                old_lines = old_file.readlines()
+                print(f"Read {len(old_lines)} trailing lines from old file.")
+            # [Process old_lines here]
+                new_lines = old_lines
+            
+    # 3. Start reading the new file from the beginning
+            with open(NAGIOSLOGFILE, "r") as new_file:
+                new_t_lines = new_file.readlines()
+                print(f"Read {len(new_t_lines)} lines from the start of the new file.")
+        # [Process new_lines here]
+                new_lines += new_t_lines
+        
+        # Save state for the next run
+                new_offset = new_file.tell()
+                new_saved_inode = current_inode
+
+    else:
+    # No rotation: Use standard offset logic
+        print("Log not rotated. Reading from saved offset...")
+        with open(NAGIOSLOGFILE, "r") as nagios_file:
+            if current_size < saved_offset:
+                nagios_file.seek(0) # Fallback if file was truncated without inode change
+            else:
+                nagios_file.seek(saved_offset)
+            
+            new_lines = nagios_file.readlines()
+            new_offset = os.path.getsize(NAGIOSLOGFILE)
+            new_saved_inode = saved_inode
+        print(f"{new_lines} {new_offset} {new_saved_inode}")
+        return new_lines, new_offset, new_saved_inode
+
+def process_lines(processing_lines):
+    url = ENDPOINTURL
+    
+    # Wrap payload in a dictionary if your API requires a specific key name
+    # e.g., payload = {"lines": processing_lines}
+    payload = processing_lines 
+    
+    try:
+        # Send the payload via an HTTP POST request
+        response = requests.post(url, json=payload, timeout=10)
+        
+        # Raise an exception for HTTP error statuses (e.g., 404, 500)
+        response.raise_for_status() 
+        
+        print(f"Successfully processed {len(processing_lines)} lines. Status: {response.status_code}")
+        return response.json() # Returns decoded JSON response from the server
+        
+    except requests.exceptions.RequestException as e:
+        print(f"Failed to send log batch to endpoint: {e}")
+        return None
+
+
+inode, offset = load_state()
+while True:
+    lines, new_offset, new_inode = check_for_new_lines(inode, offset)
+    if lines:
+        success = process_lines(lines)
+        if success:
+            inode = new_inode
+            offset = new_offset
+            save_state(inode, offset)
+    elif inode is None:
+        inode = new_inode
+        offset = new_offset
+        save_state(inode,offset)
+    sleep(60)

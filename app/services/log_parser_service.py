@@ -20,12 +20,12 @@ def parse_logs(logs):
             # Skip obvious noise
             if any(noise in log for noise in noise_patterns):
                 continue
-
+            #print("This is not noise")
             match = re.match(r'\[(\d+)\] (.+?): (.+)', log)
-
+            #print(match)
             if not match:
                 continue
-
+            #print(f"This should be parsed: {match}")
             timestamp, notification_type, alert_data = match.groups()
 
             #print(f"type: {notification_type}")

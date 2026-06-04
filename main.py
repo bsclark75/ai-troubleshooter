@@ -1,7 +1,7 @@
 from fastapi import FastAPI, BackgroundTasks, Request
 from fastapi.responses import JSONResponse
-from app.services.log_service import get_parsed_log_context, create_incident, is_repeat_notification
-from app.services.db_service import *
+from app.services.log_service import get_parsed_log_context, create_incident, is_repeat_notification, build_log_context
+from app.services.db_service import init_db, recover_processing_incidents, get_incidents, get_incidents_by_host, get_queued_incidents, get_incident, get_processing_incidents, get_failure_incidents, get_incident_counts
 from app.services.metrics_service import generate_metrics
 from app.services.trend_service import analyze_trends
 from app.services.severity_service import get_worst_severity
@@ -11,6 +11,7 @@ from dotenv import load_dotenv
 import asyncio
 from contextlib import asynccontextmanager
 from app.services.worker_service import queue_worker
+from typing import List
 
 
 def success_response(data: dict) -> dict:
@@ -97,11 +98,10 @@ def health():
         "status": "healthy"
     })
 
-
-@app.get("/analyze/batch")
-async def analyze_batch():
-    context = get_parsed_log_context()
-    #print(f"Context contains: {context}")
+@app.post("/analyze/batch")
+async def analyze_batch(logs: List[str]):
+    context = build_log_context(logs)
+    print(f"Context contains: {context}")
     tasks = [
         process_host(host, incidents)
         for host, incidents in context["grouped"].items()
@@ -186,12 +186,15 @@ def incident_status(incident_id: str):
 async def process_host(host, incidents):
     async with semaphore:
         logger.info(f"Worker started for {host}")
-
+        #print(f"processing host incidents: {incidents}")
         incident_ids = []
         for incident in incidents:
+            print(f"Working on {incident}")
             if is_repeat_notification(incident):
+                print("Skipping")
                 continue
             new_id = create_incident(incident)
+            print(f"New id: {new_id}")
             incident_ids.append(new_id)
 
         logger.info(f"Worker completed for {host}")

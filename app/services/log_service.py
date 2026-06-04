@@ -34,13 +34,7 @@ def create_incident(logs):
 
 def get_parsed_log_context():
     logs = load_logs()
-    parsed_logs = parse_logs(logs)
-    grouped = group_incidents(parsed_logs)
-    return {
-    "logs": logs,
-    "parsed_logs": parsed_logs,
-    "grouped": grouped
-}
+    return build_log_context(logs)
 
 def is_repeat_notification(log: dict) -> bool:
     """
@@ -66,3 +60,13 @@ def is_repeat_notification(log: dict) -> bool:
         notification_type in repeated_notification_types
         and state in active_problem_states
     )
+
+def build_log_context(logs):
+    parsed_logs = parse_logs(logs)
+    grouped = group_incidents(parsed_logs)
+
+    return {
+        "logs": logs,
+        "parsed_logs": parsed_logs,
+        "grouped": grouped
+    }
