@@ -7,6 +7,7 @@ import os
 NAGIOSLOGFILE = "/usr/local/nagios/var/nagios.log"
 ENDPOINTURL = "http://localhost:8000/analyze/batch"
 STATEFILE = "data/nagios_state.json"
+ARCHIVE_DIR = "/usr/local/nagios/var/archives"
 
 def load_state():
     """
@@ -68,31 +69,38 @@ def check_for_new_lines(saved_inode,saved_offset):
 
 # 2. Check for log rotation
     if current_inode and current_inode != saved_inode:
-        print("Log rotated! Handling old file first...")
+        print("Log rotated!")
+
+        rotated_path = None
+
+        for fname in os.listdir(ARCHIVE_DIR):
+            full_path = os.path.join(ARCHIVE_DIR, fname)
+
+            try:
+                if os.stat(full_path).st_ino == saved_inode:
+                    rotated_path = full_path
+                    break
+            except OSError:
+                continue
     
-    # Try to open the rotated/archived file to finish reading it
-    # Nagios usually renames to nagios.log.1 or similar
-        rotated_path = NAGIOSLOGFILE + ".1" 
-    
-        if os.path.exists(rotated_path):
+        if rotated_path:
+            print(f"Found rotated file: {rotated_path}")
+
             with open(rotated_path, "r") as old_file:
                 old_file.seek(saved_offset)
                 old_lines = old_file.readlines()
-                print(f"Read {len(old_lines)} trailing lines from old file.")
-            # [Process old_lines here]
-                new_lines = old_lines
-            
-    # 3. Start reading the new file from the beginning
-            with open(NAGIOSLOGFILE, "r") as new_file:
-                new_t_lines = new_file.readlines()
-                print(f"Read {len(new_t_lines)} lines from the start of the new file.")
-        # [Process new_lines here]
-                new_lines += new_t_lines
-        
-        # Save state for the next run
-                new_offset = new_file.tell()
-                new_saved_inode = current_inode
 
+            with open(NAGIOSLOGFILE, "r") as new_file:
+                new_lines = new_file.readlines()
+
+            all_lines = old_lines + new_lines
+
+            return (
+                all_lines,
+                os.path.getsize(NAGIOSLOGFILE),
+                current_inode
+            )
+    
     else:
     # No rotation: Use standard offset logic
         print("Log not rotated. Reading from saved offset...")
