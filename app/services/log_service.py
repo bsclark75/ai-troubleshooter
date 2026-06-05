@@ -20,6 +20,7 @@ def create_incident(logs):
     incident_id = str(uuid.uuid4())
     #print(logs)
     host = logs["host"]
+    service = logs["service"]
 
     save_incident(
         logs,
@@ -27,6 +28,7 @@ def create_incident(logs):
         {},
         incident_id,
         host,
+        service,
         status="queued"
     )
     return incident_id

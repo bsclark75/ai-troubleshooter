@@ -156,3 +156,171 @@
 2026-06-05 08:19:04,616 INFO app.services.worker_service Completed incident 89381d90-ace6-4dcf-8ef6-7d22adb58113
 2026-06-05 08:19:05,617 INFO app.services.worker_service Processing queued incident 5ce8edeb-02fc-4a95-86dd-10a6c0d4e948
 2026-06-05 08:19:05,633 INFO app.services.worker_service Completed incident 5ce8edeb-02fc-4a95-86dd-10a6c0d4e948
+2026-06-05 08:28:48,913 INFO ai_troubleshooter Initialize database
+2026-06-05 08:28:48,915 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-05 08:28:49,019 INFO app.services.worker_service Queue worker started
+2026-06-05 08:33:17,071 INFO ai_troubleshooter Initialize database
+2026-06-05 08:33:17,072 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-05 08:33:17,114 INFO app.services.worker_service Queue worker started
+2026-06-05 08:44:04,808 INFO ai_troubleshooter Initialize database
+2026-06-05 08:44:04,809 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-05 08:44:04,859 INFO app.services.worker_service Queue worker started
+2026-06-05 08:49:37,651 INFO ai_troubleshooter Initialize database
+2026-06-05 08:49:37,652 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-05 08:49:37,695 INFO app.services.worker_service Queue worker started
+2026-06-05 08:53:58,563 INFO ai_troubleshooter Initialize database
+2026-06-05 08:53:58,565 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-05 08:53:58,607 INFO app.services.worker_service Queue worker started
+2026-06-05 08:54:43,094 INFO ai_troubleshooter Initialize database
+2026-06-05 08:54:43,105 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-05 08:54:43,154 INFO app.services.worker_service Queue worker started
+2026-06-05 08:55:40,131 INFO ai_troubleshooter Worker started for localhost
+2026-06-05 08:55:40,132 INFO ai_troubleshooter Worker completed for localhost
+2026-06-05 09:01:03,769 INFO ai_troubleshooter Initialize database
+2026-06-05 09:01:03,770 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-05 09:01:03,805 INFO app.services.worker_service Queue worker started
+2026-06-05 09:04:52,704 INFO ai_troubleshooter Initialize database
+2026-06-05 09:04:52,706 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-05 09:04:52,752 INFO app.services.worker_service Queue worker started
+2026-06-05 09:05:11,246 INFO ai_troubleshooter Worker started for briansclark.net
+2026-06-05 09:07:03,406 INFO ai_troubleshooter Initialize database
+2026-06-05 09:07:03,407 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-05 09:07:03,451 INFO app.services.worker_service Queue worker started
+2026-06-05 09:07:23,702 INFO ai_troubleshooter Worker started for briansclark.net
+2026-06-05 09:07:23,712 INFO ai_troubleshooter save new incident
+2026-06-05 09:07:23,720 INFO ai_troubleshooter save new incident
+2026-06-05 09:07:23,733 INFO ai_troubleshooter save new incident
+2026-06-05 09:07:23,733 INFO ai_troubleshooter Worker completed for briansclark.net
+2026-06-05 09:07:23,870 INFO app.services.worker_service Processing queued incident a8315a5f-0b78-4d82-a607-74b08477c3b2
+2026-06-05 09:07:23,880 INFO ai_troubleshooter Incident processing started
+2026-06-05 09:07:23,881 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-05 09:09:08,407 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-05 09:09:08,422 INFO ai_troubleshooter Incident processing completed
+2026-06-05 09:09:08,445 INFO app.services.worker_service Completed incident a8315a5f-0b78-4d82-a607-74b08477c3b2
+2026-06-05 09:09:09,487 INFO app.services.worker_service Processing queued incident a1a66832-0eb0-415f-a93b-9937ed1ba1b4
+2026-06-05 09:09:09,500 INFO ai_troubleshooter Incident processing started
+2026-06-05 09:09:09,500 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-05 09:10:25,443 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-05 09:10:25,445 INFO ai_troubleshooter Incident processing completed
+2026-06-05 09:10:25,456 INFO app.services.worker_service Completed incident a1a66832-0eb0-415f-a93b-9937ed1ba1b4
+2026-06-05 09:10:26,466 INFO app.services.worker_service Processing queued incident f5bd8e79-2c4c-4394-a904-06871a2b4c05
+2026-06-05 09:10:26,476 INFO ai_troubleshooter Incident processing started
+2026-06-05 09:10:26,477 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-05 09:11:38,464 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-05 09:11:38,466 INFO ai_troubleshooter Incident processing completed
+2026-06-05 09:11:38,479 INFO app.services.worker_service Completed incident f5bd8e79-2c4c-4394-a904-06871a2b4c05
+2026-06-05 09:15:39,399 INFO ai_troubleshooter Initialize database
+2026-06-05 09:15:39,401 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-05 09:15:39,466 INFO app.services.worker_service Queue worker started
+2026-06-05 09:20:24,479 INFO ai_troubleshooter Initialize database
+2026-06-05 09:20:24,480 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-05 09:20:24,538 INFO app.services.worker_service Queue worker started
+2026-06-05 09:24:44,452 INFO ai_troubleshooter Initialize database
+2026-06-05 09:24:44,454 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-05 09:24:44,514 INFO app.services.worker_service Queue worker started
+2026-06-05 09:33:37,142 INFO ai_troubleshooter Initialize database
+2026-06-05 09:33:37,143 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-05 09:33:37,183 INFO app.services.worker_service Queue worker started
+2026-06-05 09:37:49,697 INFO ai_troubleshooter Worker started for briansclark.net
+2026-06-05 09:37:49,709 INFO ai_troubleshooter save new incident
+2026-06-05 09:37:49,719 INFO ai_troubleshooter save new incident
+2026-06-05 09:37:49,719 INFO ai_troubleshooter Worker completed for briansclark.net
+2026-06-05 09:37:50,239 INFO app.services.worker_service Processing queued incident cc6d4cb2-640e-4b9f-9fb3-13d58639c7a5
+2026-06-05 09:37:50,258 INFO app.services.worker_service Completed incident cc6d4cb2-640e-4b9f-9fb3-13d58639c7a5
+2026-06-05 09:37:51,264 INFO app.services.worker_service Processing queued incident 771a6546-f2fd-4277-b75b-61ebb75e0df7
+2026-06-05 09:37:51,278 INFO app.services.worker_service Completed incident 771a6546-f2fd-4277-b75b-61ebb75e0df7
+2026-06-05 09:53:50,483 INFO ai_troubleshooter Worker started for localhost
+2026-06-05 09:53:50,484 INFO ai_troubleshooter Worker completed for localhost
+2026-06-05 09:54:26,898 INFO ai_troubleshooter Initialize database
+2026-06-05 09:54:26,899 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-05 09:54:26,946 INFO app.services.worker_service Queue worker started
+2026-06-05 10:10:20,323 INFO ai_troubleshooter Initialize database
+2026-06-05 10:10:20,324 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-05 10:10:20,364 INFO app.services.worker_service Queue worker started
+2026-06-05 10:12:47,911 INFO ai_troubleshooter Initialize database
+2026-06-05 10:12:47,912 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-05 10:12:47,951 INFO app.services.worker_service Queue worker started
+2026-06-05 13:07:28,926 INFO ai_troubleshooter Initialize database
+2026-06-05 13:07:28,929 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-05 13:07:28,982 INFO app.services.worker_service Queue worker started
+2026-06-05 13:09:35,213 INFO ai_troubleshooter Initialize database
+2026-06-05 13:09:35,215 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-05 13:09:35,256 INFO app.services.worker_service Queue worker started
+2026-06-05 13:11:31,163 INFO ai_troubleshooter Initialize database
+2026-06-05 13:11:31,163 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-05 13:11:31,214 INFO app.services.worker_service Queue worker started
+2026-06-05 13:12:20,879 INFO ai_troubleshooter Worker started for localhost
+2026-06-05 13:12:20,879 INFO ai_troubleshooter Worker completed for localhost
+2026-06-05 13:27:41,938 INFO ai_troubleshooter Worker started for briansclark.net
+2026-06-05 13:27:41,952 INFO ai_troubleshooter save new incident
+2026-06-05 13:27:41,965 INFO ai_troubleshooter save new incident
+2026-06-05 13:27:41,968 INFO ai_troubleshooter Worker completed for briansclark.net
+2026-06-05 13:27:42,317 INFO app.services.worker_service Processing queued incident 2949908b-b03d-430a-9f19-fe07e1b11b09
+2026-06-05 13:27:42,328 INFO ai_troubleshooter Incident processing started
+2026-06-05 13:27:42,328 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-05 13:29:08,623 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-05 13:29:08,632 INFO ai_troubleshooter Incident processing completed
+2026-06-05 13:29:08,649 INFO app.services.worker_service Completed incident 2949908b-b03d-430a-9f19-fe07e1b11b09
+2026-06-05 13:29:09,651 INFO app.services.worker_service Processing queued incident af38e8fb-fff2-45a2-92dd-2143f539ae2e
+2026-06-05 13:29:09,662 INFO ai_troubleshooter Incident processing started
+2026-06-05 13:29:09,662 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-05 13:29:42,173 INFO ai_troubleshooter Worker started for briansclark.net
+2026-06-05 13:29:42,310 INFO ai_troubleshooter save new incident
+2026-06-05 13:29:42,473 INFO ai_troubleshooter save new incident
+2026-06-05 13:29:42,474 INFO ai_troubleshooter Worker completed for briansclark.net
+2026-06-05 13:30:04,805 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-05 13:30:04,808 INFO ai_troubleshooter Incident processing completed
+2026-06-05 13:30:04,816 INFO app.services.worker_service Completed incident af38e8fb-fff2-45a2-92dd-2143f539ae2e
+2026-06-05 13:30:05,998 INFO app.services.worker_service Processing queued incident ce65cecc-b5bc-45d1-8dd0-ed46c644e9d3
+2026-06-05 13:30:06,008 INFO ai_troubleshooter Incident processing started
+2026-06-05 13:30:06,008 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-05 13:30:52,344 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-05 13:30:52,345 INFO ai_troubleshooter Incident processing completed
+2026-06-05 13:30:52,356 INFO app.services.worker_service Completed incident ce65cecc-b5bc-45d1-8dd0-ed46c644e9d3
+2026-06-05 13:30:53,367 INFO app.services.worker_service Processing queued incident efcac796-0ae2-4850-bb55-f29c305ff1f6
+2026-06-05 13:30:53,383 INFO ai_troubleshooter Incident processing started
+2026-06-05 13:30:53,384 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-05 13:31:31,276 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-05 13:31:31,278 INFO ai_troubleshooter Incident processing completed
+2026-06-05 13:31:31,289 INFO app.services.worker_service Completed incident efcac796-0ae2-4850-bb55-f29c305ff1f6
+2026-06-05 13:31:42,839 INFO ai_troubleshooter Worker started for briansclark.net
+2026-06-05 13:31:42,850 INFO ai_troubleshooter save new incident
+2026-06-05 13:31:42,861 INFO ai_troubleshooter save new incident
+2026-06-05 13:31:42,861 INFO ai_troubleshooter Worker completed for briansclark.net
+2026-06-05 13:31:43,689 INFO app.services.worker_service Processing queued incident 06445b55-4e2c-4725-a8aa-8fdc6fb1d2a1
+2026-06-05 13:31:43,698 INFO ai_troubleshooter Incident processing started
+2026-06-05 13:31:43,698 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-05 13:32:57,114 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-05 13:32:57,115 INFO ai_troubleshooter Incident processing completed
+2026-06-05 13:32:57,131 INFO app.services.worker_service Completed incident 06445b55-4e2c-4725-a8aa-8fdc6fb1d2a1
+2026-06-05 13:32:58,133 INFO app.services.worker_service Processing queued incident b903394f-48c9-4aa4-9330-3d51ebcc8ed2
+2026-06-05 13:32:58,141 INFO ai_troubleshooter Incident processing started
+2026-06-05 13:32:58,141 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-05 13:33:55,518 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-05 13:33:55,520 INFO ai_troubleshooter Incident processing completed
+2026-06-05 13:33:55,532 INFO app.services.worker_service Completed incident b903394f-48c9-4aa4-9330-3d51ebcc8ed2
+2026-06-05 13:41:43,086 INFO ai_troubleshooter Worker started for briansclark.net
+2026-06-05 13:41:43,097 INFO ai_troubleshooter save new incident
+2026-06-05 13:41:43,104 INFO ai_troubleshooter save new incident
+2026-06-05 13:41:43,111 INFO ai_troubleshooter save new incident
+2026-06-05 13:41:43,118 INFO ai_troubleshooter save new incident
+2026-06-05 13:41:43,119 INFO ai_troubleshooter Worker completed for briansclark.net
+2026-06-05 13:41:43,526 INFO app.services.worker_service Processing queued incident da089222-bde5-424b-b102-dbcf1b4fb7a9
+2026-06-05 13:41:43,544 INFO app.services.worker_service Completed incident da089222-bde5-424b-b102-dbcf1b4fb7a9
+2026-06-05 13:41:44,587 INFO app.services.worker_service Processing queued incident 34c42ada-04a2-4ec3-bb40-cf44c0c56bcc
+2026-06-05 13:41:44,609 INFO app.services.worker_service Completed incident 34c42ada-04a2-4ec3-bb40-cf44c0c56bcc
+2026-06-05 13:41:45,612 INFO app.services.worker_service Processing queued incident f0d9bada-e255-4ffe-8bbc-21054e51fea6
+2026-06-05 13:41:45,629 INFO app.services.worker_service Completed incident f0d9bada-e255-4ffe-8bbc-21054e51fea6
+2026-06-05 13:41:46,633 INFO app.services.worker_service Processing queued incident dcf1f8d7-2553-4421-ba95-eac0c2311a0f
+2026-06-05 13:41:46,649 INFO app.services.worker_service Completed incident dcf1f8d7-2553-4421-ba95-eac0c2311a0f
+2026-06-05 13:52:27,915 INFO ai_troubleshooter Initialize database
+2026-06-05 13:52:27,917 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-05 13:52:28,042 INFO app.services.worker_service Queue worker started
+2026-06-05 13:53:43,181 INFO ai_troubleshooter Worker started for localhost
+2026-06-05 13:53:43,181 INFO ai_troubleshooter Worker completed for localhost
+2026-06-05 13:55:22,569 INFO ai_troubleshooter Initialize database
+2026-06-05 13:55:22,570 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-05 13:55:22,616 INFO app.services.worker_service Queue worker started
+2026-06-05 14:03:27,144 INFO ai_troubleshooter Initialize database
+2026-06-05 14:03:27,145 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-05 14:03:27,197 INFO app.services.worker_service Queue worker started

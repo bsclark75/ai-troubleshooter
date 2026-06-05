@@ -67,6 +67,10 @@
                 <td><a href="/host/{{ incident.host }}/ui">{{ incident.host }}</a></td>
             </tr>
             <tr>
+                <th>Service</th>
+                <td>{{ incident.service }}</td>
+            </tr>
+            <tr>
                 <th>Severity</th>
                 <td style="color:
                     {% if incident.severity == 'critical' %} red

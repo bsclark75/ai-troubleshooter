@@ -19,6 +19,7 @@ def init_db():
             id TEXT PRIMARY KEY,
             host TEXT,
             logs TEXT,
+            service TEXT,
             severity TEXT,
             analysis TEXT,
             status TEXT,
@@ -33,7 +34,7 @@ def init_db():
 
     conn.close()
 
-def save_incident(logs, severity, analysis, incident_id, host, status="queued", retry_count=0):
+def save_incident(logs, severity, analysis, incident_id, host, service, status="queued", retry_count=0):
     conn = sqlite3.connect(DB_PATH)
 
     cursor = conn.cursor()
@@ -45,18 +46,20 @@ def save_incident(logs, severity, analysis, incident_id, host, status="queued", 
         logs,
         severity,
         analysis,
+        service,
         status,
         retry_count,
         created_at,
         updated_at
     )
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     """, (
         incident_id,
         host,
         json.dumps(logs),
         severity,
         json.dumps(analysis),
+        service,
         status,
         retry_count,
         timestamp,
@@ -128,7 +131,8 @@ def get_incidents():
             retry_count,
             created_at,
             updated_at,
-            host
+            host,
+            service
         FROM incidents
         ORDER BY host ASC
     """)
@@ -144,7 +148,8 @@ def get_incidents():
             "retry_count": row[3],
             "created_at": row[4],
             "updated_at": row[5],
-            "host": row[6]
+            "host": row[6],
+            "service": row[7]
         })
     return incidents
 
@@ -455,7 +460,8 @@ def get_incident(incident_id):
             status,
             created_at TEXT,
             updated_at TEXT,
-            host
+            host,
+            service
         FROM incidents
         WHERE id = ?
     """, (incident_id,))
@@ -475,7 +481,8 @@ def get_incident(incident_id):
         "status": row[4],
         "created_at": row[5],
         "updated_at": row[6],
-        "host": row[7]
+        "host": row[7],
+        "service": row[8]
     }
 
 def get_incidents_by_host(host: str):
@@ -489,7 +496,8 @@ def get_incidents_by_host(host: str):
             retry_count,
             created_at,
             updated_at,
-            host
+            host,
+            service
         FROM incidents
         WHERE host = ?
         ORDER BY created_at DESC
@@ -506,6 +514,7 @@ def get_incidents_by_host(host: str):
             "retry_count": row[3],
             "created_at": row[4],
             "updated_at": row[5],
-            "host": row[6]
+            "host": row[6],
+            "service": row[7]
         })
     return incidents

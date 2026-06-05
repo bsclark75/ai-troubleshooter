@@ -37,38 +37,76 @@ logger.info(f"Recovered {recovered} interrupted incidents")
 templates = Jinja2Templates(directory="templates")
 semaphore = asyncio.Semaphore(3)
 
+from collections import defaultdict
+from datetime import datetime, timedelta
+
+def get_incident_trend():
+    incidents = get_incidents()
+
+    now = datetime.now()
+    start_time = now - timedelta(hours=24)
+
+    buckets = defaultdict(int)
+
+    # Create empty buckets so missing hours show as 0
+    for i in range(24):
+        hour = (start_time + timedelta(hours=i)).strftime("%H:00")
+        buckets[hour] = 0
+
+    for incident in incidents:
+        try:
+            created = datetime.fromisoformat(incident["created_at"])
+
+            if created >= start_time:
+                bucket = created.strftime("%H:00")
+                buckets[bucket] += 1
+
+        except Exception:
+            continue
+
+    labels = list(buckets.keys())
+    counts = list(buckets.values())
+
+    return {
+        "labels": labels,
+        "counts": counts
+    }
 
 @app.get("/")
 async def dashboard_ui(request: Request):
     incidents = get_incidents()
-    results = []
-    host_frequency = {}
+    groups = {}
 
     for incident in incidents:
-        host = incident["host"]
-        host_frequency[host] = host_frequency.get(host, 0) + 1
+        #print(incident)
+        key = (incident["host"], incident["service"])
 
-    for host, count in host_frequency.items():
-        host_incidents = [i for i in incidents if i["host"] == host]
-        worst_severity = get_worst_severity(host_incidents)
-        results.append({
-            "host": host,
-            "incident_count": count,
-            "severity": worst_severity
-        })
+        if key not in groups:
+            groups[key] = {
+                "host": incident["host"],
+                "service": incident["service"],
+                "incident_count": 0,
+                "severity": incident["severity"]
+            }
 
-    metrics = generate_metrics(results)
-    chart_labels = list(host_frequency.keys())
-    chart_values = list(host_frequency.values())
+        groups[key]["incident_count"] += 1
+        groups[key]["severity"] = incident["severity"]
+
+    host_services = sorted(
+        groups.values(),
+        key=lambda x: (x["host"], x["service"])
+    )
+    
+    metrics = generate_metrics(host_services)
+    trend = get_incident_trend()
 
     return templates.TemplateResponse(
         request=request,
         name="dashboard.html",
         context={
             "metrics": metrics,
-            "hosts": results,
-            "chart_labels": chart_labels,
-            "chart_values": chart_values
+            "host_services": host_services,
+            "trend": trend
         }
     )
 
@@ -101,7 +139,7 @@ def health():
 @app.post("/analyze/batch")
 async def analyze_batch(logs: List[str]):
     context = build_log_context(logs)
-    print(f"Context contains: {context}")
+    #print(f"Context contains: {context}")
     tasks = [
         process_host(host, incidents)
         for host, incidents in context["grouped"].items()
@@ -189,7 +227,7 @@ async def process_host(host, incidents):
         #print(f"processing host incidents: {incidents}")
         incident_ids = []
         for incident in incidents:
-            print(f"Working on {incident}")
+            #print(f"Working on {incident}")
             if is_repeat_notification(incident):
                 print("Skipping")
                 continue
@@ -249,6 +287,7 @@ async def host_ui(host: str, request: Request):
 
     metrics = generate_metrics(incidents)
     trends = analyze_trends(incidents)
+    #print(f"host_ui: Incident(s): {incidents}")
 
     return templates.TemplateResponse(
         request=request,
@@ -258,7 +297,8 @@ async def host_ui(host: str, request: Request):
             "incidents": incidents,
             "metrics": metrics,
             "trends": trends,
-            "incident_count": len(incidents)
+            "incident_count": len(incidents),
+            "service": incidents[0]["service"]
         }
     )
 

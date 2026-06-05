@@ -52,61 +52,78 @@
 
     </div>
 
-    <div class="card">
+<div class="card">
+    <h2>Incident Trend (Last 24 Hours)</h2>
 
-        <h2>Incident Frequency</h2>
+    <canvas id="incidentTrend"></canvas>
+</div>
 
-        <canvas id="incidentChart"></canvas>
+<div class="card">
 
-    </div>
+    <h2>Host / Service Summary</h2>
 
-    <div class="card">
+    <table>
 
-        <h2>Hosts</h2>
+        <tr>
+            <th>Host</th>
+            <th>Service</th>
+            <th>Incidents</th>
+            <th>Current Severity</th>
+        </tr>
 
-        <table>
+        {% for row in host_services %}
 
-            <tr>
-                <th>Host</th>
-                <th>Incidents</th>
-                <th>Severity</th>
-            </tr>
+        <tr>
+            <td>
+                <a href="/host/{{ row.host }}/ui">{{ row.host }}</a>
+            </td>
 
-            {% for host in hosts %}
+            <td>{{ row.service }}</td>
 
-            <tr>
-                <td>
-                    <a href="/host/{{ host.host }}/ui"> {{ host.host }} </a></td>
-                <td>{{ host.incident_count }}</td>
-                <td style="
-                    color: {% if host.severity == 'critical' %} red
-                            {% elif host.severity == 'high' %} orange
-                            {% elif host.severity == 'medium' %} gold
-                            {% else %} green
-                            {% endif %} "> {{ host.severity }} </td>
-            </tr>
+            <td>{{ row.incident_count }}</td>
 
-            {% endfor %}
+            <td style="
+                color: {% if row.severity == 'critical' %} red
+                        {% elif row.severity == 'high' %} orange
+                        {% elif row.severity == 'medium' %} gold
+                        {% else %} green
+                        {% endif %}">
+                {{ row.severity }}
+            </td>
+        </tr>
 
-        </table>
+        {% endfor %}
 
-    </div>
+    </table>
 
+</div>
 <script>
+const trendData = {
+    labels: {{ trend.labels | tojson }},
+    datasets: [{
+        label: 'Incidents',
+        data: {{ trend.counts | tojson }},
+        borderWidth: 2,
+        fill: false,
+        tension: 0.2
+    }]
+};
 
-const ctx = document.getElementById('incidentChart');
-
-new Chart(ctx, {
-    type: 'bar',
-    data: {
-        labels: {{ chart_labels | safe }},
-        datasets: [{
-            label: 'Incident Count',
-            data: {{ chart_values | safe }}
-        }]
+new Chart(
+    document.getElementById('incidentTrend'),
+    {
+        type: 'line',
+        data: trendData,
+        options: {
+            responsive: true,
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
     }
-});
-
+);
 </script>
 
 </body>

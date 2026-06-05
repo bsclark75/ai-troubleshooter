@@ -113,7 +113,7 @@ def check_for_new_lines(saved_inode,saved_offset):
             new_lines = nagios_file.readlines()
             new_offset = os.path.getsize(NAGIOSLOGFILE)
             new_saved_inode = saved_inode
-        print(f"{new_lines} {new_offset} {new_saved_inode}")
+        #print(f"{new_lines} {new_offset} {new_saved_inode}")
         return new_lines, new_offset, new_saved_inode
 
 def process_lines(processing_lines):

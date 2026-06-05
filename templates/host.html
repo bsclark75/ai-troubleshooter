@@ -61,6 +61,7 @@
         <table>
             <tr>
                 <th>Incident ID</th>
+                <th>Service</th>
                 <th>Severity</th>
                 <th>Status</th>
                 <th>Retry Count</th>
@@ -70,6 +71,7 @@
             {% for incident in incidents %}
             <tr>
                 <td><a href="/incident/{{ incident.incident_id }}/ui">{{ incident.incident_id }}</a></td>
+                <td>{{ incident.service }}</td>
                 <td style="color:
                     {% if incident.severity == 'critical' %} red
                     {% elif incident.severity == 'high' %} orange
