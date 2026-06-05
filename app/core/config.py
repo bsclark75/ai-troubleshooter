@@ -15,6 +15,11 @@ LOG_LEVEL = os.getenv(
     "INFO"
 )
 
+NAGIOSLOGFILE = os.getenv(
+    "NAGIOSLOGFILE",
+    "/logs/nagios.log"
+)
+
 MAX_RETRIES = 3
 STATUS_QUEUED = "queued"
 STATUS_PROCESSING = "processing"
