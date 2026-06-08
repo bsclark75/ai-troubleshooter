@@ -1,4 +1,5 @@
 import os
+import asyncio
 
 OLLAMA_URL = os.getenv(
     "OLLAMA_URL",
@@ -26,3 +27,4 @@ STATUS_PROCESSING = "processing"
 STATUS_COMPLETED = "completed"
 STATUS_FAILED = "failed"
 RECOVERED = "Root cause: Please see proceeding incident\nFix:  This host or service has now recovered.  Continue to monitor."
+semaphore = asyncio.Semaphore(3)

@@ -12,6 +12,8 @@ import asyncio
 from contextlib import asynccontextmanager
 from app.services.worker_service import queue_worker
 from typing import List
+from log_watcher import watch_logs
+from app.services.ingestion_service import process_host
 
 
 def success_response(data: dict) -> dict:
@@ -25,6 +27,7 @@ def error_response(code: str, message: str) -> dict:
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     asyncio.create_task(queue_worker())
+    asyncio.create_task(watch_logs())
     yield
 
 
@@ -35,7 +38,7 @@ recovered = recover_processing_incidents()
 
 logger.info(f"Recovered {recovered} interrupted incidents")
 templates = Jinja2Templates(directory="templates")
-semaphore = asyncio.Semaphore(3)
+#semaphore = asyncio.Semaphore(3)
 
 from collections import defaultdict
 from datetime import datetime, timedelta
@@ -219,30 +222,6 @@ def incident_status(incident_id: str):
         status_code=404,
         content=error_response("NOT_FOUND", f"Incident '{incident_id}' not found")
     )
-
-
-async def process_host(host, incidents):
-    async with semaphore:
-        logger.info(f"Worker started for {host}")
-        #print(f"processing host incidents: {incidents}")
-        incident_ids = []
-        for incident in incidents:
-            #print(f"Working on {incident}")
-            if is_repeat_notification(incident):
-                print("Skipping")
-                continue
-            new_id = create_incident(incident)
-            print(f"New id: {new_id}")
-            incident_ids.append(new_id)
-
-        logger.info(f"Worker completed for {host}")
-
-        return {
-            "host": host,
-            "incident_count": len(incidents),
-            "incident_ids": incident_ids
-        }
-
 
 @app.get("/processing")
 def processing():

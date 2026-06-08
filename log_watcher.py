@@ -1,8 +1,10 @@
-import requests
 import os
 from time import sleep
 import json
 import os
+import asyncio
+from app.services.log_service import build_log_context
+from app.services.ingestion_service import process_host
 
 NAGIOSLOGFILE = "/usr/local/nagios/var/nagios.log"
 ENDPOINTURL = "http://localhost:8000/analyze/batch"
@@ -116,39 +118,38 @@ def check_for_new_lines(saved_inode,saved_offset):
         #print(f"{new_lines} {new_offset} {new_saved_inode}")
         return new_lines, new_offset, new_saved_inode
 
-def process_lines(processing_lines):
-    url = ENDPOINTURL
-    
-    # Wrap payload in a dictionary if your API requires a specific key name
-    # e.g., payload = {"lines": processing_lines}
-    payload = processing_lines 
-    
-    try:
-        # Send the payload via an HTTP POST request
-        response = requests.post(url, json=payload, timeout=10)
-        
-        # Raise an exception for HTTP error statuses (e.g., 404, 500)
-        response.raise_for_status() 
-        
-        print(f"Successfully processed {len(processing_lines)} lines. Status: {response.status_code}")
-        return response.json() # Returns decoded JSON response from the server
-        
-    except requests.exceptions.RequestException as e:
-        print(f"Failed to send log batch to endpoint: {e}")
-        return None
+async def process_lines(processing_lines):
+
+    context = build_log_context(processing_lines)
+
+    tasks = [
+        process_host(host, incidents)
+        for host, incidents in context["grouped"].items()
+    ]
+
+    return await asyncio.gather(*tasks)
 
 
-inode, offset = load_state()
-while True:
-    lines, new_offset, new_inode = check_for_new_lines(inode, offset)
-    if lines:
-        success = process_lines(lines)
-        if success:
+async def watch_logs():
+    inode, offset = load_state()
+
+    while True:
+        lines, new_offset, new_inode = check_for_new_lines(
+            inode,
+            offset
+        )
+
+        if lines:
+            success = await process_lines(lines)
+
+            if success:
+                inode = new_inode
+                offset = new_offset
+                save_state(inode, offset)
+
+        elif inode is None:
             inode = new_inode
             offset = new_offset
             save_state(inode, offset)
-    elif inode is None:
-        inode = new_inode
-        offset = new_offset
-        save_state(inode,offset)
-    sleep(60)
+
+        await asyncio.sleep(60)
