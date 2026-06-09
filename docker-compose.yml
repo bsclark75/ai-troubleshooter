@@ -19,17 +19,29 @@ services:
 
     restart: unless-stopped
 
-  ollama:
-    image: ollama/ollama:latest
-    container_name: ollama
 
+  services:
+
+  ollama:
+    image: ollama/ollama
+    container_name: ollama
     ports:
       - "11434:11434"
-
     volumes:
-      - ollama_data:/root/.ollama
+      - ollama:/root/.ollama
 
-    restart: unless-stopped
+  ollama-init:
+    image: ollama/ollama
+    depends_on:
+      - ollama
+    volumes:
+      - ollama:/root/.ollama
+    entrypoint:
+      - /bin/sh
+      - -c
+      - |
+        sleep 10
+        ollama pull qwen2.5:1.5b
 
 volumes:
-  ollama_data:
+  ollama:

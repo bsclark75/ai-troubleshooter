@@ -9,7 +9,7 @@ from app.services.ingestion_service import process_host
 NAGIOSLOGFILE = "/logs/nagios.log"
 ENDPOINTURL = "http://localhost:8000/analyze/batch"
 STATEFILE = "data/nagios_state.json"
-ARCHIVE_DIR = "/usr/local/nagios/var/archives"
+ARCHIVE_DIR = "/logs/archive"
 
 def load_state():
     """
