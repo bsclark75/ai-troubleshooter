@@ -70,6 +70,8 @@ Logs:
                     }
                 )
 
+                logger.info("Status: %s", response.status_code)
+                logger.info("Body: %s", response.text)
                 response.raise_for_status()
 
                 data = response.json()

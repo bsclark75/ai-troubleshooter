@@ -6,7 +6,7 @@ import asyncio
 from app.services.log_service import build_log_context
 from app.services.ingestion_service import process_host
 
-NAGIOSLOGFILE = "/usr/local/nagios/var/nagios.log"
+NAGIOSLOGFILE = "/logs/nagios.log"
 ENDPOINTURL = "http://localhost:8000/analyze/batch"
 STATEFILE = "data/nagios_state.json"
 ARCHIVE_DIR = "/usr/local/nagios/var/archives"

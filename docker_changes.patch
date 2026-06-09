@@ -1,0 +1,53 @@
+diff --git a/app/core/config.py b/app/core/config.py
+index 06e8f11..23a9c6b 100644
+--- a/app/core/config.py
++++ b/app/core/config.py
+@@ -3,7 +3,7 @@ import asyncio
+ 
+ OLLAMA_URL = os.getenv(
+     "OLLAMA_URL",
+-    "http://localhost:11434/api/chat"
++    "http://ollama:11434/api/chat"
+ )
+ 
+ MODEL_NAME = os.getenv(
+diff --git a/app/services/ai_service.py b/app/services/ai_service.py
+index 42bcb08..de1d538 100644
+--- a/app/services/ai_service.py
++++ b/app/services/ai_service.py
+@@ -70,6 +70,8 @@ Logs:
+                     }
+                 )
+ 
++                logger.info("Status: %s", response.status_code)
++                logger.info("Body: %s", response.text)
+                 response.raise_for_status()
+ 
+                 data = response.json()
+@@ -87,4 +89,4 @@ Logs:
+                 )
+ 
+                 if attempt == 2:
+-                    raise
+\ No newline at end of file
++                    raise
+diff --git a/log_watcher.py b/log_watcher.py
+index 880237e..7c24160 100644
+--- a/log_watcher.py
++++ b/log_watcher.py
+@@ -6,7 +6,7 @@ import asyncio
+ from app.services.log_service import build_log_context
+ from app.services.ingestion_service import process_host
+ 
+-NAGIOSLOGFILE = "/usr/local/nagios/var/nagios.log"
++NAGIOSLOGFILE = "/logs/nagios.log"
+ ENDPOINTURL = "http://localhost:8000/analyze/batch"
+ STATEFILE = "data/nagios_state.json"
+ ARCHIVE_DIR = "/usr/local/nagios/var/archives"
+@@ -152,4 +152,4 @@ async def watch_logs():
+             offset = new_offset
+             save_state(inode, offset)
+ 
+-        await asyncio.sleep(60)
+\ No newline at end of file
++        await asyncio.sleep(60)
