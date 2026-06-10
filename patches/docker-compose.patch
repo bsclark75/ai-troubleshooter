@@ -1,0 +1,64 @@
+diff --git a/docker-compose.yml b/docker-compose.yml
+index 0b117b9..df4e5f0 100644
+--- a/docker-compose.yml
++++ b/docker-compose.yml
+@@ -15,33 +15,48 @@ services:
+       - /usr/local/nagios/var:/logs
+ 
+     depends_on:
+-      - ollama
++      ollama:
++        condition: service_healthy
+ 
+     restart: unless-stopped
+ 
+-
+-  services:
+-
+   ollama:
+     image: ollama/ollama
+     container_name: ollama
++
+     ports:
+       - "11434:11434"
++
+     volumes:
+       - ollama:/root/.ollama
+ 
++    restart: unless-stopped
++
++    healthcheck:
++      test: ["CMD", "ollama", "list"]
++      interval: 10s
++      timeout: 5s
++      retries: 10
++      start_period: 20s
++
+   ollama-init:
+     image: ollama/ollama
++    container_name: ollama-init
++
+     depends_on:
+-      - ollama
++      ollama:
++        condition: service_healthy
++
++    environment:
++      OLLAMA_HOST: http://ollama:11434
++
+     volumes:
+       - ollama:/root/.ollama
+-    entrypoint:
+-      - /bin/sh
+-      - -c
+-      - |
+-        sleep 10
+-        ollama pull qwen2.5:1.5b
++
++    command: >
++      pull qwen2.5:1.5b
++
++    restart: "no"
+ 
+ volumes:
+   ollama:
