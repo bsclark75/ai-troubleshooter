@@ -36,7 +36,6 @@ def init_db():
 
 def save_incident(logs, severity, analysis, incident_id, host, service, status="queued", retry_count=0):
     conn = sqlite3.connect(DB_PATH)
-
     cursor = conn.cursor()
     timestamp = datetime.utcnow().isoformat()
     cursor.execute("""

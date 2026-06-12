@@ -28,3 +28,5 @@ STATUS_COMPLETED = "completed"
 STATUS_FAILED = "failed"
 RECOVERED = "Root cause: Please see proceeding incident\nFix:  This host or service has now recovered.  Continue to monitor."
 semaphore = asyncio.Semaphore(3)
+STATEFILE = "data/nagios_state.json"
+ARCHIVE_DIR = "/logs/archive"

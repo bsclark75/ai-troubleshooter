@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container mt-4">
+
+    <h2>Batch Analysis Results</h2>
+
+    <a href="/upload" class="btn btn-primary mb-3">
+        Upload Another File
+    </a>
+
+    <pre class="border p-3 bg-light">
+{{ result | tojson(indent=2) }}
+    </pre>
+
+</div>
+
+{% endblock %}

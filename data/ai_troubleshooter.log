@@ -1,0 +1,1882 @@
+2026-06-12 10:22:50,268 INFO ai_troubleshooter Initialize database
+2026-06-12 10:22:50,283 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-12 10:22:50,360 INFO app.services.worker_service Queue worker started
+2026-06-12 11:12:34,062 INFO ai_troubleshooter Initialize database
+2026-06-12 11:12:34,063 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-12 11:12:34,115 ERROR fastapi Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2026-06-12 11:14:38,642 INFO ai_troubleshooter Initialize database
+2026-06-12 11:14:38,644 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-12 11:14:38,691 INFO app.services.worker_service Queue worker started
+2026-06-12 11:16:38,698 INFO ai_troubleshooter Worker started for localhost
+2026-06-12 11:16:38,699 INFO ai_troubleshooter Worker completed for localhost
+2026-06-12 11:29:13,495 INFO ai_troubleshooter Initialize database
+2026-06-12 11:29:13,496 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-12 11:29:13,533 INFO app.services.worker_service Queue worker started
+2026-06-12 11:32:54,248 INFO ai_troubleshooter Initialize database
+2026-06-12 11:32:54,250 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-12 11:32:54,300 INFO app.services.worker_service Queue worker started
+2026-06-12 11:38:49,604 INFO ai_troubleshooter Initialize database
+2026-06-12 11:38:49,606 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-12 11:38:49,688 INFO app.services.worker_service Queue worker started
+2026-06-12 11:43:33,099 INFO ai_troubleshooter Initialize database
+2026-06-12 11:43:33,100 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-12 11:43:33,138 INFO app.services.worker_service Queue worker started
+2026-06-12 11:47:03,744 INFO ai_troubleshooter Initialize database
+2026-06-12 11:47:03,745 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-12 11:47:03,789 INFO app.services.worker_service Queue worker started
+2026-06-12 11:51:48,770 INFO ai_troubleshooter Initialize database
+2026-06-12 11:51:48,771 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-12 11:51:48,812 INFO app.services.worker_service Queue worker started
+2026-06-12 11:55:22,593 INFO ai_troubleshooter Initialize database
+2026-06-12 11:55:22,593 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-12 11:55:22,650 INFO app.services.worker_service Queue worker started
+2026-06-12 11:57:12,688 INFO ai_troubleshooter Initialize database
+2026-06-12 11:57:12,689 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-12 11:57:12,726 INFO app.services.worker_service Queue worker started
+2026-06-12 12:00:46,666 INFO ai_troubleshooter Initialize database
+2026-06-12 12:00:46,666 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-12 12:00:46,706 INFO app.services.worker_service Queue worker started
+2026-06-12 12:16:46,924 INFO ai_troubleshooter Worker started for localhost
+2026-06-12 12:16:46,926 INFO ai_troubleshooter Worker completed for localhost
+2026-06-12 13:16:47,319 INFO ai_troubleshooter Worker started for localhost
+2026-06-12 13:16:47,320 INFO ai_troubleshooter Worker completed for localhost
+2026-06-12 13:58:37,742 INFO ai_troubleshooter Initialize database
+2026-06-12 13:58:37,743 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-12 13:58:37,829 INFO app.services.worker_service Queue worker started
+2026-06-12 13:58:45,532 INFO ai_troubleshooter Worker started for briansclark.net
+2026-06-12 13:58:45,532 INFO ai_troubleshooter Worker started for localhost
+2026-06-12 14:01:57,042 INFO ai_troubleshooter Initialize database
+2026-06-12 14:01:57,043 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-12 14:01:57,082 INFO app.services.worker_service Queue worker started
+2026-06-12 14:02:50,305 INFO ai_troubleshooter Initialize database
+2026-06-12 14:02:50,305 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-12 14:02:50,344 INFO app.services.worker_service Queue worker started
+2026-06-12 14:03:19,977 INFO ai_troubleshooter Worker started for briansclark.net
+2026-06-12 14:03:19,978 INFO ai_troubleshooter Worker started for localhost
+2026-06-12 14:06:02,267 INFO ai_troubleshooter Initialize database
+2026-06-12 14:06:02,268 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-12 14:06:02,311 INFO app.services.worker_service Queue worker started
+2026-06-12 14:06:26,324 INFO ai_troubleshooter Initialize database
+2026-06-12 14:06:26,324 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-12 14:06:26,373 INFO app.services.worker_service Queue worker started
+2026-06-12 14:07:08,217 INFO ai_troubleshooter Worker started for briansclark.net
+2026-06-12 14:07:08,217 INFO ai_troubleshooter Worker started for localhost
+2026-06-12 14:09:28,367 INFO ai_troubleshooter Initialize database
+2026-06-12 14:09:28,368 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-12 14:09:28,418 INFO app.services.worker_service Queue worker started
+2026-06-12 14:10:07,116 INFO ai_troubleshooter Worker started for briansclark.net
+2026-06-12 14:10:07,121 INFO ai_troubleshooter Worker started for localhost
+2026-06-12 14:12:37,085 INFO ai_troubleshooter Initialize database
+2026-06-12 14:12:37,085 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-12 14:12:37,133 INFO app.services.worker_service Queue worker started
+2026-06-12 14:12:51,070 INFO ai_troubleshooter Worker started for briansclark.net
+2026-06-12 14:12:51,071 INFO ai_troubleshooter Worker started for localhost
+2026-06-12 14:14:05,652 INFO ai_troubleshooter Initialize database
+2026-06-12 14:14:05,653 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-12 14:14:05,689 INFO app.services.worker_service Queue worker started
+2026-06-12 14:14:22,011 INFO ai_troubleshooter Worker started for briansclark.net
+2026-06-12 14:14:22,012 INFO ai_troubleshooter Worker started for localhost
+2026-06-12 14:17:05,708 INFO ai_troubleshooter Worker started for localhost
+2026-06-12 14:17:05,709 INFO ai_troubleshooter Worker completed for localhost
+2026-06-12 14:18:06,548 INFO ai_troubleshooter Initialize database
+2026-06-12 14:18:06,549 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-12 14:18:06,591 INFO app.services.worker_service Queue worker started
+2026-06-12 14:18:19,540 INFO ai_troubleshooter Worker started for briansclark.net
+2026-06-12 14:18:19,540 INFO ai_troubleshooter Worker started for localhost
+2026-06-12 14:19:52,727 INFO ai_troubleshooter Initialize database
+2026-06-12 14:19:52,727 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-12 14:19:52,773 INFO app.services.worker_service Queue worker started
+2026-06-12 14:20:15,725 INFO ai_troubleshooter Worker started for briansclark.net
+2026-06-12 14:20:15,725 INFO ai_troubleshooter Worker started for localhost
+2026-06-12 14:20:52,441 INFO ai_troubleshooter Initialize database
+2026-06-12 14:20:52,443 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-12 14:20:52,503 INFO app.services.worker_service Queue worker started
+2026-06-12 14:21:13,943 INFO ai_troubleshooter Worker started for briansclark.net
+2026-06-12 14:21:13,943 INFO ai_troubleshooter Worker started for localhost
+2026-06-12 14:23:02,512 INFO ai_troubleshooter Initialize database
+2026-06-12 14:23:02,513 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-12 14:23:02,562 INFO app.services.worker_service Queue worker started
+2026-06-12 14:23:42,205 INFO ai_troubleshooter Worker started for briansclark.net
+2026-06-12 14:23:42,206 INFO ai_troubleshooter Worker started for localhost
+2026-06-12 14:31:48,121 INFO ai_troubleshooter Initialize database
+2026-06-12 14:31:48,122 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-12 14:31:48,177 INFO app.services.worker_service Queue worker started
+2026-06-12 14:32:04,915 INFO ai_troubleshooter Worker started for briansclark.net
+2026-06-12 14:32:04,929 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:04,942 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:04,950 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:04,960 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:04,967 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:04,979 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:04,990 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,003 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,016 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,026 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,033 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,041 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,050 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,056 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,064 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,075 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,086 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,098 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,107 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,114 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,125 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,139 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,147 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,157 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,165 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,177 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,188 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,197 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,209 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,218 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,219 INFO ai_troubleshooter Worker completed for briansclark.net
+2026-06-12 14:32:05,219 INFO ai_troubleshooter Worker started for localhost
+2026-06-12 14:32:05,230 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,239 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,248 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,258 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,266 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,274 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,283 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,290 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,297 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,304 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,311 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,319 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,326 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,336 INFO ai_troubleshooter save new incident
+2026-06-12 14:32:05,336 INFO ai_troubleshooter Worker completed for localhost
+2026-06-12 14:32:05,411 INFO app.services.worker_service Processing queued incident 3f915786-2a9d-4d59-9e1c-6dd1be2cf477
+2026-06-12 14:32:05,438 INFO app.services.worker_service Completed incident 3f915786-2a9d-4d59-9e1c-6dd1be2cf477
+2026-06-12 14:32:06,441 INFO app.services.worker_service Processing queued incident 2913fc23-8fff-4cbe-9272-7aeac1d2d007
+2026-06-12 14:32:06,451 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:32:06,451 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:32:06,545 WARNING ai_troubleshooter AI request failed attempt 1: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:06,547 WARNING ai_troubleshooter AI request failed attempt 2: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:06,550 WARNING ai_troubleshooter AI request failed attempt 3: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:06,568 ERROR app.services.worker_service Retrying incident 2913fc23-8fff-4cbe-9272-7aeac1d2d007
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 25, in process_incident
+    analysis = await analyze_logs(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/ai_service.py", line 55, in analyze_logs
+    response = await client.post(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1859, in post
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:07,579 INFO app.services.worker_service Processing queued incident 2913fc23-8fff-4cbe-9272-7aeac1d2d007
+2026-06-12 14:32:07,588 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:32:07,588 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:32:07,623 WARNING ai_troubleshooter AI request failed attempt 1: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:07,626 WARNING ai_troubleshooter AI request failed attempt 2: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:07,630 WARNING ai_troubleshooter AI request failed attempt 3: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:07,644 ERROR app.services.worker_service Retrying incident 2913fc23-8fff-4cbe-9272-7aeac1d2d007
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 25, in process_incident
+    analysis = await analyze_logs(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/ai_service.py", line 55, in analyze_logs
+    response = await client.post(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1859, in post
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:08,648 INFO app.services.worker_service Processing queued incident 2913fc23-8fff-4cbe-9272-7aeac1d2d007
+2026-06-12 14:32:08,657 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:32:08,657 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:32:08,685 WARNING ai_troubleshooter AI request failed attempt 1: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:08,688 WARNING ai_troubleshooter AI request failed attempt 2: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:08,691 WARNING ai_troubleshooter AI request failed attempt 3: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:08,705 ERROR app.services.worker_service Incident permanently failed 2913fc23-8fff-4cbe-9272-7aeac1d2d007
+2026-06-12 14:32:09,708 INFO app.services.worker_service Processing queued incident 4d36b1b0-0e3d-4d25-a966-4622416bf431
+2026-06-12 14:32:09,718 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:32:09,718 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:32:09,745 WARNING ai_troubleshooter AI request failed attempt 1: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:09,748 WARNING ai_troubleshooter AI request failed attempt 2: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:09,751 WARNING ai_troubleshooter AI request failed attempt 3: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:09,768 ERROR app.services.worker_service Retrying incident 4d36b1b0-0e3d-4d25-a966-4622416bf431
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 25, in process_incident
+    analysis = await analyze_logs(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/ai_service.py", line 55, in analyze_logs
+    response = await client.post(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1859, in post
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:10,774 INFO app.services.worker_service Processing queued incident 4d36b1b0-0e3d-4d25-a966-4622416bf431
+2026-06-12 14:32:10,789 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:32:10,789 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:32:10,819 WARNING ai_troubleshooter AI request failed attempt 1: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:10,822 WARNING ai_troubleshooter AI request failed attempt 2: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:10,826 WARNING ai_troubleshooter AI request failed attempt 3: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:10,843 ERROR app.services.worker_service Retrying incident 4d36b1b0-0e3d-4d25-a966-4622416bf431
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 25, in process_incident
+    analysis = await analyze_logs(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/ai_service.py", line 55, in analyze_logs
+    response = await client.post(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1859, in post
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:11,853 INFO app.services.worker_service Processing queued incident 4d36b1b0-0e3d-4d25-a966-4622416bf431
+2026-06-12 14:32:11,864 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:32:11,864 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:32:11,899 WARNING ai_troubleshooter AI request failed attempt 1: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:11,901 WARNING ai_troubleshooter AI request failed attempt 2: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:11,904 WARNING ai_troubleshooter AI request failed attempt 3: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:11,924 ERROR app.services.worker_service Incident permanently failed 4d36b1b0-0e3d-4d25-a966-4622416bf431
+2026-06-12 14:32:12,938 INFO app.services.worker_service Processing queued incident 68ff5d29-02b7-4e0c-9fff-818bd606999c
+2026-06-12 14:32:12,959 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:32:12,959 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:32:12,989 WARNING ai_troubleshooter AI request failed attempt 1: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:12,991 WARNING ai_troubleshooter AI request failed attempt 2: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:12,997 WARNING ai_troubleshooter AI request failed attempt 3: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:13,027 ERROR app.services.worker_service Retrying incident 68ff5d29-02b7-4e0c-9fff-818bd606999c
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 25, in process_incident
+    analysis = await analyze_logs(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/ai_service.py", line 55, in analyze_logs
+    response = await client.post(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1859, in post
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:14,298 INFO app.services.worker_service Processing queued incident 68ff5d29-02b7-4e0c-9fff-818bd606999c
+2026-06-12 14:32:14,315 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:32:14,315 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:32:14,337 WARNING ai_troubleshooter AI request failed attempt 1: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:14,343 WARNING ai_troubleshooter AI request failed attempt 2: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:14,347 WARNING ai_troubleshooter AI request failed attempt 3: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:14,373 ERROR app.services.worker_service Retrying incident 68ff5d29-02b7-4e0c-9fff-818bd606999c
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 25, in process_incident
+    analysis = await analyze_logs(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/ai_service.py", line 55, in analyze_logs
+    response = await client.post(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1859, in post
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:15,377 INFO app.services.worker_service Processing queued incident 68ff5d29-02b7-4e0c-9fff-818bd606999c
+2026-06-12 14:32:15,400 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:32:15,400 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:32:15,428 WARNING ai_troubleshooter AI request failed attempt 1: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:15,431 WARNING ai_troubleshooter AI request failed attempt 2: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:15,434 WARNING ai_troubleshooter AI request failed attempt 3: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:15,465 ERROR app.services.worker_service Incident permanently failed 68ff5d29-02b7-4e0c-9fff-818bd606999c
+2026-06-12 14:32:16,472 INFO app.services.worker_service Processing queued incident 0ebd9ad7-8bbf-4ec4-8393-3cdfe7ecdd67
+2026-06-12 14:32:16,572 INFO app.services.worker_service Completed incident 0ebd9ad7-8bbf-4ec4-8393-3cdfe7ecdd67
+2026-06-12 14:32:17,609 INFO app.services.worker_service Processing queued incident 6ef57c34-df06-4500-a9fd-2e43eecd7ffa
+2026-06-12 14:32:17,634 INFO app.services.worker_service Completed incident 6ef57c34-df06-4500-a9fd-2e43eecd7ffa
+2026-06-12 14:32:18,718 INFO app.services.worker_service Processing queued incident 4f58f628-cfa0-492b-872e-40f0c4002efc
+2026-06-12 14:32:18,734 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:32:18,734 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:32:18,764 WARNING ai_troubleshooter AI request failed attempt 1: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:18,768 WARNING ai_troubleshooter AI request failed attempt 2: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:18,771 WARNING ai_troubleshooter AI request failed attempt 3: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:18,800 ERROR app.services.worker_service Retrying incident 4f58f628-cfa0-492b-872e-40f0c4002efc
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 25, in process_incident
+    analysis = await analyze_logs(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/ai_service.py", line 55, in analyze_logs
+    response = await client.post(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1859, in post
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:19,804 INFO app.services.worker_service Processing queued incident 4f58f628-cfa0-492b-872e-40f0c4002efc
+2026-06-12 14:32:19,823 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:32:19,824 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:32:19,851 WARNING ai_troubleshooter AI request failed attempt 1: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:19,856 WARNING ai_troubleshooter AI request failed attempt 2: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:19,859 WARNING ai_troubleshooter AI request failed attempt 3: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:19,883 ERROR app.services.worker_service Retrying incident 4f58f628-cfa0-492b-872e-40f0c4002efc
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 25, in process_incident
+    analysis = await analyze_logs(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/ai_service.py", line 55, in analyze_logs
+    response = await client.post(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1859, in post
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:20,932 INFO app.services.worker_service Processing queued incident 4f58f628-cfa0-492b-872e-40f0c4002efc
+2026-06-12 14:32:20,982 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:32:20,982 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:32:21,018 WARNING ai_troubleshooter AI request failed attempt 1: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:21,022 WARNING ai_troubleshooter AI request failed attempt 2: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:21,032 WARNING ai_troubleshooter AI request failed attempt 3: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:21,053 ERROR app.services.worker_service Incident permanently failed 4f58f628-cfa0-492b-872e-40f0c4002efc
+2026-06-12 14:32:22,063 INFO app.services.worker_service Processing queued incident ff9c5467-351b-4a35-9e5f-77223461ee41
+2026-06-12 14:32:22,084 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:32:22,084 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:32:22,116 WARNING ai_troubleshooter AI request failed attempt 1: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:22,118 WARNING ai_troubleshooter AI request failed attempt 2: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:22,123 WARNING ai_troubleshooter AI request failed attempt 3: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:22,144 ERROR app.services.worker_service Retrying incident ff9c5467-351b-4a35-9e5f-77223461ee41
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 25, in process_incident
+    analysis = await analyze_logs(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/ai_service.py", line 55, in analyze_logs
+    response = await client.post(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1859, in post
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:23,149 INFO app.services.worker_service Processing queued incident ff9c5467-351b-4a35-9e5f-77223461ee41
+2026-06-12 14:32:23,166 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:32:23,166 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:32:23,194 WARNING ai_troubleshooter AI request failed attempt 1: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:23,196 WARNING ai_troubleshooter AI request failed attempt 2: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:23,199 WARNING ai_troubleshooter AI request failed attempt 3: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:23,224 ERROR app.services.worker_service Retrying incident ff9c5467-351b-4a35-9e5f-77223461ee41
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 25, in process_incident
+    analysis = await analyze_logs(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/ai_service.py", line 55, in analyze_logs
+    response = await client.post(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1859, in post
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:24,235 INFO app.services.worker_service Processing queued incident ff9c5467-351b-4a35-9e5f-77223461ee41
+2026-06-12 14:32:24,290 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:32:24,290 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:32:24,326 WARNING ai_troubleshooter AI request failed attempt 1: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:24,329 WARNING ai_troubleshooter AI request failed attempt 2: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:24,331 WARNING ai_troubleshooter AI request failed attempt 3: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:24,359 ERROR app.services.worker_service Incident permanently failed ff9c5467-351b-4a35-9e5f-77223461ee41
+2026-06-12 14:32:25,415 INFO app.services.worker_service Processing queued incident b47164c4-5f8c-4a2f-a43d-369b7c031596
+2026-06-12 14:32:25,432 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:32:25,433 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:32:25,464 WARNING ai_troubleshooter AI request failed attempt 1: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:25,466 WARNING ai_troubleshooter AI request failed attempt 2: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:25,468 WARNING ai_troubleshooter AI request failed attempt 3: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:25,496 ERROR app.services.worker_service Retrying incident b47164c4-5f8c-4a2f-a43d-369b7c031596
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 25, in process_incident
+    analysis = await analyze_logs(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/ai_service.py", line 55, in analyze_logs
+    response = await client.post(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1859, in post
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:26,506 INFO app.services.worker_service Processing queued incident b47164c4-5f8c-4a2f-a43d-369b7c031596
+2026-06-12 14:32:26,516 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:32:26,516 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:32:26,543 WARNING ai_troubleshooter AI request failed attempt 1: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:26,546 WARNING ai_troubleshooter AI request failed attempt 2: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:26,550 WARNING ai_troubleshooter AI request failed attempt 3: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:26,579 ERROR app.services.worker_service Retrying incident b47164c4-5f8c-4a2f-a43d-369b7c031596
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 25, in process_incident
+    analysis = await analyze_logs(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/ai_service.py", line 55, in analyze_logs
+    response = await client.post(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1859, in post
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:27,584 INFO app.services.worker_service Processing queued incident b47164c4-5f8c-4a2f-a43d-369b7c031596
+2026-06-12 14:32:27,609 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:32:27,609 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:32:27,639 WARNING ai_troubleshooter AI request failed attempt 1: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:27,643 WARNING ai_troubleshooter AI request failed attempt 2: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:27,651 WARNING ai_troubleshooter AI request failed attempt 3: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:27,683 ERROR app.services.worker_service Incident permanently failed b47164c4-5f8c-4a2f-a43d-369b7c031596
+2026-06-12 14:32:28,687 INFO app.services.worker_service Processing queued incident cf9eee5f-245f-46fb-b362-99eefbdb1636
+2026-06-12 14:32:28,710 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:32:28,711 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:32:28,740 WARNING ai_troubleshooter AI request failed attempt 1: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:28,746 WARNING ai_troubleshooter AI request failed attempt 2: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:28,749 WARNING ai_troubleshooter AI request failed attempt 3: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:28,776 ERROR app.services.worker_service Retrying incident cf9eee5f-245f-46fb-b362-99eefbdb1636
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 25, in process_incident
+    analysis = await analyze_logs(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/ai_service.py", line 55, in analyze_logs
+    response = await client.post(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1859, in post
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:29,780 INFO app.services.worker_service Processing queued incident cf9eee5f-245f-46fb-b362-99eefbdb1636
+2026-06-12 14:32:29,803 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:32:29,803 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:32:29,828 WARNING ai_troubleshooter AI request failed attempt 1: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:29,833 WARNING ai_troubleshooter AI request failed attempt 2: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:29,838 WARNING ai_troubleshooter AI request failed attempt 3: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:29,868 ERROR app.services.worker_service Retrying incident cf9eee5f-245f-46fb-b362-99eefbdb1636
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 25, in process_incident
+    analysis = await analyze_logs(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/ai_service.py", line 55, in analyze_logs
+    response = await client.post(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1859, in post
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:30,873 INFO app.services.worker_service Processing queued incident cf9eee5f-245f-46fb-b362-99eefbdb1636
+2026-06-12 14:32:30,888 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:32:30,888 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:32:30,912 WARNING ai_troubleshooter AI request failed attempt 1: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:30,916 WARNING ai_troubleshooter AI request failed attempt 2: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:30,921 WARNING ai_troubleshooter AI request failed attempt 3: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:30,939 ERROR app.services.worker_service Incident permanently failed cf9eee5f-245f-46fb-b362-99eefbdb1636
+2026-06-12 14:32:31,942 INFO app.services.worker_service Processing queued incident b28d152e-b699-48cf-a565-613ab67ef526
+2026-06-12 14:32:31,958 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:32:31,959 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:32:31,989 WARNING ai_troubleshooter AI request failed attempt 1: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:31,992 WARNING ai_troubleshooter AI request failed attempt 2: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:31,997 WARNING ai_troubleshooter AI request failed attempt 3: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:32,014 ERROR app.services.worker_service Retrying incident b28d152e-b699-48cf-a565-613ab67ef526
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 25, in process_incident
+    analysis = await analyze_logs(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/ai_service.py", line 55, in analyze_logs
+    response = await client.post(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1859, in post
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:33,048 INFO app.services.worker_service Processing queued incident b28d152e-b699-48cf-a565-613ab67ef526
+2026-06-12 14:32:33,057 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:32:33,057 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:32:33,087 WARNING ai_troubleshooter AI request failed attempt 1: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:33,091 WARNING ai_troubleshooter AI request failed attempt 2: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:33,094 WARNING ai_troubleshooter AI request failed attempt 3: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:33,119 ERROR app.services.worker_service Retrying incident b28d152e-b699-48cf-a565-613ab67ef526
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 25, in process_incident
+    analysis = await analyze_logs(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/ai_service.py", line 55, in analyze_logs
+    response = await client.post(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1859, in post
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:34,125 INFO app.services.worker_service Processing queued incident b28d152e-b699-48cf-a565-613ab67ef526
+2026-06-12 14:32:34,135 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:32:34,135 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:32:34,164 WARNING ai_troubleshooter AI request failed attempt 1: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:34,167 WARNING ai_troubleshooter AI request failed attempt 2: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:34,170 WARNING ai_troubleshooter AI request failed attempt 3: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:34,187 ERROR app.services.worker_service Incident permanently failed b28d152e-b699-48cf-a565-613ab67ef526
+2026-06-12 14:32:35,208 INFO app.services.worker_service Processing queued incident 9afc28fa-e377-4718-a47e-d3aacd8c67ca
+2026-06-12 14:32:35,215 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:32:35,215 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:32:35,245 WARNING ai_troubleshooter AI request failed attempt 1: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:35,247 WARNING ai_troubleshooter AI request failed attempt 2: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:35,249 WARNING ai_troubleshooter AI request failed attempt 3: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:35,273 ERROR app.services.worker_service Retrying incident 9afc28fa-e377-4718-a47e-d3aacd8c67ca
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 25, in process_incident
+    analysis = await analyze_logs(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/ai_service.py", line 55, in analyze_logs
+    response = await client.post(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1859, in post
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:36,372 INFO app.services.worker_service Processing queued incident 9afc28fa-e377-4718-a47e-d3aacd8c67ca
+2026-06-12 14:32:36,382 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:32:36,383 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:32:36,416 WARNING ai_troubleshooter AI request failed attempt 1: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:36,419 WARNING ai_troubleshooter AI request failed attempt 2: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:36,422 WARNING ai_troubleshooter AI request failed attempt 3: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:36,444 ERROR app.services.worker_service Retrying incident 9afc28fa-e377-4718-a47e-d3aacd8c67ca
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 25, in process_incident
+    analysis = await analyze_logs(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/ai_service.py", line 55, in analyze_logs
+    response = await client.post(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1859, in post
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:37,469 INFO app.services.worker_service Processing queued incident 9afc28fa-e377-4718-a47e-d3aacd8c67ca
+2026-06-12 14:32:37,489 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:32:37,489 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:32:37,514 WARNING ai_troubleshooter AI request failed attempt 1: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:37,520 WARNING ai_troubleshooter AI request failed attempt 2: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:37,525 WARNING ai_troubleshooter AI request failed attempt 3: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:32:37,557 ERROR app.services.worker_service Incident permanently failed 9afc28fa-e377-4718-a47e-d3aacd8c67ca
+2026-06-12 14:34:24,789 INFO ai_troubleshooter Initialize database
+2026-06-12 14:34:24,790 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-12 14:34:24,840 INFO app.services.worker_service Queue worker started
+2026-06-12 14:34:24,841 INFO app.services.worker_service Processing queued incident 4ea0094c-2de4-4113-a8cd-3ba83fd8edbe
+2026-06-12 14:34:24,862 INFO app.services.worker_service Completed incident 4ea0094c-2de4-4113-a8cd-3ba83fd8edbe
+2026-06-12 14:34:25,865 INFO app.services.worker_service Processing queued incident b546c784-ccb4-49f3-a9d4-c255c55b167c
+2026-06-12 14:34:25,886 INFO app.services.worker_service Completed incident b546c784-ccb4-49f3-a9d4-c255c55b167c
+2026-06-12 14:34:26,886 INFO app.services.worker_service Processing queued incident 0f9184a2-f53f-4c68-b454-8d5713ec2c67
+2026-06-12 14:34:26,906 INFO app.services.worker_service Completed incident 0f9184a2-f53f-4c68-b454-8d5713ec2c67
+2026-06-12 14:34:27,910 INFO app.services.worker_service Processing queued incident b471ee7d-eb8c-46f6-b618-7a4e4c143ed6
+2026-06-12 14:34:27,927 INFO app.services.worker_service Completed incident b471ee7d-eb8c-46f6-b618-7a4e4c143ed6
+2026-06-12 14:34:28,930 INFO app.services.worker_service Processing queued incident 09d7eef7-d1c6-47cb-b28f-b52f7f7af9cc
+2026-06-12 14:34:28,938 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:34:28,938 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:35:59,939 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-12 14:35:59,945 INFO ai_troubleshooter Status: 200
+2026-06-12 14:35:59,946 INFO ai_troubleshooter Body: {"model":"qwen2.5:1.5b","created_at":"2026-06-12T18:35:59.924170883Z","message":{"role":"assistant","content":"```json\n{\n  \"root_cause\": \"The service is unable to establish a connection to the HTTP endpoint at the specified address and port.\",\n  \"recommended_fix\": \"Check the network configuration, ensure that the IP address and port are correct, and verify that there are no firewall or security group rules blocking access.\"\n}\n```"},"done":true,"done_reason":"stop","total_duration":90918490644,"load_duration":20749653081,"prompt_eval_count":214,"prompt_eval_duration":22895825462,"eval_count":68,"eval_duration":46983616423}
+2026-06-12 14:35:59,947 INFO ai_troubleshooter Incident processing completed
+2026-06-12 14:35:59,957 INFO app.services.worker_service Completed incident 09d7eef7-d1c6-47cb-b28f-b52f7f7af9cc
+2026-06-12 14:36:00,968 INFO app.services.worker_service Processing queued incident 7d5bb9eb-2c10-47e1-a728-e683b4bdb1da
+2026-06-12 14:36:00,976 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:36:00,977 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:36:57,934 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-12 14:36:57,937 INFO ai_troubleshooter Status: 200
+2026-06-12 14:36:57,937 INFO ai_troubleshooter Body: {"model":"qwen2.5:1.5b","created_at":"2026-06-12T18:36:57.93324745Z","message":{"role":"assistant","content":"```json\n{\n  \"root_cause\": {\n    \"type\": \"connection_refused\",\n    \"reason\": \"The SSH connection attempt failed due to a connection refusal error.\"\n  },\n  \"recommended_fix\": \"Check the network configuration, firewall settings, or ensure that the SSH service is running and listening on the correct port (22).\"\n}\n```"},"done":true,"done_reason":"stop","total_duration":56913399414,"load_duration":220989494,"prompt_eval_count":214,"prompt_eval_duration":14170987775,"eval_count":75,"eval_duration":42282524669}
+2026-06-12 14:36:57,938 INFO ai_troubleshooter Incident processing completed
+2026-06-12 14:36:57,946 INFO app.services.worker_service Completed incident 7d5bb9eb-2c10-47e1-a728-e683b4bdb1da
+2026-06-12 14:36:58,954 INFO app.services.worker_service Processing queued incident 47cf9b60-d5a1-46ae-b1f1-30c4b266b10e
+2026-06-12 14:36:58,962 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:36:58,962 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:38:01,938 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-12 14:38:01,939 INFO ai_troubleshooter Status: 200
+2026-06-12 14:38:01,939 INFO ai_troubleshooter Body: {"model":"qwen2.5:1.5b","created_at":"2026-06-12T18:38:01.935575725Z","message":{"role":"assistant","content":"```json\n{\n  \"root_cause\": \"Connection refused\",\n  \"recommended_fix\": \"Check the network configuration or firewall settings for the server at IP address 18.222.74.175 to ensure it is reachable and listening on port 80.\"\n}\n```"},"done":true,"done_reason":"stop","total_duration":62944139846,"load_duration":166243720,"prompt_eval_count":214,"prompt_eval_duration":13066077850,"eval_count":63,"eval_duration":49513615927}
+2026-06-12 14:38:01,940 INFO ai_troubleshooter Incident processing completed
+2026-06-12 14:38:01,951 INFO app.services.worker_service Completed incident 47cf9b60-d5a1-46ae-b1f1-30c4b266b10e
+2026-06-12 14:38:02,953 INFO app.services.worker_service Processing queued incident 8ee4055a-f8d5-47fd-8a85-0d2c37f5ca31
+2026-06-12 14:38:02,966 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:38:02,967 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:38:44,570 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-12 14:38:44,571 INFO ai_troubleshooter Status: 200
+2026-06-12 14:38:44,572 INFO ai_troubleshooter Body: {"model":"qwen2.5:1.5b","created_at":"2026-06-12T18:38:44.567666661Z","message":{"role":"assistant","content":"```json\n{\n  \"root_cause\": \"Connection refused\",\n  \"recommended_fix\": \"Check the network configuration or firewall settings for the SSH service on the host 'briansclark.net'. Ensure that the IP address and port are correctly configured.\"\n}\n```"},"done":true,"done_reason":"stop","total_duration":41570404171,"load_duration":134504284,"prompt_eval_count":214,"prompt_eval_duration":17526631462,"eval_count":55,"eval_duration":23710787030}
+2026-06-12 14:38:44,572 INFO ai_troubleshooter Incident processing completed
+2026-06-12 14:38:44,580 INFO app.services.worker_service Completed incident 8ee4055a-f8d5-47fd-8a85-0d2c37f5ca31
+2026-06-12 14:38:45,582 INFO app.services.worker_service Processing queued incident abac1569-06f8-4667-a8b7-17c9f21bd4d2
+2026-06-12 14:38:45,590 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:38:45,591 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:40:15,714 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-12 14:40:15,716 INFO ai_troubleshooter Status: 200
+2026-06-12 14:40:15,716 INFO ai_troubleshooter Body: {"model":"qwen2.5:1.5b","created_at":"2026-06-12T18:40:15.711813899Z","message":{"role":"assistant","content":"```json\n{\n  \"root_cause\": {\n    \"type\": \"network_connection_refused\",\n    \"reason\": \"The connection attempt failed due to a network issue where the server did not respond.\"\n  },\n  \"recommended_fix\": \"Check the network configuration and ensure that there are no firewalls or security groups blocking the connection. Verify that the IP address and port number used in the connection are correct and reachable.\"\n}\n```"},"done":true,"done_reason":"stop","total_duration":90095788356,"load_duration":193079221,"prompt_eval_count":213,"prompt_eval_duration":14391862490,"eval_count":89,"eval_duration":75165218781}
+2026-06-12 14:40:15,718 INFO ai_troubleshooter Incident processing completed
+2026-06-12 14:40:15,727 INFO app.services.worker_service Completed incident abac1569-06f8-4667-a8b7-17c9f21bd4d2
+2026-06-12 14:40:16,728 INFO app.services.worker_service Processing queued incident 77769232-1b26-48c2-a9da-84c3ba13c36e
+2026-06-12 14:40:16,734 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:40:16,735 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:41:15,613 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-12 14:41:15,615 INFO ai_troubleshooter Status: 200
+2026-06-12 14:41:15,615 INFO ai_troubleshooter Body: {"model":"qwen2.5:1.5b","created_at":"2026-06-12T18:41:15.612478717Z","message":{"role":"assistant","content":"```json\n{\n  \"root_cause\": \"Connection refused\",\n  \"recommended_fix\": \"Check the network configuration or firewall settings to ensure that the SSH service is correctly configured and accessible on the specified IP address and port.\"\n}\n```"},"done":true,"done_reason":"stop","total_duration":58831445140,"load_duration":198721963,"prompt_eval_count":213,"prompt_eval_duration":15107761026,"eval_count":49,"eval_duration":43332091180}
+2026-06-12 14:41:15,616 INFO ai_troubleshooter Incident processing completed
+2026-06-12 14:41:15,623 INFO app.services.worker_service Completed incident 77769232-1b26-48c2-a9da-84c3ba13c36e
+2026-06-12 14:41:16,625 INFO app.services.worker_service Processing queued incident ea07cbb4-1f43-4f4b-9a52-5809aef4328e
+2026-06-12 14:41:16,640 INFO app.services.worker_service Completed incident ea07cbb4-1f43-4f4b-9a52-5809aef4328e
+2026-06-12 14:41:17,644 INFO app.services.worker_service Processing queued incident 5aba8113-b9b2-4a2d-9f2a-6c6512d0ff85
+2026-06-12 14:41:17,666 INFO app.services.worker_service Completed incident 5aba8113-b9b2-4a2d-9f2a-6c6512d0ff85
+2026-06-12 14:41:18,669 INFO app.services.worker_service Processing queued incident cd0af42f-2056-4e23-aa8f-29d65f1e6d45
+2026-06-12 14:41:18,682 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:41:18,682 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:41:49,397 INFO ai_troubleshooter Initialize database
+2026-06-12 14:41:49,423 INFO ai_troubleshooter Recovered 1 interrupted incidents
+2026-06-12 14:41:49,574 INFO app.services.worker_service Queue worker started
+2026-06-12 14:41:49,575 INFO app.services.worker_service Processing queued incident cd0af42f-2056-4e23-aa8f-29d65f1e6d45
+2026-06-12 14:41:49,589 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:41:49,594 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:42:43,411 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-12 14:42:43,412 INFO ai_troubleshooter Status: 200
+2026-06-12 14:42:43,413 INFO ai_troubleshooter Body: {"model":"qwen2.5:1.5b","created_at":"2026-06-12T18:42:43.406688636Z","message":{"role":"assistant","content":"```json\n{\n  \"root_cause\": \"Connection refused\",\n  \"recommended_fix\": \"Check the network configuration or firewall settings to ensure that the specified IP address (18.222.74.175) and port (80) are reachable.\"\n}\n```"},"done":true,"done_reason":"stop","total_duration":53697018228,"load_duration":1054603539,"prompt_eval_count":214,"prompt_eval_duration":1049759050,"eval_count":61,"eval_duration":49197755219}
+2026-06-12 14:42:43,414 INFO ai_troubleshooter Incident processing completed
+2026-06-12 14:42:43,425 INFO app.services.worker_service Completed incident cd0af42f-2056-4e23-aa8f-29d65f1e6d45
+2026-06-12 14:42:44,427 INFO app.services.worker_service Processing queued incident 3f0b1157-7090-46e4-b592-9a495999fdf9
+2026-06-12 14:42:44,434 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:42:44,434 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:42:49,761 INFO ai_troubleshooter Worker started for localhost
+2026-06-12 14:42:49,776 INFO ai_troubleshooter save new incident
+2026-06-12 14:42:49,777 INFO ai_troubleshooter Worker completed for localhost
+2026-06-12 14:43:36,432 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-12 14:43:36,437 INFO ai_troubleshooter Status: 200
+2026-06-12 14:43:36,437 INFO ai_troubleshooter Body: {"model":"qwen2.5:1.5b","created_at":"2026-06-12T18:43:36.431585173Z","message":{"role":"assistant","content":"```json\n{\n  \"root_cause\": \"Connection refused\",\n  \"recommended_fix\": \"Check the network configuration or firewall settings for the SSH service on the host 'briansclark.net'. Ensure that the IP address and port are correctly configured.\"\n}\n```"},"done":true,"done_reason":"stop","total_duration":51969203333,"load_duration":1872422205,"prompt_eval_count":214,"prompt_eval_duration":23565452732,"eval_count":55,"eval_duration":26360000471}
+2026-06-12 14:43:36,438 INFO ai_troubleshooter Incident processing completed
+2026-06-12 14:43:36,447 INFO app.services.worker_service Completed incident 3f0b1157-7090-46e4-b592-9a495999fdf9
+2026-06-12 14:43:37,613 INFO app.services.worker_service Processing queued incident 4283d540-b9ec-4415-811a-9249951e700d
+2026-06-12 14:43:37,629 INFO app.services.worker_service Completed incident 4283d540-b9ec-4415-811a-9249951e700d
+2026-06-12 14:43:38,927 INFO app.services.worker_service Processing queued incident 3e01cacd-ddf9-4fc0-b7d6-bbc260d39852
+2026-06-12 14:43:38,950 INFO app.services.worker_service Completed incident 3e01cacd-ddf9-4fc0-b7d6-bbc260d39852
+2026-06-12 14:43:39,952 INFO app.services.worker_service Processing queued incident 95876b01-cff8-4668-b773-2357678de007
+2026-06-12 14:43:39,972 INFO app.services.worker_service Completed incident 95876b01-cff8-4668-b773-2357678de007
+2026-06-12 14:43:41,016 INFO app.services.worker_service Processing queued incident 4e28d336-4f8d-44b3-b40e-b2bc09d06691
+2026-06-12 14:43:41,036 INFO app.services.worker_service Completed incident 4e28d336-4f8d-44b3-b40e-b2bc09d06691
+2026-06-12 14:43:42,096 INFO app.services.worker_service Processing queued incident 582166ab-ab3b-4670-9419-3fafb2199b69
+2026-06-12 14:43:42,120 INFO app.services.worker_service Completed incident 582166ab-ab3b-4670-9419-3fafb2199b69
+2026-06-12 14:43:43,228 INFO app.services.worker_service Processing queued incident 8387664e-b75b-4537-bea2-d6f0d397ebd9
+2026-06-12 14:43:43,248 INFO app.services.worker_service Completed incident 8387664e-b75b-4537-bea2-d6f0d397ebd9
+2026-06-12 14:43:44,316 INFO app.services.worker_service Processing queued incident 20200bb0-2575-4b61-a25f-fbdc58407804
+2026-06-12 14:43:44,335 INFO app.services.worker_service Completed incident 20200bb0-2575-4b61-a25f-fbdc58407804
+2026-06-12 14:43:45,346 INFO app.services.worker_service Processing queued incident dc95db40-0dc3-43db-a68a-4d6eb26cd6b0
+2026-06-12 14:43:45,365 INFO app.services.worker_service Completed incident dc95db40-0dc3-43db-a68a-4d6eb26cd6b0
+2026-06-12 14:43:46,366 INFO app.services.worker_service Processing queued incident cdc1eeee-a7df-40dd-b8de-8bf96314e656
+2026-06-12 14:43:46,377 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:43:46,378 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:43:50,758 INFO ai_troubleshooter Worker started for localhost
+2026-06-12 14:43:50,772 INFO ai_troubleshooter save new incident
+2026-06-12 14:43:50,774 INFO ai_troubleshooter Worker completed for localhost
+2026-06-12 14:44:32,538 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-12 14:44:32,540 INFO ai_troubleshooter Status: 200
+2026-06-12 14:44:32,540 INFO ai_troubleshooter Body: {"model":"qwen2.5:1.5b","created_at":"2026-06-12T18:44:32.536434734Z","message":{"role":"assistant","content":"```json\n{\n  \"root_cause\": \"Filesystem is at or near capacity\",\n  \"recommended_fix\": \"Check disk usage with `df -h` and remove unnecessary files.\"\n}\n```"},"done":true,"done_reason":"stop","total_duration":46128301344,"load_duration":215634580,"prompt_eval_count":241,"prompt_eval_duration":14347706353,"eval_count":42,"eval_duration":31397091602}
+2026-06-12 14:44:32,542 INFO ai_troubleshooter Incident processing completed
+2026-06-12 14:44:32,557 INFO app.services.worker_service Completed incident cdc1eeee-a7df-40dd-b8de-8bf96314e656
+2026-06-12 14:44:33,562 INFO app.services.worker_service Processing queued incident 64845597-b2fb-4cee-973d-97516ceba235
+2026-06-12 14:44:33,582 INFO app.services.worker_service Completed incident 64845597-b2fb-4cee-973d-97516ceba235
+2026-06-12 14:44:34,591 INFO app.services.worker_service Processing queued incident 5a60388f-8540-4791-a63f-f80d7c1309ed
+2026-06-12 14:44:34,613 INFO app.services.worker_service Completed incident 5a60388f-8540-4791-a63f-f80d7c1309ed
+2026-06-12 14:44:35,803 INFO app.services.worker_service Processing queued incident d5beb0e3-a2ce-4776-bea7-cf1a19c8fd35
+2026-06-12 14:44:35,821 INFO app.services.worker_service Completed incident d5beb0e3-a2ce-4776-bea7-cf1a19c8fd35
+2026-06-12 14:44:36,957 INFO app.services.worker_service Processing queued incident 959cda6b-23ee-4291-afc8-c2f339bca1ba
+2026-06-12 14:44:36,968 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:44:36,969 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:45:12,897 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-12 14:45:12,898 INFO ai_troubleshooter Status: 200
+2026-06-12 14:45:12,898 INFO ai_troubleshooter Body: {"model":"qwen2.5:1.5b","created_at":"2026-06-12T18:45:12.89556625Z","message":{"role":"assistant","content":"```json\n{\n  \"root_cause\": \"Resource exhaustion or runaway process\",\n  \"recommended_fix\": \"Inspect running processes and restart affected service\"\n}\n```"},"done":true,"done_reason":"stop","total_duration":35887615156,"load_duration":138654670,"prompt_eval_count":225,"prompt_eval_duration":12821907464,"eval_count":34,"eval_duration":22812474920}
+2026-06-12 14:45:12,899 INFO ai_troubleshooter Incident processing completed
+2026-06-12 14:45:12,909 INFO app.services.worker_service Completed incident 959cda6b-23ee-4291-afc8-c2f339bca1ba
+2026-06-12 14:45:13,910 INFO app.services.worker_service Processing queued incident 19cbb6c6-ebc6-4877-854c-4404bbd5414b
+2026-06-12 14:45:13,919 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:45:13,919 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:45:47,977 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-12 14:45:47,978 INFO ai_troubleshooter Status: 200
+2026-06-12 14:45:47,978 INFO ai_troubleshooter Body: {"model":"qwen2.5:1.5b","created_at":"2026-06-12T18:45:47.976519392Z","message":{"role":"assistant","content":"```json\n{\n  \"root_cause\": \"Resource exhaustion or runaway process\",\n  \"recommended_fix\": \"Inspect running processes and restart affected service\"\n}\n```"},"done":true,"done_reason":"stop","total_duration":34023733583,"load_duration":122376003,"prompt_eval_count":225,"prompt_eval_duration":16399247505,"eval_count":34,"eval_duration":17389241433}
+2026-06-12 14:45:47,979 INFO ai_troubleshooter Incident processing completed
+2026-06-12 14:45:47,991 INFO app.services.worker_service Completed incident 19cbb6c6-ebc6-4877-854c-4404bbd5414b
+2026-06-12 14:45:49,000 INFO app.services.worker_service Processing queued incident 561f09e5-09e7-49a4-9e1f-f2581d5fe9d0
+2026-06-12 14:45:49,008 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:45:49,008 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:46:51,452 INFO httpx HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-12 14:46:51,453 INFO ai_troubleshooter Status: 200
+2026-06-12 14:46:51,454 INFO ai_troubleshooter Body: {"model":"qwen2.5:1.5b","created_at":"2026-06-12T18:46:51.448769859Z","message":{"role":"assistant","content":"```json\n{\n  \"root_cause\": \"Resource exhaustion or runaway process\",\n  \"recommended_fix\": \"Inspect running processes and restart affected service\"\n}\n```"},"done":true,"done_reason":"stop","total_duration":62407611528,"load_duration":120687048,"prompt_eval_count":225,"prompt_eval_duration":22265279877,"eval_count":34,"eval_duration":39910867853}
+2026-06-12 14:46:51,455 INFO ai_troubleshooter Incident processing completed
+2026-06-12 14:46:51,464 INFO app.services.worker_service Completed incident 561f09e5-09e7-49a4-9e1f-f2581d5fe9d0
+2026-06-12 14:46:52,472 INFO app.services.worker_service Processing queued incident ece5bac3-956f-4194-97fa-10fce09a89b2
+2026-06-12 14:46:52,485 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:46:52,485 INFO ai_troubleshooter Start to analyze logs with AI
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 2026-06-12 14:53:03,332 INFO ai_troubleshooter Initialize database
+2026-06-12 14:53:03,345 INFO ai_troubleshooter Recovered 1 interrupted incidents
+2026-06-12 14:53:03,408 INFO app.services.worker_service Queue worker started
+2026-06-12 14:53:03,408 INFO app.services.worker_service Processing queued incident 73760d1e-6766-467d-a1cb-0d14a58fd97c
+2026-06-12 14:53:03,416 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:53:03,416 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:53:03,497 ERROR asyncio Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<watch_logs() done, defined at /home/brian/workspace/github.com/bsclark75/ai-troubleshooter/log_watcher.py:129> exception=FileNotFoundError(2, 'No such file or directory')>
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/log_watcher.py", line 133, in watch_logs
+    lines, new_offset, new_inode = check_for_new_lines(
+                                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/log_watcher.py", line 105, in check_for_new_lines
+    with open(NAGIOSLOGFILE, "r") as nagios_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/logs/nagios.log'
+2026-06-12 14:53:03,506 WARNING ai_troubleshooter AI request failed attempt 1: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:53:03,511 WARNING ai_troubleshooter AI request failed attempt 2: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:53:03,517 WARNING ai_troubleshooter AI request failed attempt 3: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:53:03,538 ERROR app.services.worker_service Retrying incident 73760d1e-6766-467d-a1cb-0d14a58fd97c
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 25, in process_incident
+    analysis = await analyze_logs(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/ai_service.py", line 55, in analyze_logs
+    response = await client.post(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1859, in post
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:53:04,739 INFO app.services.worker_service Processing queued incident 73760d1e-6766-467d-a1cb-0d14a58fd97c
+2026-06-12 14:53:04,761 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:53:04,764 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:53:04,809 WARNING ai_troubleshooter AI request failed attempt 1: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:53:04,811 WARNING ai_troubleshooter AI request failed attempt 2: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:53:04,814 WARNING ai_troubleshooter AI request failed attempt 3: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:53:04,837 ERROR app.services.worker_service Retrying incident 73760d1e-6766-467d-a1cb-0d14a58fd97c
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/worker_service.py", line 29, in queue_worker
+    result = await process_incident(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/incident_processor.py", line 25, in process_incident
+    analysis = await analyze_logs(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/app/services/ai_service.py", line 55, in analyze_logs
+    response = await client.post(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1859, in post
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/brian/workspace/github.com/bsclark75/ai-troubleshooter/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:53:05,933 INFO app.services.worker_service Processing queued incident 73760d1e-6766-467d-a1cb-0d14a58fd97c
+2026-06-12 14:53:05,948 INFO ai_troubleshooter Incident processing started
+2026-06-12 14:53:05,949 INFO ai_troubleshooter Start to analyze logs with AI
+2026-06-12 14:53:05,986 WARNING ai_troubleshooter AI request failed attempt 1: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:53:05,988 WARNING ai_troubleshooter AI request failed attempt 2: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:53:05,990 WARNING ai_troubleshooter AI request failed attempt 3: [Errno -3] Temporary failure in name resolution
+2026-06-12 14:53:06,009 ERROR app.services.worker_service Incident permanently failed 73760d1e-6766-467d-a1cb-0d14a58fd97c
+2026-06-12 14:53:07,174 INFO app.services.worker_service Processing queued incident dd3da083-a608-4c35-8e0e-9c9dd14e7271
+2026-06-12 14:53:07,198 INFO app.services.worker_service Completed incident dd3da083-a608-4c35-8e0e-9c9dd14e7271
+2026-06-12 14:55:36,435 INFO ai_troubleshooter Initialize database
+2026-06-12 14:55:36,437 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-12 14:55:36,474 INFO app.services.worker_service Queue worker started
+2026-06-12 14:55:36,476 INFO ai_troubleshooter Worker started for localhost
+2026-06-12 14:55:36,476 INFO ai_troubleshooter Worker completed for localhost
+2026-06-12 15:21:55,706 INFO ai_troubleshooter Initialize database
+2026-06-12 15:21:55,713 INFO ai_troubleshooter Recovered 0 interrupted incidents
+2026-06-12 15:21:55,786 INFO app.services.worker_service Queue worker started

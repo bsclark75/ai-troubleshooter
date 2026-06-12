@@ -1,5 +1,5 @@
-from fastapi import FastAPI, BackgroundTasks, Request
-from fastapi.responses import JSONResponse
+from fastapi import FastAPI, BackgroundTasks, Request, UploadFile, File
+from fastapi.responses import JSONResponse, HTMLResponse
 from app.services.log_service import get_parsed_log_context, create_incident, is_repeat_notification, build_log_context
 from app.services.db_service import init_db, recover_processing_incidents, get_incidents, get_incidents_by_host, get_queued_incidents, get_incident, get_processing_incidents, get_failure_incidents, get_incident_counts
 from app.services.metrics_service import generate_metrics
@@ -13,7 +13,10 @@ from contextlib import asynccontextmanager
 from app.services.worker_service import queue_worker
 from typing import List
 from log_watcher import watch_logs
-from app.services.ingestion_service import process_host
+from app.services.ingestion_service import process_batch_log
+from collections import defaultdict
+from datetime import datetime, timedelta
+
 
 
 def success_response(data: dict) -> dict:
@@ -30,7 +33,6 @@ async def lifespan(app: FastAPI):
     asyncio.create_task(watch_logs())
     yield
 
-
 load_dotenv()
 app = FastAPI(lifespan=lifespan)
 init_db()
@@ -40,8 +42,6 @@ logger.info(f"Recovered {recovered} interrupted incidents")
 templates = Jinja2Templates(directory="templates")
 #semaphore = asyncio.Semaphore(3)
 
-from collections import defaultdict
-from datetime import datetime, timedelta
 
 def get_incident_trend():
     incidents = get_incidents()
@@ -140,21 +140,8 @@ def health():
     })
 
 @app.post("/analyze/batch")
-async def analyze_batch(logs: List[str]):
-    context = build_log_context(logs)
-    #print(f"Context contains: {context}")
-    tasks = [
-        process_host(host, incidents)
-        for host, incidents in context["grouped"].items()
-    ]
-
-    results = await asyncio.gather(*tasks)
-
-    return success_response({
-        "total_hosts": len(results),
-        "results": results
-    })
-
+async def analyze_batch(content):
+    return await process_batch_log(content)
 
 @app.get("/dashboard")
 async def dashboard():
@@ -298,3 +285,40 @@ async def incident_ui(incident_id: str, request: Request):
             "incident": incident
         }
     )
+
+@app.get("/upload")
+async def upload_page(request: Request):
+    return templates.TemplateResponse(
+        request=request,
+        name="upload_logs.html"
+    )
+
+
+@app.post("/upload", response_class=HTMLResponse)
+async def upload_logs(
+    request: Request,
+    logfile: UploadFile = File(...)
+):
+ 
+    try:
+
+        content = await logfile.read()
+        lines = content.decode().splitlines()
+
+        result = await process_batch_log(lines)
+
+        return templates.TemplateResponse(
+            request=request,
+            name="upload_results.html",
+            context={
+                "result": result
+            }
+)
+    except Exception as e:
+        return templates.TemplateResponse(
+            request=request,
+            name="upload_logs.html",
+                context={
+                    "error": str(e)
+                }
+)

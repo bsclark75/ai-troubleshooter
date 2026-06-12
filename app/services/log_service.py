@@ -17,10 +17,15 @@ def load_logs():
     return [log.strip() for log in logs]
 
 def create_incident(logs):
+
     incident_id = str(uuid.uuid4())
-    #print(logs)
-    host = logs["host"]
-    service = logs["service"]
+
+    host = logs.get("host")
+    service = logs.get("service")
+
+    if service is None:
+        print("Skipping record without service")
+        return None
 
     save_incident(
         logs,
@@ -31,6 +36,7 @@ def create_incident(logs):
         service,
         status="queued"
     )
+
     return incident_id
 
 

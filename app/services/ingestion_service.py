@@ -1,11 +1,11 @@
 from app.core.config import semaphore
 from app.core.logging_config import logger
-from app.services.log_service import is_repeat_notification, create_incident
+from app.services.log_service import is_repeat_notification, create_incident, build_log_context
+import asyncio
 
 async def process_host(host, incidents):
     async with semaphore:
         logger.info(f"Worker started for {host}")
-        #print(f"processing host incidents: {incidents}")
         incident_ids = []
         for incident in incidents:
             #print(f"Working on {incident}")
@@ -23,3 +23,13 @@ async def process_host(host, incidents):
             "incident_count": len(incidents),
             "incident_ids": incident_ids
         }
+    
+async def process_batch_log(content: str):
+    context = build_log_context(content)
+    #print(f"ingestion_service state of context: {context}")
+    tasks = [
+        process_host(host, incidents)
+        for host, incidents in context["grouped"].items()
+    ]
+
+    results = await asyncio.gather(*tasks)

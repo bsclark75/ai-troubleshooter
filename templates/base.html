@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>{% block title %}AI Troubleshooter{% endblock %}</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <meta http-equiv="refresh" content="30">
+
+    <style>
+
+        body {
+            font-family: Arial;
+            margin: 40px;
+            background-color: #f4f4f4;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        nav {
+            background: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        nav a {
+            margin-right: 20px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #333;
+        }
+
+        nav a:hover {
+            color: #007bff;
+        }
+
+    </style>
+
+    {% block head %}
+    {% endblock %}
+
+</head>
+
+<body>
+
+    <nav>
+        <a href="/">Dashboard</a>
+        <a href="/upload">Upload Logs</a>
+    </nav>
+
+    {% block content %}
+    {% endblock %}
+
+</body>
+</html>
