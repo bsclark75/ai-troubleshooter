@@ -1,58 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Incident - {{ incident.incident_id }}</title>
-    <meta http-equiv="refresh" content="30">
-    <style>
-        body {
-            font-family: Arial;
-            margin: 40px;
-            background-color: #f4f4f4;
-        }
-        .card {
-            background: white;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 8px;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td {
-            padding: 10px;
-            border-bottom: 1px solid #ddd;
-        }
-        th {
-            text-align: left;
-            width: 180px;
-            color: #555;
-        }
-        .back-link {
-            display: inline-block;
-            margin-bottom: 20px;
-            color: #333;
-            text-decoration: none;
-            font-size: 14px;
-        }
-        .back-link:hover {
-            text-decoration: underline;
-        }
-        .log-box, .analysis-box {
-            background: #f9f9f9;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            padding: 15px;
-            white-space: pre-wrap;
-            font-family: monospace;
-            font-size: 13px;
-            overflow-x: auto;
-        }
-    </style>
-</head>
-<body>
+{% extends "base.html" %}
 
-    <a class="back-link" href="/host/{{ incident.host }}/ui">← Back to {{ incident.host }}</a>
+{% block title %}
+HIncident - {{ incident.incident_id }}
+{% endblock %}
+
+{% block content %}
+
+
+<a class="back-link" href="/host/{{ incident.host }}/ui">← Back to {{ incident.host }}</a>
     <h1>Incident {{ incident.incident_id }}</h1>
 
     <div class="card">
@@ -107,6 +62,4 @@
         <div class="analysis-box">{{ incident.analysis }}</div>
     </div>
     {% endif %}
-
-</body>
-</html>
+{% endblock %}

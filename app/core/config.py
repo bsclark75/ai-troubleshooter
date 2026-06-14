@@ -21,6 +21,11 @@ NAGIOSLOGFILE = os.getenv(
     "/logs/nagios.log"
 )
 
+ARCHIVE_DIR = os.getenv(
+    "ARCHIVE_DIR",
+    "/logs/nagios.log"
+)
+
 MAX_RETRIES = 3
 STATUS_QUEUED = "queued"
 STATUS_PROCESSING = "processing"
@@ -29,4 +34,3 @@ STATUS_FAILED = "failed"
 RECOVERED = "Root cause: Please see proceeding incident\nFix:  This host or service has now recovered.  Continue to monitor."
 semaphore = asyncio.Semaphore(3)
 STATEFILE = "data/nagios_state.json"
-ARCHIVE_DIR = "/logs/archive"

@@ -1,45 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Host Detail - {{ host }}</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <meta http-equiv="refresh" content="30">
-    <style>
-        body {
-            font-family: Arial;
-            margin: 40px;
-            background-color: #f4f4f4;
-        }
-        .card {
-            background: white;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 8px;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td {
-            padding: 10px;
-            border-bottom: 1px solid #ddd;
-        }
-        .back-link {
-            display: inline-block;
-            margin-bottom: 20px;
-            color: #333;
-            text-decoration: none;
-            font-size: 14px;
-        }
-        .back-link:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
-<body>
+{% extends "base.html" %}
 
-    <a class="back-link" href="/">← Back to Dashboard</a>
-    <h1>Host: {{ host }}</h1>
+{% block title %}
+Host Detail - {{ host }}
+{% endblock %}
+
+{% block content %}
+<h1>Host: {{ host }}</h1>
 
     <div class="card">
         <h2>Metrics</h2>
@@ -108,6 +74,4 @@
             }
         });
     </script>
-
-</body>
-</html>
+{% endblock %}
