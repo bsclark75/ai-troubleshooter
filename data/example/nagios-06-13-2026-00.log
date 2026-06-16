@@ -1,0 +1,337 @@
+[1780632000] LOG ROTATION: DAILY
+[1780632000] LOG VERSION: 2.0
+[1780632000] CURRENT HOST STATE: briansclark.net;UP;HARD;1;
+[1780632000] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1780632000] CURRENT SERVICE STATE: briansclark.net;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 301 Moved Permanently - 385 bytes in 0.093 second response time
+[1780632000] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.13, 0.23, 0.18
+[1780632000] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 2 users currently logged in
+[1780632000] CURRENT SERVICE STATE: localhost;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 10945 bytes in 0.002 second response time
+[1780632000] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.09 ms
+[1780632000] CURRENT SERVICE STATE: localhost;Root Partition;WARNING;HARD;4;DISK WARNING - free space: / 3130 MiB (13.19% inode=84%):
+[1780632000] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_9.6p1 Ubuntu-3ubuntu13.16 (protocol 2.0)
+[1780632000] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 94% free (3819 MB out of 4095 MB)
+[1780632000] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 63 processes with STATE = RSZDT
+[1780635431] Auto-save of retention data completed successfully.
+[1780635544] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 3131 MiB (13.19% inode=84%):
+[1780639031] Auto-save of retention data completed successfully.
+[1780639144] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 3131 MiB (13.19% inode=84%):
+[1780642631] Auto-save of retention data completed successfully.
+[1780642744] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 3131 MiB (13.19% inode=84%):
+[1780646231] Auto-save of retention data completed successfully.
+[1780646344] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 3131 MiB (13.19% inode=84%):
+[1780649831] Auto-save of retention data completed successfully.
+[1780649944] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 3131 MiB (13.19% inode=84%):
+[1780653431] Auto-save of retention data completed successfully.
+[1780653545] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 3131 MiB (13.19% inode=84%):
+[1780656453] Caught SIGTERM, shutting down...
+[1780656453] Successfully shutdown... (PID=1395)
+[1780660298] Nagios 4.5.13 starting... (PID=1271)
+[1780660298] Local time is Fri Jun 05 07:51:38 EDT 2026
+[1780660298] LOG VERSION: 2.0
+[1780660298] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1780660298] qh: core query handler registered
+[1780660298] qh: echo service query handler registered
+[1780660298] qh: help for the query handler registered
+[1780660298] wproc: Successfully registered manager as @wproc with query handler
+[1780660298] wproc: Registry request: name=Core Worker 1273;pid=1273
+[1780660298] wproc: Registry request: name=Core Worker 1278;pid=1278
+[1780660298] wproc: Registry request: name=Core Worker 1275;pid=1275
+[1780660298] wproc: Registry request: name=Core Worker 1276;pid=1276
+[1780660298] wproc: Registry request: name=Core Worker 1274;pid=1274
+[1780660298] wproc: Registry request: name=Core Worker 1277;pid=1277
+[1780660298] wproc: Registry request: name=Core Worker 1281;pid=1281
+[1780660298] Warning: Host 'briansclark.net' has no default contacts or contactgroups defined!
+[1780660298] Successfully launched command file worker with pid 1287
+[1780660411] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 3113 MiB (13.12% inode=84%):
+[1780663898] Auto-save of retention data completed successfully.
+[1780664012] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 3095 MiB (13.04% inode=84%):
+[1780664574] SERVICE ALERT: briansclark.net;HTTP;CRITICAL;SOFT;1;connect to address 18.222.74.175 and port 80: Connection refused
+[1780664694] SERVICE ALERT: briansclark.net;HTTP;CRITICAL;SOFT;2;connect to address 18.222.74.175 and port 80: Connection refused
+[1780664814] SERVICE NOTIFICATION: nagiosadmin;briansclark.net;HTTP;CRITICAL;notify-service-by-email;connect to address 18.222.74.175 and port 80: Connection refused
+[1780664814] SERVICE ALERT: briansclark.net;HTTP;CRITICAL;HARD;3;connect to address 18.222.74.175 and port 80: Connection refused
+[1780666614] SERVICE NOTIFICATION: nagiosadmin;briansclark.net;HTTP;OK;notify-service-by-email;HTTP OK: HTTP/1.1 301 Moved Permanently - 385 bytes in 0.102 second response time
+[1780666614] SERVICE ALERT: briansclark.net;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 301 Moved Permanently - 385 bytes in 0.102 second response time
+[1780667498] Auto-save of retention data completed successfully.
+[1780667613] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 3092 MiB (13.03% inode=84%):
+[1780671098] Auto-save of retention data completed successfully.
+[1780671213] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 3094 MiB (13.03% inode=84%):
+[1780674698] Auto-save of retention data completed successfully.
+[1780674813] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 3114 MiB (13.12% inode=84%):
+[1780678298] Auto-save of retention data completed successfully.
+[1780678416] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 3110 MiB (13.10% inode=84%):
+[1780679744] Caught SIGTERM, shutting down...
+[1780679744] Caught SIGTERM, shutting down...
+[1780679744] Caught SIGTERM, shutting down...
+[1780679744] Successfully shutdown... (PID=1271)
+[1780679744] Nagios 4.5.13 starting... (PID=38926)
+[1780679744] Local time is Fri Jun 05 13:15:44 EDT 2026
+[1780679744] LOG VERSION: 2.0
+[1780679744] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1780679744] qh: core query handler registered
+[1780679744] qh: echo service query handler registered
+[1780679744] qh: help for the query handler registered
+[1780679744] wproc: Successfully registered manager as @wproc with query handler
+[1780679744] wproc: Registry request: name=Core Worker 38928;pid=38928
+[1780679744] wproc: Registry request: name=Core Worker 38929;pid=38929
+[1780679744] wproc: Registry request: name=Core Worker 38932;pid=38932
+[1780679744] wproc: Registry request: name=Core Worker 38931;pid=38931
+[1780679744] wproc: Registry request: name=Core Worker 38927;pid=38927
+[1780679744] wproc: Registry request: name=Core Worker 38933;pid=38933
+[1780679744] wproc: Registry request: name=Core Worker 38930;pid=38930
+[1780679744] Warning: Host 'briansclark.net' has no default contacts or contactgroups defined!
+[1780679744] Successfully launched command file worker with pid 38934
+[1780680415] SERVICE ALERT: briansclark.net;HTTP;CRITICAL;SOFT;1;connect to address 18.222.74.175 and port 80: Connection refused
+[1780680416] SERVICE ALERT: briansclark.net;SSH;CRITICAL;SOFT;1;connect to address 18.222.74.175 and port 22: Connection refused
+[1780680536] SERVICE ALERT: briansclark.net;HTTP;CRITICAL;SOFT;2;connect to address 18.222.74.175 and port 80: Connection refused
+[1780680537] SERVICE ALERT: briansclark.net;SSH;CRITICAL;SOFT;2;connect to address 18.222.74.175 and port 22: Connection refused
+[1780680657] SERVICE NOTIFICATION: nagiosadmin;briansclark.net;SSH;CRITICAL;notify-service-by-email;connect to address 18.222.74.175 and port 22: Connection refused
+[1780680657] SERVICE ALERT: briansclark.net;SSH;CRITICAL;HARD;3;connect to address 18.222.74.175 and port 22: Connection refused
+[1780680657] SERVICE NOTIFICATION: nagiosadmin;briansclark.net;HTTP;CRITICAL;notify-service-by-email;connect to address 18.222.74.175 and port 80: Connection refused
+[1780680657] SERVICE ALERT: briansclark.net;HTTP;CRITICAL;HARD;3;connect to address 18.222.74.175 and port 80: Connection refused
+[1780681257] SERVICE NOTIFICATION: nagiosadmin;briansclark.net;SSH;OK;notify-service-by-email;SSH OK - OpenSSH_10.2p1 Ubuntu-2ubuntu3.2 (protocol 2.0)
+[1780681257] SERVICE ALERT: briansclark.net;SSH;OK;HARD;1;SSH OK - OpenSSH_10.2p1 Ubuntu-2ubuntu3.2 (protocol 2.0)
+[1780681257] SERVICE NOTIFICATION: nagiosadmin;briansclark.net;HTTP;OK;notify-service-by-email;HTTP OK: HTTP/1.1 301 Moved Permanently - 385 bytes in 0.149 second response time
+[1780681257] SERVICE ALERT: briansclark.net;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 301 Moved Permanently - 385 bytes in 0.149 second response time
+[1780682017] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 3111 MiB (13.11% inode=84%):
+[1780683344] Auto-save of retention data completed successfully.
+[1780685617] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2839 MiB (11.96% inode=83%):
+[1780685960] Caught SIGTERM, shutting down...
+[1780685960] Caught SIGTERM, shutting down...
+[1780685961] Caught SIGTERM, shutting down...
+[1780685961] Successfully shutdown... (PID=38926)
+[1780931485] Nagios 4.5.13 starting... (PID=1287)
+[1780931485] Local time is Mon Jun 08 11:11:25 EDT 2026
+[1780931485] LOG VERSION: 2.0
+[1780931485] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1780931485] qh: core query handler registered
+[1780931485] qh: echo service query handler registered
+[1780931485] qh: help for the query handler registered
+[1780931485] wproc: Successfully registered manager as @wproc with query handler
+[1780931485] wproc: Registry request: name=Core Worker 1303;pid=1303
+[1780931485] wproc: Registry request: name=Core Worker 1305;pid=1305
+[1780931485] wproc: Registry request: name=Core Worker 1306;pid=1306
+[1780931485] wproc: Registry request: name=Core Worker 1301;pid=1301
+[1780931485] wproc: Registry request: name=Core Worker 1298;pid=1298
+[1780931485] wproc: Registry request: name=Core Worker 1299;pid=1299
+[1780931485] wproc: Registry request: name=Core Worker 1302;pid=1302
+[1780931485] Warning: Host 'briansclark.net' has no default contacts or contactgroups defined!
+[1780931485] Successfully launched command file worker with pid 1309
+[1780931665] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2862 MiB (12.06% inode=83%):
+[1780935085] Auto-save of retention data completed successfully.
+[1780935266] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2852 MiB (12.02% inode=83%):
+[1780935758] SERVICE ALERT: briansclark.net;HTTP;CRITICAL;SOFT;1;connect to address 18.222.74.175 and port 80: Connection refused
+[1780935830] SERVICE ALERT: briansclark.net;SSH;CRITICAL;SOFT;1;connect to address 18.222.74.175 and port 22: Connection refused
+[1780935878] SERVICE ALERT: briansclark.net;HTTP;CRITICAL;SOFT;2;connect to address 18.222.74.175 and port 80: Connection refused
+[1780935950] SERVICE ALERT: briansclark.net;SSH;CRITICAL;SOFT;2;connect to address 18.222.74.175 and port 22: Connection refused
+[1780935998] SERVICE NOTIFICATION: nagiosadmin;briansclark.net;HTTP;CRITICAL;notify-service-by-email;connect to address 18.222.74.175 and port 80: Connection refused
+[1780935998] SERVICE ALERT: briansclark.net;HTTP;CRITICAL;HARD;3;connect to address 18.222.74.175 and port 80: Connection refused
+[1780936070] SERVICE NOTIFICATION: nagiosadmin;briansclark.net;SSH;CRITICAL;notify-service-by-email;connect to address 18.222.74.175 and port 22: Connection refused
+[1780936070] SERVICE ALERT: briansclark.net;SSH;CRITICAL;HARD;3;connect to address 18.222.74.175 and port 22: Connection refused
+[1780936598] SERVICE FLAPPING ALERT: briansclark.net;HTTP;STARTED; Service appears to have started flapping (20.5% change >= 20.0% threshold)
+[1780936598] SERVICE ALERT: briansclark.net;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 301 Moved Permanently - 385 bytes in 0.161 second response time
+[1780936671] SERVICE FLAPPING ALERT: briansclark.net;SSH;STARTED; Service appears to have started flapping (20.5% change >= 20.0% threshold)
+[1780936671] SERVICE ALERT: briansclark.net;SSH;OK;HARD;1;SSH OK - OpenSSH_10.2p1 Ubuntu-2ubuntu3.2 (protocol 2.0)
+[1780937102] SERVICE ALERT: localhost;Current Load;WARNING;SOFT;1;WARNING - load average: 5.10, 3.36, 1.69
+[1780937163] SERVICE ALERT: localhost;Current Load;WARNING;SOFT;2;WARNING - load average: 5.05, 3.48, 1.82
+[1780937198] SERVICE ALERT: briansclark.net;HTTP;CRITICAL;SOFT;1;connect to address 18.222.74.175 and port 80: Connection refused
+[1780937223] SERVICE ALERT: localhost;Current Load;WARNING;SOFT;3;WARNING - load average: 5.26, 3.90, 2.07
+[1780937270] SERVICE ALERT: briansclark.net;SSH;CRITICAL;SOFT;1;connect to address 18.222.74.175 and port 22: Connection refused
+[1780937283] SERVICE NOTIFICATION: nagiosadmin;localhost;Current Load;WARNING;notify-service-by-email;WARNING - load average: 5.71, 4.32, 2.34
+[1780937283] SERVICE ALERT: localhost;Current Load;WARNING;HARD;4;WARNING - load average: 5.71, 4.32, 2.34
+[1780937319] SERVICE ALERT: briansclark.net;HTTP;OK;SOFT;2;HTTP OK: HTTP/1.1 301 Moved Permanently - 385 bytes in 0.158 second response time
+[1780937390] SERVICE ALERT: briansclark.net;SSH;OK;SOFT;2;SSH OK - OpenSSH_10.2p1 Ubuntu-2ubuntu3.2 (protocol 2.0)
+[1780937583] SERVICE NOTIFICATION: nagiosadmin;localhost;Current Load;OK;notify-service-by-email;OK - load average: 0.82, 3.25, 2.55
+[1780937583] SERVICE ALERT: localhost;Current Load;OK;HARD;1;OK - load average: 0.82, 3.25, 2.55
+[1780937801] Caught SIGTERM, shutting down...
+[1780937801] Caught SIGTERM, shutting down...
+[1780937801] wproc: Socket to worker Core Worker 1298 broken, removing
+[1780937802] Successfully shutdown... (PID=1287)
+[1781035780] Nagios 4.5.13 starting... (PID=1406)
+[1781035780] Local time is Tue Jun 09 16:09:40 EDT 2026
+[1781035780] LOG VERSION: 2.0
+[1781035780] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1781035780] qh: core query handler registered
+[1781035780] qh: echo service query handler registered
+[1781035780] qh: help for the query handler registered
+[1781035780] wproc: Successfully registered manager as @wproc with query handler
+[1781035780] wproc: Registry request: name=Core Worker 1409;pid=1409
+[1781035780] wproc: Registry request: name=Core Worker 1417;pid=1417
+[1781035780] wproc: Registry request: name=Core Worker 1412;pid=1412
+[1781035780] wproc: Registry request: name=Core Worker 1414;pid=1414
+[1781035780] wproc: Registry request: name=Core Worker 1408;pid=1408
+[1781035780] wproc: Registry request: name=Core Worker 1410;pid=1410
+[1781035780] wproc: Registry request: name=Core Worker 1411;pid=1411
+[1781035780] Warning: Host 'briansclark.net' has no default contacts or contactgroups defined!
+[1781035783] Successfully launched command file worker with pid 1762
+[1781035852] SERVICE NOTIFICATION: nagiosadmin;briansclark.net;HTTP;OK;notify-service-by-email;HTTP OK: HTTP/1.1 301 Moved Permanently - 385 bytes in 0.119 second response time
+[1781035924] SERVICE NOTIFICATION: nagiosadmin;briansclark.net;SSH;OK;notify-service-by-email;SSH OK - OpenSSH_10.2p1 Ubuntu-2ubuntu3.2 (protocol 2.0)
+[1781035960] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2826 MiB (11.91% inode=83%):
+[1781036462] Caught SIGTERM, shutting down...
+[1781036462] Caught SIGTERM, shutting down...
+[1781036462] wproc: Socket to worker Core Worker 1411 broken, removing
+[1781036462] wproc: Socket to worker Core Worker 1409 broken, removing
+[1781036462] Successfully shutdown... (PID=1406)
+[1781040066] Nagios 4.5.13 starting... (PID=1275)
+[1781040066] Local time is Tue Jun 09 17:21:06 EDT 2026
+[1781040066] LOG VERSION: 2.0
+[1781040066] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1781040066] qh: core query handler registered
+[1781040066] qh: echo service query handler registered
+[1781040066] qh: help for the query handler registered
+[1781040066] wproc: Successfully registered manager as @wproc with query handler
+[1781040066] wproc: Registry request: name=Core Worker 1277;pid=1277
+[1781040066] wproc: Registry request: name=Core Worker 1279;pid=1279
+[1781040066] wproc: Registry request: name=Core Worker 1284;pid=1284
+[1781040066] wproc: Registry request: name=Core Worker 1283;pid=1283
+[1781040066] wproc: Registry request: name=Core Worker 1285;pid=1285
+[1781040066] wproc: Registry request: name=Core Worker 1280;pid=1280
+[1781040066] wproc: Registry request: name=Core Worker 1278;pid=1278
+[1781040066] Warning: Host 'briansclark.net' has no default contacts or contactgroups defined!
+[1781040066] Successfully launched command file worker with pid 1296
+[1781040246] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2807 MiB (11.83% inode=83%):
+[1781040516] Caught SIGTERM, shutting down...
+[1781040516] Successfully shutdown... (PID=1275)
+[1781115089] Nagios 4.5.13 starting... (PID=1293)
+[1781115089] Local time is Wed Jun 10 14:11:29 EDT 2026
+[1781115089] LOG VERSION: 2.0
+[1781115089] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1781115089] qh: core query handler registered
+[1781115089] qh: echo service query handler registered
+[1781115089] qh: help for the query handler registered
+[1781115089] wproc: Successfully registered manager as @wproc with query handler
+[1781115089] wproc: Registry request: name=Core Worker 1296;pid=1296
+[1781115089] wproc: Registry request: name=Core Worker 1298;pid=1298
+[1781115089] wproc: Registry request: name=Core Worker 1297;pid=1297
+[1781115089] wproc: Registry request: name=Core Worker 1300;pid=1300
+[1781115089] wproc: Registry request: name=Core Worker 1299;pid=1299
+[1781115089] wproc: Registry request: name=Core Worker 1303;pid=1303
+[1781115089] wproc: Registry request: name=Core Worker 1301;pid=1301
+[1781115089] Warning: Host 'briansclark.net' has no default contacts or contactgroups defined!
+[1781115089] Successfully launched command file worker with pid 1326
+[1781115269] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2722 MiB (11.47% inode=83%):
+[1781118689] Auto-save of retention data completed successfully.
+[1781118869] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2711 MiB (11.42% inode=83%):
+[1781120101] Caught SIGTERM, shutting down...
+[1781120101] Caught SIGTERM, shutting down...
+[1781120101] Caught SIGTERM, shutting down...
+[1781120101] Successfully shutdown... (PID=1293)
+[1781120107] Nagios 4.5.13 starting... (PID=1233)
+[1781120107] Local time is Wed Jun 10 15:35:07 EDT 2026
+[1781120107] LOG VERSION: 2.0
+[1781120107] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1781120107] qh: core query handler registered
+[1781120107] qh: echo service query handler registered
+[1781120107] qh: help for the query handler registered
+[1781120107] wproc: Successfully registered manager as @wproc with query handler
+[1781120107] wproc: Registry request: name=Core Worker 1235;pid=1235
+[1781120107] wproc: Registry request: name=Core Worker 1237;pid=1237
+[1781120107] wproc: Registry request: name=Core Worker 1238;pid=1238
+[1781120107] wproc: Registry request: name=Core Worker 1241;pid=1241
+[1781120108] wproc: Registry request: name=Core Worker 1239;pid=1239
+[1781120108] wproc: Registry request: name=Core Worker 1240;pid=1240
+[1781120108] wproc: Registry request: name=Core Worker 1242;pid=1242
+[1781120108] Warning: Host 'briansclark.net' has no default contacts or contactgroups defined!
+[1781120108] Successfully launched command file worker with pid 1253
+[1781120188] Caught SIGTERM, shutting down...
+[1781120188] Successfully shutdown... (PID=1233)
+[1781273595] Nagios 4.5.13 starting... (PID=1358)
+[1781273595] Local time is Fri Jun 12 10:13:15 EDT 2026
+[1781273595] LOG VERSION: 2.0
+[1781273595] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1781273595] qh: core query handler registered
+[1781273595] qh: echo service query handler registered
+[1781273595] qh: help for the query handler registered
+[1781273595] wproc: Successfully registered manager as @wproc with query handler
+[1781273595] wproc: Registry request: name=Core Worker 1368;pid=1368
+[1781273595] wproc: Registry request: name=Core Worker 1367;pid=1367
+[1781273595] wproc: Registry request: name=Core Worker 1366;pid=1366
+[1781273595] wproc: Registry request: name=Core Worker 1364;pid=1364
+[1781273595] wproc: Registry request: name=Core Worker 1369;pid=1369
+[1781273595] wproc: Registry request: name=Core Worker 1370;pid=1370
+[1781273595] wproc: Registry request: name=Core Worker 1365;pid=1365
+[1781273595] Warning: Host 'briansclark.net' has no default contacts or contactgroups defined!
+[1781273595] Successfully launched command file worker with pid 1387
+[1781273775] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2959 MiB (12.47% inode=83%):
+[1781277195] Auto-save of retention data completed successfully.
+[1781277375] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2501 MiB (10.54% inode=83%):
+[1781280795] Auto-save of retention data completed successfully.
+[1781280977] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2502 MiB (10.54% inode=83%):
+[1781284395] Auto-save of retention data completed successfully.
+[1781284577] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2499 MiB (10.53% inode=83%):
+[1781287995] Auto-save of retention data completed successfully.
+[1781288177] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2498 MiB (10.53% inode=83%):
+[1781289715] SERVICE ALERT: localhost;Current Load;WARNING;SOFT;1;WARNING - load average: 5.70, 3.96, 2.37
+[1781289775] SERVICE ALERT: localhost;Current Load;OK;SOFT;2;OK - load average: 4.28, 3.87, 2.44
+[1781290290] Nagios 4.5.13 starting... (PID=1240)
+[1781290290] Local time is Fri Jun 12 14:51:30 EDT 2026
+[1781290290] LOG VERSION: 2.0
+[1781290290] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1781290290] qh: core query handler registered
+[1781290290] qh: echo service query handler registered
+[1781290290] qh: help for the query handler registered
+[1781290290] wproc: Successfully registered manager as @wproc with query handler
+[1781290290] wproc: Registry request: name=Core Worker 1243;pid=1243
+[1781290290] wproc: Registry request: name=Core Worker 1246;pid=1246
+[1781290290] wproc: Registry request: name=Core Worker 1244;pid=1244
+[1781290290] wproc: Registry request: name=Core Worker 1252;pid=1252
+[1781290290] wproc: Registry request: name=Core Worker 1248;pid=1248
+[1781290290] wproc: Registry request: name=Core Worker 1245;pid=1245
+[1781290290] wproc: Registry request: name=Core Worker 1247;pid=1247
+[1781290290] Warning: Host 'briansclark.net' has no default contacts or contactgroups defined!
+[1781290290] Successfully launched command file worker with pid 1266
+[1781290470] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2509 MiB (10.57% inode=83%):
+[1781290757] Caught SIGTERM, shutting down...
+[1781290757] wproc: Socket to worker Core Worker 1248 broken, removing
+[1781290757] wproc: Socket to worker Core Worker 1244 broken, removing
+[1781290757] Successfully shutdown... (PID=1240)
+[1781291954] Nagios 4.5.13 starting... (PID=1275)
+[1781291954] Local time is Fri Jun 12 15:19:14 EDT 2026
+[1781291954] LOG VERSION: 2.0
+[1781291954] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1781291954] qh: core query handler registered
+[1781291954] qh: echo service query handler registered
+[1781291954] qh: help for the query handler registered
+[1781291954] wproc: Successfully registered manager as @wproc with query handler
+[1781291954] wproc: Registry request: name=Core Worker 1280;pid=1280
+[1781291954] wproc: Registry request: name=Core Worker 1281;pid=1281
+[1781291954] wproc: Registry request: name=Core Worker 1283;pid=1283
+[1781291954] wproc: Registry request: name=Core Worker 1285;pid=1285
+[1781291954] wproc: Registry request: name=Core Worker 1284;pid=1284
+[1781291954] wproc: Registry request: name=Core Worker 1282;pid=1282
+[1781291954] wproc: Registry request: name=Core Worker 1286;pid=1286
+[1781291954] Warning: Host 'briansclark.net' has no default contacts or contactgroups defined!
+[1781291954] Successfully launched command file worker with pid 1301
+[1781293269] Caught SIGTERM, shutting down...
+[1781293270] Caught SIGTERM, shutting down...
+[1781293270] Caught SIGTERM, shutting down...
+[1781293270] Successfully shutdown... (PID=1275)
+[1781309585] Nagios 4.5.13 starting... (PID=1283)
+[1781309585] Local time is Fri Jun 12 20:13:05 EDT 2026
+[1781309585] LOG VERSION: 2.0
+[1781309585] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1781309585] qh: core query handler registered
+[1781309585] qh: echo service query handler registered
+[1781309585] qh: help for the query handler registered
+[1781309585] wproc: Successfully registered manager as @wproc with query handler
+[1781309585] wproc: Registry request: name=Core Worker 1288;pid=1288
+[1781309585] wproc: Registry request: name=Core Worker 1285;pid=1285
+[1781309585] wproc: Registry request: name=Core Worker 1291;pid=1291
+[1781309585] wproc: Registry request: name=Core Worker 1284;pid=1284
+[1781309585] wproc: Registry request: name=Core Worker 1292;pid=1292
+[1781309585] wproc: Registry request: name=Core Worker 1287;pid=1287
+[1781309585] wproc: Registry request: name=Core Worker 1286;pid=1286
+[1781309585] Warning: Host 'briansclark.net' has no default contacts or contactgroups defined!
+[1781309585] Successfully launched command file worker with pid 1306
+[1781309765] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2483 MiB (10.46% inode=83%):
+[1781310267] SERVICE ALERT: briansclark.net;HTTP;CRITICAL;SOFT;1;CRITICAL - Socket timeout
+[1781310397] SERVICE ALERT: briansclark.net;HTTP;CRITICAL;SOFT;2;CRITICAL - Socket timeout
+[1781310529] SERVICE NOTIFICATION: nagiosadmin;briansclark.net;HTTP;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout
+[1781310529] SERVICE ALERT: briansclark.net;HTTP;CRITICAL;HARD;3;CRITICAL - Socket timeout
+[1781311130] SERVICE NOTIFICATION: nagiosadmin;briansclark.net;HTTP;OK;notify-service-by-email;HTTP OK: HTTP/1.1 301 Moved Permanently - 385 bytes in 0.220 second response time
+[1781311130] SERVICE ALERT: briansclark.net;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 301 Moved Permanently - 385 bytes in 0.220 second response time
+[1781313185] Auto-save of retention data completed successfully.
+[1781313366] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2486 MiB (10.47% inode=83%):
+[1781316786] Auto-save of retention data completed successfully.
+[1781316973] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2486 MiB (10.47% inode=83%):
+[1781320385] Auto-save of retention data completed successfully.
+[1781320585] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2507 MiB (10.56% inode=83%):

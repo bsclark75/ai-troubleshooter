@@ -1,0 +1,67 @@
+[1781409600] LOG ROTATION: DAILY
+[1781409600] LOG VERSION: 2.0
+[1781409600] CURRENT HOST STATE: briansclark.net;UP;HARD;1;
+[1781409600] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1781409600] CURRENT SERVICE STATE: briansclark.net;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 301 Moved Permanently - 385 bytes in 0.095 second response time
+[1781409600] CURRENT SERVICE STATE: briansclark.net;SSH;OK;HARD;1;SSH OK - OpenSSH_10.2p1 Ubuntu-2ubuntu3.2 (protocol 2.0)
+[1781409600] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.08, 0.08, 0.09
+[1781409600] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 2 users currently logged in
+[1781409600] CURRENT SERVICE STATE: localhost;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 10945 bytes in 0.001 second response time
+[1781409600] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1781409600] CURRENT SERVICE STATE: localhost;Root Partition;WARNING;HARD;4;DISK WARNING - free space: / 2424 MiB (10.21% inode=83%):
+[1781409600] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_9.6p1 Ubuntu-3ubuntu13.16 (protocol 2.0)
+[1781409600] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (4095 MB out of 4095 MB)
+[1781409600] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 61 processes with STATE = RSZDT
+[1781410769] Auto-save of retention data completed successfully.
+[1781410977] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2432 MiB (10.25% inode=83%):
+[1781414369] Auto-save of retention data completed successfully.
+[1781414579] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2429 MiB (10.24% inode=83%):
+[1781417969] Auto-save of retention data completed successfully.
+[1781418179] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2430 MiB (10.24% inode=83%):
+[1781421569] Auto-save of retention data completed successfully.
+[1781421783] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2430 MiB (10.24% inode=83%):
+[1781425169] Auto-save of retention data completed successfully.
+[1781425385] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2431 MiB (10.24% inode=83%):
+[1781428769] Auto-save of retention data completed successfully.
+[1781428987] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2429 MiB (10.23% inode=83%):
+[1781432369] Auto-save of retention data completed successfully.
+[1781432590] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2430 MiB (10.24% inode=83%):
+[1781435969] Auto-save of retention data completed successfully.
+[1781436192] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2431 MiB (10.24% inode=83%):
+[1781439569] Auto-save of retention data completed successfully.
+[1781439794] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2428 MiB (10.23% inode=83%):
+[1781442061] Caught SIGTERM, shutting down...
+[1781442061] Successfully shutdown... (PID=1286)
+[1781469548] Nagios 4.5.13 starting... (PID=1298)
+[1781469548] Local time is Sun Jun 14 16:39:08 EDT 2026
+[1781469548] LOG VERSION: 2.0
+[1781469548] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1781469548] qh: core query handler registered
+[1781469548] qh: echo service query handler registered
+[1781469548] qh: help for the query handler registered
+[1781469548] wproc: Successfully registered manager as @wproc with query handler
+[1781469548] wproc: Registry request: name=Core Worker 1301;pid=1301
+[1781469548] wproc: Registry request: name=Core Worker 1302;pid=1302
+[1781469548] wproc: Registry request: name=Core Worker 1303;pid=1303
+[1781469548] wproc: Registry request: name=Core Worker 1305;pid=1305
+[1781469548] wproc: Registry request: name=Core Worker 1307;pid=1307
+[1781469548] wproc: Registry request: name=Core Worker 1306;pid=1306
+[1781469548] wproc: Registry request: name=Core Worker 1304;pid=1304
+[1781469548] Warning: Host 'briansclark.net' has no default contacts or contactgroups defined!
+[1781469548] Successfully launched command file worker with pid 1338
+[1781469728] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2415 MiB (10.18% inode=83%):
+[1781473148] Auto-save of retention data completed successfully.
+[1781473328] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2434 MiB (10.25% inode=83%):
+[1781476748] Auto-save of retention data completed successfully.
+[1781476930] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2437 MiB (10.27% inode=83%):
+[1781480348] Auto-save of retention data completed successfully.
+[1781480530] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2435 MiB (10.26% inode=83%):
+[1781483948] Auto-save of retention data completed successfully.
+[1781484133] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2436 MiB (10.26% inode=83%):
+[1781487548] Auto-save of retention data completed successfully.
+[1781487733] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2437 MiB (10.27% inode=83%):
+[1781491148] Auto-save of retention data completed successfully.
+[1781491336] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2434 MiB (10.26% inode=83%):
+[1781494748] Auto-save of retention data completed successfully.
+[1781494937] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2438 MiB (10.27% inode=83%):
+[1781549995] Caught SIGTERM, shutting down...

@@ -5,36 +5,53 @@ from app.core.logging_config import logger
 
 
 async def analyze_logs(
-    logs,
+    incident,
     known_issue=None,
     similar_incident=None
 ):
-    #print(logs)
-    logger.info("Start to analyze logs with AI")
-    joined_logs = ""
-    for k,v in logs.items():
-        joined_logs += f"{k}: {v}\n"
+
+    logger.info("Start to analyze incident timeline with AI")
+    host = incident["host"]
+    service = incident["service"]
+    events = incident["events"]
+    if not events:
+        return {
+            "root_cause": "No event data available",
+            "recommended_fix": "Verify log ingestion pipeline"
+        }
+
+    timeline = []
+
+    for event in events:
+
+        timeline.append(
+            (
+                f"{event.get('timestamp')} | "
+                f"{event.get('state')} | "
+                f"{event.get('state_type')} | "
+                f"{event.get('message')}"
+            )
+        )
+
+    timeline_text = "\n".join(timeline)
+
     context = ""
 
     if known_issue:
 
         context += f"""
-        Possible Related Known Issue:
+Possible Related Known Issue:
 Cause: {known_issue['cause']}
 Fix: {known_issue['fix']}
 """
 
-#    if similar_incident:
-
-#        context += f"""
-#Previous Similar Incident:
-#Severity: {similar_incident['severity']}
-#"""
-
     prompt = f"""
-Analyze the infrastructure logs.
+You are a senior infrastructure engineer.
 
-Use the known issue and logs to determine the likely cause and fix.
+Analyze the incident timeline and determine:
+
+1. Most likely root cause.
+2. Recommended corrective action.
 
 Return ONLY valid JSON.
 
@@ -42,12 +59,23 @@ Return ONLY valid JSON.
   "root_cause": "<cause>",
   "recommended_fix": "<fix>"
 }}
+
+Host:
+{host}
+
+Service:
+{service}
+
 {context}
-Logs:
-{joined_logs}
+
+Incident Timeline:
+{timeline_text}
 """
-    print(f"{prompt}")
+
+    logger.info("Sending incident timeline to AI")
+
     async with httpx.AsyncClient(timeout=120) as client:
+
         for attempt in range(3):
 
             try:
@@ -55,23 +83,26 @@ Logs:
                 response = await client.post(
                     OLLAMA_URL,
                     json={
-                    "model": MODEL_NAME,
-                    "messages": [
-                        {
-                            "role": "user",
-                            "content": prompt
-                        }
-                    ],
-                    "stream": False,
-                    "options": {
-                        "num_predict": 200,
-                        "temperature": 0.2
+                        "model": MODEL_NAME,
+                        "messages": [
+                            {
+                                "role": "user",
+                                "content": prompt
+                            }
+                        ],
+                        "stream": False,
+                        "options": {
+                            "num_predict": 200,
+                            "temperature": 0.2
                         }
                     }
                 )
 
-                logger.info("Status: %s", response.status_code)
-                logger.info("Body: %s", response.text)
+                logger.info(
+                    "Status: %s",
+                    response.status_code
+                )
+
                 response.raise_for_status()
 
                 data = response.json()

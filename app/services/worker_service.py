@@ -27,7 +27,7 @@ async def queue_worker():
                 
                 #print(f"I am going to try to process this: {incident['logs']}")
                 result = await process_incident(
-                    incident["logs"]
+                    incident
                 )
 
                 update_incident(

@@ -1,7 +1,7 @@
 from fastapi import FastAPI, BackgroundTasks, Request, UploadFile, File
 from fastapi.responses import JSONResponse, HTMLResponse
-from app.services.log_service import get_parsed_log_context, create_incident, is_repeat_notification, build_log_context
-from app.services.db_service import init_db, recover_processing_incidents, get_incidents, get_incidents_by_host, get_queued_incidents, get_incident, get_processing_incidents, get_failure_incidents, get_incident_counts
+from app.services.log_service import get_parsed_log_context, is_repeat_notification, build_log_context
+from app.services.db_service import init_db, get_incidents, get_incident, get_incident_counts, get_incidents_by_host
 from app.services.metrics_service import generate_metrics
 from app.services.trend_service import analyze_trends
 from app.services.severity_service import get_worst_severity
@@ -36,9 +36,9 @@ async def lifespan(app: FastAPI):
 load_dotenv()
 app = FastAPI(lifespan=lifespan)
 init_db()
-recovered = recover_processing_incidents()
+#recovered = recover_processing_incidents()
 
-logger.info(f"Recovered {recovered} interrupted incidents")
+#logger.info(f"Recovered {recovered} interrupted incidents")
 templates = Jinja2Templates(directory="templates")
 #semaphore = asyncio.Semaphore(3)
 
@@ -53,21 +53,33 @@ def get_incident_trend():
 
     # Create empty buckets so missing hours show as 0
     for i in range(24):
-        hour = (start_time + timedelta(hours=i)).strftime("%H:00")
+        hour = (start_time + timedelta(hours=i)).replace(
+            minute=0,
+            second=0,
+            microsecond=0
+        )
         buckets[hour] = 0
 
     for incident in incidents:
         try:
-            created = datetime.fromisoformat(incident["created_at"])
+            created = datetime.fromisoformat(incident["opened_at"])
 
             if created >= start_time:
-                bucket = created.strftime("%H:00")
+                bucket = created.replace(
+                    minute=0,
+                    second=0,
+                    microsecond=0
+                )
                 buckets[bucket] += 1
 
         except Exception:
             continue
 
-    labels = list(buckets.keys())
+    labels = [
+        dt.strftime("%m-%d %H:00")
+        for dt in buckets.keys()
+        ]
+
     counts = list(buckets.values())
 
     return {
@@ -118,10 +130,10 @@ async def analyze():
     context = get_parsed_log_context()
     logs = context["parsed_logs"]
     if not is_repeat_notification(logs[0]):
-        incident_id = create_incident(logs[0])
-
+        #incident_id = create_incident(logs[0])
+        pass
     return success_response({
-        "incident_id": incident_id,
+        #"incident_id": incident_id,
         "status": "queued"
     })
 
@@ -175,7 +187,7 @@ async def dashboard():
 
 @app.get("/host/{host}")
 async def host_details(host: str):
-    incidents = get_incidents_by_host(host)
+    #incidents = get_incidents_by_host(host)
 
     if not incidents:
         return JSONResponse(
@@ -188,14 +200,14 @@ async def host_details(host: str):
         "incidents": incidents
     })
 
-@app.get("/queue")
+"""@app.get("/queue")
 def queue_status():
-    queued = get_queued_incidents()
+    #queued = get_queued_incidents()
 
     return success_response({
-        "queued_count": len(queued),
-        "incidents": queued
-    })
+        #"queued_count": len(queued),
+        #"incidents": queued
+    })"""
 
 
 @app.get("/incident/{incident_id}")
@@ -210,24 +222,24 @@ def incident_status(incident_id: str):
         content=error_response("NOT_FOUND", f"Incident '{incident_id}' not found")
     )
 
-@app.get("/processing")
+"""@app.get("/processing")
 def processing():
-    processes = get_processing_incidents()
+    #processes = get_processing_incidents()
 
     return success_response({
-        "processes_count": len(processes),
-        "incidents": processes
+        #"processes_count": len(processes),
+        #"incidents": processes
     })
 
 
 @app.get("/failures")
 def failures():
-    failures = get_failure_incidents()
+    #failures = get_failure_incidents()
 
     return success_response({
         "failures_count": len(failures),
         "incidents": failures
-    })
+    })"""
 
 
 @app.get("/stats")

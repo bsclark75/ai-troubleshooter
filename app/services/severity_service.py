@@ -1,23 +1,28 @@
 SEVERITY_RANK = {"critical": 4, "high": 3, "medium": 2, "low": 1}
 
+
+def classify_severity(events):
+    """
+    Determine incident severity based on full event timeline.
+    """
+
+    worst = "low"
+
+    for event in events:
+
+        state = (event.get("state") or "").upper()
+
+        if state in ("CRITICAL", "DOWN"):
+            return "critical"
+
+        if state == "WARNING":
+            worst = "high"
+
+    return worst
+
+
 def get_worst_severity(incidents):
-    return max(incidents, key=lambda i: SEVERITY_RANK.get(i["severity"], 0))["severity"]
-
-def classify_severity(logs):
-
-    #print(f"dumping {logs}")
-    state = logs.get("state", "").upper()
-
-    #joined_logs = logs.lower()
-    #print(joined_logs)  
-
-    if state in ("CRITICAL", "DOWN"): 
-        return "critical"
-
-    if state == "WARNING":
-        return "high"
-
-    if state in ("OK", "RECOVERY", "UP"):
-        return "low"
-
-    return "medium"
+    return max(
+        incidents,
+        key=lambda i: SEVERITY_RANK.get(i["severity"], 0)
+    )["severity"]

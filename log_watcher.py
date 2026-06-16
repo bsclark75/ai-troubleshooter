@@ -136,9 +136,9 @@ async def watch_logs():
         )
 
         if lines:
-            success = await process_lines(lines)
+            results = await process_lines(lines)
 
-            if success:
+            if all(results):
                 inode = new_inode
                 offset = new_offset
                 save_state(inode, offset)

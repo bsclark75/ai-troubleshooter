@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block title %}
-HIncident - {{ incident.incident_id }}
+Incident - {{ incident.incident_id }}
 {% endblock %}
 
 {% block content %}
@@ -50,11 +50,31 @@ HIncident - {{ incident.incident_id }}
             </tr>
         </table>
     </div>
+<div class="card">
+    <h2>Incident Timeline</h2>
 
-    <div class="card">
-        <h2>Logs</h2>
-        <div class="log-box">{{ incident.logs }}</div>
-    </div>
+    <table class="incident-table">
+        <thead>
+            <tr>
+                <th>Timestamp</th>
+                <th>State</th>
+                <th>Type</th>
+                <th>Message</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for event in incident.events %}
+            <tr>
+                <td>{{ event.timestamp }}</td>
+                <td>{{ event.state }}</td>
+                <td>{{ event.state_type }}</td>
+                <td>{{ event.message }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
 
     {% if incident.analysis %}
     <div class="card">

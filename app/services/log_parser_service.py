@@ -1,6 +1,6 @@
 import re
 import re
-
+from datetime import datetime
 
 def parse_logs(logs):
     incidents = []
@@ -34,7 +34,9 @@ def parse_logs(logs):
 
             incident = {
                 "raw": log,
-                "timestamp": timestamp,
+                "timestamp": datetime.utcfromtimestamp(
+                int(timestamp)
+                ).isoformat(),
                 "notification_type": notification_type,
             }
 

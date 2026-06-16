@@ -6,10 +6,13 @@ def load_knowledge():
     with open("knowledge/common_issues.json") as f:
         return json.load(f)
 
-def find_known_issue(logs):
+def find_known_issue(events):
 
     joined_logs = " ".join(
-        str(value) for value in logs.values()
+        str(value)
+        for event in events
+        for value in event.values()
+        if value is not None
     ).lower()
 
     issues = load_knowledge()
@@ -20,7 +23,6 @@ def find_known_issue(logs):
             "icmp",
             "no answer from host"
         ],
-
         "disk space": [
             "disk full",
             "no space left",
@@ -29,7 +31,6 @@ def find_known_issue(logs):
             "free space",
             "root partition"
         ],
-
         "high cpu": [
             "high cpu",
             "cpu usage",

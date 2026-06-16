@@ -1,0 +1,79 @@
+[1781323200] LOG ROTATION: DAILY
+[1781323200] LOG VERSION: 2.0
+[1781323200] CURRENT HOST STATE: briansclark.net;UP;HARD;1;
+[1781323200] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.08 ms
+[1781323200] CURRENT SERVICE STATE: briansclark.net;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 301 Moved Permanently - 385 bytes in 0.092 second response time
+[1781323200] CURRENT SERVICE STATE: briansclark.net;SSH;OK;HARD;1;SSH OK - OpenSSH_10.2p1 Ubuntu-2ubuntu3.2 (protocol 2.0)
+[1781323200] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.03, 0.05, 0.07
+[1781323200] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 2 users currently logged in
+[1781323200] CURRENT SERVICE STATE: localhost;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 10945 bytes in 0.001 second response time
+[1781323200] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1781323200] CURRENT SERVICE STATE: localhost;Root Partition;WARNING;HARD;4;DISK WARNING - free space: / 2507 MiB (10.56% inode=83%):
+[1781323200] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_9.6p1 Ubuntu-3ubuntu13.16 (protocol 2.0)
+[1781323200] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (4095 MB out of 4095 MB)
+[1781323200] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 64 processes with STATE = RSZDT
+[1781323985] Auto-save of retention data completed successfully.
+[1781324191] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2509 MiB (10.57% inode=83%):
+[1781325391] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;CRITICAL;notify-service-by-email;DISK CRITICAL - free space: / 2260 MiB (9.52% inode=83%):
+[1781325391] SERVICE ALERT: localhost;Root Partition;CRITICAL;HARD;4;DISK CRITICAL - free space: / 2260 MiB (9.52% inode=83%):
+[1781327585] Auto-save of retention data completed successfully.
+[1781328997] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;CRITICAL;notify-service-by-email;DISK CRITICAL - free space: / 2260 MiB (9.52% inode=83%):
+[1781331185] Auto-save of retention data completed successfully.
+[1781332600] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;CRITICAL;notify-service-by-email;DISK CRITICAL - free space: / 2260 MiB (9.52% inode=83%):
+[1781334785] Auto-save of retention data completed successfully.
+[1781336207] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;CRITICAL;notify-service-by-email;DISK CRITICAL - free space: / 2260 MiB (9.52% inode=83%):
+[1781338385] Auto-save of retention data completed successfully.
+[1781339812] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;CRITICAL;notify-service-by-email;DISK CRITICAL - free space: / 2260 MiB (9.52% inode=83%):
+[1781339954] SERVICE ALERT: briansclark.net;HTTP;CRITICAL;SOFT;1;CRITICAL - Socket timeout
+[1781340085] SERVICE ALERT: briansclark.net;HTTP;CRITICAL;SOFT;2;CRITICAL - Socket timeout
+[1781340205] SERVICE ALERT: briansclark.net;HTTP;OK;SOFT;3;HTTP OK: HTTP/1.1 301 Moved Permanently - 385 bytes in 0.098 second response time
+[1781341986] Auto-save of retention data completed successfully.
+[1781343419] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;CRITICAL;notify-service-by-email;DISK CRITICAL - free space: / 2260 MiB (9.52% inode=83%):
+[1781345585] Auto-save of retention data completed successfully.
+[1781347021] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;CRITICAL;notify-service-by-email;DISK CRITICAL - free space: / 2260 MiB (9.52% inode=83%):
+[1781349185] Auto-save of retention data completed successfully.
+[1781350622] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;CRITICAL;notify-service-by-email;DISK CRITICAL - free space: / 2260 MiB (9.52% inode=83%):
+[1781352785] Auto-save of retention data completed successfully.
+[1781363969] Nagios 4.5.13 starting... (PID=1286)
+[1781363969] Local time is Sat Jun 13 11:19:29 EDT 2026
+[1781363969] LOG VERSION: 2.0
+[1781363969] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1781363969] qh: core query handler registered
+[1781363969] qh: echo service query handler registered
+[1781363969] qh: help for the query handler registered
+[1781363969] wproc: Successfully registered manager as @wproc with query handler
+[1781363969] wproc: Registry request: name=Core Worker 1290;pid=1290
+[1781363969] wproc: Registry request: name=Core Worker 1294;pid=1294
+[1781363969] wproc: Registry request: name=Core Worker 1291;pid=1291
+[1781363969] wproc: Registry request: name=Core Worker 1289;pid=1289
+[1781363969] wproc: Registry request: name=Core Worker 1295;pid=1295
+[1781363969] wproc: Registry request: name=Core Worker 1292;pid=1292
+[1781363969] wproc: Registry request: name=Core Worker 1293;pid=1293
+[1781363969] Warning: Host 'briansclark.net' has no default contacts or contactgroups defined!
+[1781363969] Successfully launched command file worker with pid 1309
+[1781364149] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2458 MiB (10.36% inode=83%):
+[1781364149] SERVICE ALERT: localhost;Root Partition;WARNING;HARD;4;DISK WARNING - free space: / 2458 MiB (10.36% inode=83%):
+[1781367569] Auto-save of retention data completed successfully.
+[1781367750] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2456 MiB (10.35% inode=83%):
+[1781371169] Auto-save of retention data completed successfully.
+[1781371354] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2456 MiB (10.35% inode=83%):
+[1781374769] Auto-save of retention data completed successfully.
+[1781374955] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2455 MiB (10.35% inode=83%):
+[1781378370] Auto-save of retention data completed successfully.
+[1781378557] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2455 MiB (10.35% inode=83%):
+[1781381969] Auto-save of retention data completed successfully.
+[1781382158] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2455 MiB (10.35% inode=83%):
+[1781385569] Auto-save of retention data completed successfully.
+[1781385759] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2455 MiB (10.35% inode=83%):
+[1781389169] Auto-save of retention data completed successfully.
+[1781389361] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2455 MiB (10.35% inode=83%):
+[1781392769] Auto-save of retention data completed successfully.
+[1781392962] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2455 MiB (10.34% inode=83%):
+[1781396369] Auto-save of retention data completed successfully.
+[1781396565] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2455 MiB (10.34% inode=83%):
+[1781399969] Auto-save of retention data completed successfully.
+[1781400169] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2427 MiB (10.22% inode=83%):
+[1781403569] Auto-save of retention data completed successfully.
+[1781403771] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2424 MiB (10.21% inode=83%):
+[1781407169] Auto-save of retention data completed successfully.
+[1781407376] SERVICE NOTIFICATION: nagiosadmin;localhost;Root Partition;WARNING;notify-service-by-email;DISK WARNING - free space: / 2427 MiB (10.22% inode=83%):

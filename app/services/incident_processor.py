@@ -1,36 +1,36 @@
 from app.services.severity_service import classify_severity
 from app.services.knowledge_service import find_known_issue
-from app.services.db_service import find_similar_incident
 from app.services.ai_service import analyze_logs
 from app.core.logging_config import logger
 from app.core.config import RECOVERED
 
-async def process_incident(logs):
-    
-    severity = classify_severity(logs)
-    #print(f"Severity: {severity}")
 
-    known_issue = find_known_issue(logs)
+async def process_incident(incident):
 
-    similar_incident = find_similar_incident(logs)
+    events = incident["events"]
+
+    severity = classify_severity(events)
+
+    known_issue = find_known_issue(events)
+
     if severity == "low":
         return {
             "severity": severity,
             "known_issue": known_issue,
-            "similar_incident": similar_incident,
             "analysis": RECOVERED
         }
 
     logger.info("Incident processing started")
+
     analysis = await analyze_logs(
-        logs,
+        incident,
         known_issue,
-        similar_incident
     )
+
     logger.info("Incident processing completed")
+
     return {
         "severity": severity,
         "known_issue": known_issue,
-        "similar_incident": similar_incident,
         "analysis": analysis
     }

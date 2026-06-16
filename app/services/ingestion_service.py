@@ -1,6 +1,10 @@
 from app.core.config import semaphore
 from app.core.logging_config import logger
-from app.services.log_service import is_repeat_notification, create_incident, build_log_context
+from app.services.log_service import (
+    is_repeat_notification,
+    process_event,
+    build_log_context
+)
 import asyncio
 
 async def process_host(host, incidents):
@@ -12,7 +16,7 @@ async def process_host(host, incidents):
             if is_repeat_notification(incident):
                 print("Skipping")
                 continue
-            new_id = create_incident(incident)
+            new_id = process_event(incident)
             print(f"New id: {new_id}")
             incident_ids.append(new_id)
 
