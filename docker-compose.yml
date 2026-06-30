@@ -12,11 +12,13 @@ services:
       NAGIOSLOGFILE: /logs/nagios.log
 
     volumes:
-      - /usr/local/nagios/var:/logs
+      - nagios_logs:/logs:ro
 
     depends_on:
       ollama:
         condition: service_healthy
+      nagios:
+        condition: service_started
 
     restart: unless-stopped
 
@@ -57,6 +59,11 @@ services:
       pull qwen2.5:1.5b
 
     restart: "no"
+  nagios:
+    image: jasonrivers/nagios
+    volumes: 
+      - nagios_logs:/opt/nagios/var
 
 volumes:
   ollama:
+  nagios_logs:
