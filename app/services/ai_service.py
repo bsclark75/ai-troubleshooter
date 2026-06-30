@@ -72,6 +72,15 @@ Incident Timeline:
 {timeline_text}
 """
 
+    logger.info(
+        "Timeline events: %s",
+        len(events)
+    )
+
+    logger.info(
+        "Prompt length: %s chars",
+        len(prompt)
+    )
     logger.info("Sending incident timeline to AI")
 
     async with httpx.AsyncClient(timeout=120) as client:
@@ -80,6 +89,20 @@ Incident Timeline:
 
             try:
 
+                logger.info("PROMPT START")
+                logger.info(prompt)
+                logger.info("PROMPT END")
+                import time
+                import os
+                import subprocess
+
+                logger.info(
+                   subprocess.check_output(
+                       ["uptime"],
+                       text=True
+                       ).strip()
+                )
+                start = time.time()
                 response = await client.post(
                     OLLAMA_URL,
                     json={
@@ -92,7 +115,7 @@ Incident Timeline:
                         ],
                         "stream": False,
                         "options": {
-                            "num_predict": 200,
+                            "num_predict": 64,
                             "temperature": 0.2
                         }
                     }
@@ -107,17 +130,55 @@ Incident Timeline:
 
                 data = response.json()
 
+                eval_count = data.get("eval_count", 0)
+                eval_duration = data.get("eval_duration", 0)
+
+                if eval_duration:
+                    tokens_per_second = (
+                        eval_count /
+                        (eval_duration / 1_000_000_000)
+                    )
+
+                    logger.info(
+                        "Tokens/sec: %.2f",
+                        tokens_per_second
+                    )
+
+                logger.info(
+                    "Response length: %s",
+                    len(data["message"]["content"])
+                )
+
+                logger.info(
+                    "Response: %s",
+                    data["message"]["content"]
+                )
+
+                logger.info(
+                    "total_duration=%s",
+                    data.get("total_duration")
+                )
+
+                logger.info(
+                    "load_duration=%s",
+                    data.get("load_duration")
+                )
+
+                logger.info(
+                    "prompt_eval_duration=%s",
+                    data.get("prompt_eval_duration")
+                )
+
+                logger.info(
+                    "eval_duration=%s",
+                    data.get("eval_duration")
+                )
+
                 parsed = parse_ai_response(
                     data["message"]["content"]
                 )
 
                 return parsed
 
-            except Exception as e:
-
-                logger.warning(
-                    f"AI request failed attempt {attempt + 1}: {e}"
-                )
-
-                if attempt == 2:
-                    raise
+            except httpx.ReadTimeout:
+                raise

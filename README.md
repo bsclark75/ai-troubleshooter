@@ -1,434 +1,323 @@
-AI Troubleshooter
+# AI Troubleshooter
 
-OVERVIEW
+> **AI-powered incident analysis for Nagios environments — fully local, no cloud dependencies.**
 
-AI Troubleshooter is an AI-powered incident analysis platform for Nagios environments. The application continuously monitors Nagios log files, detects host and service failures, stores incidents in a local database, and uses a locally hosted Large Language Model (LLM) through Ollama to generate troubleshooting recommendations.
+---
 
-The platform is designed to help system administrators reduce troubleshooting time by automatically analyzing monitoring events, correlating historical incidents, and identifying likely root causes.
+## Overview
 
-Unlike cloud-based AI solutions, AI Troubleshooter operates entirely within your environment using local models hosted by Ollama.
+AI Troubleshooter is an open-source AIOps platform that bridges the gap between monitoring alerts and actionable remediation. It continuously monitors Nagios log files, detects host and service failures, stores incidents in a local database, and uses a locally hosted Large Language Model via [Ollama](https://ollama.com) to generate intelligent troubleshooting recommendations — automatically, in real time.
 
-WHY THIS PROJECT EXISTS
+Designed for system administrators, network operations centers, and infrastructure teams, AI Troubleshooter reduces mean time to resolution by surfacing likely root causes before an engineer has opened a terminal.
 
-Traditional monitoring systems such as Nagios are excellent at detecting failures but provide limited guidance for troubleshooting them.
+---
 
-AI Troubleshooter bridges that gap by combining monitoring data, historical incidents, and local Large Language Models to automatically generate diagnostic recommendations.
+## Why AI Troubleshooter
 
-The project was built to explore practical AI Operations (AIOps) techniques while maintaining complete control of infrastructure data through locally hosted models.
+Traditional monitoring platforms like Nagios excel at detecting failures. They do not tell you why something failed or what to do about it.
 
-FEATURES
+AI Troubleshooter fills that gap by combining live monitoring events, historical incident data, and locally hosted LLMs into a single, lightweight analysis pipeline. Every recommendation is generated on-premise — your infrastructure data never leaves your environment.
 
-* Continuous Nagios log monitoring
-* Automated incident ingestion
-* AI-powered troubleshooting analysis
-* Local LLM support through Ollama
-* Historical incident storage
-* Similar incident retrieval
-* Knowledge base integration
-* Queue-based processing pipeline
-* Incident severity classification
-* Incident trend analysis
-* Host-level incident views
-* Dashboard reporting
-* Batch log analysis
-* Retry handling for failed AI requests
-* Log rotation awareness
-* Docker deployment support
+Built as a practical exploration of AIOps techniques, the project is designed to remain accessible to home labs and small enterprises while scaling to production data center environments.
 
-PREREQUISITES
+---
 
-- Docker
-- Docker Compose
-- Nagios
+## Features
+
+- Continuous Nagios log monitoring with log rotation awareness
+- Automated incident ingestion, normalization, and severity classification
+- AI-powered troubleshooting recommendations via local LLM
+- Historical incident storage and similar incident retrieval
+- Knowledge base integration for known issue patterns
+- Queue-based asynchronous processing pipeline
+- Incident trend analysis and dashboard reporting
+- Batch log analysis
+- Retry handling for failed AI requests
+- Docker deployment support
+
+---
+
+## Technology Stack
+
+| Layer | Technology |
+|---|---|
+| Backend | FastAPI 0.136, Uvicorn, Starlette |
+| AI / LLM | Ollama · `qwen2.5:1.5b` (default, swappable) |
+| Storage | SQLite |
+| Frontend | Jinja2 Templates, HTML Dashboard |
+| Networking | HTTPX, Requests |
+| Containerization | Docker, Docker Compose |
+| Language | Python 3.12+ |
+
+---
+
+## Prerequisites
+
+- Docker and Docker Compose
+- Nagios (existing installation)
 - Python 3.12+
-- Ollama
+- Ollama (if not using Docker)
 
-INSTALLATION (DOCKER)
+---
 
-The application is designed to run as a multi-container stack.
+## Deployment
 
-Containers
+### Docker (Recommended)
 
-1. ai-troubleshooter
-   Main application container.
+The application runs as a multi-container stack with three services:
 
-2. ollama
-   Local LLM serving platform.
+| Container | Role |
+|---|---|
+| `ai-troubleshooter` | Main application |
+| `ollama` | Local LLM serving platform |
+| `ollama-init` | One-time model download (auto-runs on first start) |
 
-3. ollama-init
-   One-time initialization container used to automatically download the required model.
+**Default model:** `qwen2.5:1.5b`
 
-Default Model
-
-qwen2.5:1.5b
-
-Starting the Application
-
+```bash
+# Start
 docker compose up -d
 
-Viewing Logs
-
+# View logs
 docker compose logs -f
 
-Stopping the Application
-
+# Stop
 docker compose down
+```
 
-Environment Variables
+**Volume Mounts**
 
-OLLAMA_URL
-Default:
-http://ollama:11434/api/chat
+| Purpose | Host Path | Container Path |
+|---|---|---|
+| Nagios logs | `/usr/local/nagios/var` | `/logs` |
+| Ollama model data | *(persistent volume)* | `ollama` |
 
-NAGIOSLOGFILE
-Default:
-/logs/nagios.log
+**Environment Variables**
 
-VOLUME MOUNTS
+| Variable | Default |
+|---|---|
+| `OLLAMA_URL` | `http://ollama:11434/api/chat` |
+| `NAGIOSLOGFILE` | `/logs/nagios.log` |
 
-Nagios Logs
+---
 
-Host:
-/usr/local/nagios/var
+### Manual Installation
 
-Container:
-/logs
+```bash
+# 1. Clone the repository
+git clone <repository-url>
 
-Ollama Data
+# 2. Create and activate a virtual environment
+python3 -m venv venv
+source venv/bin/activate
 
-Persistent volume:
-ollama
+# 3. Install dependencies
+pip install -r requirements.txt
 
-INSTALLATION WITHOUT DOCKER
+# 4. Set environment variables
+export OLLAMA_URL=http://localhost:11434/api/chat
+export NAGIOSLOGFILE=/usr/local/nagios/var/nagios.log
 
-1. Clone the repository
+# 5. Start Ollama and pull the model
+ollama serve
+ollama pull qwen2.5:1.5b
 
-   git clone <repository-url>
+# 6. Start the application
+uvicorn main:app --host 0.0.0.0 --port 8000
+```
 
-2. Create a virtual environment
+Access the dashboard at `http://localhost:8000/dashboard`.
 
-   python3 -m venv venv
+---
 
-3. Activate the environment
+## Architecture
 
-   source venv/bin/activate
+![Architecture Diagram](screenshot/AI-troubleshooter.png)
 
-4. Install dependencies
+AI Troubleshooter is organized into five major layers:
 
-   pip install -r requirements.txt
+```
+Nagios Log → Log Watcher → Incident Parser → Queue → AI Analysis → Dashboard
+                                                  ↑
+                                     Historical Incidents + Knowledge Base
+```
 
-5. Configure environment variables
+| Layer | Component | Description |
+|---|---|---|
+| Log Monitoring | `log_watcher.py` | Continuously tails Nagios logs for new events |
+| Processing Pipeline | `ingestion_service.py`, `severity_service.py` | Parses, normalizes, and classifies incidents |
+| AI Analysis | `ai_service.py`, `incident_processor.py` | Submits incident context to Ollama; retrieves results |
+| Knowledge Layer | `retrieval_service.py`, `knowledge_service.py` | Searches historical incidents and known issue patterns |
+| Web Interface | FastAPI + Jinja2 | Dashboard with incident views, trends, and AI recommendations |
 
-   export OLLAMA_URL=http://localhost:11434/api/chat
+### Workflow
 
-   export NAGIOSLOGFILE=/usr/local/nagios/var/nagios.log
-
-6. Start Ollama
-
-   ollama serve
-
-7. Download the model
-
-   ollama pull qwen2.5:1.5b
-
-8. Start the application
-
-   uvicorn main:app --host 0.0.0.0 --port 8000
-
-9. Access the dashboard
-
-   http://localhost:8000/dashboard
-
-TECHNOLOGY STACK
-
-Backend Framework
-
-* FastAPI 0.136
-* Uvicorn ASGI Server
-* Starlette
-
-AI Layer
-
-* Ollama
-* qwen2.5:1.5b (default model)
-
-Data Storage
-
-* SQLite
-
-Frontend
-
-* Jinja2 Templates
-* HTML Dashboard Views
-
-Networking
-
-* HTTPX
-* Requests
-
-Configuration
-
-* Python Dotenv
-
-Containerization
-
-* Docker
-* Docker Compose
-
-Language
-
-* Python 3.12+
-
-ARCHITECTURE
-
-The platform consists of five major components:
-
-1. Log Monitoring Layer
-
-   log_watcher.py continuously monitors Nagios logs and detects new events.
-
-2. Processing Pipeline
-
-   Incidents are parsed, normalized, classified, and placed into a processing queue.
-
-3. AI Analysis Layer
-
-   The AI service submits incident context and log data to Ollama for analysis.
-
-4. Knowledge Layer
-
-   Historical incidents and known issues are used to provide additional context for AI analysis.
-
-5. Web Interface
-
-   A web dashboard provides visibility into incidents, processing status, trends, and AI-generated recommendations.
-
-WORKFLOW
-
-1. Nagios writes events to nagios.log
+1. Nagios writes events to `nagios.log`
 2. Log Watcher detects new entries
-3. Events are parsed into incidents
-4. Incident severity is determined
-5. Incident is stored in SQLite
-6. Incident enters processing queue
-7. Historical incidents are searched
-8. Known issues are searched
-9. Context is sent to Ollama
-10. AI generates analysis and recommendations
-11. Results are stored
-12. Dashboard displays incident status and analysis
+3. Events are parsed into incidents and classified by severity
+4. Incidents are stored in SQLite and queued for analysis
+5. Historical incidents and known issues are retrieved for context
+6. Context is submitted to Ollama
+7. AI generates analysis and recommendations
+8. Results are stored and surfaced in the dashboard
+
+---
+
+## API Reference
+
+### General
+
+| Method | Endpoint | Description |
+|---|---|---|
+| `GET` | `/` | Application landing endpoint |
+| `GET` | `/health` | Health check |
+
+### Analysis
+
+| Method | Endpoint | Description |
+|---|---|---|
+| `GET` | `/analyze` | Analyze a single incident or log sample |
+| `POST` | `/analyze/batch` | Batch incident analysis |
+
+### Incidents
+
+| Method | Endpoint | Description |
+|---|---|---|
+| `GET` | `/incidents` | List all incidents |
+| `GET` | `/incident/{id}` | Retrieve a specific incident |
+| `GET` | `/incident/{id}/ui` | Incident detail view |
+
+### Hosts
+
+| Method | Endpoint | Description |
+|---|---|---|
+| `GET` | `/host/{host}` | Incidents for a specific host |
+| `GET` | `/host/{host}/ui` | Host dashboard view |
+
+### Monitoring & Metrics
+
+| Method | Endpoint | Description |
+|---|---|---|
+| `GET` | `/queue` | Current processing queue |
+| `GET` | `/processing` | Incidents currently being analyzed |
+| `GET` | `/failures` | Failed processing attempts |
+| `GET` | `/stats` | System statistics and metrics |
+| `GET` | `/dashboard` | Main operational dashboard |
+
+---
+
+## Database Schema
+
+AI Troubleshooter uses SQLite for lightweight, portable persistent storage.
+
+```sql
+   CREATE TABLE IF NOT EXISTS incidents (
+        id TEXT PRIMARY KEY,
+        host TEXT NOT NULL,
+        service TEXT NOT NULL,
+        severity TEXT,
+        analysis TEXT,
+        status TEXT,
+        retry_count INTEGER DEFAULT 0,
+        opened_at TEXT,
+        closed_at TEXT,
+        next_retry_at TEXT,
+        created_at TEXT,
+        updated_at TEXT
+    )
+    """)
 
-CORE SERVICES
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS incident_events (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        incident_id TEXT NOT NULL,
+        timestamp TEXT,
+        notification_type TEXT,
+        state TEXT,
+        state_type TEXT,
+        attempt INTEGER,
+        message TEXT,
+        raw_log TEXT,
+        FOREIGN KEY (incident_id)
+            REFERENCES incidents(id)
+    )
+    """)
+```
 
-ai_service.py
-    Interfaces with Ollama.
+---
 
-ingestion_service.py
-    Accepts and normalizes incident data.
+## Knowledge Base
 
-incident_processor.py
-    Coordinates incident analysis workflows.
+A local knowledge repository at `knowledge/common_issues.json` allows teams to supply known issue patterns that improve AI recommendations.
 
-retrieval_service.py
-    Searches historical incidents.
+Each entry supports:
+- Common symptoms
+- Root causes
+- Recommended fixes
+- Troubleshooting procedures
 
-knowledge_service.py
-    Searches known issues.
+This forms the foundation for future RAG (Retrieval-Augmented Generation) capabilities.
 
-queue_service.py
-    Manages asynchronous processing.
+---
+## Screenshots
 
-worker_service.py
-    Executes background analysis tasks.
+![Incident Detail](screenshots/incident-detail.png)
 
-trend_service.py
-    Generates incident trend metrics.
+---
+## Roadmap
 
-severity_service.py
-    Determines incident severity levels.
+- Historical incident correlation
+- Similar incident search
+- Incident trend analysis
+- Email reports
+- Enrichment of system logs
+- RCA generation
+- Change correlation
+- Executive Reports
+- SLA Reporting
+- multisite monitoring
+- Additional monitoring platform integrations (beyond Nagios)
 
-metrics_service.py
-    Provides operational statistics.
+---
 
+## Use Cases
 
-CONFIGURATION
+- Linux server administration
+- Network operations centers (NOC)
+- Infrastructure and data center monitoring
+- Managed service providers
+- Home labs and self-hosted environments
+- Small and medium businesses
+- Bitcoin mining facility operations
 
-API ENDPOINTS
+---
 
-General
+## Design Principles
 
-GET /
-Application landing endpoint.
+- **Local-first AI** — all LLM processing runs on-premise; no data leaves the environment
+- **Operational simplicity** — minimal dependencies, single-command Docker deployment
+- **Incident memory** — historical data improves recommendations over time
+- **Lightweight by design** — runs on home lab hardware, not just enterprise infrastructure
+- **Extensible** — built to support RAG, additional models, and new monitoring platforms
 
-GET /health
-Health check endpoint.
+---
 
-Analysis
+## Author
 
-GET /analyze
-Analyze a single incident or log sample.
+**Brian Clark**  
+IT Infrastructure & Systems Administration  
+[briansclark.net](https://briansclark.net)
 
-POST /analyze/batch
-Analyze multiple incidents in a batch operation.
+---
 
-Incidents
+## Project Status
 
-GET /incidents
-List all incidents.
+**Active Development**
 
-GET /incident/{incident_id}
-Retrieve a specific incident.
+Current focus: RAG implementation, incident correlation, trend analysis, automated remediation workflows, and integration with additional monitoring platforms.
 
-GET /incident/{incident_id}/ui
-Incident detail page.
+---
 
-Hosts
+## License
 
-GET /host/{host}
-Retrieve incidents for a host.
-
-GET /host/{host}/ui
-Host dashboard view.
-
-Monitoring
-
-GET /queue
-Current processing queue.
-
-GET /processing
-Incidents currently being processed.
-
-GET /failures
-Failed processing attempts.
-
-Metrics
-
-GET /stats
-System statistics and metrics.
-
-Dashboard
-
-GET /dashboard
-Main operational dashboard.
-
-DATABASE
-
-The application uses SQLite for persistent storage.
-
-Incident Table
-
-CREATE TABLE incidents (
-id TEXT PRIMARY KEY,
-host TEXT,
-logs TEXT,
-service TEXT,
-severity TEXT,
-analysis TEXT,
-status TEXT,
-retry_count INTEGER,
-created_at TEXT,
-next_retry_at TEXT,
-updated_at TEXT
-);
-
-Field Descriptions
-
-id
-Unique incident identifier.
-
-host
-Host generating the alert.
-
-logs
-Raw log content associated with the incident.
-
-service
-Service associated with the alert.
-
-severity
-Classified severity level.
-
-analysis
-AI-generated troubleshooting analysis.
-
-status
-Current processing status.
-
-retry_count
-Number of retry attempts.
-
-created_at
-Initial incident timestamp.
-
-next_retry_at
-Scheduled retry time.
-
-updated_at
-Last modification timestamp.
-
-KNOWLEDGE BASE
-
-The application includes a knowledge repository located in:
-
-knowledge/common_issues.json
-
-Known issues can be added to improve AI recommendations by supplying:
-
-* Common symptoms
-* Root causes
-* Recommended fixes
-* Troubleshooting procedures
-
-DESIGN GOALS
-
-* Keep all AI processing local
-* Minimize operational complexity
-* Reduce alert investigation time
-* Preserve incident history
-* Enable future RAG implementations
-* Support containerized deployment
-* Remain lightweight enough for home labs and small enterprises
-
-FUTURE ROADMAP
-
-* Additional monitoring platform integrations
-* Root cause confidence scoring
-* RAG-based troubleshooting knowledge base
-* Automated remediation workflows
-* Alert correlation engine
-* Multi-model AI analysis
-* Data center monitoring integrations
-* Trend forecasting
-* Grafana integration
-* Foreman and Bitcoin mining infrastructure support
-
-USE CASES
-
-* Infrastructure monitoring
-* Linux server administration
-* Network operations centers
-* Home labs
-* Small and medium businesses
-* Managed service providers
-* Data center operations
-* Bitcoin mining operations
-
-AUTHOR
-
-Brian Clark
-
-PROJECT STATUS
-
-Active Development
-
-Current focus areas include:
-- Retrieval Augmented Generation (RAG)
-- Incident correlation
-- Trend analysis
-- Automated remediation workflows
-- Integration with additional monitoring platforms
-
-LICENSE
-
-This project is provided for educational and operational use. Review all AI-generated recommendations before applying changes to production systems.
-
+Provided for educational and operational use. Always review AI-generated recommendations before applying changes to production systems.
