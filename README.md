@@ -54,9 +54,10 @@ Built as a practical exploration of AIOps techniques, the project is designed to
 ## Prerequisites
 
 - Docker and Docker Compose
-- Nagios (existing installation)
+IF not using Docker:
+- Nagios
 - Python 3.12+
-- Ollama (if not using Docker)
+- Ollama
 
 ---
 
@@ -71,6 +72,7 @@ The application runs as a multi-container stack with three services:
 | `ai-troubleshooter` | Main application |
 | `ollama` | Local LLM serving platform |
 | `ollama-init` | One-time model download (auto-runs on first start) |
+| `nagios` | Preconfigured to check containers and has a directory for customization |
 
 **Default model:** `qwen2.5:1.5b`
 
@@ -91,6 +93,7 @@ docker compose down
 |---|---|---|
 | Nagios logs | `/usr/local/nagios/var` | `/logs` |
 | Ollama model data | *(persistent volume)* | `ollama` |
+| Nagios conf.d | `nagios/conf.d` | `/opt/nagios/etc/conf.d` |
 
 **Environment Variables**
 
@@ -105,7 +108,7 @@ docker compose down
 
 ```bash
 # 1. Clone the repository
-git clone <repository-url>
+git clone https://github.com/bsclark75/ai-troubleshooter.git
 
 # 2. Create and activate a virtual environment
 python3 -m venv venv
@@ -132,7 +135,7 @@ Access the dashboard at `http://localhost:8000/dashboard`.
 
 ## Architecture
 
-![Architecture Diagram](screenshot/AI-troubleshooter.png)
+![Architecture Diagram](screenshots/AI-troubleshooter.png)
 
 AI Troubleshooter is organized into five major layers:
 
