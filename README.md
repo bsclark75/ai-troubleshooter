@@ -54,7 +54,7 @@ Built as a practical exploration of AIOps techniques, the project is designed to
 ## Prerequisites
 
 - Docker and Docker Compose
-IF not using Docker:
+- IF not using Docker:
 - Nagios
 - Python 3.12+
 - Ollama
