@@ -63,7 +63,12 @@ services:
     image: jasonrivers/nagios
     volumes: 
       - nagios_logs:/opt/nagios/var
+      - ./nagios/conf.d:/opt/nagios/etc/conf.d
+    ports:
+      - "8080:80"
 
 volumes:
   ollama:
   nagios_logs:
+
+
