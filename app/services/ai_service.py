@@ -93,15 +93,7 @@ Incident Timeline:
                 logger.info(prompt)
                 logger.info("PROMPT END")
                 import time
-                import os
-                import subprocess
 
-                logger.info(
-                   subprocess.check_output(
-                       ["uptime"],
-                       text=True
-                       ).strip()
-                )
                 start = time.time()
                 response = await client.post(
                     OLLAMA_URL,
