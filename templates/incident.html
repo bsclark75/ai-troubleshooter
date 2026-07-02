@@ -50,6 +50,41 @@ Incident - {{ incident.incident_id }}
             </tr>
         </table>
     </div>
+
+<div class="card">
+    <button id="analyze-btn" class="btn btn-primary">
+        Analyze with AI
+    </button>
+</div>
+
+<script>
+document.getElementById("analyze-btn").addEventListener("click", async () => {
+
+    const button = document.getElementById("analyze-btn");
+    button.disabled = true;
+    button.innerText = "Analyzing...";
+
+    try {
+await fetch("/incident/{{ incident.incident_id }}/analyze", {
+    method: "POST"
+});
+
+        if (response.ok) {
+            location.reload();
+        } else {
+            alert("Analysis failed.");
+            button.disabled = false;
+            button.innerText = "Analyze with AI";
+        }
+    } catch (err) {
+        alert("Unable to contact server.");
+        button.disabled = false;
+        button.innerText = "Analyze with AI";
+    }
+
+});
+</script>
+
 <div class="card">
     <h2>Incident Timeline</h2>
 

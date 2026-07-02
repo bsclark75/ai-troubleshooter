@@ -1,7 +1,6 @@
-from fastapi import FastAPI, BackgroundTasks, Request, UploadFile, File
+from fastapi import FastAPI, Request, UploadFile, HTTPException, File, Body
 from fastapi.responses import JSONResponse, HTMLResponse
-from app.services.log_service import get_parsed_log_context, is_repeat_notification, build_log_context
-from app.services.db_service import init_db, get_incidents, get_incident, get_incident_counts, get_incidents_by_host
+from app.services.db_service import init_db, get_incidents, get_incident, get_incident_counts, get_incidents_by_host, update_incident
 from app.services.metrics_service import generate_metrics
 from app.services.trend_service import analyze_trends
 from app.services.severity_service import get_worst_severity
@@ -16,7 +15,7 @@ from log_watcher import watch_logs
 from app.services.ingestion_service import process_batch_log
 from collections import defaultdict
 from datetime import datetime, timedelta
-
+from app.services.incident_processor import process_incident
 
 
 def success_response(data: dict) -> dict:
@@ -125,17 +124,26 @@ async def dashboard_ui(request: Request):
         }
     )
 
-@app.get("/analyze")
-async def analyze():
-    context = get_parsed_log_context()
-    logs = context["parsed_logs"]
-    if not is_repeat_notification(logs[0]):
-        #incident_id = create_incident(logs[0])
-        pass
-    return success_response({
-        #"incident_id": incident_id,
-        "status": "queued"
-    })
+@app.post("/analyze")
+async def analyze(json_object: dict = Body(...)):
+    incident_id = json_object["incident_id"]
+
+    incident = get_incident(incident_id)
+
+    result = await process_incident(incident)
+
+    update_incident(
+        incident["incident_id"],
+        result["severity"],
+        result["analysis"],
+        "completed"
+    )
+
+    return {
+        "status": "success",
+        "incident_id": incident_id
+    }
+
 
 
 @app.get("/incidents")
@@ -334,3 +342,38 @@ async def upload_logs(
                     "error": str(e)
                 }
 )
+    
+@app.post("/analyze")
+async def analyze(json_object: dict = Body(...)):
+    try:
+        incident_id = json_object["incident_id"]
+
+        incident = get_incident(incident_id)
+        if incident is None:
+            raise HTTPException(status_code=404, detail="Incident not found")
+
+        result = await process_incident(incident)
+
+        update_incident(
+            incident["incident_id"],
+            result["severity"],
+            result["analysis"],
+            "completed"
+        )
+
+        return {
+            "status": "success",
+            "severity": result["severity"],
+            "analysis": result["analysis"]
+        }
+
+    except HTTPException:
+        raise
+
+    except Exception as ex:
+        logger.exception("Failed to analyze incident %s", json_object.get("incident_id"))
+
+        return {
+            "status": "error",
+            "message": str(ex)
+        }
