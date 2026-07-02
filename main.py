@@ -124,28 +124,6 @@ async def dashboard_ui(request: Request):
         }
     )
 
-@app.post("/analyze")
-async def analyze(json_object: dict = Body(...)):
-    incident_id = json_object["incident_id"]
-
-    incident = get_incident(incident_id)
-
-    result = await process_incident(incident)
-
-    update_incident(
-        incident["incident_id"],
-        result["severity"],
-        result["analysis"],
-        "completed"
-    )
-
-    return {
-        "status": "success",
-        "incident_id": incident_id
-    }
-
-
-
 @app.get("/incidents")
 def incidents():
     return success_response({
@@ -343,10 +321,9 @@ async def upload_logs(
                 }
 )
     
-@app.post("/analyze")
-async def analyze(json_object: dict = Body(...)):
+@app.post("/incident/{incident_id}/analyze")
+async def analyze(incident_id):
     try:
-        incident_id = json_object["incident_id"]
 
         incident = get_incident(incident_id)
         if incident is None:
@@ -371,7 +348,7 @@ async def analyze(json_object: dict = Body(...)):
         raise
 
     except Exception as ex:
-        logger.exception("Failed to analyze incident %s", json_object.get("incident_id"))
+        logger.exception("Failed to analyze incident %s", incident_id)
 
         return {
             "status": "error",
