@@ -325,11 +325,13 @@ async def upload_logs(
 async def analyze(incident_id):
     try:
 
+        logger.info("analysis request recieved")
         incident = get_incident(incident_id)
         if incident is None:
             raise HTTPException(status_code=404, detail="Incident not found")
 
         result = await process_incident(incident)
+        logger.info("Ai return results")
 
         update_incident(
             incident["incident_id"],
@@ -337,7 +339,8 @@ async def analyze(incident_id):
             result["analysis"],
             "completed"
         )
-
+        logger.info("Database updated")
+        
         return {
             "status": "success",
             "severity": result["severity"],
