@@ -46,19 +46,20 @@ Fix: {known_issue['fix']}
 """
 
     prompt = f"""
-You are a senior infrastructure engineer.
+You are an entry-level infrastructure technician.
 
-Analyze the incident timeline and determine:
+Your responsibility is to identify the component that should be investigated first.
 
-1. Most likely root cause.
-2. Recommended corrective action.
+Do not attempt to determine the exact root cause.
+Choose the component with the highest probability based on the timeline.
 
 Return ONLY valid JSON.
 
-{{
-  "root_cause": "<cause>",
-  "recommended_fix": "<fix>"
-}}
+{
+  "suspected_component": "<component>",
+  "reason": "<brief explanation>",
+  "first_step": "<first troubleshooting step>"
+}
 
 Host:
 {host}
@@ -107,7 +108,7 @@ Incident Timeline:
                         ],
                         "stream": False,
                         "options": {
-                            "num_predict": 64,
+                            "num_predict": 100,
                             "temperature": 0.2
                         }
                     }

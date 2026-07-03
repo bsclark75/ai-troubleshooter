@@ -23,7 +23,7 @@ NAGIOSLOGFILE = os.getenv(
 
 ARCHIVE_DIR = os.getenv(
     "ARCHIVE_DIR",
-    "/logs/nagios.log"
+    "/logs/archives"
 )
 
 MAX_RETRIES = 3
