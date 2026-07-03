@@ -336,8 +336,7 @@ async def analyze(incident_id):
         update_incident(
             incident["incident_id"],
             result["severity"],
-            result["analysis"],
-            "completed"
+            result["analysis"]
         )
         logger.info("Database updated")
         
