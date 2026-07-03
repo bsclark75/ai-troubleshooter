@@ -55,11 +55,11 @@ Choose the component with the highest probability based on the timeline.
 
 Return ONLY valid JSON.
 
-{
+{{
   "suspected_component": "<component>",
   "reason": "<brief explanation>",
   "first_step": "<first troubleshooting step>"
-}
+}}
 
 Host:
 {host}
