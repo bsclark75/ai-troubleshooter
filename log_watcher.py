@@ -1,11 +1,10 @@
 import os
-from time import sleep
 import json
-import os
 import asyncio
 from app.services.log_service import build_log_context
 from app.services.ingestion_service import process_host
 from app.core.config import NAGIOSLOGFILE, STATEFILE, ARCHIVE_DIR
+from app.core.logging_config import logger
 
 def load_state():
     """
@@ -26,7 +25,7 @@ def load_state():
         )
 
     except (json.JSONDecodeError, OSError) as e:
-        print(f"Failed to load state file: {e}")
+        logger.error("Failed to load state file: %s", e, exc_info=True)
         return None, 0
 
 
@@ -45,29 +44,27 @@ def save_state(inode, offset):
             json.dump(state, f)
 
     except OSError as e:
-        print(f"Failed to save state file: {e}")
+        logger.error("Failed to save file: %s",e,exc_info=True)
 
 def check_for_new_lines(saved_inode,saved_offset):
-    print(f"Checking for new lines {saved_inode} {saved_offset}")
+    #logger.info("Checking for new lines")
 # 1. Get current file stats
     try:
         current_stat = os.stat(NAGIOSLOGFILE)
         current_inode = current_stat.st_ino
         current_size = current_stat.st_size
     except FileNotFoundError:
-        print("Log file not found.")
+        logger.error("Log file not found.")
         current_inode, current_size = None, 0
 
     if saved_inode is None:
-        print(f"Initial read of file")
-        #current_inode, current_size = load_state()
         with open(NAGIOSLOGFILE, "r") as f:
             f.seek(0, os.SEEK_END)
         return [], current_size, current_inode
 
 # 2. Check for log rotation
     if current_inode and current_inode != saved_inode:
-        print("Log rotated!")
+        logger.info("Log rotated")
 
         rotated_path = None
 
@@ -82,7 +79,7 @@ def check_for_new_lines(saved_inode,saved_offset):
                 continue
     
         if rotated_path:
-            print(f"Found rotated file: {rotated_path}")
+            logger.info("Found rotated file: %s", rotated_path)
 
             with open(rotated_path, "r") as old_file:
                 old_file.seek(saved_offset)
@@ -101,7 +98,7 @@ def check_for_new_lines(saved_inode,saved_offset):
     
     else:
     # No rotation: Use standard offset logic
-        print("Log not rotated. Reading from saved offset...")
+        logger.info("Log not rotated.  Reading from saved offset.")
         with open(NAGIOSLOGFILE, "r") as nagios_file:
             if current_size < saved_offset:
                 nagios_file.seek(0) # Fallback if file was truncated without inode change
@@ -111,7 +108,6 @@ def check_for_new_lines(saved_inode,saved_offset):
             new_lines = nagios_file.readlines()
             new_offset = os.path.getsize(NAGIOSLOGFILE)
             new_saved_inode = saved_inode
-        #print(f"{new_lines} {new_offset} {new_saved_inode}")
         return new_lines, new_offset, new_saved_inode
 
 async def process_lines(processing_lines):
@@ -136,6 +132,7 @@ async def watch_logs():
         )
 
         if lines:
+            logger.info("New lines detected. Processing...")
             results = await process_lines(lines)
 
             if all(results):
