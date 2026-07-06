@@ -3,7 +3,7 @@ import json
 from datetime import datetime
 from app.core.logging_config import logger
 
-DB_PATH = "database/incidents.db"
+DB_PATH = "data/incidents.db"
 
 
 def init_db():
