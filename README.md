@@ -21,7 +21,11 @@ AI Troubleshooter fills that gap by combining live monitoring events, historical
 Built as a practical exploration of AIOps techniques, the project is designed to remain accessible to home labs and small enterprises while scaling to production data center environments.
 
 ---
+## Demo
 
+📺 YouTube Demo: https://youtu.be/hEV5KWHPk58
+
+---
 ## Features
 
 - Continuous Nagios log monitoring with log rotation awareness
