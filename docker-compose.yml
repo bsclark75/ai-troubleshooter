@@ -13,6 +13,7 @@ services:
 
     volumes:
       - nagios_logs:/logs:ro
+      - ./data:/app/data
 
     depends_on:
       ollama:
