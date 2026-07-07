@@ -98,7 +98,7 @@ def check_for_new_lines(saved_inode,saved_offset):
     
     else:
     # No rotation: Use standard offset logic
-        logger.info("Log not rotated.  Reading from saved offset.")
+        #logger.info("Log not rotated.  Reading from saved offset.")
         with open(NAGIOSLOGFILE, "r") as nagios_file:
             if current_size < saved_offset:
                 nagios_file.seek(0) # Fallback if file was truncated without inode change
