@@ -1,0 +1,1963 @@
+[1783296000] LOG ROTATION: DAILY
+[1783296000] LOG VERSION: 2.0
+[1783296000] CURRENT HOST STATE: ai-troubleshooter;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.06 ms
+[1783296000] CURRENT HOST STATE: briansclark;DOWN;HARD;10;(Host check timed out after 30.01 seconds)
+[1783296000] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.05 ms
+[1783296000] CURRENT HOST STATE: ollama;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.08 ms
+[1783296000] CURRENT SERVICE STATE: ai-troubleshooter;My App;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 201 bytes in 0.002 second response time
+[1783296000] CURRENT SERVICE STATE: briansclark;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 301 Moved Permanently - 385 bytes in 0.104 second response time
+[1783296000] CURRENT SERVICE STATE: briansclark;HTTPS;OK;HARD;1;HTTP OK: HTTP/1.1 301 Moved Permanently - 279 bytes in 0.186 second response time
+[1783296000] CURRENT SERVICE STATE: briansclark;HTTPS Response Time;OK;HARD;1;HTTP OK: HTTP/1.1 301 Moved Permanently - 279 bytes in 0.167 second response time
+[1783296000] CURRENT SERVICE STATE: briansclark;Homepage Content;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 56761 bytes in 0.273 second response time
+[1783296000] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.00, 0.00, 0.00
+[1783296000] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1783296000] CURRENT SERVICE STATE: localhost;HTTP;WARNING;HARD;4;HTTP WARNING: HTTP/1.1 401 Unauthorized - 695 bytes in 0.000 second response time
+[1783296000] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.05 ms
+[1783296000] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 963937 MiB (98.50% inode=100%):
+[1783296000] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (1015 MB out of 1024 MB)
+[1783296000] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 26 processes with STATE = RSZDT
+[1783296000] CURRENT SERVICE STATE: ollama;Ollama API;OK;HARD;1;HTTP OK: HTTP/1.0 200 OK - 134 bytes in 0.001 second response time
+[1783296000] CURRENT SERVICE STATE: ollama;Ollama API tags;OK;HARD;1;HTTP OK: HTTP/1.0 200 OK - 546 bytes in 0.002 second response time
+[1783296099] wproc: Core Worker 37: job 1193 (pid=665439) timed out. Killing it
+[1783296099] wproc: CHECK job 1193 from worker Core Worker 37 timed out after 30.03s
+[1783296099] wproc:   host=briansclark; service=(null);
+[1783296099] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783296099] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783296099] wproc: Core Worker 37: job 1193 (pid=665439): Dormant child reaped
+[1783296399] wproc: Core Worker 45: job 1194 (pid=666146) timed out. Killing it
+[1783296399] wproc: CHECK job 1194 from worker Core Worker 45 timed out after 30.02s
+[1783296399] wproc:   host=briansclark; service=(null);
+[1783296399] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783296399] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783296399] wproc: Core Worker 45: job 1194 (pid=666146): Dormant child reaped
+[1783296561] wproc: Core Worker 43: job 1195 (pid=666526) timed out. Killing it
+[1783296561] wproc: CHECK job 1195 from worker Core Worker 43 timed out after 30.03s
+[1783296561] wproc:   host=briansclark; service=(null);
+[1783296561] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783296561] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783296562] wproc: Core Worker 43: job 1195 (pid=666526): Dormant child reaped
+[1783296699] wproc: Core Worker 38: job 1196 (pid=666857) timed out. Killing it
+[1783296699] wproc: CHECK job 1196 from worker Core Worker 38 timed out after 30.03s
+[1783296699] wproc:   host=briansclark; service=(null);
+[1783296699] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783296699] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783296699] wproc: Core Worker 38: job 1196 (pid=666857): Dormant child reaped
+[1783296999] wproc: Core Worker 41: job 1197 (pid=667562) timed out. Killing it
+[1783296999] wproc: CHECK job 1197 from worker Core Worker 41 timed out after 30.03s
+[1783296999] wproc:   host=briansclark; service=(null);
+[1783296999] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783296999] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783296999] wproc: Core Worker 41: job 1197 (pid=667562): Dormant child reaped
+[1783297162] wproc: Core Worker 48: job 1197 (pid=667944) timed out. Killing it
+[1783297162] wproc: CHECK job 1197 from worker Core Worker 48 timed out after 30.03s
+[1783297162] wproc:   host=briansclark; service=(null);
+[1783297162] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783297162] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783297162] wproc: Core Worker 48: job 1197 (pid=667944): Dormant child reaped
+[1783297299] wproc: Core Worker 44: job 1198 (pid=668273) timed out. Killing it
+[1783297299] wproc: CHECK job 1198 from worker Core Worker 44 timed out after 30.03s
+[1783297299] wproc:   host=briansclark; service=(null);
+[1783297299] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783297299] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783297299] wproc: Core Worker 44: job 1198 (pid=668273): Dormant child reaped
+[1783297599] wproc: Core Worker 48: job 1199 (pid=668980) timed out. Killing it
+[1783297599] wproc: CHECK job 1199 from worker Core Worker 48 timed out after 30.03s
+[1783297599] wproc:   host=briansclark; service=(null);
+[1783297599] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783297599] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783297600] wproc: Core Worker 48: job 1199 (pid=668980): Dormant child reaped
+[1783297761] wproc: Core Worker 43: job 1200 (pid=669357) timed out. Killing it
+[1783297761] wproc: CHECK job 1200 from worker Core Worker 43 timed out after 30.03s
+[1783297761] wproc:   host=briansclark; service=(null);
+[1783297761] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783297761] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783297761] wproc: Core Worker 43: job 1200 (pid=669357): Dormant child reaped
+[1783297899] wproc: Core Worker 39: job 1201 (pid=669690) timed out. Killing it
+[1783297899] wproc: CHECK job 1201 from worker Core Worker 39 timed out after 30.03s
+[1783297899] wproc:   host=briansclark; service=(null);
+[1783297899] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783297899] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783297900] wproc: Core Worker 39: job 1201 (pid=669690): Dormant child reaped
+[1783298199] wproc: Core Worker 43: job 1202 (pid=670397) timed out. Killing it
+[1783298199] wproc: CHECK job 1202 from worker Core Worker 43 timed out after 30.03s
+[1783298199] wproc:   host=briansclark; service=(null);
+[1783298199] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783298199] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783298200] wproc: Core Worker 43: job 1202 (pid=670397): Dormant child reaped
+[1783298361] wproc: Core Worker 48: job 1202 (pid=670774) timed out. Killing it
+[1783298361] wproc: CHECK job 1202 from worker Core Worker 48 timed out after 30.02s
+[1783298361] wproc:   host=briansclark; service=(null);
+[1783298361] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783298361] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783298361] wproc: Core Worker 48: job 1202 (pid=670774): Dormant child reaped
+[1783298500] wproc: Core Worker 44: job 1203 (pid=671107) timed out. Killing it
+[1783298500] wproc: CHECK job 1203 from worker Core Worker 44 timed out after 30.03s
+[1783298500] wproc:   host=briansclark; service=(null);
+[1783298500] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783298500] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783298500] wproc: Core Worker 44: job 1203 (pid=671107): Dormant child reaped
+[1783298800] wproc: Core Worker 48: job 1204 (pid=671812) timed out. Killing it
+[1783298800] wproc: CHECK job 1204 from worker Core Worker 48 timed out after 30.03s
+[1783298800] wproc:   host=briansclark; service=(null);
+[1783298800] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783298800] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783298800] wproc: Core Worker 48: job 1204 (pid=671812): Dormant child reaped
+[1783298961] wproc: Core Worker 43: job 1205 (pid=672189) timed out. Killing it
+[1783298961] wproc: CHECK job 1205 from worker Core Worker 43 timed out after 30.02s
+[1783298961] wproc:   host=briansclark; service=(null);
+[1783298961] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783298961] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783298961] wproc: Core Worker 43: job 1205 (pid=672189): Dormant child reaped
+[1783298976] Auto-save of retention data completed successfully.
+[1783299099] wproc: Core Worker 38: job 1206 (pid=672519) timed out. Killing it
+[1783299099] wproc: CHECK job 1206 from worker Core Worker 38 timed out after 30.03s
+[1783299099] wproc:   host=briansclark; service=(null);
+[1783299099] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783299099] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783299099] wproc: Core Worker 38: job 1206 (pid=672519): Dormant child reaped
+[1783299399] wproc: Core Worker 41: job 1207 (pid=673226) timed out. Killing it
+[1783299399] wproc: CHECK job 1207 from worker Core Worker 41 timed out after 30.03s
+[1783299399] wproc:   host=briansclark; service=(null);
+[1783299399] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783299399] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783299399] wproc: Core Worker 41: job 1207 (pid=673226): Dormant child reaped
+[1783299561] wproc: Core Worker 48: job 1207 (pid=673606) timed out. Killing it
+[1783299561] wproc: CHECK job 1207 from worker Core Worker 48 timed out after 30.03s
+[1783299561] wproc:   host=briansclark; service=(null);
+[1783299561] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783299561] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783299561] wproc: Core Worker 48: job 1207 (pid=673606): Dormant child reaped
+[1783299699] wproc: Core Worker 37: job 1208 (pid=673936) timed out. Killing it
+[1783299699] wproc: CHECK job 1208 from worker Core Worker 37 timed out after 30.03s
+[1783299699] wproc:   host=briansclark; service=(null);
+[1783299699] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783299699] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783299699] wproc: Core Worker 37: job 1208 (pid=673936): Dormant child reaped
+[1783299999] wproc: Core Worker 45: job 1209 (pid=674643) timed out. Killing it
+[1783299999] wproc: CHECK job 1209 from worker Core Worker 45 timed out after 30.02s
+[1783299999] wproc:   host=briansclark; service=(null);
+[1783299999] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783299999] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783299999] wproc: Core Worker 45: job 1209 (pid=674643): Dormant child reaped
+[1783300161] wproc: Core Worker 43: job 1210 (pid=675023) timed out. Killing it
+[1783300161] wproc: CHECK job 1210 from worker Core Worker 43 timed out after 30.03s
+[1783300161] wproc:   host=briansclark; service=(null);
+[1783300161] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783300161] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783300161] wproc: Core Worker 43: job 1210 (pid=675023): Dormant child reaped
+[1783300299] wproc: Core Worker 38: job 1211 (pid=675351) timed out. Killing it
+[1783300299] wproc: CHECK job 1211 from worker Core Worker 38 timed out after 30.03s
+[1783300299] wproc:   host=briansclark; service=(null);
+[1783300299] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783300299] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783300299] wproc: Core Worker 38: job 1211 (pid=675351): Dormant child reaped
+[1783300599] wproc: Core Worker 41: job 1212 (pid=676058) timed out. Killing it
+[1783300599] wproc: CHECK job 1212 from worker Core Worker 41 timed out after 30.03s
+[1783300599] wproc:   host=briansclark; service=(null);
+[1783300599] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783300599] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783300599] wproc: Core Worker 41: job 1212 (pid=676058): Dormant child reaped
+[1783300761] wproc: Core Worker 48: job 1212 (pid=676438) timed out. Killing it
+[1783300761] wproc: CHECK job 1212 from worker Core Worker 48 timed out after 30.03s
+[1783300761] wproc:   host=briansclark; service=(null);
+[1783300761] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783300761] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783300762] wproc: Core Worker 48: job 1212 (pid=676438): Dormant child reaped
+[1783300899] wproc: Core Worker 44: job 1213 (pid=676769) timed out. Killing it
+[1783300899] wproc: CHECK job 1213 from worker Core Worker 44 timed out after 30.03s
+[1783300899] wproc:   host=briansclark; service=(null);
+[1783300899] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783300899] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783300900] wproc: Core Worker 44: job 1213 (pid=676769): Dormant child reaped
+[1783301199] wproc: Core Worker 48: job 1214 (pid=677476) timed out. Killing it
+[1783301199] wproc: CHECK job 1214 from worker Core Worker 48 timed out after 30.02s
+[1783301199] wproc:   host=briansclark; service=(null);
+[1783301199] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783301199] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783301200] wproc: Core Worker 48: job 1214 (pid=677476): Dormant child reaped
+[1783301361] wproc: Core Worker 43: job 1215 (pid=677853) timed out. Killing it
+[1783301361] wproc: CHECK job 1215 from worker Core Worker 43 timed out after 30.03s
+[1783301361] wproc:   host=briansclark; service=(null);
+[1783301361] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783301361] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783301362] wproc: Core Worker 43: job 1215 (pid=677853): Dormant child reaped
+[1783301500] wproc: Core Worker 39: job 1216 (pid=678184) timed out. Killing it
+[1783301500] wproc: CHECK job 1216 from worker Core Worker 39 timed out after 30.02s
+[1783301500] wproc:   host=briansclark; service=(null);
+[1783301500] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783301500] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783301500] wproc: Core Worker 39: job 1216 (pid=678184): Dormant child reaped
+[1783301799] wproc: Core Worker 41: job 1217 (pid=678888) timed out. Killing it
+[1783301799] wproc: CHECK job 1217 from worker Core Worker 41 timed out after 30.03s
+[1783301799] wproc:   host=briansclark; service=(null);
+[1783301799] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783301799] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783301799] wproc: Core Worker 41: job 1217 (pid=678888): Dormant child reaped
+[1783301962] wproc: Core Worker 48: job 1217 (pid=679270) timed out. Killing it
+[1783301962] wproc: CHECK job 1217 from worker Core Worker 48 timed out after 30.02s
+[1783301962] wproc:   host=briansclark; service=(null);
+[1783301962] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783301962] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783301962] wproc: Core Worker 48: job 1217 (pid=679270): Dormant child reaped
+[1783302100] wproc: Core Worker 44: job 1218 (pid=679601) timed out. Killing it
+[1783302100] wproc: CHECK job 1218 from worker Core Worker 44 timed out after 30.03s
+[1783302100] wproc:   host=briansclark; service=(null);
+[1783302100] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783302100] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783302100] wproc: Core Worker 44: job 1218 (pid=679601): Dormant child reaped
+[1783302400] wproc: Core Worker 48: job 1219 (pid=680308) timed out. Killing it
+[1783302400] wproc: CHECK job 1219 from worker Core Worker 48 timed out after 30.03s
+[1783302400] wproc:   host=briansclark; service=(null);
+[1783302400] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783302400] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783302400] wproc: Core Worker 48: job 1219 (pid=680308): Dormant child reaped
+[1783302561] wproc: Core Worker 43: job 1220 (pid=680685) timed out. Killing it
+[1783302561] wproc: CHECK job 1220 from worker Core Worker 43 timed out after 30.03s
+[1783302561] wproc:   host=briansclark; service=(null);
+[1783302561] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783302561] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783302561] wproc: Core Worker 43: job 1220 (pid=680685): Dormant child reaped
+[1783302576] Auto-save of retention data completed successfully.
+[1783302699] wproc: Core Worker 38: job 1221 (pid=681016) timed out. Killing it
+[1783302699] wproc: CHECK job 1221 from worker Core Worker 38 timed out after 30.03s
+[1783302699] wproc:   host=briansclark; service=(null);
+[1783302699] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783302699] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783302699] wproc: Core Worker 38: job 1221 (pid=681016): Dormant child reaped
+[1783302999] wproc: Core Worker 41: job 1222 (pid=681721) timed out. Killing it
+[1783302999] wproc: CHECK job 1222 from worker Core Worker 41 timed out after 30.03s
+[1783302999] wproc:   host=briansclark; service=(null);
+[1783302999] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783302999] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783302999] wproc: Core Worker 41: job 1222 (pid=681721): Dormant child reaped
+[1783303161] wproc: Core Worker 48: job 1222 (pid=682101) timed out. Killing it
+[1783303161] wproc: CHECK job 1222 from worker Core Worker 48 timed out after 30.02s
+[1783303161] wproc:   host=briansclark; service=(null);
+[1783303161] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783303161] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783303161] wproc: Core Worker 48: job 1222 (pid=682101): Dormant child reaped
+[1783303299] wproc: Core Worker 37: job 1223 (pid=682431) timed out. Killing it
+[1783303299] wproc: CHECK job 1223 from worker Core Worker 37 timed out after 30.02s
+[1783303299] wproc:   host=briansclark; service=(null);
+[1783303299] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783303299] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783303299] wproc: Core Worker 37: job 1223 (pid=682431): Dormant child reaped
+[1783303599] wproc: Core Worker 45: job 1224 (pid=683138) timed out. Killing it
+[1783303599] wproc: CHECK job 1224 from worker Core Worker 45 timed out after 30.02s
+[1783303599] wproc:   host=briansclark; service=(null);
+[1783303599] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783303599] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783303599] wproc: Core Worker 45: job 1224 (pid=683138): Dormant child reaped
+[1783303761] wproc: Core Worker 43: job 1225 (pid=683518) timed out. Killing it
+[1783303761] wproc: CHECK job 1225 from worker Core Worker 43 timed out after 30.03s
+[1783303761] wproc:   host=briansclark; service=(null);
+[1783303761] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783303761] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783303761] wproc: Core Worker 43: job 1225 (pid=683518): Dormant child reaped
+[1783303899] wproc: Core Worker 39: job 1226 (pid=683849) timed out. Killing it
+[1783303899] wproc: CHECK job 1226 from worker Core Worker 39 timed out after 30.03s
+[1783303899] wproc:   host=briansclark; service=(null);
+[1783303899] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783303899] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783303900] wproc: Core Worker 39: job 1226 (pid=683849): Dormant child reaped
+[1783304199] wproc: Core Worker 43: job 1227 (pid=684556) timed out. Killing it
+[1783304199] wproc: CHECK job 1227 from worker Core Worker 43 timed out after 30.03s
+[1783304199] wproc:   host=briansclark; service=(null);
+[1783304199] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783304199] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783304200] wproc: Core Worker 43: job 1227 (pid=684556): Dormant child reaped
+[1783304361] wproc: Core Worker 48: job 1227 (pid=684933) timed out. Killing it
+[1783304361] wproc: CHECK job 1227 from worker Core Worker 48 timed out after 30.02s
+[1783304361] wproc:   host=briansclark; service=(null);
+[1783304361] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783304361] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783304361] wproc: Core Worker 48: job 1227 (pid=684933): Dormant child reaped
+[1783304500] wproc: Core Worker 44: job 1228 (pid=685264) timed out. Killing it
+[1783304500] wproc: CHECK job 1228 from worker Core Worker 44 timed out after 30.03s
+[1783304500] wproc:   host=briansclark; service=(null);
+[1783304500] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783304500] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783304500] wproc: Core Worker 44: job 1228 (pid=685264): Dormant child reaped
+[1783304800] wproc: Core Worker 48: job 1229 (pid=685971) timed out. Killing it
+[1783304800] wproc: CHECK job 1229 from worker Core Worker 48 timed out after 30.02s
+[1783304800] wproc:   host=briansclark; service=(null);
+[1783304800] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783304800] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783304800] wproc: Core Worker 48: job 1229 (pid=685971): Dormant child reaped
+[1783304961] wproc: Core Worker 43: job 1230 (pid=686350) timed out. Killing it
+[1783304961] wproc: CHECK job 1230 from worker Core Worker 43 timed out after 30.03s
+[1783304961] wproc:   host=briansclark; service=(null);
+[1783304961] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783304961] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783304961] wproc: Core Worker 43: job 1230 (pid=686350): Dormant child reaped
+[1783305099] wproc: Core Worker 38: job 1231 (pid=686678) timed out. Killing it
+[1783305099] wproc: CHECK job 1231 from worker Core Worker 38 timed out after 30.03s
+[1783305099] wproc:   host=briansclark; service=(null);
+[1783305099] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783305099] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783305099] wproc: Core Worker 38: job 1231 (pid=686678): Dormant child reaped
+[1783305399] wproc: Core Worker 41: job 1232 (pid=687385) timed out. Killing it
+[1783305399] wproc: CHECK job 1232 from worker Core Worker 41 timed out after 30.03s
+[1783305399] wproc:   host=briansclark; service=(null);
+[1783305399] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783305399] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783305399] wproc: Core Worker 41: job 1232 (pid=687385): Dormant child reaped
+[1783305561] wproc: Core Worker 48: job 1232 (pid=687765) timed out. Killing it
+[1783305561] wproc: CHECK job 1232 from worker Core Worker 48 timed out after 30.03s
+[1783305561] wproc:   host=briansclark; service=(null);
+[1783305561] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783305561] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783305562] wproc: Core Worker 48: job 1232 (pid=687765): Dormant child reaped
+[1783305699] wproc: Core Worker 37: job 1233 (pid=688095) timed out. Killing it
+[1783305699] wproc: CHECK job 1233 from worker Core Worker 37 timed out after 30.03s
+[1783305699] wproc:   host=briansclark; service=(null);
+[1783305699] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783305699] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783305699] wproc: Core Worker 37: job 1233 (pid=688095): Dormant child reaped
+[1783305999] wproc: Core Worker 45: job 1234 (pid=688800) timed out. Killing it
+[1783305999] wproc: CHECK job 1234 from worker Core Worker 45 timed out after 30.03s
+[1783305999] wproc:   host=briansclark; service=(null);
+[1783305999] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783305999] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783305999] wproc: Core Worker 45: job 1234 (pid=688800): Dormant child reaped
+[1783306162] wproc: Core Worker 43: job 1235 (pid=689182) timed out. Killing it
+[1783306162] wproc: CHECK job 1235 from worker Core Worker 43 timed out after 30.02s
+[1783306162] wproc:   host=briansclark; service=(null);
+[1783306162] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783306162] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783306162] wproc: Core Worker 43: job 1235 (pid=689182): Dormant child reaped
+[1783306176] Auto-save of retention data completed successfully.
+[1783306299] wproc: Core Worker 38: job 1236 (pid=689510) timed out. Killing it
+[1783306299] wproc: CHECK job 1236 from worker Core Worker 38 timed out after 30.03s
+[1783306299] wproc:   host=briansclark; service=(null);
+[1783306299] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783306299] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783306300] wproc: Core Worker 38: job 1236 (pid=689510): Dormant child reaped
+[1783306599] wproc: Core Worker 41: job 1237 (pid=690217) timed out. Killing it
+[1783306599] wproc: CHECK job 1237 from worker Core Worker 41 timed out after 30.03s
+[1783306599] wproc:   host=briansclark; service=(null);
+[1783306599] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783306599] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783306600] wproc: Core Worker 41: job 1237 (pid=690217): Dormant child reaped
+[1783306762] wproc: Core Worker 48: job 1237 (pid=690597) timed out. Killing it
+[1783306762] wproc: CHECK job 1237 from worker Core Worker 48 timed out after 30.03s
+[1783306762] wproc:   host=briansclark; service=(null);
+[1783306762] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783306762] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783306762] wproc: Core Worker 48: job 1237 (pid=690597): Dormant child reaped
+[1783306899] wproc: Core Worker 44: job 1238 (pid=690928) timed out. Killing it
+[1783306899] wproc: CHECK job 1238 from worker Core Worker 44 timed out after 30.03s
+[1783306899] wproc:   host=briansclark; service=(null);
+[1783306899] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783306899] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783306900] wproc: Core Worker 44: job 1238 (pid=690928): Dormant child reaped
+[1783307199] wproc: Core Worker 48: job 1239 (pid=691635) timed out. Killing it
+[1783307199] wproc: CHECK job 1239 from worker Core Worker 48 timed out after 30.02s
+[1783307199] wproc:   host=briansclark; service=(null);
+[1783307199] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783307199] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783307200] wproc: Core Worker 48: job 1239 (pid=691635): Dormant child reaped
+[1783307361] wproc: Core Worker 43: job 1240 (pid=692012) timed out. Killing it
+[1783307361] wproc: CHECK job 1240 from worker Core Worker 43 timed out after 30.02s
+[1783307361] wproc:   host=briansclark; service=(null);
+[1783307361] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783307361] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783307361] wproc: Core Worker 43: job 1240 (pid=692012): Dormant child reaped
+[1783307500] wproc: Core Worker 39: job 1241 (pid=692345) timed out. Killing it
+[1783307500] wproc: CHECK job 1241 from worker Core Worker 39 timed out after 30.03s
+[1783307500] wproc:   host=briansclark; service=(null);
+[1783307500] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783307500] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783307500] wproc: Core Worker 39: job 1241 (pid=692345): Dormant child reaped
+[1783307800] wproc: Core Worker 43: job 1242 (pid=693050) timed out. Killing it
+[1783307800] wproc: CHECK job 1242 from worker Core Worker 43 timed out after 30.03s
+[1783307800] wproc:   host=briansclark; service=(null);
+[1783307800] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783307800] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783307800] wproc: Core Worker 43: job 1242 (pid=693050): Dormant child reaped
+[1783307961] wproc: Core Worker 48: job 1242 (pid=693429) timed out. Killing it
+[1783307961] wproc: CHECK job 1242 from worker Core Worker 48 timed out after 30.03s
+[1783307961] wproc:   host=briansclark; service=(null);
+[1783307961] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783307961] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783307961] wproc: Core Worker 48: job 1242 (pid=693429): Dormant child reaped
+[1783308099] wproc: Core Worker 37: job 1243 (pid=693757) timed out. Killing it
+[1783308099] wproc: CHECK job 1243 from worker Core Worker 37 timed out after 30.03s
+[1783308099] wproc:   host=briansclark; service=(null);
+[1783308099] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783308099] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783308099] wproc: Core Worker 37: job 1243 (pid=693757): Dormant child reaped
+[1783308399] wproc: Core Worker 45: job 1244 (pid=694464) timed out. Killing it
+[1783308399] wproc: CHECK job 1244 from worker Core Worker 45 timed out after 30.03s
+[1783308399] wproc:   host=briansclark; service=(null);
+[1783308399] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783308399] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783308399] wproc: Core Worker 45: job 1244 (pid=694464): Dormant child reaped
+[1783308561] wproc: Core Worker 43: job 1245 (pid=694844) timed out. Killing it
+[1783308561] wproc: CHECK job 1245 from worker Core Worker 43 timed out after 30.01s
+[1783308561] wproc:   host=briansclark; service=(null);
+[1783308561] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783308561] Warning: Check of host 'briansclark' timed out after 30.01 seconds
+[1783308562] wproc: Core Worker 43: job 1245 (pid=694844): Dormant child reaped
+[1783308699] wproc: Core Worker 38: job 1246 (pid=695175) timed out. Killing it
+[1783308699] wproc: CHECK job 1246 from worker Core Worker 38 timed out after 30.03s
+[1783308699] wproc:   host=briansclark; service=(null);
+[1783308699] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783308699] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783308699] wproc: Core Worker 38: job 1246 (pid=695175): Dormant child reaped
+[1783308999] wproc: Core Worker 41: job 1247 (pid=695882) timed out. Killing it
+[1783308999] wproc: CHECK job 1247 from worker Core Worker 41 timed out after 30.03s
+[1783308999] wproc:   host=briansclark; service=(null);
+[1783308999] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783308999] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783309000] wproc: Core Worker 41: job 1247 (pid=695882): Dormant child reaped
+[1783309161] wproc: Core Worker 48: job 1247 (pid=696262) timed out. Killing it
+[1783309161] wproc: CHECK job 1247 from worker Core Worker 48 timed out after 30.02s
+[1783309161] wproc:   host=briansclark; service=(null);
+[1783309161] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783309161] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783309162] wproc: Core Worker 48: job 1247 (pid=696262): Dormant child reaped
+[1783309299] wproc: Core Worker 44: job 1248 (pid=696591) timed out. Killing it
+[1783309299] wproc: CHECK job 1248 from worker Core Worker 44 timed out after 30.03s
+[1783309299] wproc:   host=briansclark; service=(null);
+[1783309299] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783309299] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783309300] wproc: Core Worker 44: job 1248 (pid=696591): Dormant child reaped
+[1783309599] wproc: Core Worker 48: job 1249 (pid=697298) timed out. Killing it
+[1783309599] wproc: CHECK job 1249 from worker Core Worker 48 timed out after 30.03s
+[1783309599] wproc:   host=briansclark; service=(null);
+[1783309599] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783309599] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783309600] wproc: Core Worker 48: job 1249 (pid=697298): Dormant child reaped
+[1783309762] wproc: Core Worker 43: job 1250 (pid=697677) timed out. Killing it
+[1783309762] wproc: CHECK job 1250 from worker Core Worker 43 timed out after 30.02s
+[1783309762] wproc:   host=briansclark; service=(null);
+[1783309762] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783309762] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783309762] wproc: Core Worker 43: job 1250 (pid=697677): Dormant child reaped
+[1783309776] Auto-save of retention data completed successfully.
+[1783309900] wproc: Core Worker 39: job 1251 (pid=698008) timed out. Killing it
+[1783309900] wproc: CHECK job 1251 from worker Core Worker 39 timed out after 30.02s
+[1783309900] wproc:   host=briansclark; service=(null);
+[1783309900] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783309900] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783309900] wproc: Core Worker 39: job 1251 (pid=698008): Dormant child reaped
+[1783310200] wproc: Core Worker 43: job 1252 (pid=698715) timed out. Killing it
+[1783310200] wproc: CHECK job 1252 from worker Core Worker 43 timed out after 30.03s
+[1783310200] wproc:   host=briansclark; service=(null);
+[1783310200] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783310200] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783310200] wproc: Core Worker 43: job 1252 (pid=698715): Dormant child reaped
+[1783310361] wproc: Core Worker 48: job 1252 (pid=699092) timed out. Killing it
+[1783310361] wproc: CHECK job 1252 from worker Core Worker 48 timed out after 30.03s
+[1783310361] wproc:   host=briansclark; service=(null);
+[1783310361] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783310361] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783310361] wproc: Core Worker 48: job 1252 (pid=699092): Dormant child reaped
+[1783310499] wproc: Core Worker 37: job 1253 (pid=699424) timed out. Killing it
+[1783310499] wproc: CHECK job 1253 from worker Core Worker 37 timed out after 30.03s
+[1783310499] wproc:   host=briansclark; service=(null);
+[1783310499] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783310499] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783310499] wproc: Core Worker 37: job 1253 (pid=699424): Dormant child reaped
+[1783310799] wproc: Core Worker 45: job 1254 (pid=700131) timed out. Killing it
+[1783310799] wproc: CHECK job 1254 from worker Core Worker 45 timed out after 30.03s
+[1783310799] wproc:   host=briansclark; service=(null);
+[1783310799] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783310799] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783310799] wproc: Core Worker 45: job 1254 (pid=700131): Dormant child reaped
+[1783310961] wproc: Core Worker 43: job 1255 (pid=700511) timed out. Killing it
+[1783310961] wproc: CHECK job 1255 from worker Core Worker 43 timed out after 30.02s
+[1783310961] wproc:   host=briansclark; service=(null);
+[1783310961] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783310961] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783310961] wproc: Core Worker 43: job 1255 (pid=700511): Dormant child reaped
+[1783311099] wproc: Core Worker 38: job 1256 (pid=700841) timed out. Killing it
+[1783311099] wproc: CHECK job 1256 from worker Core Worker 38 timed out after 30.03s
+[1783311099] wproc:   host=briansclark; service=(null);
+[1783311099] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783311099] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783311099] wproc: Core Worker 38: job 1256 (pid=700841): Dormant child reaped
+[1783311399] wproc: Core Worker 41: job 1257 (pid=701548) timed out. Killing it
+[1783311399] wproc: CHECK job 1257 from worker Core Worker 41 timed out after 30.03s
+[1783311399] wproc:   host=briansclark; service=(null);
+[1783311399] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783311399] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783311399] wproc: Core Worker 41: job 1257 (pid=701548): Dormant child reaped
+[1783311561] wproc: Core Worker 48: job 1257 (pid=701928) timed out. Killing it
+[1783311561] wproc: CHECK job 1257 from worker Core Worker 48 timed out after 30.02s
+[1783311561] wproc:   host=briansclark; service=(null);
+[1783311561] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783311561] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783311561] wproc: Core Worker 48: job 1257 (pid=701928): Dormant child reaped
+[1783311699] wproc: Core Worker 37: job 1258 (pid=702258) timed out. Killing it
+[1783311699] wproc: CHECK job 1258 from worker Core Worker 37 timed out after 30.01s
+[1783311699] wproc:   host=briansclark; service=(null);
+[1783311699] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783311699] Warning: Check of host 'briansclark' timed out after 30.01 seconds
+[1783311699] wproc: Core Worker 37: job 1258 (pid=702258): Dormant child reaped
+[1783311999] wproc: Core Worker 45: job 1259 (pid=702969) timed out. Killing it
+[1783311999] wproc: CHECK job 1259 from worker Core Worker 45 timed out after 30.03s
+[1783311999] wproc:   host=briansclark; service=(null);
+[1783311999] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783311999] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783311999] wproc: Core Worker 45: job 1259 (pid=702969): Dormant child reaped
+[1783312161] wproc: Core Worker 43: job 1260 (pid=703349) timed out. Killing it
+[1783312161] wproc: CHECK job 1260 from worker Core Worker 43 timed out after 30.03s
+[1783312161] wproc:   host=briansclark; service=(null);
+[1783312161] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783312161] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783312161] wproc: Core Worker 43: job 1260 (pid=703349): Dormant child reaped
+[1783312299] wproc: Core Worker 38: job 1261 (pid=703683) timed out. Killing it
+[1783312299] wproc: CHECK job 1261 from worker Core Worker 38 timed out after 30.01s
+[1783312299] wproc:   host=briansclark; service=(null);
+[1783312299] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783312299] Warning: Check of host 'briansclark' timed out after 30.01 seconds
+[1783312300] wproc: Core Worker 38: job 1261 (pid=703683): Dormant child reaped
+[1783312425] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;briansclark;HTTP;1783312421
+[1783312435] SERVICE ALERT: briansclark;HTTP;CRITICAL;HARD;1;CRITICAL - Socket timeout
+[1783312564] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;briansclark;HTTP;1783312562
+[1783312564] SERVICE ALERT: briansclark;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 301 Moved Permanently - 385 bytes in 0.150 second response time
+[1783312594] wproc: Core Worker 43: job 1262 (pid=704385) timed out. Killing it
+[1783312595] wproc: CHECK job 1262 from worker Core Worker 43 timed out after 31.01s
+[1783312595] wproc:   host=briansclark; service=(null);
+[1783312595] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783312595] Warning: Check of host 'briansclark' timed out after 31.01 seconds
+[1783312595] wproc: Core Worker 43: job 1262 (pid=704385): Dormant child reaped
+[1783312894] wproc: Core Worker 40: job 1263 (pid=705096) timed out. Killing it
+[1783312895] wproc: CHECK job 1263 from worker Core Worker 40 timed out after 31.03s
+[1783312895] wproc:   host=briansclark; service=(null);
+[1783312895] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783312895] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783312895] wproc: Core Worker 40: job 1263 (pid=705096): Dormant child reaped
+[1783313194] wproc: Core Worker 45: job 1264 (pid=705808) timed out. Killing it
+[1783313194] wproc: CHECK job 1264 from worker Core Worker 45 timed out after 30.03s
+[1783313194] wproc:   host=briansclark; service=(null);
+[1783313194] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783313194] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783313194] wproc: Core Worker 45: job 1264 (pid=705808): Dormant child reaped
+[1783313376] Auto-save of retention data completed successfully.
+[1783313494] wproc: Core Worker 48: job 1265 (pid=706517) timed out. Killing it
+[1783313495] wproc: CHECK job 1265 from worker Core Worker 48 timed out after 31.03s
+[1783313495] wproc:   host=briansclark; service=(null);
+[1783313495] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783313495] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783313495] wproc: Core Worker 48: job 1265 (pid=706517): Dormant child reaped
+[1783313794] wproc: Core Worker 39: job 1267 (pid=707230) timed out. Killing it
+[1783313794] wproc: CHECK job 1267 from worker Core Worker 39 timed out after 30.02s
+[1783313794] wproc:   host=briansclark; service=(null);
+[1783313794] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783313794] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783313794] wproc: Core Worker 39: job 1267 (pid=707230): Dormant child reaped
+[1783314094] wproc: Core Worker 41: job 1268 (pid=707939) timed out. Killing it
+[1783314094] wproc: CHECK job 1268 from worker Core Worker 41 timed out after 30.03s
+[1783314094] wproc:   host=briansclark; service=(null);
+[1783314094] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783314094] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783314094] wproc: Core Worker 41: job 1268 (pid=707939): Dormant child reaped
+[1783314394] wproc: Core Worker 37: job 1269 (pid=708649) timed out. Killing it
+[1783314394] wproc: CHECK job 1269 from worker Core Worker 37 timed out after 30.03s
+[1783314394] wproc:   host=briansclark; service=(null);
+[1783314394] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783314394] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783314395] wproc: Core Worker 37: job 1269 (pid=708649): Dormant child reaped
+[1783314694] wproc: Core Worker 44: job 1270 (pid=709360) timed out. Killing it
+[1783314695] wproc: CHECK job 1270 from worker Core Worker 44 timed out after 31.04s
+[1783314695] wproc:   host=briansclark; service=(null);
+[1783314695] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783314695] Warning: Check of host 'briansclark' timed out after 31.04 seconds
+[1783314695] wproc: Core Worker 44: job 1270 (pid=709360): Dormant child reaped
+[1783314994] wproc: Core Worker 46: job 1271 (pid=710072) timed out. Killing it
+[1783314995] wproc: CHECK job 1271 from worker Core Worker 46 timed out after 31.03s
+[1783314995] wproc:   host=briansclark; service=(null);
+[1783314995] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783314995] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783314995] wproc: Core Worker 46: job 1271 (pid=710072): Dormant child reaped
+[1783315295] wproc: Core Worker 38: job 1273 (pid=710781) timed out. Killing it
+[1783315295] wproc: CHECK job 1273 from worker Core Worker 38 timed out after 30.03s
+[1783315295] wproc:   host=briansclark; service=(null);
+[1783315295] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783315295] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783315295] wproc: Core Worker 38: job 1273 (pid=710781): Dormant child reaped
+[1783315594] wproc: Core Worker 43: job 1274 (pid=711491) timed out. Killing it
+[1783315594] wproc: CHECK job 1274 from worker Core Worker 43 timed out after 30.03s
+[1783315594] wproc:   host=briansclark; service=(null);
+[1783315594] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783315594] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783315594] wproc: Core Worker 43: job 1274 (pid=711491): Dormant child reaped
+[1783315894] wproc: Core Worker 42: job 1275 (pid=712201) timed out. Killing it
+[1783315894] wproc: CHECK job 1275 from worker Core Worker 42 timed out after 30.03s
+[1783315894] wproc:   host=briansclark; service=(null);
+[1783315894] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783315894] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783315894] wproc: Core Worker 42: job 1275 (pid=712201): Dormant child reaped
+[1783316194] wproc: Core Worker 45: job 1276 (pid=712912) timed out. Killing it
+[1783316194] wproc: CHECK job 1276 from worker Core Worker 45 timed out after 30.03s
+[1783316194] wproc:   host=briansclark; service=(null);
+[1783316194] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783316194] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783316194] wproc: Core Worker 45: job 1276 (pid=712912): Dormant child reaped
+[1783316494] wproc: Core Worker 47: job 1277 (pid=713623) timed out. Killing it
+[1783316494] wproc: CHECK job 1277 from worker Core Worker 47 timed out after 30.03s
+[1783316494] wproc:   host=briansclark; service=(null);
+[1783316494] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783316494] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783316494] wproc: Core Worker 47: job 1277 (pid=713623): Dormant child reaped
+[1783316794] wproc: Core Worker 41: job 1279 (pid=714335) timed out. Killing it
+[1783316794] wproc: CHECK job 1279 from worker Core Worker 41 timed out after 30.03s
+[1783316794] wproc:   host=briansclark; service=(null);
+[1783316794] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783316794] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783316794] wproc: Core Worker 41: job 1279 (pid=714335): Dormant child reaped
+[1783316976] Auto-save of retention data completed successfully.
+[1783317094] wproc: Core Worker 43: job 1280 (pid=715042) timed out. Killing it
+[1783317094] wproc: CHECK job 1280 from worker Core Worker 43 timed out after 30.02s
+[1783317094] wproc:   host=briansclark; service=(null);
+[1783317094] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783317094] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783317094] wproc: Core Worker 43: job 1280 (pid=715042): Dormant child reaped
+[1783317394] wproc: Core Worker 44: job 1281 (pid=715755) timed out. Killing it
+[1783317394] wproc: CHECK job 1281 from worker Core Worker 44 timed out after 30.03s
+[1783317394] wproc:   host=briansclark; service=(null);
+[1783317394] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783317394] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783317394] wproc: Core Worker 44: job 1281 (pid=715755): Dormant child reaped
+[1783317694] wproc: Core Worker 45: job 1282 (pid=716464) timed out. Killing it
+[1783317694] wproc: CHECK job 1282 from worker Core Worker 45 timed out after 30.03s
+[1783317694] wproc:   host=briansclark; service=(null);
+[1783317694] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783317694] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783317694] wproc: Core Worker 45: job 1282 (pid=716464): Dormant child reaped
+[1783317994] wproc: Core Worker 38: job 1284 (pid=717176) timed out. Killing it
+[1783317994] wproc: CHECK job 1284 from worker Core Worker 38 timed out after 30.03s
+[1783317994] wproc:   host=briansclark; service=(null);
+[1783317994] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783317994] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783317994] wproc: Core Worker 38: job 1284 (pid=717176): Dormant child reaped
+[1783318294] wproc: Core Worker 39: job 1285 (pid=717886) timed out. Killing it
+[1783318294] wproc: CHECK job 1285 from worker Core Worker 39 timed out after 30.03s
+[1783318294] wproc:   host=briansclark; service=(null);
+[1783318294] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783318294] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783318294] wproc: Core Worker 39: job 1285 (pid=717886): Dormant child reaped
+[1783318594] wproc: Core Worker 42: job 1286 (pid=718598) timed out. Killing it
+[1783318594] wproc: CHECK job 1286 from worker Core Worker 42 timed out after 30.03s
+[1783318594] wproc:   host=briansclark; service=(null);
+[1783318594] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783318594] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783318594] wproc: Core Worker 42: job 1286 (pid=718598): Dormant child reaped
+[1783318894] wproc: Core Worker 37: job 1287 (pid=719307) timed out. Killing it
+[1783318894] wproc: CHECK job 1287 from worker Core Worker 37 timed out after 30.03s
+[1783318894] wproc:   host=briansclark; service=(null);
+[1783318894] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783318894] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783318895] wproc: Core Worker 37: job 1287 (pid=719307): Dormant child reaped
+[1783319194] wproc: Core Worker 47: job 1288 (pid=720018) timed out. Killing it
+[1783319194] wproc: CHECK job 1288 from worker Core Worker 47 timed out after 30.02s
+[1783319194] wproc:   host=briansclark; service=(null);
+[1783319194] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783319194] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783319195] wproc: Core Worker 47: job 1288 (pid=720018): Dormant child reaped
+[1783319494] wproc: Core Worker 46: job 1289 (pid=720727) timed out. Killing it
+[1783319494] wproc: CHECK job 1289 from worker Core Worker 46 timed out after 30.03s
+[1783319494] wproc:   host=briansclark; service=(null);
+[1783319494] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783319494] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783319495] wproc: Core Worker 46: job 1289 (pid=720727): Dormant child reaped
+[1783319794] wproc: Core Worker 43: job 1291 (pid=721439) timed out. Killing it
+[1783319794] wproc: CHECK job 1291 from worker Core Worker 43 timed out after 30.03s
+[1783319794] wproc:   host=briansclark; service=(null);
+[1783319794] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783319794] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783319795] wproc: Core Worker 43: job 1291 (pid=721439): Dormant child reaped
+[1783320095] wproc: Core Worker 40: job 1292 (pid=722149) timed out. Killing it
+[1783320095] wproc: CHECK job 1292 from worker Core Worker 40 timed out after 30.03s
+[1783320095] wproc:   host=briansclark; service=(null);
+[1783320095] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783320095] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783320095] wproc: Core Worker 40: job 1292 (pid=722149): Dormant child reaped
+[1783320394] wproc: Core Worker 44: job 1293 (pid=722858) timed out. Killing it
+[1783320394] wproc: CHECK job 1293 from worker Core Worker 44 timed out after 30.03s
+[1783320394] wproc:   host=briansclark; service=(null);
+[1783320394] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783320394] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783320394] wproc: Core Worker 44: job 1293 (pid=722858): Dormant child reaped
+[1783320576] Auto-save of retention data completed successfully.
+[1783320694] wproc: Core Worker 48: job 1294 (pid=723569) timed out. Killing it
+[1783320694] wproc: CHECK job 1294 from worker Core Worker 48 timed out after 30.03s
+[1783320694] wproc:   host=briansclark; service=(null);
+[1783320694] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783320694] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783320694] wproc: Core Worker 48: job 1294 (pid=723569): Dormant child reaped
+[1783320994] wproc: Core Worker 39: job 1296 (pid=724282) timed out. Killing it
+[1783320994] wproc: CHECK job 1296 from worker Core Worker 39 timed out after 30.03s
+[1783320994] wproc:   host=briansclark; service=(null);
+[1783320994] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783320994] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783320994] wproc: Core Worker 39: job 1296 (pid=724282): Dormant child reaped
+[1783321294] wproc: Core Worker 41: job 1297 (pid=724991) timed out. Killing it
+[1783321294] wproc: CHECK job 1297 from worker Core Worker 41 timed out after 30.03s
+[1783321294] wproc:   host=briansclark; service=(null);
+[1783321294] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783321294] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783321294] wproc: Core Worker 41: job 1297 (pid=724991): Dormant child reaped
+[1783321594] wproc: Core Worker 37: job 1298 (pid=725703) timed out. Killing it
+[1783321594] wproc: CHECK job 1298 from worker Core Worker 37 timed out after 30.03s
+[1783321594] wproc:   host=briansclark; service=(null);
+[1783321594] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783321594] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783321594] wproc: Core Worker 37: job 1298 (pid=725703): Dormant child reaped
+[1783321894] wproc: Core Worker 44: job 1299 (pid=726413) timed out. Killing it
+[1783321894] wproc: CHECK job 1299 from worker Core Worker 44 timed out after 30.03s
+[1783321894] wproc:   host=briansclark; service=(null);
+[1783321894] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783321894] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783321894] wproc: Core Worker 44: job 1299 (pid=726413): Dormant child reaped
+[1783322194] wproc: Core Worker 46: job 1300 (pid=727123) timed out. Killing it
+[1783322194] wproc: CHECK job 1300 from worker Core Worker 46 timed out after 30.03s
+[1783322194] wproc:   host=briansclark; service=(null);
+[1783322194] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783322194] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783322194] wproc: Core Worker 46: job 1300 (pid=727123): Dormant child reaped
+[1783322494] wproc: Core Worker 38: job 1302 (pid=727832) timed out. Killing it
+[1783322494] wproc: CHECK job 1302 from worker Core Worker 38 timed out after 30.02s
+[1783322494] wproc:   host=briansclark; service=(null);
+[1783322494] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783322494] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783322494] wproc: Core Worker 38: job 1302 (pid=727832): Dormant child reaped
+[1783322794] wproc: Core Worker 40: job 1303 (pid=728545) timed out. Killing it
+[1783322794] wproc: CHECK job 1303 from worker Core Worker 40 timed out after 30.03s
+[1783322794] wproc:   host=briansclark; service=(null);
+[1783322794] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783322794] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783322794] wproc: Core Worker 40: job 1303 (pid=728545): Dormant child reaped
+[1783323094] wproc: Core Worker 42: job 1304 (pid=729254) timed out. Killing it
+[1783323094] wproc: CHECK job 1304 from worker Core Worker 42 timed out after 30.03s
+[1783323094] wproc:   host=briansclark; service=(null);
+[1783323094] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783323094] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783323094] wproc: Core Worker 42: job 1304 (pid=729254): Dormant child reaped
+[1783323394] wproc: Core Worker 48: job 1305 (pid=729966) timed out. Killing it
+[1783323394] wproc: CHECK job 1305 from worker Core Worker 48 timed out after 30.03s
+[1783323394] wproc:   host=briansclark; service=(null);
+[1783323394] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783323394] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783323394] wproc: Core Worker 48: job 1305 (pid=729966): Dormant child reaped
+[1783323694] wproc: Core Worker 47: job 1306 (pid=730676) timed out. Killing it
+[1783323694] wproc: CHECK job 1306 from worker Core Worker 47 timed out after 30.03s
+[1783323694] wproc:   host=briansclark; service=(null);
+[1783323694] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783323694] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783323695] wproc: Core Worker 47: job 1306 (pid=730676): Dormant child reaped
+[1783323994] wproc: Core Worker 41: job 1308 (pid=731388) timed out. Killing it
+[1783323994] wproc: CHECK job 1308 from worker Core Worker 41 timed out after 30.03s
+[1783323994] wproc:   host=briansclark; service=(null);
+[1783323994] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783323994] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783323995] wproc: Core Worker 41: job 1308 (pid=731388): Dormant child reaped
+[1783324176] Auto-save of retention data completed successfully.
+[1783324294] wproc: Core Worker 43: job 1309 (pid=732095) timed out. Killing it
+[1783324294] wproc: CHECK job 1309 from worker Core Worker 43 timed out after 30.00s
+[1783324294] wproc:   host=briansclark; service=(null);
+[1783324294] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783324294] Warning: Check of host 'briansclark' timed out after 30.00 seconds
+[1783324295] wproc: Core Worker 43: job 1309 (pid=732095): Dormant child reaped
+[1783324594] wproc: Core Worker 44: job 1310 (pid=732808) timed out. Killing it
+[1783324594] wproc: CHECK job 1310 from worker Core Worker 44 timed out after 30.03s
+[1783324594] wproc:   host=briansclark; service=(null);
+[1783324594] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783324594] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783324595] wproc: Core Worker 44: job 1310 (pid=732808): Dormant child reaped
+[1783324894] wproc: Core Worker 45: job 1311 (pid=733517) timed out. Killing it
+[1783324894] wproc: CHECK job 1311 from worker Core Worker 45 timed out after 30.03s
+[1783324894] wproc:   host=briansclark; service=(null);
+[1783324894] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783324894] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783324895] wproc: Core Worker 45: job 1311 (pid=733517): Dormant child reaped
+[1783325195] wproc: Core Worker 38: job 1313 (pid=734229) timed out. Killing it
+[1783325195] wproc: CHECK job 1313 from worker Core Worker 38 timed out after 30.02s
+[1783325195] wproc:   host=briansclark; service=(null);
+[1783325195] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783325195] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783325195] wproc: Core Worker 38: job 1313 (pid=734229): Dormant child reaped
+[1783325494] wproc: Core Worker 39: job 1314 (pid=734937) timed out. Killing it
+[1783325494] wproc: CHECK job 1314 from worker Core Worker 39 timed out after 30.03s
+[1783325494] wproc:   host=briansclark; service=(null);
+[1783325494] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783325494] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783325494] wproc: Core Worker 39: job 1314 (pid=734937): Dormant child reaped
+[1783325794] wproc: Core Worker 40: job 1315 (pid=735648) timed out. Killing it
+[1783325794] wproc: CHECK job 1315 from worker Core Worker 40 timed out after 30.03s
+[1783325794] wproc:   host=briansclark; service=(null);
+[1783325794] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783325794] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783325794] wproc: Core Worker 40: job 1315 (pid=735648): Dormant child reaped
+[1783326094] wproc: Core Worker 37: job 1316 (pid=736358) timed out. Killing it
+[1783326094] wproc: CHECK job 1316 from worker Core Worker 37 timed out after 30.03s
+[1783326094] wproc:   host=briansclark; service=(null);
+[1783326094] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783326094] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783326094] wproc: Core Worker 37: job 1316 (pid=736358): Dormant child reaped
+[1783326124] wproc: Core Worker 38: job 1317 (pid=736436) timed out. Killing it
+[1783326124] wproc: CHECK job 1317 from worker Core Worker 38 timed out after 30.03s
+[1783326124] wproc:   host=briansclark; service=(null);
+[1783326124] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783326124] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783326124] wproc: Core Worker 38: job 1317 (pid=736436): Dormant child reaped
+[1783326394] wproc: Core Worker 46: job 1317 (pid=737073) timed out. Killing it
+[1783326394] wproc: CHECK job 1317 from worker Core Worker 46 timed out after 30.03s
+[1783326394] wproc:   host=briansclark; service=(null);
+[1783326394] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783326394] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783326394] wproc: Core Worker 46: job 1317 (pid=737073): Dormant child reaped
+[1783326694] wproc: Core Worker 38: job 1319 (pid=737781) timed out. Killing it
+[1783326694] wproc: CHECK job 1319 from worker Core Worker 38 timed out after 30.03s
+[1783326694] wproc:   host=briansclark; service=(null);
+[1783326694] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783326694] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783326694] wproc: Core Worker 38: job 1319 (pid=737781): Dormant child reaped
+[1783326994] wproc: Core Worker 40: job 1320 (pid=738493) timed out. Killing it
+[1783326994] wproc: CHECK job 1320 from worker Core Worker 40 timed out after 30.03s
+[1783326994] wproc:   host=briansclark; service=(null);
+[1783326994] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783326994] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783326994] wproc: Core Worker 40: job 1320 (pid=738493): Dormant child reaped
+[1783327294] wproc: Core Worker 42: job 1321 (pid=739203) timed out. Killing it
+[1783327294] wproc: CHECK job 1321 from worker Core Worker 42 timed out after 30.03s
+[1783327294] wproc:   host=briansclark; service=(null);
+[1783327294] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783327294] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783327294] wproc: Core Worker 42: job 1321 (pid=739203): Dormant child reaped
+[1783327594] wproc: Core Worker 48: job 1322 (pid=739915) timed out. Killing it
+[1783327594] wproc: CHECK job 1322 from worker Core Worker 48 timed out after 30.03s
+[1783327594] wproc:   host=briansclark; service=(null);
+[1783327594] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783327594] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783327594] wproc: Core Worker 48: job 1322 (pid=739915): Dormant child reaped
+[1783327776] Auto-save of retention data completed successfully.
+[1783327894] wproc: Core Worker 47: job 1323 (pid=740624) timed out. Killing it
+[1783327894] wproc: CHECK job 1323 from worker Core Worker 47 timed out after 30.03s
+[1783327894] wproc:   host=briansclark; service=(null);
+[1783327894] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783327894] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783327894] wproc: Core Worker 47: job 1323 (pid=740624): Dormant child reaped
+[1783328194] wproc: Core Worker 41: job 1325 (pid=741337) timed out. Killing it
+[1783328194] wproc: CHECK job 1325 from worker Core Worker 41 timed out after 30.03s
+[1783328194] wproc:   host=briansclark; service=(null);
+[1783328194] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783328194] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783328194] wproc: Core Worker 41: job 1325 (pid=741337): Dormant child reaped
+[1783328494] wproc: Core Worker 43: job 1326 (pid=742046) timed out. Killing it
+[1783328494] wproc: CHECK job 1326 from worker Core Worker 43 timed out after 30.02s
+[1783328494] wproc:   host=briansclark; service=(null);
+[1783328494] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783328494] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783328494] HOST NOTIFICATION: nagiosadmin;briansclark;DOWN;notify-host-by-email;(Host check timed out after 30.02 seconds)
+[1783328495] wproc: Core Worker 43: job 1326 (pid=742046): Dormant child reaped
+[1783328794] wproc: Core Worker 45: job 1327 (pid=742766) timed out. Killing it
+[1783328794] wproc: CHECK job 1327 from worker Core Worker 45 timed out after 30.03s
+[1783328794] wproc:   host=briansclark; service=(null);
+[1783328794] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783328794] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783328795] wproc: Core Worker 45: job 1327 (pid=742766): Dormant child reaped
+[1783329094] wproc: Core Worker 48: job 1328 (pid=743476) timed out. Killing it
+[1783329094] wproc: CHECK job 1328 from worker Core Worker 48 timed out after 30.03s
+[1783329094] wproc:   host=briansclark; service=(null);
+[1783329094] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783329094] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783329095] wproc: Core Worker 48: job 1328 (pid=743476): Dormant child reaped
+[1783329395] wproc: Core Worker 39: job 1330 (pid=744186) timed out. Killing it
+[1783329395] wproc: CHECK job 1330 from worker Core Worker 39 timed out after 30.02s
+[1783329395] wproc:   host=briansclark; service=(null);
+[1783329395] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783329395] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783329395] wproc: Core Worker 39: job 1330 (pid=744186): Dormant child reaped
+[1783329694] wproc: Core Worker 41: job 1331 (pid=744893) timed out. Killing it
+[1783329694] wproc: CHECK job 1331 from worker Core Worker 41 timed out after 30.03s
+[1783329694] wproc:   host=briansclark; service=(null);
+[1783329694] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783329694] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783329694] wproc: Core Worker 41: job 1331 (pid=744893): Dormant child reaped
+[1783329724] wproc: Core Worker 45: job 1331 (pid=744971) timed out. Killing it
+[1783329724] wproc: CHECK job 1331 from worker Core Worker 45 timed out after 30.03s
+[1783329724] wproc:   host=briansclark; service=(null);
+[1783329724] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783329724] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783329724] wproc: Core Worker 45: job 1331 (pid=744971): Dormant child reaped
+[1783329994] wproc: Core Worker 44: job 1332 (pid=745608) timed out. Killing it
+[1783329994] wproc: CHECK job 1332 from worker Core Worker 44 timed out after 30.01s
+[1783329994] wproc:   host=briansclark; service=(null);
+[1783329994] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783329994] Warning: Check of host 'briansclark' timed out after 30.01 seconds
+[1783329994] wproc: Core Worker 44: job 1332 (pid=745608): Dormant child reaped
+[1783330294] wproc: Core Worker 45: job 1333 (pid=746317) timed out. Killing it
+[1783330294] wproc: CHECK job 1333 from worker Core Worker 45 timed out after 30.03s
+[1783330294] wproc:   host=briansclark; service=(null);
+[1783330294] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783330294] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783330294] wproc: Core Worker 45: job 1333 (pid=746317): Dormant child reaped
+[1783330594] wproc: Core Worker 38: job 1335 (pid=747029) timed out. Killing it
+[1783330594] wproc: CHECK job 1335 from worker Core Worker 38 timed out after 30.03s
+[1783330594] wproc:   host=briansclark; service=(null);
+[1783330594] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783330594] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783330594] wproc: Core Worker 38: job 1335 (pid=747029): Dormant child reaped
+[1783330894] wproc: Core Worker 39: job 1336 (pid=747739) timed out. Killing it
+[1783330894] wproc: CHECK job 1336 from worker Core Worker 39 timed out after 30.03s
+[1783330894] wproc:   host=briansclark; service=(null);
+[1783330894] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783330894] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783330894] wproc: Core Worker 39: job 1336 (pid=747739): Dormant child reaped
+[1783331194] wproc: Core Worker 42: job 1337 (pid=748451) timed out. Killing it
+[1783331194] wproc: CHECK job 1337 from worker Core Worker 42 timed out after 30.03s
+[1783331194] wproc:   host=briansclark; service=(null);
+[1783331194] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783331194] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783331194] wproc: Core Worker 42: job 1337 (pid=748451): Dormant child reaped
+[1783331376] Auto-save of retention data completed successfully.
+[1783331494] wproc: Core Worker 37: job 1338 (pid=749158) timed out. Killing it
+[1783331494] wproc: CHECK job 1338 from worker Core Worker 37 timed out after 30.03s
+[1783331494] wproc:   host=briansclark; service=(null);
+[1783331494] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783331494] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783331494] wproc: Core Worker 37: job 1338 (pid=749158): Dormant child reaped
+[1783331794] wproc: Core Worker 47: job 1339 (pid=749871) timed out. Killing it
+[1783331794] wproc: CHECK job 1339 from worker Core Worker 47 timed out after 30.02s
+[1783331794] wproc:   host=briansclark; service=(null);
+[1783331794] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783331794] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783331794] wproc: Core Worker 47: job 1339 (pid=749871): Dormant child reaped
+[1783332094] wproc: Core Worker 46: job 1340 (pid=750580) timed out. Killing it
+[1783332094] wproc: CHECK job 1340 from worker Core Worker 46 timed out after 30.03s
+[1783332094] wproc:   host=briansclark; service=(null);
+[1783332094] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783332094] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783332094] wproc: Core Worker 46: job 1340 (pid=750580): Dormant child reaped
+[1783332394] wproc: Core Worker 43: job 1342 (pid=751292) timed out. Killing it
+[1783332394] wproc: CHECK job 1342 from worker Core Worker 43 timed out after 30.03s
+[1783332394] wproc:   host=briansclark; service=(null);
+[1783332394] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783332394] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783332394] wproc: Core Worker 43: job 1342 (pid=751292): Dormant child reaped
+[1783332694] wproc: Core Worker 40: job 1343 (pid=752003) timed out. Killing it
+[1783332694] wproc: CHECK job 1343 from worker Core Worker 40 timed out after 30.03s
+[1783332694] wproc:   host=briansclark; service=(null);
+[1783332694] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783332694] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783332695] wproc: Core Worker 40: job 1343 (pid=752003): Dormant child reaped
+[1783332994] wproc: Core Worker 45: job 1344 (pid=752715) timed out. Killing it
+[1783332994] wproc: CHECK job 1344 from worker Core Worker 45 timed out after 30.03s
+[1783332994] wproc:   host=briansclark; service=(null);
+[1783332994] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783332994] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783332995] wproc: Core Worker 45: job 1344 (pid=752715): Dormant child reaped
+[1783333294] wproc: Core Worker 48: job 1345 (pid=753424) timed out. Killing it
+[1783333294] wproc: CHECK job 1345 from worker Core Worker 48 timed out after 30.01s
+[1783333294] wproc:   host=briansclark; service=(null);
+[1783333294] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783333294] Warning: Check of host 'briansclark' timed out after 30.01 seconds
+[1783333295] wproc: Core Worker 48: job 1345 (pid=753424): Dormant child reaped
+[1783333594] wproc: Core Worker 39: job 1347 (pid=754135) timed out. Killing it
+[1783333594] wproc: CHECK job 1347 from worker Core Worker 39 timed out after 30.03s
+[1783333594] wproc:   host=briansclark; service=(null);
+[1783333594] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783333594] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783333595] wproc: Core Worker 39: job 1347 (pid=754135): Dormant child reaped
+[1783333895] wproc: Core Worker 41: job 1348 (pid=754844) timed out. Killing it
+[1783333895] wproc: CHECK job 1348 from worker Core Worker 41 timed out after 30.02s
+[1783333895] wproc:   host=briansclark; service=(null);
+[1783333895] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783333895] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783333895] wproc: Core Worker 41: job 1348 (pid=754844): Dormant child reaped
+[1783334194] wproc: Core Worker 42: job 1349 (pid=755553) timed out. Killing it
+[1783334194] wproc: CHECK job 1349 from worker Core Worker 42 timed out after 30.04s
+[1783334194] wproc:   host=briansclark; service=(null);
+[1783334194] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783334194] Warning: Check of host 'briansclark' timed out after 30.04 seconds
+[1783334194] wproc: Core Worker 42: job 1349 (pid=755553): Dormant child reaped
+[1783334494] wproc: Core Worker 44: job 1350 (pid=756264) timed out. Killing it
+[1783334494] wproc: CHECK job 1350 from worker Core Worker 44 timed out after 30.01s
+[1783334494] wproc:   host=briansclark; service=(null);
+[1783334494] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783334494] Warning: Check of host 'briansclark' timed out after 30.01 seconds
+[1783334494] wproc: Core Worker 44: job 1350 (pid=756264): Dormant child reaped
+[1783334524] wproc: Core Worker 39: job 1351 (pid=756341) timed out. Killing it
+[1783334524] wproc: CHECK job 1351 from worker Core Worker 39 timed out after 30.03s
+[1783334524] wproc:   host=briansclark; service=(null);
+[1783334524] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783334524] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783334524] wproc: Core Worker 39: job 1351 (pid=756341): Dormant child reaped
+[1783334795] wproc: Core Worker 38: job 1352 (pid=756980) timed out. Killing it
+[1783334795] wproc: CHECK job 1352 from worker Core Worker 38 timed out after 30.02s
+[1783334795] wproc:   host=briansclark; service=(null);
+[1783334795] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783334795] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783334795] wproc: Core Worker 38: job 1352 (pid=756980): Dormant child reaped
+[1783334976] Auto-save of retention data completed successfully.
+[1783335095] wproc: Core Worker 39: job 1353 (pid=757689) timed out. Killing it
+[1783335095] wproc: CHECK job 1353 from worker Core Worker 39 timed out after 30.03s
+[1783335095] wproc:   host=briansclark; service=(null);
+[1783335095] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783335095] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783335095] wproc: Core Worker 39: job 1353 (pid=757689): Dormant child reaped
+[1783335395] wproc: Core Worker 42: job 1354 (pid=758400) timed out. Killing it
+[1783335395] wproc: CHECK job 1354 from worker Core Worker 42 timed out after 30.03s
+[1783335395] wproc:   host=briansclark; service=(null);
+[1783335395] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783335395] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783335395] wproc: Core Worker 42: job 1354 (pid=758400): Dormant child reaped
+[1783335695] wproc: Core Worker 37: job 1355 (pid=759109) timed out. Killing it
+[1783335695] wproc: CHECK job 1355 from worker Core Worker 37 timed out after 30.03s
+[1783335695] wproc:   host=briansclark; service=(null);
+[1783335695] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783335695] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783335695] HOST NOTIFICATION: nagiosadmin;briansclark;DOWN;notify-host-by-email;(Host check timed out after 30.03 seconds)
+[1783335695] wproc: Core Worker 37: job 1355 (pid=759109): Dormant child reaped
+[1783335995] wproc: Core Worker 46: job 1356 (pid=759829) timed out. Killing it
+[1783335995] wproc: CHECK job 1356 from worker Core Worker 46 timed out after 30.02s
+[1783335995] wproc:   host=briansclark; service=(null);
+[1783335995] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783335995] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783335995] wproc: Core Worker 46: job 1356 (pid=759829): Dormant child reaped
+[1783336295] wproc: Core Worker 38: job 1358 (pid=760539) timed out. Killing it
+[1783336295] wproc: CHECK job 1358 from worker Core Worker 38 timed out after 30.03s
+[1783336295] wproc:   host=briansclark; service=(null);
+[1783336295] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783336295] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783336295] wproc: Core Worker 38: job 1358 (pid=760539): Dormant child reaped
+[1783336595] wproc: Core Worker 40: job 1359 (pid=761251) timed out. Killing it
+[1783336595] wproc: CHECK job 1359 from worker Core Worker 40 timed out after 30.03s
+[1783336595] wproc:   host=briansclark; service=(null);
+[1783336595] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783336595] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783336595] wproc: Core Worker 40: job 1359 (pid=761251): Dormant child reaped
+[1783336895] wproc: Core Worker 42: job 1360 (pid=761960) timed out. Killing it
+[1783336895] wproc: CHECK job 1360 from worker Core Worker 42 timed out after 30.03s
+[1783336895] wproc:   host=briansclark; service=(null);
+[1783336895] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783336895] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783336895] wproc: Core Worker 42: job 1360 (pid=761960): Dormant child reaped
+[1783337195] wproc: Core Worker 48: job 1361 (pid=762673) timed out. Killing it
+[1783337195] wproc: CHECK job 1361 from worker Core Worker 48 timed out after 30.04s
+[1783337195] wproc:   host=briansclark; service=(null);
+[1783337195] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783337195] Warning: Check of host 'briansclark' timed out after 30.04 seconds
+[1783337196] wproc: Core Worker 48: job 1361 (pid=762673): Dormant child reaped
+[1783337495] wproc: Core Worker 47: job 1362 (pid=763380) timed out. Killing it
+[1783337495] wproc: CHECK job 1362 from worker Core Worker 47 timed out after 30.03s
+[1783337495] wproc:   host=briansclark; service=(null);
+[1783337495] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783337495] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783337496] wproc: Core Worker 47: job 1362 (pid=763380): Dormant child reaped
+[1783337795] wproc: Core Worker 41: job 1364 (pid=764092) timed out. Killing it
+[1783337795] wproc: CHECK job 1364 from worker Core Worker 41 timed out after 30.03s
+[1783337795] wproc:   host=briansclark; service=(null);
+[1783337795] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783337795] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783337796] wproc: Core Worker 41: job 1364 (pid=764092): Dormant child reaped
+[1783338096] wproc: Core Worker 43: job 1365 (pid=764802) timed out. Killing it
+[1783338096] wproc: CHECK job 1365 from worker Core Worker 43 timed out after 30.03s
+[1783338096] wproc:   host=briansclark; service=(null);
+[1783338096] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783338096] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783338096] wproc: Core Worker 43: job 1365 (pid=764802): Dormant child reaped
+[1783338395] wproc: Core Worker 37: job 1366 (pid=765511) timed out. Killing it
+[1783338395] wproc: CHECK job 1366 from worker Core Worker 37 timed out after 30.03s
+[1783338395] wproc:   host=briansclark; service=(null);
+[1783338395] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783338395] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783338395] wproc: Core Worker 37: job 1366 (pid=765511): Dormant child reaped
+[1783338576] Auto-save of retention data completed successfully.
+[1783338695] wproc: Core Worker 45: job 1367 (pid=766222) timed out. Killing it
+[1783338695] wproc: CHECK job 1367 from worker Core Worker 45 timed out after 30.03s
+[1783338695] wproc:   host=briansclark; service=(null);
+[1783338695] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783338695] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783338695] wproc: Core Worker 45: job 1367 (pid=766222): Dormant child reaped
+[1783338995] wproc: Core Worker 38: job 1369 (pid=766935) timed out. Killing it
+[1783338995] wproc: CHECK job 1369 from worker Core Worker 38 timed out after 30.03s
+[1783338995] wproc:   host=briansclark; service=(null);
+[1783338995] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783338995] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783338995] wproc: Core Worker 38: job 1369 (pid=766935): Dormant child reaped
+[1783339295] wproc: Core Worker 39: job 1370 (pid=767644) timed out. Killing it
+[1783339295] wproc: CHECK job 1370 from worker Core Worker 39 timed out after 30.03s
+[1783339295] wproc:   host=briansclark; service=(null);
+[1783339295] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783339295] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783339295] wproc: Core Worker 39: job 1370 (pid=767644): Dormant child reaped
+[1783339595] wproc: Core Worker 42: job 1371 (pid=768354) timed out. Killing it
+[1783339595] wproc: CHECK job 1371 from worker Core Worker 42 timed out after 30.03s
+[1783339595] wproc:   host=briansclark; service=(null);
+[1783339595] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783339595] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783339595] wproc: Core Worker 42: job 1371 (pid=768354): Dormant child reaped
+[1783339895] wproc: Core Worker 37: job 1372 (pid=769064) timed out. Killing it
+[1783339895] wproc: CHECK job 1372 from worker Core Worker 37 timed out after 30.03s
+[1783339895] wproc:   host=briansclark; service=(null);
+[1783339895] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783339895] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783339895] wproc: Core Worker 37: job 1372 (pid=769064): Dormant child reaped
+[1783340195] wproc: Core Worker 47: job 1373 (pid=769776) timed out. Killing it
+[1783340195] wproc: CHECK job 1373 from worker Core Worker 47 timed out after 30.03s
+[1783340195] wproc:   host=briansclark; service=(null);
+[1783340195] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783340195] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783340195] wproc: Core Worker 47: job 1373 (pid=769776): Dormant child reaped
+[1783340495] wproc: Core Worker 46: job 1374 (pid=770485) timed out. Killing it
+[1783340495] wproc: CHECK job 1374 from worker Core Worker 46 timed out after 30.03s
+[1783340495] wproc:   host=briansclark; service=(null);
+[1783340495] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783340495] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783340495] wproc: Core Worker 46: job 1374 (pid=770485): Dormant child reaped
+[1783340795] wproc: Core Worker 43: job 1376 (pid=771198) timed out. Killing it
+[1783340795] wproc: CHECK job 1376 from worker Core Worker 43 timed out after 30.02s
+[1783340795] wproc:   host=briansclark; service=(null);
+[1783340795] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783340795] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783340795] wproc: Core Worker 43: job 1376 (pid=771198): Dormant child reaped
+[1783341095] wproc: Core Worker 40: job 1377 (pid=771907) timed out. Killing it
+[1783341095] wproc: CHECK job 1377 from worker Core Worker 40 timed out after 30.03s
+[1783341095] wproc:   host=briansclark; service=(null);
+[1783341095] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783341095] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783341095] wproc: Core Worker 40: job 1377 (pid=771907): Dormant child reaped
+[1783341395] wproc: Core Worker 45: job 1378 (pid=772619) timed out. Killing it
+[1783341395] wproc: CHECK job 1378 from worker Core Worker 45 timed out after 30.03s
+[1783341395] wproc:   host=briansclark; service=(null);
+[1783341395] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783341395] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783341395] wproc: Core Worker 45: job 1378 (pid=772619): Dormant child reaped
+[1783341695] wproc: Core Worker 48: job 1379 (pid=773329) timed out. Killing it
+[1783341695] wproc: CHECK job 1379 from worker Core Worker 48 timed out after 30.03s
+[1783341695] wproc:   host=briansclark; service=(null);
+[1783341695] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783341695] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783341696] wproc: Core Worker 48: job 1379 (pid=773329): Dormant child reaped
+[1783341995] wproc: Core Worker 39: job 1381 (pid=774039) timed out. Killing it
+[1783341995] wproc: CHECK job 1381 from worker Core Worker 39 timed out after 30.03s
+[1783341995] wproc:   host=briansclark; service=(null);
+[1783341995] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783341995] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783341996] wproc: Core Worker 39: job 1381 (pid=774039): Dormant child reaped
+[1783342176] Auto-save of retention data completed successfully.
+[1783342295] wproc: Core Worker 41: job 1382 (pid=774748) timed out. Killing it
+[1783342295] wproc: CHECK job 1382 from worker Core Worker 41 timed out after 30.03s
+[1783342295] wproc:   host=briansclark; service=(null);
+[1783342295] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783342295] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783342296] wproc: Core Worker 41: job 1382 (pid=774748): Dormant child reaped
+[1783342595] wproc: Core Worker 37: job 1383 (pid=775461) timed out. Killing it
+[1783342595] wproc: CHECK job 1383 from worker Core Worker 37 timed out after 30.02s
+[1783342595] wproc:   host=briansclark; service=(null);
+[1783342595] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783342595] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783342596] wproc: Core Worker 37: job 1383 (pid=775461): Dormant child reaped
+[1783342896] wproc: Core Worker 44: job 1384 (pid=776164) timed out. Killing it
+[1783342897] wproc: CHECK job 1384 from worker Core Worker 44 timed out after 31.07s
+[1783342897] wproc:   host=briansclark; service=(null);
+[1783342897] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783342897] Warning: Check of host 'briansclark' timed out after 31.07 seconds
+[1783342897] HOST NOTIFICATION: nagiosadmin;briansclark;DOWN;notify-host-by-email;(Host check timed out after 31.07 seconds)
+[1783342897] wproc: Core Worker 44: job 1384 (pid=776164): Dormant child reaped
+[1783343195] wproc: Core Worker 46: job 1385 (pid=776875) timed out. Killing it
+[1783343196] wproc: CHECK job 1385 from worker Core Worker 46 timed out after 31.01s
+[1783343196] wproc:   host=briansclark; service=(null);
+[1783343196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783343196] Warning: Check of host 'briansclark' timed out after 31.01 seconds
+[1783343196] wproc: Core Worker 46: job 1385 (pid=776875): Dormant child reaped
+[1783343495] wproc: Core Worker 39: job 1387 (pid=777586) timed out. Killing it
+[1783343496] wproc: CHECK job 1387 from worker Core Worker 39 timed out after 31.03s
+[1783343496] wproc:   host=briansclark; service=(null);
+[1783343496] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783343496] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783343496] wproc: Core Worker 39: job 1387 (pid=777586): Dormant child reaped
+[1783343795] wproc: Core Worker 42: job 1388 (pid=778298) timed out. Killing it
+[1783343795] wproc: CHECK job 1388 from worker Core Worker 42 timed out after 30.03s
+[1783343795] wproc:   host=briansclark; service=(null);
+[1783343795] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783343795] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783343795] wproc: Core Worker 42: job 1388 (pid=778298): Dormant child reaped
+[1783344095] wproc: Core Worker 37: job 1389 (pid=779009) timed out. Killing it
+[1783344096] wproc: CHECK job 1389 from worker Core Worker 37 timed out after 31.04s
+[1783344096] wproc:   host=briansclark; service=(null);
+[1783344096] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783344096] Warning: Check of host 'briansclark' timed out after 31.04 seconds
+[1783344096] wproc: Core Worker 37: job 1389 (pid=779009): Dormant child reaped
+[1783344395] wproc: Core Worker 47: job 1390 (pid=779722) timed out. Killing it
+[1783344396] wproc: CHECK job 1390 from worker Core Worker 47 timed out after 31.03s
+[1783344396] wproc:   host=briansclark; service=(null);
+[1783344396] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783344396] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783344396] wproc: Core Worker 47: job 1390 (pid=779722): Dormant child reaped
+[1783344695] wproc: Core Worker 46: job 1391 (pid=780432) timed out. Killing it
+[1783344696] wproc: CHECK job 1391 from worker Core Worker 46 timed out after 31.03s
+[1783344696] wproc:   host=briansclark; service=(null);
+[1783344696] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783344696] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783344696] wproc: Core Worker 46: job 1391 (pid=780432): Dormant child reaped
+[1783344995] wproc: Core Worker 43: job 1393 (pid=781144) timed out. Killing it
+[1783344996] wproc: CHECK job 1393 from worker Core Worker 43 timed out after 31.03s
+[1783344996] wproc:   host=briansclark; service=(null);
+[1783344996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783344996] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783344996] wproc: Core Worker 43: job 1393 (pid=781144): Dormant child reaped
+[1783345295] wproc: Core Worker 40: job 1394 (pid=781853) timed out. Killing it
+[1783345296] wproc: CHECK job 1394 from worker Core Worker 40 timed out after 31.03s
+[1783345296] wproc:   host=briansclark; service=(null);
+[1783345296] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783345296] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783345296] wproc: Core Worker 40: job 1394 (pid=781853): Dormant child reaped
+[1783345595] wproc: Core Worker 45: job 1395 (pid=782566) timed out. Killing it
+[1783345595] wproc: CHECK job 1395 from worker Core Worker 45 timed out after 30.03s
+[1783345595] wproc:   host=briansclark; service=(null);
+[1783345595] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783345595] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783345595] wproc: Core Worker 45: job 1395 (pid=782566): Dormant child reaped
+[1783345776] Auto-save of retention data completed successfully.
+[1783345895] wproc: Core Worker 48: job 1396 (pid=783275) timed out. Killing it
+[1783345896] wproc: CHECK job 1396 from worker Core Worker 48 timed out after 31.02s
+[1783345896] wproc:   host=briansclark; service=(null);
+[1783345896] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783345896] Warning: Check of host 'briansclark' timed out after 31.02 seconds
+[1783345896] wproc: Core Worker 48: job 1396 (pid=783275): Dormant child reaped
+[1783346195] wproc: Core Worker 39: job 1398 (pid=783989) timed out. Killing it
+[1783346195] wproc: CHECK job 1398 from worker Core Worker 39 timed out after 30.03s
+[1783346195] wproc:   host=briansclark; service=(null);
+[1783346195] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783346195] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783346196] wproc: Core Worker 39: job 1398 (pid=783989): Dormant child reaped
+[1783346495] wproc: Core Worker 41: job 1399 (pid=784699) timed out. Killing it
+[1783346496] wproc: CHECK job 1399 from worker Core Worker 41 timed out after 31.03s
+[1783346496] wproc:   host=briansclark; service=(null);
+[1783346496] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783346496] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783346496] wproc: Core Worker 41: job 1399 (pid=784699): Dormant child reaped
+[1783346795] wproc: Core Worker 37: job 1400 (pid=785411) timed out. Killing it
+[1783346796] wproc: CHECK job 1400 from worker Core Worker 37 timed out after 31.03s
+[1783346796] wproc:   host=briansclark; service=(null);
+[1783346796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783346796] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783346796] wproc: Core Worker 37: job 1400 (pid=785411): Dormant child reaped
+[1783347096] wproc: Core Worker 44: job 1401 (pid=786118) timed out. Killing it
+[1783347097] wproc: CHECK job 1401 from worker Core Worker 44 timed out after 31.03s
+[1783347097] wproc:   host=briansclark; service=(null);
+[1783347097] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783347097] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783347097] wproc: Core Worker 44: job 1401 (pid=786118): Dormant child reaped
+[1783347395] wproc: Core Worker 47: job 1402 (pid=786828) timed out. Killing it
+[1783347396] wproc: CHECK job 1402 from worker Core Worker 47 timed out after 31.03s
+[1783347396] wproc:   host=briansclark; service=(null);
+[1783347396] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783347396] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783347396] wproc: Core Worker 47: job 1402 (pid=786828): Dormant child reaped
+[1783347695] wproc: Core Worker 38: job 1404 (pid=787540) timed out. Killing it
+[1783347695] wproc: CHECK job 1404 from worker Core Worker 38 timed out after 30.03s
+[1783347695] wproc:   host=briansclark; service=(null);
+[1783347695] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783347695] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783347695] wproc: Core Worker 38: job 1404 (pid=787540): Dormant child reaped
+[1783347995] wproc: Core Worker 40: job 1405 (pid=788252) timed out. Killing it
+[1783347996] wproc: CHECK job 1405 from worker Core Worker 40 timed out after 31.03s
+[1783347996] wproc:   host=briansclark; service=(null);
+[1783347996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783347996] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783347996] wproc: Core Worker 40: job 1405 (pid=788252): Dormant child reaped
+[1783348295] wproc: Core Worker 42: job 1406 (pid=788962) timed out. Killing it
+[1783348295] wproc: CHECK job 1406 from worker Core Worker 42 timed out after 30.03s
+[1783348295] wproc:   host=briansclark; service=(null);
+[1783348295] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783348295] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783348295] wproc: Core Worker 42: job 1406 (pid=788962): Dormant child reaped
+[1783348595] wproc: Core Worker 48: job 1407 (pid=789674) timed out. Killing it
+[1783348596] wproc: CHECK job 1407 from worker Core Worker 48 timed out after 31.03s
+[1783348596] wproc:   host=briansclark; service=(null);
+[1783348596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783348596] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783348596] wproc: Core Worker 48: job 1407 (pid=789674): Dormant child reaped
+[1783348895] wproc: Core Worker 47: job 1408 (pid=790383) timed out. Killing it
+[1783348895] wproc: CHECK job 1408 from worker Core Worker 47 timed out after 30.03s
+[1783348895] wproc:   host=briansclark; service=(null);
+[1783348895] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783348895] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783348895] wproc: Core Worker 47: job 1408 (pid=790383): Dormant child reaped
+[1783349195] wproc: Core Worker 41: job 1410 (pid=791096) timed out. Killing it
+[1783349195] wproc: CHECK job 1410 from worker Core Worker 41 timed out after 30.03s
+[1783349195] wproc:   host=briansclark; service=(null);
+[1783349195] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783349195] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783349195] wproc: Core Worker 41: job 1410 (pid=791096): Dormant child reaped
+[1783349376] Auto-save of retention data completed successfully.
+[1783349495] wproc: Core Worker 43: job 1411 (pid=791805) timed out. Killing it
+[1783349496] wproc: CHECK job 1411 from worker Core Worker 43 timed out after 31.03s
+[1783349496] wproc:   host=briansclark; service=(null);
+[1783349496] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783349496] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783349496] wproc: Core Worker 43: job 1411 (pid=791805): Dormant child reaped
+[1783349795] wproc: Core Worker 44: job 1412 (pid=792517) timed out. Killing it
+[1783349796] wproc: CHECK job 1412 from worker Core Worker 44 timed out after 31.02s
+[1783349796] wproc:   host=briansclark; service=(null);
+[1783349796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783349796] Warning: Check of host 'briansclark' timed out after 31.02 seconds
+[1783349796] wproc: Core Worker 44: job 1412 (pid=792517): Dormant child reaped
+[1783350095] wproc: Core Worker 45: job 1413 (pid=793229) timed out. Killing it
+[1783350096] wproc: CHECK job 1413 from worker Core Worker 45 timed out after 31.02s
+[1783350096] wproc:   host=briansclark; service=(null);
+[1783350096] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783350096] Warning: Check of host 'briansclark' timed out after 31.02 seconds
+[1783350096] wproc: Core Worker 45: job 1413 (pid=793229): Dormant child reaped
+[1783350395] wproc: Core Worker 38: job 1415 (pid=793941) timed out. Killing it
+[1783350395] wproc: CHECK job 1415 from worker Core Worker 38 timed out after 30.03s
+[1783350395] wproc:   host=briansclark; service=(null);
+[1783350395] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783350395] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783350395] HOST NOTIFICATION: nagiosadmin;briansclark;DOWN;notify-host-by-email;(Host check timed out after 30.03 seconds)
+[1783350396] wproc: Core Worker 38: job 1415 (pid=793941): Dormant child reaped
+[1783350695] wproc: Core Worker 41: job 1416 (pid=794659) timed out. Killing it
+[1783350696] wproc: CHECK job 1416 from worker Core Worker 41 timed out after 31.02s
+[1783350696] wproc:   host=briansclark; service=(null);
+[1783350696] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783350696] Warning: Check of host 'briansclark' timed out after 31.02 seconds
+[1783350696] wproc: Core Worker 41: job 1416 (pid=794659): Dormant child reaped
+[1783350996] wproc: Core Worker 37: job 1417 (pid=795372) timed out. Killing it
+[1783350996] wproc: CHECK job 1417 from worker Core Worker 37 timed out after 30.03s
+[1783350996] wproc:   host=briansclark; service=(null);
+[1783350996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783350996] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783350996] wproc: Core Worker 37: job 1417 (pid=795372): Dormant child reaped
+[1783351295] wproc: Core Worker 44: job 1418 (pid=796079) timed out. Killing it
+[1783351295] wproc: CHECK job 1418 from worker Core Worker 44 timed out after 30.03s
+[1783351295] wproc:   host=briansclark; service=(null);
+[1783351295] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783351295] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783351295] wproc: Core Worker 44: job 1418 (pid=796079): Dormant child reaped
+[1783351595] wproc: Core Worker 47: job 1419 (pid=796790) timed out. Killing it
+[1783351595] wproc: CHECK job 1419 from worker Core Worker 47 timed out after 30.03s
+[1783351595] wproc:   host=briansclark; service=(null);
+[1783351595] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783351595] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783351595] wproc: Core Worker 47: job 1419 (pid=796790): Dormant child reaped
+[1783351895] wproc: Core Worker 38: job 1421 (pid=797503) timed out. Killing it
+[1783351896] wproc: CHECK job 1421 from worker Core Worker 38 timed out after 31.03s
+[1783351896] wproc:   host=briansclark; service=(null);
+[1783351896] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783351896] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783351896] wproc: Core Worker 38: job 1421 (pid=797503): Dormant child reaped
+[1783352195] wproc: Core Worker 40: job 1422 (pid=798215) timed out. Killing it
+[1783352195] wproc: CHECK job 1422 from worker Core Worker 40 timed out after 30.03s
+[1783352195] wproc:   host=briansclark; service=(null);
+[1783352195] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783352195] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783352195] wproc: Core Worker 40: job 1422 (pid=798215): Dormant child reaped
+[1783352495] wproc: Core Worker 42: job 1423 (pid=798924) timed out. Killing it
+[1783352496] wproc: CHECK job 1423 from worker Core Worker 42 timed out after 31.03s
+[1783352496] wproc:   host=briansclark; service=(null);
+[1783352496] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783352496] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783352496] wproc: Core Worker 42: job 1423 (pid=798924): Dormant child reaped
+[1783352795] wproc: Core Worker 48: job 1424 (pid=799637) timed out. Killing it
+[1783352796] wproc: CHECK job 1424 from worker Core Worker 48 timed out after 31.02s
+[1783352796] wproc:   host=briansclark; service=(null);
+[1783352796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783352796] Warning: Check of host 'briansclark' timed out after 31.02 seconds
+[1783352796] wproc: Core Worker 48: job 1424 (pid=799637): Dormant child reaped
+[1783352976] Auto-save of retention data completed successfully.
+[1783353095] wproc: Core Worker 47: job 1425 (pid=800344) timed out. Killing it
+[1783353096] wproc: CHECK job 1425 from worker Core Worker 47 timed out after 31.03s
+[1783353096] wproc:   host=briansclark; service=(null);
+[1783353096] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783353096] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783353096] wproc: Core Worker 47: job 1425 (pid=800344): Dormant child reaped
+[1783353395] wproc: Core Worker 41: job 1427 (pid=801058) timed out. Killing it
+[1783353395] wproc: CHECK job 1427 from worker Core Worker 41 timed out after 30.03s
+[1783353395] wproc:   host=briansclark; service=(null);
+[1783353395] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783353395] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783353395] wproc: Core Worker 41: job 1427 (pid=801058): Dormant child reaped
+[1783353695] wproc: Core Worker 43: job 1428 (pid=801768) timed out. Killing it
+[1783353696] wproc: CHECK job 1428 from worker Core Worker 43 timed out after 31.03s
+[1783353696] wproc:   host=briansclark; service=(null);
+[1783353696] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783353696] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783353696] wproc: Core Worker 43: job 1428 (pid=801768): Dormant child reaped
+[1783353995] wproc: Core Worker 44: job 1429 (pid=802480) timed out. Killing it
+[1783353995] wproc: CHECK job 1429 from worker Core Worker 44 timed out after 30.03s
+[1783353995] wproc:   host=briansclark; service=(null);
+[1783353995] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783353995] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783353996] wproc: Core Worker 44: job 1429 (pid=802480): Dormant child reaped
+[1783354295] wproc: Core Worker 45: job 1430 (pid=803189) timed out. Killing it
+[1783354295] wproc: CHECK job 1430 from worker Core Worker 45 timed out after 30.03s
+[1783354295] wproc:   host=briansclark; service=(null);
+[1783354295] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783354295] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783354296] wproc: Core Worker 45: job 1430 (pid=803189): Dormant child reaped
+[1783354595] wproc: Core Worker 38: job 1432 (pid=803902) timed out. Killing it
+[1783354595] wproc: CHECK job 1432 from worker Core Worker 38 timed out after 30.02s
+[1783354595] wproc:   host=briansclark; service=(null);
+[1783354595] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783354595] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783354596] wproc: Core Worker 38: job 1432 (pid=803902): Dormant child reaped
+[1783354895] wproc: Core Worker 39: job 1433 (pid=804611) timed out. Killing it
+[1783354895] wproc: CHECK job 1433 from worker Core Worker 39 timed out after 30.03s
+[1783354895] wproc:   host=briansclark; service=(null);
+[1783354895] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783354895] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783354896] wproc: Core Worker 39: job 1433 (pid=804611): Dormant child reaped
+[1783355195] wproc: Core Worker 40: job 1434 (pid=805320) timed out. Killing it
+[1783355195] wproc: CHECK job 1434 from worker Core Worker 40 timed out after 30.03s
+[1783355195] wproc:   host=briansclark; service=(null);
+[1783355195] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783355195] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783355195] wproc: Core Worker 40: job 1434 (pid=805320): Dormant child reaped
+[1783355495] wproc: Core Worker 37: job 1435 (pid=806031) timed out. Killing it
+[1783355495] wproc: CHECK job 1435 from worker Core Worker 37 timed out after 30.03s
+[1783355495] wproc:   host=briansclark; service=(null);
+[1783355495] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783355495] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783355495] wproc: Core Worker 37: job 1435 (pid=806031): Dormant child reaped
+[1783355795] wproc: Core Worker 47: job 1436 (pid=806743) timed out. Killing it
+[1783355795] wproc: CHECK job 1436 from worker Core Worker 47 timed out after 30.03s
+[1783355795] wproc:   host=briansclark; service=(null);
+[1783355795] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783355795] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783355795] wproc: Core Worker 47: job 1436 (pid=806743): Dormant child reaped
+[1783356095] wproc: Core Worker 46: job 1437 (pid=807452) timed out. Killing it
+[1783356096] wproc: CHECK job 1437 from worker Core Worker 46 timed out after 31.03s
+[1783356096] wproc:   host=briansclark; service=(null);
+[1783356096] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783356096] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783356096] wproc: Core Worker 46: job 1437 (pid=807452): Dormant child reaped
+[1783356395] wproc: Core Worker 43: job 1439 (pid=808166) timed out. Killing it
+[1783356396] wproc: CHECK job 1439 from worker Core Worker 43 timed out after 31.03s
+[1783356396] wproc:   host=briansclark; service=(null);
+[1783356396] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783356396] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783356396] wproc: Core Worker 43: job 1439 (pid=808166): Dormant child reaped
+[1783356576] Auto-save of retention data completed successfully.
+[1783356695] wproc: Core Worker 40: job 1440 (pid=808875) timed out. Killing it
+[1783356695] wproc: CHECK job 1440 from worker Core Worker 40 timed out after 30.03s
+[1783356695] wproc:   host=briansclark; service=(null);
+[1783356695] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783356695] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783356695] wproc: Core Worker 40: job 1440 (pid=808875): Dormant child reaped
+[1783356995] wproc: Core Worker 45: job 1441 (pid=809587) timed out. Killing it
+[1783356995] wproc: CHECK job 1441 from worker Core Worker 45 timed out after 30.03s
+[1783356995] wproc:   host=briansclark; service=(null);
+[1783356995] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783356995] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783356995] wproc: Core Worker 45: job 1441 (pid=809587): Dormant child reaped
+[1783357295] wproc: Core Worker 48: job 1442 (pid=810297) timed out. Killing it
+[1783357296] wproc: CHECK job 1442 from worker Core Worker 48 timed out after 31.03s
+[1783357296] wproc:   host=briansclark; service=(null);
+[1783357296] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783357296] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783357296] wproc: Core Worker 48: job 1442 (pid=810297): Dormant child reaped
+[1783357595] wproc: Core Worker 39: job 1444 (pid=811009) timed out. Killing it
+[1783357595] wproc: CHECK job 1444 from worker Core Worker 39 timed out after 30.02s
+[1783357595] wproc:   host=briansclark; service=(null);
+[1783357595] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783357595] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783357595] wproc: Core Worker 39: job 1444 (pid=811009): Dormant child reaped
+[1783357883] SERVICE ALERT: briansclark;HTTPS Response Time;WARNING;HARD;1;HTTP WARNING: HTTP/1.1 301 Moved Permanently - 279 bytes in 3.245 second response time
+[1783357895] wproc: Core Worker 41: job 1445 (pid=811718) timed out. Killing it
+[1783357895] wproc: CHECK job 1445 from worker Core Worker 41 timed out after 30.03s
+[1783357895] wproc:   host=briansclark; service=(null);
+[1783357895] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783357895] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783357896] wproc: Core Worker 41: job 1445 (pid=811718): Dormant child reaped
+[1783358195] wproc: Core Worker 37: job 1446 (pid=812431) timed out. Killing it
+[1783358195] wproc: CHECK job 1446 from worker Core Worker 37 timed out after 30.03s
+[1783358195] wproc:   host=briansclark; service=(null);
+[1783358195] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783358195] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783358196] wproc: Core Worker 37: job 1446 (pid=812431): Dormant child reaped
+[1783358480] SERVICE ALERT: briansclark;HTTPS Response Time;OK;HARD;1;HTTP OK: HTTP/1.1 301 Moved Permanently - 279 bytes in 0.177 second response time
+[1783358495] wproc: Core Worker 44: job 1447 (pid=813142) timed out. Killing it
+[1783358496] wproc: CHECK job 1447 from worker Core Worker 44 timed out after 31.03s
+[1783358496] wproc:   host=briansclark; service=(null);
+[1783358496] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783358496] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783358496] wproc: Core Worker 44: job 1447 (pid=813142): Dormant child reaped
+[1783358795] wproc: Core Worker 46: job 1448 (pid=813852) timed out. Killing it
+[1783358796] wproc: CHECK job 1448 from worker Core Worker 46 timed out after 31.03s
+[1783358796] wproc:   host=briansclark; service=(null);
+[1783358796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783358796] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783358796] wproc: Core Worker 46: job 1448 (pid=813852): Dormant child reaped
+[1783359095] wproc: Core Worker 38: job 1450 (pid=814562) timed out. Killing it
+[1783359096] wproc: CHECK job 1450 from worker Core Worker 38 timed out after 31.04s
+[1783359096] wproc:   host=briansclark; service=(null);
+[1783359096] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783359096] Warning: Check of host 'briansclark' timed out after 31.04 seconds
+[1783359096] wproc: Core Worker 38: job 1450 (pid=814562): Dormant child reaped
+[1783359396] wproc: Core Worker 40: job 1451 (pid=815272) timed out. Killing it
+[1783359396] wproc: CHECK job 1451 from worker Core Worker 40 timed out after 30.03s
+[1783359396] wproc:   host=briansclark; service=(null);
+[1783359396] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783359396] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783359396] wproc: Core Worker 40: job 1451 (pid=815272): Dormant child reaped
+[1783359695] wproc: Core Worker 42: job 1452 (pid=815979) timed out. Killing it
+[1783359695] wproc: CHECK job 1452 from worker Core Worker 42 timed out after 30.03s
+[1783359695] wproc:   host=briansclark; service=(null);
+[1783359695] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783359695] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783359695] wproc: Core Worker 42: job 1452 (pid=815979): Dormant child reaped
+[1783359995] wproc: Core Worker 45: job 1453 (pid=816691) timed out. Killing it
+[1783359995] wproc: CHECK job 1453 from worker Core Worker 45 timed out after 30.03s
+[1783359995] wproc:   host=briansclark; service=(null);
+[1783359995] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783359995] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783359995] wproc: Core Worker 45: job 1453 (pid=816691): Dormant child reaped
+[1783360176] Auto-save of retention data completed successfully.
+[1783360295] wproc: Core Worker 47: job 1454 (pid=817403) timed out. Killing it
+[1783360295] wproc: CHECK job 1454 from worker Core Worker 47 timed out after 30.03s
+[1783360295] wproc:   host=briansclark; service=(null);
+[1783360295] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783360295] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783360295] wproc: Core Worker 47: job 1454 (pid=817403): Dormant child reaped
+[1783360595] wproc: Core Worker 41: job 1456 (pid=818115) timed out. Killing it
+[1783360595] wproc: CHECK job 1456 from worker Core Worker 41 timed out after 30.03s
+[1783360595] wproc:   host=briansclark; service=(null);
+[1783360595] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783360595] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783360595] wproc: Core Worker 41: job 1456 (pid=818115): Dormant child reaped
+[1783360895] wproc: Core Worker 43: job 1457 (pid=818825) timed out. Killing it
+[1783360896] wproc: CHECK job 1457 from worker Core Worker 43 timed out after 31.01s
+[1783360896] wproc:   host=briansclark; service=(null);
+[1783360896] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783360896] Warning: Check of host 'briansclark' timed out after 31.01 seconds
+[1783360896] wproc: Core Worker 43: job 1457 (pid=818825): Dormant child reaped
+[1783361195] wproc: Core Worker 44: job 1458 (pid=819536) timed out. Killing it
+[1783361196] wproc: CHECK job 1458 from worker Core Worker 44 timed out after 31.03s
+[1783361196] wproc:   host=briansclark; service=(null);
+[1783361196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783361196] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783361196] wproc: Core Worker 44: job 1458 (pid=819536): Dormant child reaped
+[1783361495] wproc: Core Worker 45: job 1459 (pid=820242) timed out. Killing it
+[1783361495] wproc: CHECK job 1459 from worker Core Worker 45 timed out after 30.02s
+[1783361495] wproc:   host=briansclark; service=(null);
+[1783361495] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783361495] Warning: Check of host 'briansclark' timed out after 30.02 seconds
+[1783361495] wproc: Core Worker 45: job 1459 (pid=820242): Dormant child reaped
+[1783361795] wproc: Core Worker 38: job 1461 (pid=820951) timed out. Killing it
+[1783361796] wproc: CHECK job 1461 from worker Core Worker 38 timed out after 31.03s
+[1783361796] wproc:   host=briansclark; service=(null);
+[1783361796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783361796] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783361796] wproc: Core Worker 38: job 1461 (pid=820951): Dormant child reaped
+[1783362095] wproc: Core Worker 39: job 1462 (pid=821657) timed out. Killing it
+[1783362095] wproc: CHECK job 1462 from worker Core Worker 39 timed out after 30.03s
+[1783362095] wproc:   host=briansclark; service=(null);
+[1783362095] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783362095] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783362096] wproc: Core Worker 39: job 1462 (pid=821657): Dormant child reaped
+[1783362395] wproc: Core Worker 42: job 1463 (pid=822369) timed out. Killing it
+[1783362395] wproc: CHECK job 1463 from worker Core Worker 42 timed out after 30.03s
+[1783362395] wproc:   host=briansclark; service=(null);
+[1783362395] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783362395] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783362396] wproc: Core Worker 42: job 1463 (pid=822369): Dormant child reaped
+[1783362696] wproc: Core Worker 37: job 1464 (pid=823073) timed out. Killing it
+[1783362696] wproc: CHECK job 1464 from worker Core Worker 37 timed out after 30.03s
+[1783362696] wproc:   host=briansclark; service=(null);
+[1783362696] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783362696] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783362696] wproc: Core Worker 37: job 1464 (pid=823073): Dormant child reaped
+[1783362995] wproc: Core Worker 48: job 1465 (pid=823779) timed out. Killing it
+[1783362996] wproc: CHECK job 1465 from worker Core Worker 48 timed out after 31.03s
+[1783362996] wproc:   host=briansclark; service=(null);
+[1783362996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783362996] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783362996] wproc: Core Worker 48: job 1465 (pid=823779): Dormant child reaped
+[1783363295] wproc: Core Worker 46: job 1466 (pid=824488) timed out. Killing it
+[1783363296] wproc: CHECK job 1466 from worker Core Worker 46 timed out after 31.03s
+[1783363296] wproc:   host=briansclark; service=(null);
+[1783363296] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783363296] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783363296] wproc: Core Worker 46: job 1466 (pid=824488): Dormant child reaped
+[1783363595] wproc: Core Worker 43: job 1468 (pid=825197) timed out. Killing it
+[1783363596] wproc: CHECK job 1468 from worker Core Worker 43 timed out after 31.04s
+[1783363596] wproc:   host=briansclark; service=(null);
+[1783363596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783363596] Warning: Check of host 'briansclark' timed out after 31.04 seconds
+[1783363596] wproc: Core Worker 43: job 1468 (pid=825197): Dormant child reaped
+[1783363776] Auto-save of retention data completed successfully.
+[1783363895] wproc: Core Worker 40: job 1469 (pid=825903) timed out. Killing it
+[1783363896] wproc: CHECK job 1469 from worker Core Worker 40 timed out after 31.03s
+[1783363896] wproc:   host=briansclark; service=(null);
+[1783363896] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783363896] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783363896] wproc: Core Worker 40: job 1469 (pid=825903): Dormant child reaped
+[1783364195] wproc: Core Worker 45: job 1470 (pid=826612) timed out. Killing it
+[1783364195] wproc: CHECK job 1470 from worker Core Worker 45 timed out after 30.01s
+[1783364195] wproc:   host=briansclark; service=(null);
+[1783364195] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783364195] Warning: Check of host 'briansclark' timed out after 30.01 seconds
+[1783364195] wproc: Core Worker 45: job 1470 (pid=826612): Dormant child reaped
+[1783364495] wproc: Core Worker 48: job 1471 (pid=827318) timed out. Killing it
+[1783364495] wproc: CHECK job 1471 from worker Core Worker 48 timed out after 30.03s
+[1783364495] wproc:   host=briansclark; service=(null);
+[1783364495] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783364495] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783364495] wproc: Core Worker 48: job 1471 (pid=827318): Dormant child reaped
+[1783364795] wproc: Core Worker 39: job 1473 (pid=828027) timed out. Killing it
+[1783364795] wproc: CHECK job 1473 from worker Core Worker 39 timed out after 30.01s
+[1783364795] wproc:   host=briansclark; service=(null);
+[1783364795] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783364795] Warning: Check of host 'briansclark' timed out after 30.01 seconds
+[1783364795] wproc: Core Worker 39: job 1473 (pid=828027): Dormant child reaped
+[1783365095] wproc: Core Worker 41: job 1474 (pid=828735) timed out. Killing it
+[1783365095] wproc: CHECK job 1474 from worker Core Worker 41 timed out after 30.03s
+[1783365095] wproc:   host=briansclark; service=(null);
+[1783365095] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783365095] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783365095] wproc: Core Worker 41: job 1474 (pid=828735): Dormant child reaped
+[1783365395] wproc: Core Worker 37: job 1475 (pid=829444) timed out. Killing it
+[1783365395] wproc: CHECK job 1475 from worker Core Worker 37 timed out after 30.03s
+[1783365395] wproc:   host=briansclark; service=(null);
+[1783365395] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783365395] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783365395] wproc: Core Worker 37: job 1475 (pid=829444): Dormant child reaped
+[1783365695] wproc: Core Worker 44: job 1476 (pid=830150) timed out. Killing it
+[1783365696] wproc: CHECK job 1476 from worker Core Worker 44 timed out after 31.03s
+[1783365696] wproc:   host=briansclark; service=(null);
+[1783365696] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783365696] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783365696] wproc: Core Worker 44: job 1476 (pid=830150): Dormant child reaped
+[1783365995] wproc: Core Worker 46: job 1477 (pid=830859) timed out. Killing it
+[1783365996] wproc: CHECK job 1477 from worker Core Worker 46 timed out after 31.03s
+[1783365996] wproc:   host=briansclark; service=(null);
+[1783365996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783365996] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783365996] wproc: Core Worker 46: job 1477 (pid=830859): Dormant child reaped
+[1783366296] wproc: Core Worker 38: job 1479 (pid=831562) timed out. Killing it
+[1783366297] wproc: CHECK job 1479 from worker Core Worker 38 timed out after 31.04s
+[1783366297] wproc:   host=briansclark; service=(null);
+[1783366297] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783366297] Warning: Check of host 'briansclark' timed out after 31.04 seconds
+[1783366297] wproc: Core Worker 38: job 1479 (pid=831562): Dormant child reaped
+[1783366595] wproc: Core Worker 43: job 1480 (pid=832269) timed out. Killing it
+[1783366596] wproc: CHECK job 1480 from worker Core Worker 43 timed out after 31.03s
+[1783366596] wproc:   host=briansclark; service=(null);
+[1783366596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783366596] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783366596] wproc: Core Worker 43: job 1480 (pid=832269): Dormant child reaped
+[1783366895] wproc: Core Worker 42: job 1481 (pid=832982) timed out. Killing it
+[1783366896] wproc: CHECK job 1481 from worker Core Worker 42 timed out after 31.03s
+[1783366896] wproc:   host=briansclark; service=(null);
+[1783366896] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783366896] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783366896] wproc: Core Worker 42: job 1481 (pid=832982): Dormant child reaped
+[1783367195] wproc: Core Worker 48: job 1482 (pid=833694) timed out. Killing it
+[1783367196] wproc: CHECK job 1482 from worker Core Worker 48 timed out after 31.04s
+[1783367196] wproc:   host=briansclark; service=(null);
+[1783367196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783367196] Warning: Check of host 'briansclark' timed out after 31.04 seconds
+[1783367196] wproc: Core Worker 48: job 1482 (pid=833694): Dormant child reaped
+[1783367376] Auto-save of retention data completed successfully.
+[1783367495] wproc: Core Worker 47: job 1483 (pid=834401) timed out. Killing it
+[1783367496] wproc: CHECK job 1483 from worker Core Worker 47 timed out after 31.04s
+[1783367496] wproc:   host=briansclark; service=(null);
+[1783367496] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783367496] Warning: Check of host 'briansclark' timed out after 31.04 seconds
+[1783367496] wproc: Core Worker 47: job 1483 (pid=834401): Dormant child reaped
+[1783367795] wproc: Core Worker 41: job 1485 (pid=835112) timed out. Killing it
+[1783367796] wproc: CHECK job 1485 from worker Core Worker 41 timed out after 31.03s
+[1783367796] wproc:   host=briansclark; service=(null);
+[1783367796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783367796] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783367796] wproc: Core Worker 41: job 1485 (pid=835112): Dormant child reaped
+[1783368095] wproc: Core Worker 43: job 1486 (pid=835821) timed out. Killing it
+[1783368096] wproc: CHECK job 1486 from worker Core Worker 43 timed out after 31.03s
+[1783368096] wproc:   host=briansclark; service=(null);
+[1783368096] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783368096] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783368096] wproc: Core Worker 43: job 1486 (pid=835821): Dormant child reaped
+[1783368395] wproc: Core Worker 44: job 1487 (pid=836536) timed out. Killing it
+[1783368396] wproc: CHECK job 1487 from worker Core Worker 44 timed out after 31.03s
+[1783368396] wproc:   host=briansclark; service=(null);
+[1783368396] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783368396] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783368396] wproc: Core Worker 44: job 1487 (pid=836536): Dormant child reaped
+[1783368695] wproc: Core Worker 45: job 1488 (pid=837246) timed out. Killing it
+[1783368696] wproc: CHECK job 1488 from worker Core Worker 45 timed out after 31.03s
+[1783368696] wproc:   host=briansclark; service=(null);
+[1783368696] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783368696] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783368696] wproc: Core Worker 45: job 1488 (pid=837246): Dormant child reaped
+[1783368859] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;briansclark;HTTP;1783368856
+[1783368869] SERVICE ALERT: briansclark;HTTP;CRITICAL;HARD;1;CRITICAL - Socket timeout
+[1783368982] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;briansclark;HTTP;1783368980
+[1783368982] SERVICE ALERT: briansclark;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 301 Moved Permanently - 385 bytes in 0.184 second response time
+[1783368995] wproc: Core Worker 38: job 1490 (pid=837961) timed out. Killing it
+[1783368995] wproc: CHECK job 1490 from worker Core Worker 38 timed out after 30.04s
+[1783368995] wproc:   host=briansclark; service=(null);
+[1783368995] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783368995] Warning: Check of host 'briansclark' timed out after 30.04 seconds
+[1783368996] wproc: Core Worker 38: job 1490 (pid=837961): Dormant child reaped
+[1783369295] wproc: Core Worker 41: job 1491 (pid=838668) timed out. Killing it
+[1783369296] wproc: CHECK job 1491 from worker Core Worker 41 timed out after 31.03s
+[1783369296] wproc:   host=briansclark; service=(null);
+[1783369296] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783369296] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783369296] wproc: Core Worker 41: job 1491 (pid=838668): Dormant child reaped
+[1783369596] wproc: Core Worker 42: job 1492 (pid=839381) timed out. Killing it
+[1783369597] wproc: CHECK job 1492 from worker Core Worker 42 timed out after 31.03s
+[1783369597] wproc:   host=briansclark; service=(null);
+[1783369597] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783369597] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783369597] wproc: Core Worker 42: job 1492 (pid=839381): Dormant child reaped
+[1783369896] wproc: Core Worker 44: job 1493 (pid=840092) timed out. Killing it
+[1783369897] wproc: CHECK job 1493 from worker Core Worker 44 timed out after 31.03s
+[1783369897] wproc:   host=briansclark; service=(null);
+[1783369897] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783369897] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783369897] wproc: Core Worker 44: job 1493 (pid=840092): Dormant child reaped
+[1783370196] wproc: Core Worker 47: job 1494 (pid=840804) timed out. Killing it
+[1783370197] wproc: CHECK job 1494 from worker Core Worker 47 timed out after 31.06s
+[1783370197] wproc:   host=briansclark; service=(null);
+[1783370197] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783370197] Warning: Check of host 'briansclark' timed out after 31.06 seconds
+[1783370197] wproc: Core Worker 47: job 1494 (pid=840804): Dormant child reaped
+[1783370496] wproc: Core Worker 38: job 1496 (pid=841512) timed out. Killing it
+[1783370497] wproc: CHECK job 1496 from worker Core Worker 38 timed out after 31.04s
+[1783370497] wproc:   host=briansclark; service=(null);
+[1783370497] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783370497] Warning: Check of host 'briansclark' timed out after 31.04 seconds
+[1783370497] wproc: Core Worker 38: job 1496 (pid=841512): Dormant child reaped
+[1783370796] wproc: Core Worker 43: job 1497 (pid=842220) timed out. Killing it
+[1783370797] wproc: CHECK job 1497 from worker Core Worker 43 timed out after 31.03s
+[1783370797] wproc:   host=briansclark; service=(null);
+[1783370797] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783370797] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783370797] wproc: Core Worker 43: job 1497 (pid=842220): Dormant child reaped
+[1783370976] Auto-save of retention data completed successfully.
+[1783371069] SERVICE ALERT: briansclark;HTTPS;UNKNOWN;HARD;1;check_http: Invalid hostname/address - www.briansclark.net
+[1783371080] SERVICE ALERT: briansclark;HTTPS Response Time;UNKNOWN;HARD;1;check_http: Invalid hostname/address - www.briansclark.net
+[1783371093] SERVICE ALERT: briansclark;Homepage Content;UNKNOWN;HARD;1;check_http: Invalid hostname/address - www.briansclark.net
+[1783371382] SERVICE ALERT: briansclark;HTTP;UNKNOWN;HARD;1;check_http: Invalid hostname/address - www.briansclark.net
+[1783371669] SERVICE ALERT: briansclark;HTTPS;OK;HARD;1;HTTP OK: HTTP/1.1 301 Moved Permanently - 279 bytes in 0.216 second response time
+[1783371681] SERVICE ALERT: briansclark;HTTPS Response Time;OK;HARD;1;HTTP OK: HTTP/1.1 301 Moved Permanently - 279 bytes in 0.177 second response time
+[1783371694] SERVICE ALERT: briansclark;Homepage Content;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 56761 bytes in 0.370 second response time
+[1783371696] wproc: Core Worker 46: job 1500 (pid=844355) timed out. Killing it
+[1783371697] wproc: CHECK job 1500 from worker Core Worker 46 timed out after 31.02s
+[1783371697] wproc:   host=briansclark; service=(null);
+[1783371697] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783371697] Warning: Check of host 'briansclark' timed out after 31.02 seconds
+[1783371697] wproc: Core Worker 46: job 1500 (pid=844355): Dormant child reaped
+[1783371982] SERVICE FLAPPING ALERT: briansclark;HTTP;STARTED; Service appears to have started flapping (23.4% change >= 20.0% threshold)
+[1783371982] SERVICE ALERT: briansclark;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 301 Moved Permanently - 385 bytes in 0.143 second response time
+[1783371996] wproc: Core Worker 41: job 1502 (pid=845068) timed out. Killing it
+[1783371996] wproc: CHECK job 1502 from worker Core Worker 41 timed out after 30.03s
+[1783371996] wproc:   host=briansclark; service=(null);
+[1783371996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783371996] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783371996] wproc: Core Worker 41: job 1502 (pid=845068): Dormant child reaped
+[1783372296] wproc: Core Worker 40: job 1503 (pid=845777) timed out. Killing it
+[1783372296] wproc: CHECK job 1503 from worker Core Worker 40 timed out after 30.03s
+[1783372296] wproc:   host=briansclark; service=(null);
+[1783372296] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783372296] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783372296] wproc: Core Worker 40: job 1503 (pid=845777): Dormant child reaped
+[1783372596] wproc: Core Worker 44: job 1504 (pid=846488) timed out. Killing it
+[1783372596] wproc: CHECK job 1504 from worker Core Worker 44 timed out after 30.03s
+[1783372596] wproc:   host=briansclark; service=(null);
+[1783372596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783372596] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783372596] wproc: Core Worker 44: job 1504 (pid=846488): Dormant child reaped
+[1783372896] wproc: Core Worker 48: job 1505 (pid=847200) timed out. Killing it
+[1783372896] wproc: CHECK job 1505 from worker Core Worker 48 timed out after 30.03s
+[1783372896] wproc:   host=briansclark; service=(null);
+[1783372896] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783372896] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783372896] wproc: Core Worker 48: job 1505 (pid=847200): Dormant child reaped
+[1783373196] wproc: Core Worker 38: job 1507 (pid=847906) timed out. Killing it
+[1783373197] wproc: CHECK job 1507 from worker Core Worker 38 timed out after 31.03s
+[1783373197] wproc:   host=briansclark; service=(null);
+[1783373197] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783373197] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783373197] wproc: Core Worker 38: job 1507 (pid=847906): Dormant child reaped
+[1783373496] wproc: Core Worker 41: job 1508 (pid=848613) timed out. Killing it
+[1783373497] wproc: CHECK job 1508 from worker Core Worker 41 timed out after 31.01s
+[1783373497] wproc:   host=briansclark; service=(null);
+[1783373497] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783373497] Warning: Check of host 'briansclark' timed out after 31.01 seconds
+[1783373497] wproc: Core Worker 41: job 1508 (pid=848613): Dormant child reaped
+[1783373796] wproc: Core Worker 42: job 1509 (pid=849321) timed out. Killing it
+[1783373796] wproc: CHECK job 1509 from worker Core Worker 42 timed out after 30.03s
+[1783373796] wproc:   host=briansclark; service=(null);
+[1783373796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783373796] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783373796] wproc: Core Worker 42: job 1509 (pid=849321): Dormant child reaped
+[1783374096] wproc: Core Worker 44: job 1510 (pid=850028) timed out. Killing it
+[1783374096] wproc: CHECK job 1510 from worker Core Worker 44 timed out after 30.03s
+[1783374096] wproc:   host=briansclark; service=(null);
+[1783374096] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783374096] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783374096] wproc: Core Worker 44: job 1510 (pid=850028): Dormant child reaped
+[1783374396] wproc: Core Worker 47: job 1511 (pid=850737) timed out. Killing it
+[1783374397] wproc: CHECK job 1511 from worker Core Worker 47 timed out after 31.03s
+[1783374397] wproc:   host=briansclark; service=(null);
+[1783374397] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783374397] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783374397] wproc: Core Worker 47: job 1511 (pid=850737): Dormant child reaped
+[1783374576] Auto-save of retention data completed successfully.
+[1783374696] wproc: Core Worker 38: job 1513 (pid=851444) timed out. Killing it
+[1783374696] wproc: CHECK job 1513 from worker Core Worker 38 timed out after 30.03s
+[1783374696] wproc:   host=briansclark; service=(null);
+[1783374696] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783374696] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783374696] wproc: Core Worker 38: job 1513 (pid=851444): Dormant child reaped
+[1783374996] wproc: Core Worker 43: job 1514 (pid=852152) timed out. Killing it
+[1783374997] wproc: CHECK job 1514 from worker Core Worker 43 timed out after 31.03s
+[1783374997] wproc:   host=briansclark; service=(null);
+[1783374997] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783374997] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783374997] wproc: Core Worker 43: job 1514 (pid=852152): Dormant child reaped
+[1783375296] wproc: Core Worker 42: job 1515 (pid=852859) timed out. Killing it
+[1783375296] wproc: CHECK job 1515 from worker Core Worker 42 timed out after 30.03s
+[1783375296] wproc:   host=briansclark; service=(null);
+[1783375296] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783375296] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783375296] wproc: Core Worker 42: job 1515 (pid=852859): Dormant child reaped
+[1783375596] wproc: Core Worker 45: job 1516 (pid=853567) timed out. Killing it
+[1783375596] wproc: CHECK job 1516 from worker Core Worker 45 timed out after 30.03s
+[1783375596] wproc:   host=briansclark; service=(null);
+[1783375596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783375596] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783375597] wproc: Core Worker 45: job 1516 (pid=853567): Dormant child reaped
+[1783375896] wproc: Core Worker 47: job 1517 (pid=854274) timed out. Killing it
+[1783375896] wproc: CHECK job 1517 from worker Core Worker 47 timed out after 30.03s
+[1783375896] wproc:   host=briansclark; service=(null);
+[1783375896] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783375896] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783375897] wproc: Core Worker 47: job 1517 (pid=854274): Dormant child reaped
+[1783376196] wproc: Core Worker 39: job 1519 (pid=854982) timed out. Killing it
+[1783376196] wproc: CHECK job 1519 from worker Core Worker 39 timed out after 30.03s
+[1783376196] wproc:   host=briansclark; service=(null);
+[1783376196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783376196] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783376197] wproc: Core Worker 39: job 1519 (pid=854982): Dormant child reaped
+[1783376496] wproc: Core Worker 43: job 1520 (pid=855689) timed out. Killing it
+[1783376496] wproc: CHECK job 1520 from worker Core Worker 43 timed out after 30.03s
+[1783376496] wproc:   host=briansclark; service=(null);
+[1783376496] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783376496] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783376497] wproc: Core Worker 43: job 1520 (pid=855689): Dormant child reaped
+[1783376796] wproc: Core Worker 37: job 1521 (pid=856397) timed out. Killing it
+[1783376796] wproc: CHECK job 1521 from worker Core Worker 37 timed out after 30.03s
+[1783376796] wproc:   host=briansclark; service=(null);
+[1783376796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783376796] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783376797] wproc: Core Worker 37: job 1521 (pid=856397): Dormant child reaped
+[1783377096] wproc: Core Worker 45: job 1522 (pid=857104) timed out. Killing it
+[1783377096] wproc: CHECK job 1522 from worker Core Worker 45 timed out after 30.03s
+[1783377096] wproc:   host=briansclark; service=(null);
+[1783377096] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783377096] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783377097] wproc: Core Worker 45: job 1522 (pid=857104): Dormant child reaped
+[1783377396] wproc: Core Worker 46: job 1523 (pid=857812) timed out. Killing it
+[1783377397] wproc: CHECK job 1523 from worker Core Worker 46 timed out after 31.03s
+[1783377397] wproc:   host=briansclark; service=(null);
+[1783377397] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783377397] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783377397] wproc: Core Worker 46: job 1523 (pid=857812): Dormant child reaped
+[1783377697] wproc: Core Worker 39: job 1525 (pid=858519) timed out. Killing it
+[1783377697] wproc: CHECK job 1525 from worker Core Worker 39 timed out after 30.03s
+[1783377697] wproc:   host=briansclark; service=(null);
+[1783377697] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783377697] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783377697] wproc: Core Worker 39: job 1525 (pid=858519): Dormant child reaped
+[1783377996] wproc: Core Worker 43: job 1526 (pid=859223) timed out. Killing it
+[1783377996] wproc: CHECK job 1526 from worker Core Worker 43 timed out after 30.03s
+[1783377996] wproc:   host=briansclark; service=(null);
+[1783377996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783377996] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783377996] wproc: Core Worker 43: job 1526 (pid=859223): Dormant child reaped
+[1783378176] Auto-save of retention data completed successfully.
+[1783378296] wproc: Core Worker 42: job 1527 (pid=859930) timed out. Killing it
+[1783378296] wproc: CHECK job 1527 from worker Core Worker 42 timed out after 30.03s
+[1783378296] wproc:   host=briansclark; service=(null);
+[1783378296] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783378296] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783378296] wproc: Core Worker 42: job 1527 (pid=859930): Dormant child reaped
+[1783378596] wproc: Core Worker 45: job 1528 (pid=860638) timed out. Killing it
+[1783378596] wproc: CHECK job 1528 from worker Core Worker 45 timed out after 30.03s
+[1783378596] wproc:   host=briansclark; service=(null);
+[1783378596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783378596] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783378596] wproc: Core Worker 45: job 1528 (pid=860638): Dormant child reaped
+[1783378896] wproc: Core Worker 47: job 1529 (pid=861345) timed out. Killing it
+[1783378897] wproc: CHECK job 1529 from worker Core Worker 47 timed out after 31.04s
+[1783378897] wproc:   host=briansclark; service=(null);
+[1783378897] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783378897] Warning: Check of host 'briansclark' timed out after 31.04 seconds
+[1783378897] wproc: Core Worker 47: job 1529 (pid=861345): Dormant child reaped
+[1783379196] wproc: Core Worker 39: job 1531 (pid=862051) timed out. Killing it
+[1783379196] wproc: CHECK job 1531 from worker Core Worker 39 timed out after 30.03s
+[1783379196] wproc:   host=briansclark; service=(null);
+[1783379196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783379196] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783379196] wproc: Core Worker 39: job 1531 (pid=862051): Dormant child reaped
+[1783379496] wproc: Core Worker 43: job 1532 (pid=862758) timed out. Killing it
+[1783379496] wproc: CHECK job 1532 from worker Core Worker 43 timed out after 30.00s
+[1783379496] wproc:   host=briansclark; service=(null);
+[1783379496] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783379496] Warning: Check of host 'briansclark' timed out after 30.00 seconds
+[1783379496] wproc: Core Worker 43: job 1532 (pid=862758): Dormant child reaped
+[1783379796] wproc: Core Worker 37: job 1533 (pid=863464) timed out. Killing it
+[1783379796] wproc: CHECK job 1533 from worker Core Worker 37 timed out after 30.03s
+[1783379796] wproc:   host=briansclark; service=(null);
+[1783379796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783379796] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783379796] wproc: Core Worker 37: job 1533 (pid=863464): Dormant child reaped
+[1783380096] wproc: Core Worker 45: job 1534 (pid=864171) timed out. Killing it
+[1783380096] wproc: CHECK job 1534 from worker Core Worker 45 timed out after 30.03s
+[1783380096] wproc:   host=briansclark; service=(null);
+[1783380096] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783380096] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783380096] wproc: Core Worker 45: job 1534 (pid=864171): Dormant child reaped
+[1783380396] wproc: Core Worker 46: job 1535 (pid=864880) timed out. Killing it
+[1783380396] wproc: CHECK job 1535 from worker Core Worker 46 timed out after 30.03s
+[1783380396] wproc:   host=briansclark; service=(null);
+[1783380396] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783380396] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783380396] wproc: Core Worker 46: job 1535 (pid=864880): Dormant child reaped
+[1783380696] wproc: Core Worker 39: job 1537 (pid=865587) timed out. Killing it
+[1783380696] wproc: CHECK job 1537 from worker Core Worker 39 timed out after 30.03s
+[1783380696] wproc:   host=briansclark; service=(null);
+[1783380696] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783380696] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783380696] wproc: Core Worker 39: job 1537 (pid=865587): Dormant child reaped
+[1783380996] wproc: Core Worker 40: job 1538 (pid=866295) timed out. Killing it
+[1783380996] wproc: CHECK job 1538 from worker Core Worker 40 timed out after 30.03s
+[1783380996] wproc:   host=briansclark; service=(null);
+[1783380996] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783380996] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783380996] wproc: Core Worker 40: job 1538 (pid=866295): Dormant child reaped
+[1783381296] wproc: Core Worker 37: job 1539 (pid=867004) timed out. Killing it
+[1783381296] wproc: CHECK job 1539 from worker Core Worker 37 timed out after 30.03s
+[1783381296] wproc:   host=briansclark; service=(null);
+[1783381296] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783381296] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783381296] wproc: Core Worker 37: job 1539 (pid=867004): Dormant child reaped
+[1783381596] wproc: Core Worker 48: job 1540 (pid=867712) timed out. Killing it
+[1783381597] wproc: CHECK job 1540 from worker Core Worker 48 timed out after 31.03s
+[1783381597] wproc:   host=briansclark; service=(null);
+[1783381597] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783381597] Warning: Check of host 'briansclark' timed out after 31.03 seconds
+[1783381597] wproc: Core Worker 48: job 1540 (pid=867712): Dormant child reaped
+[1783381776] Auto-save of retention data completed successfully.
+[1783381896] wproc: Core Worker 46: job 1541 (pid=868419) timed out. Killing it
+[1783381896] wproc: CHECK job 1541 from worker Core Worker 46 timed out after 30.03s
+[1783381896] wproc:   host=briansclark; service=(null);
+[1783381896] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783381896] Warning: Check of host 'briansclark' timed out after 30.03 seconds
+[1783381896] wproc: Core Worker 46: job 1541 (pid=868419): Dormant child reaped
+[1783382196] wproc: Core Worker 41: job 1543 (pid=869127) timed out. Killing it
+[1783382196] wproc: CHECK job 1543 from worker Core Worker 41 timed out after 30.01s
+[1783382196] wproc:   host=briansclark; service=(null);
+[1783382196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1783382196] Warning: Check of host 'briansclark' timed out after 30.01 seconds
+[1783382196] wproc: Core Worker 41: job 1543 (pid=869127): Dormant child reaped
