@@ -1,8 +1,9 @@
 import unittest
 from unittest.mock import patch, AsyncMock
-
 from fastapi.testclient import TestClient
-
+import os
+#sets an override database before import the app.
+os.environ["DATABASE_PATH"] = "tests/test_incidents.db"
 from main import app
 
 

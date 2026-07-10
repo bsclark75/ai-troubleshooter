@@ -26,6 +26,11 @@ ARCHIVE_DIR = os.getenv(
     "/logs/archives"
 )
 
+DB_PATH = os.getenv(
+    "DATABASE_PATH",
+    "data/incidents.db"
+)
+
 MAX_RETRIES = 3
 STATUS_QUEUED = "queued"
 STATUS_PROCESSING = "processing"

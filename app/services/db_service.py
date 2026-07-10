@@ -2,15 +2,17 @@ import sqlite3
 import json
 from datetime import datetime
 from app.core.logging_config import logger
+from app.core import config
 
-DB_PATH = "data/incidents.db"
 
+def get_connection():
+    return sqlite3.connect(config.DB_PATH)
 
 def init_db():
 
-    logger.info("Initialize database")
+    logger.info(f"Initialize database: {config.DB_PATH}")
 
-    conn = sqlite3.connect(DB_PATH)
+    conn = get_connection()
     cursor = conn.cursor()
 
     cursor.execute("""
@@ -59,7 +61,7 @@ def save_incident(
     analysis=None
 ):
 
-    conn = sqlite3.connect(DB_PATH)
+    conn = get_connection()
     cursor = conn.cursor()
 
     now = datetime.utcnow().isoformat()
@@ -106,7 +108,7 @@ def add_incident_event(
     raw_log
 ):
 
-    conn = sqlite3.connect(DB_PATH)
+    conn = get_connection()
     cursor = conn.cursor()
 
     cursor.execute("""
@@ -138,7 +140,7 @@ def add_incident_event(
 
 def find_open_incident(host, service):
 
-    conn = sqlite3.connect(DB_PATH)
+    conn = get_connection()
     cursor = conn.cursor()
 
     cursor.execute("""
@@ -162,7 +164,7 @@ def find_open_incident(host, service):
 
 def get_incident_events(incident_id):
 
-    conn = sqlite3.connect(DB_PATH)
+    conn = get_connection()
     cursor = conn.cursor()
 
     cursor.execute("""
@@ -206,7 +208,7 @@ def update_incident_status(
     next_retry_at=None
 ):
 
-    conn = sqlite3.connect(DB_PATH)
+    conn = get_connection()
     cursor = conn.cursor()
 
     updated_at = datetime.utcnow().isoformat()
@@ -233,7 +235,7 @@ def close_incident(
     analysis=None
 ):
 
-    conn = sqlite3.connect(DB_PATH)
+    conn = get_connection()
     cursor = conn.cursor()
 
     now = datetime.utcnow().isoformat()
@@ -263,7 +265,7 @@ def update_incident(
     status
 ):
 
-    conn = sqlite3.connect(DB_PATH)
+    conn = get_connection()
     cursor = conn.cursor()
 
     updated_at = datetime.utcnow().isoformat()
@@ -289,7 +291,7 @@ def update_incident(
 
 def get_next_queued_incident():
 
-    conn = sqlite3.connect(DB_PATH)
+    conn = get_connection()
     cursor = conn.cursor()
 
     cursor.execute("""
@@ -322,7 +324,7 @@ def get_next_queued_incident():
 
 def increment_retry_count(incident_id):
 
-    conn = sqlite3.connect(DB_PATH)
+    conn = get_connection()
     cursor = conn.cursor()
 
     updated_at = datetime.utcnow().isoformat()
@@ -343,7 +345,7 @@ def increment_retry_count(incident_id):
 
 def get_retry_count(incident_id):
 
-    conn = sqlite3.connect(DB_PATH)
+    conn = get_connection()
     cursor = conn.cursor()
 
     cursor.execute("""
@@ -361,7 +363,7 @@ def get_retry_count(incident_id):
 
 def get_incident(incident_id):
 
-    conn = sqlite3.connect(DB_PATH)
+    conn = get_connection()
     cursor = conn.cursor()
 
     cursor.execute("""
@@ -404,7 +406,7 @@ def get_incident(incident_id):
 
 def get_incidents():
 
-    conn = sqlite3.connect(DB_PATH)
+    conn = get_connection()
     cursor = conn.cursor()
 
     cursor.execute("""
@@ -447,7 +449,7 @@ def get_incidents():
 
 def get_incident_counts():
 
-    conn = sqlite3.connect(DB_PATH)
+    conn = get_connection()
     cursor = conn.cursor()
 
     cursor.execute("""
@@ -474,7 +476,7 @@ def get_incident_counts():
     return status
 
 def get_incidents_by_host(host: str):
-    conn = sqlite3.connect(DB_PATH)
+    conn = get_connection()
     cursor = conn.cursor()
     cursor.execute("""
         SELECT
