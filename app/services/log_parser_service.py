@@ -1,7 +1,7 @@
 import re
 import re
 from datetime import datetime
-
+from app.core.logging_config import logger
 def parse_logs(logs):
     incidents = []
 
@@ -25,7 +25,7 @@ def parse_logs(logs):
             #print(match)
             if not match:
                 continue
-            #print(f"This should be parsed: {match}")
+            #logger.info("This should be parsed: %s", match)
             timestamp, notification_type, alert_data = match.groups()
 
             #print(f"type: {notification_type}")
