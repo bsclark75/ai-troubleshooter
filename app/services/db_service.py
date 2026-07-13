@@ -394,7 +394,7 @@ def get_incident(incident_id):
         "host": row[1],
         "service": row[2],
         "severity": row[3],
-        "analysis": row[4],
+        "analysis": json.loads(row[4]) if row[4] else None,
         "status": row[5],
         "opened_at": row[6],
         "closed_at": row[7],

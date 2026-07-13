@@ -11,7 +11,7 @@ from app.services.metrics_service import generate_metrics
 from app.services.trend_service import analyze_trends
 from fastapi.responses import JSONResponse
 from app.core.logging_config import logger
-from fastapi import HTTPException, APIRouter, Body
+from fastapi import APIRouter, Body
 from app.services.incident_processor import process_incident
 from app.utils.responses import success_response, error_response
 from app.models.api_models import APIResponse

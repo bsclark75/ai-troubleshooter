@@ -72,8 +72,7 @@ class TestProcessLines(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(len(result[0]["incident_ids"]), 2)
 
         incidents = db_service.get_incidents()
-        incident = incidents[0]
-        print(incident)      
+        incident = incidents[0] 
         events = db_service.get_incident_events(incident["incident_id"])
         self.assertEqual(len(incidents), 1)
         self.assertEqual(len(events), 2)
