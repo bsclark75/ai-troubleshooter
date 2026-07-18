@@ -65,7 +65,7 @@ document.getElementById("analyze-btn").addEventListener("click", async () => {
     button.innerText = "Analyzing...";
 
     try {
-const response = await fetch("/incident/{{ incident.incident_id }}/analyze", {
+const response = await fetch("/api/incident/{{ incident.incident_id }}/analyze", {
     method: "POST"
 });
 
